@@ -21,6 +21,13 @@ from efresh import efresh
 from sklavenitis import sklavenitis
 
 
+def save_to_file(sms, today):
+    for sm, data in sms.items():
+        with open(f"{sm}.csv", "a") as f:
+            for item in data:
+                f.write(f"{today},{item[0]},{item[1].replace(',', '-')},{item[2]}\n")
+
+
 def insert_all():
     sms = {
         "marketin": marketin(),
@@ -39,8 +46,13 @@ def insert_all():
         # discount_markt
     }
 
-    ch = clickhouse()
-    today = datetime.datetime.now()
+    today = datetime.datetime.now().strftime("%Y-%m-%d")
+    try:
+        ch = clickhouse()
+    except:
+        save_to_file(sms, today)
+
+        return
 
     for sm, data in sms.items():
         print(f"retrieved data from {sm}: ", len(data))
