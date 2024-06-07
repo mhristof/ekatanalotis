@@ -27,6 +27,6 @@ jobs:
           git fetch
           git branch -a
           git checkout main
-          git add .
+          git add smdata/
           git commit -m "Update csv files"
           git push
