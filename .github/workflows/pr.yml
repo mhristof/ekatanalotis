@@ -1,0 +1,19 @@
+name: pr
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: date
+        run: date
