@@ -26,6 +26,7 @@ def save_to_file(sms, today):
         with open(f"{sm}.csv", "a") as f:
             for item in data:
                 f.write(f"{today},{item[0]},{item[1].replace(',', '-')},{item[2]}\n")
+            print(f"saved {len(data)} items to {sm}.csv")
 
 
 def insert_all():
