@@ -1,0 +1,16 @@
+name: Schedule
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+
+jobs:
+    build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Run date
+      run: date
