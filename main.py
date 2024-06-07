@@ -12,6 +12,7 @@ from sm import insert_all
 from click import clickhouse
 import time
 from functools import cache
+from tabulate import tabulate
 
 
 def fetch(url, until="products-barcode-text"):
@@ -111,17 +112,73 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--step", type=int, default=10)
     parser.add_argument("-l", "--loop", action="store_true", default=False)
+    parser.add_argument("-i", "--info", action="store_true", default=False)
     args = parser.parse_args()
 
     migrations()
 
     print("args: ", args)
 
+    if args.info:
+        info()
+
+        return
+
     while True:
         insert_all()
         asyncio.run(async_prices(args.step))
 
         time.sleep(3600)
+
+
+def info():
+    ch = clickhouse()
+
+    tables = ch.query("show tables").result_rows
+
+    ret = []
+
+    for table in tables:
+        table = table[0]
+
+        if table in ["migrations"]:
+            continue
+
+        data = [table]
+
+        for date in ["today()", "today() - 1", "today() - 2"]:
+            count = ch.query(
+                f"select count(*) from {table} where date == {date}"
+            ).result_rows[0][0]
+            data.append(count)
+
+            if date == "today()":
+                continue
+            previous_date = data[-2]
+
+            if previous_date == 0:
+                data.append(0)
+
+                continue
+
+            data.append(round((count - previous_date) / previous_date * 100, 2))
+        ret.append(data)
+
+    # pretty print the table (not json)
+    print(
+        tabulate(
+            ret,
+            headers=[
+                "table",
+                "today",
+                "yesterday",
+                "change %",
+                "day before",
+                "change %",
+            ],
+            tablefmt="pretty",
+        )
+    )
 
 
 @cache

@@ -50,7 +50,7 @@ def extract_product_details(page_content):
 
     for match in matches:
         products.append(
-            [match.group("code"), match.group("name"), match.group("price")]
+            [match.group("code"), match.group("name"), float(match.group("price"))]
         )
 
     return products

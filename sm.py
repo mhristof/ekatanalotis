@@ -18,6 +18,7 @@ from click import clickhouse
 
 from mymarket import mymarket
 from efresh import efresh
+from sklavenitis import sklavenitis
 
 
 def insert_all():
@@ -27,9 +28,9 @@ def insert_all():
         "xalkiadakis": xalkiadakis(),
         "mymarket": mymarket(),
         "efresh": efresh(),
+        "sklavenitis": sklavenitis(),
         # synka
         # masoyti
-        # sklavenitis
         # galaxias
         # av_vasilopoylos
         # egnatia
