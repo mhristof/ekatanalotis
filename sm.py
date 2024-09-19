@@ -23,7 +23,7 @@ from sklavenitis import sklavenitis
 
 def save_to_file(sms, today):
     for sm, data in sms.items():
-        with open(f"smdata/{sm}.csv", "a") as f:
+        with open(f"smdata/{sm}-{today}.csv", "w") as f:
             for item in data:
                 f.write(f"{today},{item[0]},{item[1].replace(',', '-')},{item[2]}\n")
             print(f"saved {len(data)} items to {sm}.csv")
