@@ -30,13 +30,13 @@ def save_to_file(sms, today):
 
 
 def insert_all():
-    sms = {
-        "marketin": marketin(),
-        "kritikos": kritikos(),
-        "xalkiadakis": xalkiadakis(),
-        "mymarket": mymarket(),
-        "efresh": efresh(),
-        "sklavenitis": sklavenitis(),
+    soupermarket = {
+        "marketin": marketin,
+        "kritikos": kritikos,
+        "xalkiadakis": xalkiadakis,
+        "mymarket": mymarket,
+        "efresh": efresh,
+        "sklavenitis": sklavenitis,
         # synka
         # masoyti
         # galaxias
@@ -46,6 +46,16 @@ def insert_all():
         # lidl
         # discount_markt
     }
+
+    sms = {}
+
+    for sm, func in soupermarket.items():
+        try:
+            sms[sm] = func()
+        except Exception as e:
+            print(f"error in {sm}: {e}")
+
+            continue
 
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     try:
