@@ -19,6 +19,7 @@ from click import clickhouse
 from mymarket import mymarket
 from efresh import efresh
 from sklavenitis import sklavenitis
+from ab import ab
 
 
 def save_to_file(sms, today):
@@ -37,6 +38,7 @@ def insert_all():
         "mymarket": mymarket,
         "efresh": efresh,
         "sklavenitis": sklavenitis,
+        "ab": ab,
         # synka
         # masoyti
         # galaxias
