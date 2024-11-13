@@ -20,6 +20,7 @@ from mymarket import mymarket
 from efresh import efresh
 from sklavenitis import sklavenitis
 from ab import ab
+from kritikos import kritikos
 
 
 def save_to_file(sms, today):
@@ -39,10 +40,8 @@ def insert_all():
         "efresh": efresh,
         "sklavenitis": sklavenitis,
         "ab": ab,
-        # synka
         # masoyti
         # galaxias
-        # av_vasilopoylos
         # egnatia
         # bazaar
         # lidl
@@ -210,45 +209,6 @@ def xalkiadakis():
                 break
 
             print(f"[{section}] found {count} items on page {page}")
-
-    return ret
-
-
-def kritikos():
-    sections = [
-        "fresko-kreas",
-        "allantika",
-        "turokomika",
-        "galaktokomika",
-        "eidh-psugeiou",
-        "katapsuxh",
-        "pantopwleio",
-        "kaba",
-        "proswpikh-frontida",
-        "brefika",
-        "kathariothta",
-        "oikiakh-xrhsh",
-        "pet-shop",
-        "biologikaleitourgika",
-    ]
-
-    ret = []
-
-    for section in sections:
-        url = f"https://kritikos-sm.gr/categories/{section}"
-
-        response = requests.get(url).text
-
-        # find json blob starting with 'type="application/json">' and ending with '</script>'
-        application_text = re.findall(
-            r'type="application/json">.*?</script>', response, re.DOTALL
-        )
-
-        application = json.loads(application_text[0].split(">")[1].split("</script")[0])
-
-        for iid, product in application["props"]["pageProps"]["staticProducts"].items():
-            for item in product:
-                ret.append([item["sku"], item["name"], item["finalPrice"] / 100])
 
     return ret
 
