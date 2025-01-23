@@ -1,4 +1,12 @@
-requests
-beautifulsoup4
-clickhouse-connect
-tenacity
+beautifulsoup4==4.12.3
+certifi==2024.12.14
+charset-normalizer==3.4.1
+clickhouse-connect==0.8.14
+idna==3.10
+lz4==4.3.3
+pytz==2024.2
+requests==2.32.3
+soupsieve==2.6
+tenacity==9.0.0
+urllib3==2.3.0
+zstandard==0.23.0
