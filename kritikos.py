@@ -15,8 +15,9 @@ SECTIONS = ["900"]
 
 
 def parse(data):
+    # prices are in cents
     return [
-        [item["sku"], item["displayName"], item["finalPrice"] / 10]
+        [item["sku"], item["displayName"], item["finalPrice"] / 100]
         for item in data["payload"]["products"]
     ]
 
