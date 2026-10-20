@@ -136,38 +136,41 @@ def mymarket_products(html_content):
     return product_data
 
 
-def xalkiadakis():
+XALKIADAKIS_SECTIONS = [
+    "kritika-prionta",
+    "frouta-lachanika",
+    "fresko-kreas-poulerika",
+    "fresko-psari-thalassina",
+    "etima-geumata",
+    "proino-rofimata-snaks",
+    "artozacharoplastio",
+    "allantika-delicatessen",
+    "galaktokomika-idi-psigiou",
+    "tirokomika-fitika-anapliromata",
+    "katepsigmena",
+    "siskeuasmena-trofima",
+    "pota-chimi-anapsiktika",
+    "katikidia",
+    "moro",
+    "igia-omorfia",
+    "ikiaki-frontida",
+    "spiti-kouzina",
+    "epochiaka",
+    "proionta-prostasias",
+    "vegan-corner",
+    "vradies-mpalas",
+]
+
+
+def xalkiadakis(sections=None, max_pages=None):
     ret = []
 
     uids = {}
 
-    for section in [
-        "kritika-prionta",
-        "frouta-lachanika",
-        "fresko-kreas-poulerika",
-        "fresko-psari-thalassina",
-        "etima-geumata",
-        "proino-rofimata-snaks",
-        "artozacharoplastio",
-        "allantika-delicatessen",
-        "galaktokomika-idi-psigiou",
-        "tirokomika-fitika-anapliromata",
-        "katepsigmena",
-        "siskeuasmena-trofima",
-        "pota-chimi-anapsiktika",
-        "katikidia",
-        "moro",
-        "igia-omorfia",
-        "ikiaki-frontida",
-        "spiti-kouzina",
-        "epochiaka",
-        "proionta-prostasias",
-        "vegan-corner",
-        "vradies-mpalas",
-    ]:
+    for section in sections or XALKIADAKIS_SECTIONS:
         url = f"https://xalkiadakis.gr/category/{section}"
 
-        for page in range(1, 999):
+        for page in range(1, (max_pages or 998) + 1):
             thisURL = url
 
             if page > 1:
@@ -217,24 +220,27 @@ def xalkiadakis():
     return ret
 
 
-def marketin():
+MARKETIN_SECTIONS = [
+    "kreopoleio-1",
+    "manabikh",
+    "trofima",
+    "kava",
+    "vrefika",
+    "turokomika-allantika",
+    "galaktokomika-proionta-psugeiou",
+    "katepsugmena",
+    "prosopikh-frontida",
+    "kathariothta",
+    "ola-gia-to-spiti",
+    "katoikidia",
+]
+
+
+def marketin(sections=None, max_pages=None):
     ret = []
 
-    for section in [
-        "kreopoleio-1",
-        "manabikh",
-        "trofima",
-        "kava",
-        "vrefika",
-        "turokomika-allantika",
-        "galaktokomika-proionta-psugeiou",
-        "katepsugmena",
-        "prosopikh-frontida",
-        "kathariothta",
-        "ola-gia-to-spiti",
-        "katoikidia",
-    ]:
-        for i in range(1, 999):
+    for section in sections or MARKETIN_SECTIONS:
+        for i in range(1, (max_pages or 998) + 1):
             url = f"https://www.market-in.gr/el-gr/{section}?pageno={i}"
             response = requests.get(url).text
 

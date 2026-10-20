@@ -73,7 +73,7 @@ def extract_product_details(html_content):
 
 
 # Function to process a single URL and fetch all pages
-def process_url(base_url):
+def process_url(base_url, max_pages=None):
     page = 1
     all_products = []
 
@@ -89,14 +89,18 @@ def process_url(base_url):
         all_products.extend(products)
         page += 1
 
+        if max_pages and page > max_pages:
+            break
+
     return all_products
 
 
 # Multithreading to process URLs concurrently
-def sklavenitis():
+def sklavenitis(sections=None, max_pages=None):
     all_results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        futures = {executor.submit(process_url, url): url for url in urls}
+        futures = {executor.submit(process_url, url, max_pages): url
+            for url in sections or urls}
 
         for future in concurrent.futures.as_completed(futures):
             try:
