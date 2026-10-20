@@ -10,18 +10,26 @@
 import os
 import subprocess
 import sys
-import net
-import re
-import json
 import datetime
-import html
-from bs4 import BeautifulSoup
 
 from mymarket import mymarket
 from efresh import efresh
 from sklavenitis import sklavenitis
 from ab import ab
 from kritikos import kritikos
+from marketin import marketin
+from xalkiadakis import xalkiadakis
+
+# masoyti, galaxias, egnatia, bazaar, lidl, discount_markt are not scraped yet
+STORES = {
+    "marketin": marketin,
+    "kritikos": kritikos,
+    "xalkiadakis": xalkiadakis,
+    "mymarket": mymarket,
+    "efresh": efresh,
+    "sklavenitis": sklavenitis,
+    "ab": ab,
+}
 
 
 def save_to_file(sms, today):
@@ -94,25 +102,9 @@ def validate(sms, today):
 
 
 def insert_all():
-    soupermarket = {
-        "marketin": marketin,
-        "kritikos": kritikos,
-        "xalkiadakis": xalkiadakis,
-        "mymarket": mymarket,
-        "efresh": efresh,
-        "sklavenitis": sklavenitis,
-        "ab": ab,
-        # masoyti
-        # galaxias
-        # egnatia
-        # bazaar
-        # lidl
-        # discount_markt
-    }
-
     sms = {}
 
-    for sm, func in soupermarket.items():
+    for sm, func in STORES.items():
         try:
             sms[sm] = func()
         except Exception as e:
@@ -124,174 +116,6 @@ def insert_all():
     save_to_file(sms, today)
 
     return failed
-
-
-def mymarket_products(html_content):
-    # Function to decode unicode sequences using HTML unescape
-    def decode_unicode_escapes(text):
-        return html.unescape(text)
-
-    # Parse the HTML content with BeautifulSoup
-    soup = BeautifulSoup(html_content, "html.parser")
-
-    # Initialize lists to store the extracted data
-    product_data = []
-
-    # Enhanced logic to find product details using identified patterns
-
-    for article in soup.find_all("article", {"data-controller": "google-analytics"}):
-        # Extract product code, name, and price from data attributes
-        data_values = article.get("data-google-analytics-item-value")
-
-        if data_values:
-            # Replace HTML entities and load as JSON
-            data_dict = json.loads(data_values.replace("&quot;", '"'))
-            product_code = data_dict.get("id", "N/A")
-            product_name = decode_unicode_escapes(data_dict.get("name", "N/A"))
-            product_price = float(data_dict.get("price", "N/A"))
-
-            # Round the product price to two decimal places
-            rounded_price = round(product_price, 2)
-
-            # Append the product details as a list
-            product_data.append([product_code, product_name, f"{rounded_price:.2f}"])
-
-    return product_data
-
-
-XALKIADAKIS_SECTIONS = [
-    "kritika-prionta",
-    "frouta-lachanika",
-    "fresko-kreas-poulerika",
-    "fresko-psari-thalassina",
-    "etima-geumata",
-    "proino-rofimata-snaks",
-    "artozacharoplastio",
-    "allantika-delicatessen",
-    "galaktokomika-idi-psigiou",
-    "tirokomika-fitika-anapliromata",
-    "katepsigmena",
-    "siskeuasmena-trofima",
-    "pota-chimi-anapsiktika",
-    "katikidia",
-    "moro",
-    "igia-omorfia",
-    "ikiaki-frontida",
-    "spiti-kouzina",
-    "epochiaka",
-    "proionta-prostasias",
-    "vegan-corner",
-    "vradies-mpalas",
-]
-
-
-def xalkiadakis(sections=None, max_pages=None):
-    ret = []
-
-    uids = {}
-
-    for section in sections or XALKIADAKIS_SECTIONS:
-        url = f"https://xalkiadakis.gr/category/{section}"
-
-        for page in range(1, (max_pages or 998) + 1):
-            thisURL = url
-
-            if page > 1:
-                thisURL = f"{url}?page={page}"
-
-            text = net.get_text(thisURL)
-
-            price_in_next_line = False
-
-            count = 0
-
-            for line in text.split("\n"):
-                if "img src=" in line:
-                    try:
-                        uid = str(line.split("products/")[1].split("_")[0])
-                    except:
-                        uid = None
-
-                if 'class="product-title"' in line:
-                    name = line.split('title="')[1].split('">')[0]
-
-                if price_in_next_line:
-                    price = float(line.split("&euro")[0].replace(",", "."))
-                    price_in_next_line = False
-                    count += 1
-
-                    if uid is None:
-                        raise Exception(f"name: {name}, price: {price}, uid is None")
-
-                    if uid in uids and uids[uid] != price:
-                        raise Exception(
-                            f"uid: {uid}, name: {name}, price: {price}, old price: {uids[uid]}"
-                        )
-
-                    # print(f"uid: {uid}, name: {name}, price: {price}")
-                    ret.append([uid, name, price])
-                    uids[uid] = price
-
-                if 'class="price"' in line:
-                    price_in_next_line = True
-
-            if count == 0:
-                break
-
-            print(f"[{section}] found {count} items on page {page}")
-
-    return ret
-
-
-MARKETIN_SECTIONS = [
-    "kreopoleio-1",
-    "manabikh",
-    "trofima",
-    "kava",
-    "vrefika",
-    "turokomika-allantika",
-    "galaktokomika-proionta-psugeiou",
-    "katepsugmena",
-    "prosopikh-frontida",
-    "kathariothta",
-    "ola-gia-to-spiti",
-    "katoikidia",
-]
-
-
-def marketin(sections=None, max_pages=None):
-    ret = []
-
-    for section in sections or MARKETIN_SECTIONS:
-        for i in range(1, (max_pages or 998) + 1):
-            url = f"https://www.market-in.gr/el-gr/{section}?pageno={i}"
-            response = net.get_text(url)
-
-            # regex match blocks starting with { and ending with } and can be multiline
-            parts = re.findall(r"\{.*?\}", response, re.DOTALL)
-
-            count = 0
-
-            for part in parts:
-                part = part.replace("'", '"').replace("\n", "").replace(",}", "}")
-
-                try:
-                    data = json.loads(part.replace("'", '"'))
-                except:
-                    continue
-
-                if "price" not in data:
-                    continue
-
-                count += 1
-                ret += [[data["id"], data["name"], float(data["price"])]]
-
-            if count == 0:
-                break
-
-            print(f"[{section}] found {count} items on page {i}")
-
-    return ret
 
 
 def main():

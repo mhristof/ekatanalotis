@@ -40,3 +40,41 @@ def get_text(url, **kwargs):
         if e.response is not None and e.response.status_code == 404:
             return ""
         raise
+
+
+# hard stop for paging, in case a site keeps returning products
+MAX_PAGES = 998
+
+
+def paginate(fetch_page, max_pages=None):
+    """Call fetch_page(page) for page 1, 2, ... until it returns no rows."""
+    rows = []
+
+    for page in range(1, (max_pages or MAX_PAGES) + 1):
+        this = fetch_page(page)
+
+        if not this:
+            break
+
+        rows += this
+
+    return rows
+
+
+def crawl(name, sections, fetch_page, max_pages=None):
+    """Paginate every section; fetch_page(section, page) returns rows."""
+    rows = []
+
+    for section in sections:
+        try:
+            this = paginate(lambda page: fetch_page(section, page), max_pages)
+        except Exception as e:
+            # keep the other sections; a big drop fails sm.validate()
+            print(f"[{name}] {section}: error {e!r}")
+
+            continue
+
+        print(f"[{name}] {section}: {len(this)} items")
+        rows += this
+
+    return rows
