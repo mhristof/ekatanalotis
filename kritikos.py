@@ -10,7 +10,7 @@
 import requests
 
 
-def kritikos():
+def kritikos(sections=None, max_pages=None):
     url = "https://kritikos-cxm-production.herokuapp.com/api/v2/products"
     headers = {
         "appId": "kritikos-web",
@@ -22,12 +22,19 @@ def kritikos():
         "sec-ch-ua-mobile": "?0",
     }
 
-    params = {"collection_eq": "900", "eligible": "true"}
+    ret = []
 
-    response = requests.get(url, headers=headers, params=params)
+    for collection in sections or ["900"]:
+        params = {"collection_eq": collection, "eligible": "true"}
+        data = requests.get(url, headers=headers, params=params).json()
+        ret += parse(data)
 
-    data = response.json()
+    print("found", len(ret), "items")
 
+    return ret
+
+
+def parse(data):
     ret = []
 
     for item in data["payload"]["products"]:
@@ -38,8 +45,6 @@ def kritikos():
         ret.append([uid, name, price])
 
         print(f"uid: {uid}, name: {name}, price: {price}")
-
-    print("found", len(ret), "items")
 
     return ret
 

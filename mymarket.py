@@ -5,6 +5,25 @@ import json
 from bs4 import BeautifulSoup
 
 
+SECTIONS = [
+    "frouta-lachanika",
+    "fresko-kreas-psari",
+    "galaktokomika-eidi-psygeiou",
+    "tyria-allantika-deli",
+    "katepsygmena-trofima",
+    "mpyres-anapsyktika-krasia-pota",
+    "proino-rofimata-kafes",
+    "artozacharoplasteio-snacks",
+    "trofima",
+    "frontida-gia-to-moro-sas",
+    "prosopiki-frontida",
+    "oikiaki-frontida-chartika",
+    "kouzina-mikrosyskeves-spiti",
+    "frontida-gia-to-katoikidio-sas",
+    "epochiaka",
+]
+
+
 def extract_product_data(html_content):
     # Function to decode unicode sequences using HTML unescape
     def decode_unicode_escapes(text):
@@ -45,33 +64,16 @@ def fetch_page_data(url, page):
     return response.text, page, url
 
 
-def mymarket():
+def mymarket(sections=None, max_pages=None):
     ret = []
 
     uids = {}
-    sections = [
-        "frouta-lachanika",
-        "fresko-kreas-psari",
-        "galaktokomika-eidi-psygeiou",
-        "tyria-allantika-deli",
-        "katepsygmena-trofima",
-        "mpyres-anapsyktika-krasia-pota",
-        "proino-rofimata-kafes",
-        "artozacharoplasteio-snacks",
-        "trofima",
-        "frontida-gia-to-moro-sas",
-        "prosopiki-frontida",
-        "oikiaki-frontida-chartika",
-        "kouzina-mikrosyskeves-spiti",
-        "frontida-gia-to-katoikidio-sas",
-        "epochiaka",
-    ]
 
     with ThreadPoolExecutor(max_workers=10) as executor:
-        for section in sections:
+        for section in sections or SECTIONS:
             url = f"https://www.mymarket.gr/{section}"
 
-            for i in range(1, 999):
+            for i in range(1, (max_pages or 998) + 1):
                 future = executor.submit(fetch_page_data, url, i)
                 html_content, page, url = future.result()
                 this = extract_product_data(html_content)

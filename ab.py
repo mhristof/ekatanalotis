@@ -11,7 +11,7 @@ import requests
 import json
 
 
-def ab():
+def ab(sections=None, max_pages=None):
     ret = []
     pageSize = 30
 
@@ -19,7 +19,7 @@ def ab():
     duplicates = 0
     subsequent_emtpy_categories = 0
 
-    for category in [f"{i:03}" for i in range(1, 1000)]:
+    for category in sections or [f"{i:03}" for i in range(1, 1000)]:
         page = 0
         total = 0
         new_category_products = 0
@@ -65,6 +65,9 @@ def ab():
                 ret.append([product["code"], name, product["price"]["value"]])
 
             page += 1
+
+            if max_pages and page >= max_pages:
+                break
 
         if new_category_products == 0:
             subsequent_emtpy_categories += 1

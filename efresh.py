@@ -56,7 +56,7 @@ def extract_product_details(page_content):
     return products
 
 
-def fetch_section_pages(section, max_workers=10):
+def fetch_section_pages(section, max_workers=10, max_pages=None):
     base_url = f"https://www.e-fresh.gr/en/{section}"
     all_products = []
     page_number = 1
@@ -69,7 +69,7 @@ def fetch_section_pages(section, max_workers=10):
             page_futures.append(executor.submit(fetch_page, url))
             page_number += 1
 
-            if len(page_futures) >= max_workers:
+            if len(page_futures) >= max_workers or page_number > (max_pages or page_number):
                 break
 
         while page_futures:
@@ -82,6 +82,9 @@ def fetch_section_pages(section, max_workers=10):
                 break  # Exit loop if no products found
             all_products.extend(products)
 
+            if max_pages and page_number > max_pages:
+                continue
+
             # Queue next page
             url = f"{base_url}?page={page_number}"
             print(f"Queueing URL: {url}")
@@ -91,25 +94,28 @@ def fetch_section_pages(section, max_workers=10):
     return all_products
 
 
-def efresh():
-    sections = [
-        "groceries",
-        "drinks",
-        "personal-care",
-        "baby",
-        "household",
-        "clothing",
-        "home",
-        "biologika-proionta-bio-corner",
-        "vegan-shop",
-    ]
+SECTIONS = [
+    "groceries",
+    "drinks",
+    "personal-care",
+    "baby",
+    "household",
+    "clothing",
+    "home",
+    "biologika-proionta-bio-corner",
+    "vegan-shop",
+]
 
+
+def efresh(sections=None, max_pages=None):
+    sections = sections or SECTIONS
     all_products = []
 
     # Use ThreadPoolExecutor to fetch sections concurrently
     with ThreadPoolExecutor(max_workers=len(sections)) as executor:
         futures = [
-            executor.submit(fetch_section_pages, section) for section in sections
+            executor.submit(fetch_section_pages, section, max_pages=max_pages)
+            for section in sections
         ]
 
         for future in as_completed(futures):
