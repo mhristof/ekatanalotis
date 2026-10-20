@@ -17,8 +17,6 @@ import datetime
 import html
 from bs4 import BeautifulSoup
 
-from click import clickhouse
-
 from mymarket import mymarket
 from efresh import efresh
 from sklavenitis import sklavenitis
@@ -123,45 +121,7 @@ def insert_all():
 
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     failed = validate(sms, today)
-
-    try:
-        ch = clickhouse()
-    except:
-        save_to_file(sms, today)
-
-        return failed
-
-    for sm, data in sms.items():
-        print(f"retrieved data from {sm}: ", len(data))
-
-        ch.query(
-            f"CREATE table IF NOT EXISTS {sm} (date Date, barcode String, name String, price Float64) ENGINE = MergeTree() ORDER BY (date, barcode)"
-        )
-
-        data = [[today, *item] for item in data]
-
-        existing = [
-            x[0]
-            for x in ch.query(
-                f"SELECT barcode FROM {sm} WHERE date = today()",
-            ).result_rows
-        ]
-
-        print(f"existing data in {sm}: ", len(existing))
-
-        new_data = []
-
-        for item in data:
-            if item[1] in existing:
-                continue
-            new_data.append(item)
-
-        print(f"new data in {sm}: ", len(new_data))
-
-        if len(new_data) == 0:
-            continue
-
-        ch.insert(sm, new_data, column_names=["date", "barcode", "name", "price"])
+    save_to_file(sms, today)
 
     return failed
 
