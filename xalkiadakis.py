@@ -1,4 +1,14 @@
+import time
+
 import net
+
+# the site's bot protection (incapsula) sets a cookie on the first
+# response and challenges every later request that sends it back; without
+# cookies every request goes through
+session = net.make_session(cookies=False)
+
+# it also rate limits: ~90 requests back to back get blocked
+DELAY = 2
 
 SECTIONS = [
     "kritika-prionta",
@@ -61,7 +71,8 @@ def fetch_page(section, page):
     if page > 1:
         url += f"?page={page}"
 
-    text = net.get_text(url)
+    time.sleep(DELAY)
+    text = net.get_text(url, session)
 
     if "_Incapsula_Resource" in text:
         raise Exception(f"blocked by bot protection: {url}")
@@ -70,7 +81,7 @@ def fetch_page(section, page):
 
 
 def xalkiadakis(sections=None, max_pages=None):
-    # the site's bot protection blocks concurrent requests
+    # one request at a time, see DELAY
     rows = net.crawl(
         "xalkiadakis",
         sections or SECTIONS,
