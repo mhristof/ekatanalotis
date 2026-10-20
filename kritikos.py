@@ -7,7 +7,7 @@
 
 """
 
-import requests
+import net
 
 
 def kritikos(sections=None, max_pages=None):
@@ -16,7 +16,6 @@ def kritikos(sections=None, max_pages=None):
         "appId": "kritikos-web",
         "sec-ch-ua-platform": '"macOS"',
         "Referer": "https://kritikos-sm.gr/",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
         "sec-ch-ua": '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
         "sec-ch-ua-mobile": "?0",
@@ -26,7 +25,7 @@ def kritikos(sections=None, max_pages=None):
 
     for collection in sections or ["900"]:
         params = {"collection_eq": collection, "eligible": "true"}
-        data = requests.get(url, headers=headers, params=params).json()
+        data = net.get(url, headers=headers, params=params).json()
         ret += parse(data)
 
     print("found", len(ret), "items")

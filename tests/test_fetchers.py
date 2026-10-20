@@ -22,7 +22,7 @@ STORES = {
 }
 
 # stores whose scraper is currently known to return nothing
-BROKEN = {"ab", "sklavenitis", "xalkiadakis"}
+BROKEN = {"ab", "sklavenitis"}
 
 
 @pytest.mark.network

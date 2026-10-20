@@ -1,4 +1,4 @@
-import subprocess
+import net
 from bs4 import BeautifulSoup
 import concurrent.futures
 import re
@@ -33,26 +33,8 @@ urls = [
     "https://www.sklavenitis.gr/eidi-oikiakis-chrisis/",
 ]
 
-# Curl command template
-curl_command_template = [
-    "curl",
-    "-H",
-    "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "--compressed",
-]
-
-
-# Function to fetch page content using curl
 def fetch_page(url):
-    command = curl_command_template + [url]
-    result = subprocess.run(command, capture_output=True, text=True)
-
-    if result.returncode == 0:
-        return result.stdout
-    else:
-        print(f"Error fetching {url}: {result.stderr}")
-
-        return ""
+    return net.get_text(url)
 
 
 # Extract product details using BeautifulSoup

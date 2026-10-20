@@ -10,7 +10,7 @@
 import os
 import subprocess
 import sys
-import requests
+import net
 import re
 import json
 import datetime
@@ -199,7 +199,7 @@ def xalkiadakis(sections=None, max_pages=None):
             if page > 1:
                 thisURL = f"{url}?page={page}"
 
-            text = requests.get(thisURL).text
+            text = net.get_text(thisURL)
 
             price_in_next_line = False
 
@@ -265,7 +265,7 @@ def marketin(sections=None, max_pages=None):
     for section in sections or MARKETIN_SECTIONS:
         for i in range(1, (max_pages or 998) + 1):
             url = f"https://www.market-in.gr/el-gr/{section}?pageno={i}"
-            response = requests.get(url).text
+            response = net.get_text(url)
 
             # regex match blocks starting with { and ending with } and can be multiline
             parts = re.findall(r"\{.*?\}", response, re.DOTALL)
