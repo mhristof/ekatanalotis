@@ -22,15 +22,16 @@ STORES = {
     "xalkiadakis": (xalkiadakis, ["moro"]),
 }
 
-# stores whose scraper is currently known to return nothing
-BROKEN = {"ab", "sklavenitis"}
+# stores whose bot protection blocks some IPs (GitHub runners, or any IP
+# after too many requests); reported as XPASS when they do work
+BLOCKED = {"sklavenitis", "xalkiadakis"}
 
 
 @pytest.mark.network
 @pytest.mark.parametrize("store", STORES)
 def test_fetcher(store, request):
-    if store in BROKEN:
-        request.applymarker(pytest.mark.xfail(reason="known broken scraper"))
+    if store in BLOCKED:
+        request.applymarker(pytest.mark.xfail(reason="may be blocked by bot protection"))
 
     fetcher, sections = STORES[store]
     rows = fetcher(sections=sections, max_pages=1)
