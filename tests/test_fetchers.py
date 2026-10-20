@@ -8,7 +8,8 @@ from efresh import efresh
 from kritikos import kritikos
 from mymarket import mymarket
 from sklavenitis import sklavenitis
-from sm import marketin, xalkiadakis
+from marketin import marketin
+from xalkiadakis import xalkiadakis
 
 # store -> (fetcher, one section)
 STORES = {
@@ -17,7 +18,7 @@ STORES = {
     "kritikos": (kritikos, ["900"]),
     "marketin": (marketin, ["kava"]),
     "mymarket": (mymarket, ["trofima"]),
-    "sklavenitis": (sklavenitis, ["https://www.sklavenitis.gr/kava/"]),
+    "sklavenitis": (sklavenitis, ["kava"]),
     "xalkiadakis": (xalkiadakis, ["moro"]),
 }
 
