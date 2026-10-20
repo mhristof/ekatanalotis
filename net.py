@@ -82,12 +82,21 @@ def paginate(fetch_page, max_pages=None, workers=PAGE_WORKERS):
     return rows
 
 
-def crawl(name, sections, fetch_page, max_pages=None):
+def crawl(
+    name,
+    sections,
+    fetch_page,
+    max_pages=None,
+    page_workers=PAGE_WORKERS,
+    section_workers=SECTION_WORKERS,
+):
     """Paginate every section; fetch_page(section, page) returns rows."""
 
     def one(section):
         try:
-            this = paginate(lambda page: fetch_page(section, page), max_pages)
+            this = paginate(
+                lambda page: fetch_page(section, page), max_pages, page_workers
+            )
         except Exception as e:
             # keep the other sections; a big drop fails sm.validate()
             print(f"[{name}] {section}: error {e!r}")
@@ -98,5 +107,5 @@ def crawl(name, sections, fetch_page, max_pages=None):
 
         return this
 
-    with ThreadPoolExecutor(SECTION_WORKERS) as executor:
+    with ThreadPoolExecutor(section_workers) as executor:
         return [row for rows in executor.map(one, sections) for row in rows]

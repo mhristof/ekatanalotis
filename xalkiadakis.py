@@ -61,11 +61,24 @@ def fetch_page(section, page):
     if page > 1:
         url += f"?page={page}"
 
-    return parse(net.get_text(url))
+    text = net.get_text(url)
+
+    if "_Incapsula_Resource" in text:
+        raise Exception(f"blocked by bot protection: {url}")
+
+    return parse(text)
 
 
 def xalkiadakis(sections=None, max_pages=None):
-    rows = net.crawl("xalkiadakis", sections or SECTIONS, fetch_page, max_pages)
+    # the site's bot protection blocks concurrent requests
+    rows = net.crawl(
+        "xalkiadakis",
+        sections or SECTIONS,
+        fetch_page,
+        max_pages,
+        page_workers=1,
+        section_workers=1,
+    )
 
     prices = {}
 
