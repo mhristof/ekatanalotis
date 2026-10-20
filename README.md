@@ -11,6 +11,12 @@ rows, sorted by code.
   summary. Exits non-zero if any store failed.
 - `<store>.py` - one module per store: `SECTIONS`, `fetch_page(section, page)`
   and `parse()`.
+- `slow.py` - stores whose bot protection only allows a trickle of
+  requests (xalkiadakis). `.github/workflows/slow.yml` runs hourly and
+  scrapes the next 2 sections into `pending/` on a `data/<store>-<day>`
+  branch; the first run of the next day folds it into one commit on main
+  (`smdata/<store>-<day>.csv`) and deletes the branch
+  (`scripts/slow_store.sh`).
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 

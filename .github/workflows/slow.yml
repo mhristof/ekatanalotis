@@ -1,0 +1,52 @@
+name: Slow stores
+
+# stores whose bot protection only allows a few requests at a time: a few
+# sections every hour on a data/<store>-<day> branch, folded into a single
+# commit on main the next day (see slow.py and scripts/slow_store.sh)
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+# runs push to the same branches
+concurrency:
+  group: slow-stores
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        store: [xalkiadakis]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            pending
+            scripts
+          sparse-checkout-cone-mode: true
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape
+        run: |
+          git config --global user.email "ci@github.com"
+          git config --global user.name "CI"
+          bash scripts/slow_store.sh ${{ matrix.store }}
