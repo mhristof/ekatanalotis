@@ -7,7 +7,7 @@
 
 """
 
-import requests
+import net
 import json
 
 
@@ -26,7 +26,7 @@ def ab(sections=None, max_pages=None):
 
         while True:
             try:
-                products = requests.get(
+                products = net.get(
                     f"https://www.ab.gr/api/v1/?operationName=GetCategoryProductSearch&variables=%7B%22lang%22%3A%22gr%22%2C%22searchQuery%22%3A%22%3Arelevance%22%2C%22sort%22%3A%22relevance%22%2C%22category%22%3A%22{category}%22%2C%22pageNumber%22%3A{page}%2C%22pageSize%22%3A{pageSize}%2C%22filterFlag%22%3Atrue%2C%22plainChildCategories%22%3Afalse%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22dd8d3de806d7e82af7e29b491a30df5a93d2c27c04190ef25ab973cbfe913079%22%7D%7D"
                 ).json()["data"]["categoryProductSearch"]["products"]
             except Exception as e:

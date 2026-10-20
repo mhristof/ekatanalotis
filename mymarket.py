@@ -1,4 +1,4 @@
-import requests
+import net
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import html
 import json
@@ -59,9 +59,7 @@ def extract_product_data(html_content):
 
 def fetch_page_data(url, page):
     thisURL = f"{url}?page={page}" if page > 1 else url
-    response = requests.get(thisURL)
-
-    return response.text, page, url
+    return net.get_text(thisURL), page, url
 
 
 def mymarket(sections=None, max_pages=None):
