@@ -31,10 +31,16 @@ def save_to_file(sms, today):
     os.makedirs("smdata", exist_ok=True)
 
     for sm, data in sms.items():
+        # sorted and without exact duplicates (stores list products in
+        # more than one section) so that day-to-day diffs stay small
+        lines = sorted(
+            {f"{today},{item[0]},{item[1].replace(',', '-')},{item[2]}\n" for item in data},
+            key=lambda line: line.split(",", 2)[1],
+        )
+
         with open(f"smdata/{sm}-{today}.csv", "w") as f:
-            for item in data:
-                f.write(f"{today},{item[0]},{item[1].replace(',', '-')},{item[2]}\n")
-            print(f"saved {len(data)} items to {sm}.csv")
+            f.writelines(lines)
+            print(f"saved {len(lines)} items to {sm}.csv")
 
 
 # a store returning less than this fraction of its previous row count is

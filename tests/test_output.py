@@ -4,11 +4,11 @@ format does not change."""
 from sm import save_to_file
 
 
-def test_save_to_file_format(tmp_path, monkeypatch):
+def test_save_to_file_format_sorted_deduped(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
 
     save_to_file(
-        {"store": [["1", "a,b", 1.5], ["2", "c", "0.50"]]},
+        {"store": [["2", "c", "0.50"], ["1", "a,b", 1.5], ["2", "c", "0.50"]]},
         "2026-10-20",
     )
 
