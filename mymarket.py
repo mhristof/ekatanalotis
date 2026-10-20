@@ -1,7 +1,6 @@
 import html
 import json
-
-from bs4 import BeautifulSoup
+import re
 
 import net
 
@@ -24,19 +23,27 @@ SECTIONS = [
 ]
 
 
+ARTICLE = re.compile(r"<article\b([^>]*)>")
+ITEM_VALUE = re.compile(r'data-google-analytics-item-value="([^"]*)"')
+
+
 def parse(html_content):
-    soup = BeautifulSoup(html_content, "html.parser")
     rows = []
 
-    for article in soup.find_all("article", {"data-controller": "google-analytics"}):
-        data_values = article.get("data-google-analytics-item-value")
+    for attrs in ARTICLE.findall(html_content):
+        if 'data-controller="google-analytics"' not in attrs:
+            continue
 
-        if data_values:
-            data = json.loads(data_values.replace("&quot;", '"'))
-            price = round(float(data.get("price", "N/A")), 2)
-            rows.append(
-                [data.get("id", "N/A"), html.unescape(data.get("name", "N/A")), f"{price:.2f}"]
-            )
+        value = ITEM_VALUE.search(attrs)
+
+        if not value:
+            continue
+
+        data = json.loads(html.unescape(value.group(1)))
+        price = round(float(data.get("price", "N/A")), 2)
+        rows.append(
+            [data.get("id", "N/A"), html.unescape(data.get("name", "N/A")), f"{price:.2f}"]
+        )
 
     return rows
 

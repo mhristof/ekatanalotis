@@ -19,16 +19,20 @@ SECTIONS = [
 ]
 
 
+# products are listed as google analytics impressions:
+#   ga('ec:addImpression', {'id': '1', 'name': '...', 'price': '4.49', ...});
+IMPRESSION = re.compile(r"ga\('ec:addImpression',\s*(\{.*?\})\);", re.DOTALL)
+
+
 def parse(text):
     rows = []
 
-    # every {...} block on the page; the product ones are js objects
-    for part in re.findall(r"\{.*?\}", text, re.DOTALL):
+    for part in IMPRESSION.findall(text):
         part = part.replace("'", '"').replace("\n", "").replace(",}", "}")
 
         try:
             data = json.loads(part)
-        except:
+        except ValueError:
             continue
 
         if "price" not in data:
