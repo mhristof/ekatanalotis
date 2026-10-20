@@ -30,4 +30,5 @@ jobs:
         run: pip install -r requirements-dev.txt
 
       - name: Test
-        run: python -m pytest -v
+        # -s: show the fetchers' output, xfail hides why a store failed
+        run: python -m pytest -v -s -rxX
