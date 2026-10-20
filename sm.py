@@ -8,6 +8,8 @@
 """
 
 import os
+import subprocess
+import sys
 import requests
 import re
 import json
@@ -35,6 +37,58 @@ def save_to_file(sms, today):
             print(f"saved {len(data)} items to {sm}.csv")
 
 
+# a store returning less than this fraction of its previous row count is
+# treated as a failed scrape
+MIN_ROWS_RATIO = 0.5
+
+
+def previous_count(sm, today):
+    """Row count of the most recent non-empty csv for sm before today.
+
+    Read through git so it works on the sparse CI checkout, where smdata/
+    is not in the working tree; only the blobs read are fetched."""
+    try:
+        names = subprocess.run(
+            ["git", "ls-tree", "--name-only", "HEAD", "smdata/"],
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout.split()
+    except (OSError, subprocess.CalledProcessError):
+        return None
+
+    names = sorted(
+        n for n in names if n.startswith(f"smdata/{sm}-2") and n < f"smdata/{sm}-{today}"
+    )
+
+    for name in reversed(names[-30:]):
+        data = subprocess.run(
+            ["git", "show", f"HEAD:{name}"], capture_output=True, text=True
+        ).stdout
+
+        if data:
+            return data.count("\n")
+
+    return None
+
+
+def validate(sms, today):
+    """Drop stores that returned no or suspiciously few rows; return the
+    names of the stores that failed."""
+    failed = []
+
+    for sm, data in list(sms.items()):
+        prev = previous_count(sm, today)
+        print(f"{sm}: {len(data)} rows, previous: {prev}")
+
+        if not data or (prev and len(data) < prev * MIN_ROWS_RATIO):
+            print(f"error in {sm}: got {len(data)} rows, previous run had {prev}")
+            failed.append(sm)
+            del sms[sm]
+
+    return failed
+
+
 def insert_all():
     soupermarket = {
         "marketin": marketin,
@@ -59,16 +113,17 @@ def insert_all():
             sms[sm] = func()
         except Exception as e:
             print(f"error in {sm}: {e}")
-
-            continue
+            sms[sm] = []
 
     today = datetime.datetime.now().strftime("%Y-%m-%d")
+    failed = validate(sms, today)
+
     try:
         ch = clickhouse()
     except:
         save_to_file(sms, today)
 
-        return
+        return failed
 
     for sm, data in sms.items():
         print(f"retrieved data from {sm}: ", len(data))
@@ -101,6 +156,8 @@ def insert_all():
             continue
 
         ch.insert(sm, new_data, column_names=["date", "barcode", "name", "price"])
+
+    return failed
 
 
 def mymarket_products(html_content):
@@ -272,7 +329,11 @@ def marketin(sections=None, max_pages=None):
 
 
 def main():
-    insert_all()
+    failed = insert_all()
+
+    if failed:
+        print(f"failed stores: {', '.join(failed)}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
