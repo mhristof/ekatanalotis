@@ -20,13 +20,12 @@ from sklavenitis import sklavenitis
 from ab import ab
 from kritikos import kritikos
 from marketin import marketin
-from xalkiadakis import xalkiadakis
 
-# masoyti, galaxias, egnatia, bazaar, lidl, discount_markt are not scraped yet
+# masoyti, galaxias, egnatia, bazaar, lidl, discount_markt are not scraped yet;
+# xalkiadakis is scraped a few sections per hour, see slow.py
 STORES = {
     "marketin": marketin,
     "kritikos": kritikos,
-    "xalkiadakis": xalkiadakis,
     "mymarket": mymarket,
     "efresh": efresh,
     "sklavenitis": sklavenitis,
@@ -34,17 +33,24 @@ STORES = {
 }
 
 
+def sort_lines(lines):
+    """Sorted by code and without exact duplicates (stores list products in
+    more than one section) so that day-to-day diffs stay small."""
+    return sorted(set(lines), key=lambda line: line.split(",", 2)[1])
+
+
+def csv_lines(data, today):
+    return sort_lines(
+        f"{today},{item[0]},{item[1].replace(',', '-')},{item[2]}\n" for item in data
+    )
+
+
 def save_to_file(sms, today):
     # smdata/ is not checked out in CI (sparse checkout)
     os.makedirs("smdata", exist_ok=True)
 
     for sm, data in sms.items():
-        # sorted and without exact duplicates (stores list products in
-        # more than one section) so that day-to-day diffs stay small
-        lines = sorted(
-            {f"{today},{item[0]},{item[1].replace(',', '-')},{item[2]}\n" for item in data},
-            key=lambda line: line.split(",", 2)[1],
-        )
+        lines = csv_lines(data, today)
 
         with open(f"smdata/{sm}-{today}.csv", "w") as f:
             f.writelines(lines)
