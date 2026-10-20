@@ -3,9 +3,12 @@ name: Slow stores
 # stores whose bot protection only allows a few requests at a time: a few
 # sections every hour on a data/<store>-<day> branch, folded into a single
 # commit on main the next day (see slow.py and scripts/slow_store.sh)
+#
+# manual only for now: github runner IPs are blocked by xalkiadakis. Once a
+# self-hosted runner exists, point runs-on at it and restore the schedule:
+#   schedule:
+#     - cron: '7 * * * *'
 on:
-  schedule:
-    - cron: '7 * * * *'
   workflow_dispatch:
 
 # runs push to the same branches
