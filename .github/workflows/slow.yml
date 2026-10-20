@@ -3,12 +3,9 @@ name: Slow stores
 # stores whose bot protection only allows a few requests at a time: a few
 # sections every hour on a data/<store>-<day> branch, folded into a single
 # commit on main the next day (see slow.py and scripts/slow_store.sh)
-#
-# manual only for now: github runner IPs are blocked by xalkiadakis. Once a
-# self-hosted runner exists, point runs-on at it and restore the schedule:
-#   schedule:
-#     - cron: '7 * * * *'
 on:
+  schedule:
+    - cron: '7 * * * *'
   workflow_dispatch:
 
 # runs push to the same branches
@@ -19,9 +16,16 @@ concurrency:
 permissions:
   contents: write
 
+env:
+  GIT_AUTHOR_NAME: CI
+  GIT_AUTHOR_EMAIL: ci@github.com
+  GIT_COMMITTER_NAME: CI
+  GIT_COMMITTER_EMAIL: ci@github.com
+
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    # github runner IPs are blocked by these stores
+    runs-on: [self-hosted, Linux, X64]
     strategy:
       fail-fast: false
       matrix:
@@ -40,16 +44,14 @@ jobs:
           sparse-checkout-cone-mode: true
 
       - name: Setup python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: pip
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+        # a venv kept on the runner; actions/setup-python only supports
+        # some distributions on self-hosted runners
+        run: |
+          venv="$HOME/.cache/ekatanalotis/venv"
+          [ -x "$venv/bin/python" ] || python3 -m venv "$venv"
+          "$venv/bin/pip" install -q -r requirements.txt
+          echo "$venv/bin" >> "$GITHUB_PATH"
+          "$venv/bin/python" --version
 
       - name: Scrape
-        run: |
-          git config --global user.email "ci@github.com"
-          git config --global user.name "CI"
-          bash scripts/slow_store.sh ${{ matrix.store }}
+        run: bash scripts/slow_store.sh ${{ matrix.store }}

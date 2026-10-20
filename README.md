@@ -20,6 +20,15 @@ rows, sorted by code.
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 
+## CI
+
+- `schedule.yml` (daily): all stores on github runners, except sklavenitis
+  which runs on the self-hosted runner, as its site blocks github IPs.
+- `slow.yml` (hourly): xalkiadakis on the self-hosted runner.
+- `test.yml`: tests on branches and pull requests, github runners only.
+
+Both scrape jobs commit through `scripts/commit_push.sh`.
+
 ## Running
 
 ```

@@ -12,17 +12,6 @@ set -euo pipefail
 
 # everything is in functions so bash has parsed the whole file before the
 # day branch checkout below replaces it on disk
-push_main() {
-    for _ in 1 2 3; do
-        git push -q "$remote" HEAD:main && return 0
-        # main moved (the daily job pushed); replay our commit on top
-        git fetch -q --depth=1 "$remote" main
-        git rebase -q --onto FETCH_HEAD HEAD~1
-    done
-
-    return 1
-}
-
 finalize_previous_days() {
     local ref branch day
 
@@ -42,12 +31,7 @@ finalize_previous_days() {
         python -u slow.py finalize "$store" "$day" || status=1
         rm -rf pending/
 
-        git add --sparse smdata/
-
-        if ! git diff --cached --quiet; then
-            git commit -q -m "Update $store csv for $day"
-            push_main
-        fi
+        REMOTE=$remote bash scripts/commit_push.sh "Update $store csv for $day" smdata/
 
         git push -q "$remote" --delete "$branch"
     done

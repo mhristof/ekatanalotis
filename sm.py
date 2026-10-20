@@ -7,6 +7,7 @@
 
 """
 
+import argparse
 import os
 import subprocess
 import sys
@@ -122,7 +123,7 @@ def summary(report, durations):
     return "\n".join(lines)
 
 
-def insert_all():
+def insert_all(stores=STORES):
     def fetch(sm):
         start = time.monotonic()
 
@@ -138,8 +139,8 @@ def insert_all():
     durations = {}
 
     # every store is a different site, so run them all at once
-    with ThreadPoolExecutor(len(STORES)) as executor:
-        sms = dict(zip(STORES, executor.map(fetch, STORES)))
+    with ThreadPoolExecutor(len(stores)) as executor:
+        sms = dict(zip(stores, executor.map(fetch, stores)))
 
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     report = validate(sms, today)
@@ -150,7 +151,13 @@ def insert_all():
 
 
 def main():
-    failed = insert_all()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("stores", nargs="*", help="default: all of STORES")
+    parser.add_argument("--exclude", action="append", default=[])
+    args = parser.parse_args()
+
+    stores = [s for s in args.stores or STORES if s not in args.exclude]
+    failed = insert_all(stores)
 
     if failed:
         print(f"failed stores: {', '.join(failed)}")
