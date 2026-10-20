@@ -1,6 +1,10 @@
 """Shared HTTP session for all fetchers: retries with backoff, a timeout on
 every request and a browser user agent."""
 
+from collections import deque
+from concurrent.futures import ThreadPoolExecutor
+from itertools import islice
+
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -46,35 +50,53 @@ def get_text(url, **kwargs):
 MAX_PAGES = 998
 
 
-def paginate(fetch_page, max_pages=None):
-    """Call fetch_page(page) for page 1, 2, ... until it returns no rows."""
+# pages fetched ahead per section, and sections fetched at once per store,
+# so at most PAGE_WORKERS * SECTION_WORKERS requests in flight per store
+PAGE_WORKERS = 4
+SECTION_WORKERS = 4
+
+
+def paginate(fetch_page, max_pages=None, workers=PAGE_WORKERS):
+    """Call fetch_page(page) for page 1, 2, ... until it returns no rows.
+
+    Keeps `workers` pages in flight; rows are returned in page order."""
+    pages = iter(range(1, (max_pages or MAX_PAGES) + 1))
     rows = []
 
-    for page in range(1, (max_pages or MAX_PAGES) + 1):
-        this = fetch_page(page)
+    with ThreadPoolExecutor(workers) as executor:
+        pending = deque(executor.submit(fetch_page, p) for p in islice(pages, workers))
 
-        if not this:
-            break
+        try:
+            while pending:
+                this = pending.popleft().result()
 
-        rows += this
+                if not this:
+                    break
+
+                rows += this
+                pending.extend(executor.submit(fetch_page, p) for p in islice(pages, 1))
+        finally:
+            for future in pending:
+                future.cancel()
 
     return rows
 
 
 def crawl(name, sections, fetch_page, max_pages=None):
     """Paginate every section; fetch_page(section, page) returns rows."""
-    rows = []
 
-    for section in sections:
+    def one(section):
         try:
             this = paginate(lambda page: fetch_page(section, page), max_pages)
         except Exception as e:
             # keep the other sections; a big drop fails sm.validate()
             print(f"[{name}] {section}: error {e!r}")
 
-            continue
+            return []
 
         print(f"[{name}] {section}: {len(this)} items")
-        rows += this
 
-    return rows
+        return this
+
+    with ThreadPoolExecutor(SECTION_WORKERS) as executor:
+        return [row for rows in executor.map(one, sections) for row in rows]

@@ -11,6 +11,7 @@ import os
 import subprocess
 import sys
 import datetime
+from concurrent.futures import ThreadPoolExecutor
 
 from mymarket import mymarket
 from efresh import efresh
@@ -102,14 +103,17 @@ def validate(sms, today):
 
 
 def insert_all():
-    sms = {}
-
-    for sm, func in STORES.items():
+    def fetch(sm):
         try:
-            sms[sm] = func()
+            return STORES[sm]()
         except Exception as e:
-            print(f"error in {sm}: {e}")
-            sms[sm] = []
+            print(f"error in {sm}: {e!r}")
+
+            return []
+
+    # every store is a different site, so run them all at once
+    with ThreadPoolExecutor(len(STORES)) as executor:
+        sms = dict(zip(STORES, executor.map(fetch, STORES)))
 
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     failed = validate(sms, today)
