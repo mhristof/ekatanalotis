@@ -3,6 +3,7 @@ name: Schedule
 on:
   schedule:
     - cron: '12 10 * * *'
+  workflow_dispatch:
 
 jobs:
   save:
@@ -12,7 +13,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          ref: main
+          # smdata/ is ~3GB; only fetch blobs on demand and leave it out of
+          # the working tree. New files are added with `git add --sparse`.
+          filter: blob:none
+          sparse-checkout: .github
+          sparse-checkout-cone-mode: true
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -21,12 +33,15 @@ jobs:
         run: python -u ./sm.py
 
       - name: commit csv files to main
+        # commit whatever stores succeeded, even when another one failed
+        if: success() || failure()
         run: |
           git config --global user.email "ci@github.com"
           git config --global user.name "CI"
-          git fetch
-          git branch -a
-          git checkout main
-          git add smdata/
+          git add --sparse smdata/
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
           git commit -m "Update csv files"
           git push

@@ -7,6 +7,7 @@
 
 """
 
+import os
 import requests
 import re
 import json
@@ -24,6 +25,9 @@ from kritikos import kritikos
 
 
 def save_to_file(sms, today):
+    # smdata/ is not checked out in CI (sparse checkout)
+    os.makedirs("smdata", exist_ok=True)
+
     for sm, data in sms.items():
         with open(f"smdata/{sm}-{today}.csv", "w") as f:
             for item in data:
