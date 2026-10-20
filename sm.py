@@ -11,6 +11,7 @@ import os
 import subprocess
 import sys
 import datetime
+import time
 from concurrent.futures import ThreadPoolExecutor
 
 from mymarket import mymarket
@@ -86,40 +87,60 @@ def previous_count(sm, today):
 
 
 def validate(sms, today):
-    """Drop stores that returned no or suspiciously few rows; return the
-    names of the stores that failed."""
-    failed = []
+    """Drop stores that returned no or suspiciously few rows.
+
+    Returns {store: (rows, previous rows, ok)} for the summary."""
+    report = {}
 
     for sm, data in list(sms.items()):
         prev = previous_count(sm, today)
-        print(f"{sm}: {len(data)} rows, previous: {prev}")
+        ok = bool(data) and not (prev and len(data) < prev * MIN_ROWS_RATIO)
+        report[sm] = (len(data), prev, ok)
 
-        if not data or (prev and len(data) < prev * MIN_ROWS_RATIO):
+        if not ok:
             print(f"error in {sm}: got {len(data)} rows, previous run had {prev}")
-            failed.append(sm)
             del sms[sm]
 
-    return failed
+    return report
+
+
+def summary(report, durations):
+    lines = [f"{'store':<12} {'rows':>7} {'previous':>8} {'change':>7} {'time':>6}  status"]
+
+    for sm, (rows, prev, ok) in report.items():
+        change = f"{(rows - prev) / prev * 100:+.1f}%" if prev else "-"
+        lines.append(
+            f"{sm:<12} {rows:>7} {prev or '-':>8} {change:>7} {durations[sm]:>5.0f}s  {'ok' if ok else 'FAILED'}"
+        )
+
+    return "\n".join(lines)
 
 
 def insert_all():
     def fetch(sm):
+        start = time.monotonic()
+
         try:
             return STORES[sm]()
         except Exception as e:
             print(f"error in {sm}: {e!r}")
 
             return []
+        finally:
+            durations[sm] = time.monotonic() - start
+
+    durations = {}
 
     # every store is a different site, so run them all at once
     with ThreadPoolExecutor(len(STORES)) as executor:
         sms = dict(zip(STORES, executor.map(fetch, STORES)))
 
     today = datetime.datetime.now().strftime("%Y-%m-%d")
-    failed = validate(sms, today)
+    report = validate(sms, today)
     save_to_file(sms, today)
+    print(summary(report, durations))
 
-    return failed
+    return [sm for sm, (_, _, ok) in report.items() if not ok]
 
 
 def main():
