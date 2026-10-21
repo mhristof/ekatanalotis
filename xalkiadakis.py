@@ -10,6 +10,9 @@ session = net.make_session(cookies=False)
 # it also rate limits: ~90 requests back to back get blocked
 DELAY = 2
 
+# wait before retrying a page that got the challenge
+RETRY_DELAY = 30
+
 SECTIONS = [
     "kritika-prionta",
     "frouta-lachanika",
@@ -71,15 +74,17 @@ def fetch_page(section, page):
     if page > 1:
         url += f"?page={page}"
 
-    time.sleep(DELAY)
-    text = net.get_text(url, session)
-
     # every page loads an _Incapsula_Resource script; the challenge page is a
-    # stub without the site's own markup
-    if "_Incapsula_Resource" in text and '<html lang="el">' not in text:
-        raise Exception(f"blocked by bot protection: {url}")
+    # stub without the site's own markup. it is sometimes served to a single
+    # request, so try once more after a while
+    for delay in [DELAY, RETRY_DELAY]:
+        time.sleep(delay)
+        text = net.get_text(url, session)
 
-    return parse(text)
+        if "_Incapsula_Resource" not in text or '<html lang="el">' in text:
+            return parse(text)
+
+    raise Exception(f"blocked by bot protection: {url}: {text[:300]!r}")
 
 
 def xalkiadakis(sections=None, max_pages=None):
