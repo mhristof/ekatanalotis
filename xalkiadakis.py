@@ -74,7 +74,9 @@ def fetch_page(section, page):
     time.sleep(DELAY)
     text = net.get_text(url, session)
 
-    if "_Incapsula_Resource" in text:
+    # every page loads an _Incapsula_Resource script; the challenge page is a
+    # stub without the site's own markup
+    if "_Incapsula_Resource" in text and '<html lang="el">' not in text:
         raise Exception(f"blocked by bot protection: {url}")
 
     return parse(text)
