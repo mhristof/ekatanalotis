@@ -38,15 +38,21 @@ finalize_previous_days() {
 }
 
 scrape_today() {
-    local branch="data/$store-$today"
+    local branch="data/$store-$today" main
+
+    git fetch -q --depth=1 "$remote" main
+    main=$(git rev-parse FETCH_HEAD)
 
     if git ls-remote --exit-code --heads "$remote" "$branch" >/dev/null; then
         git fetch -q --depth=1 "$remote" "$branch"
-    else
-        git fetch -q --depth=1 "$remote" main
     fi
 
     git checkout -q -B "$branch" FETCH_HEAD
+
+    # the day branch was cut from main when the day started; run the code
+    # of main so fixes apply the same day, only pending/ is committed below
+    git checkout -q "$main" -- . ':(exclude)pending'
+    git reset -q
 
     python -u slow.py scrape "$store" --date "$today" || status=1
 
