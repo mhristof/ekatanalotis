@@ -31,7 +31,11 @@ finalize_previous_days() {
         python -u slow.py finalize "$store" "$day" || status=1
         rm -rf pending/
 
-        REMOTE=$remote bash scripts/commit_push.sh "Update $store csv for $day" smdata/
+        # a day that failed validation is dropped and has no csv, and
+        # `git add smdata/` would fail and leave the branch to retry forever
+        if [[ -e "smdata/$store-$day.csv" ]]; then
+            REMOTE=$remote bash scripts/commit_push.sh "Update $store csv for $day" smdata/
+        fi
 
         git push -q "$remote" --delete "$branch"
     done
