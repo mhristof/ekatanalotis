@@ -29,6 +29,16 @@ rows, sorted by code.
 
 Both scrape jobs commit through `scripts/commit_push.sh`.
 
+The scrape workflows have no `schedule:` trigger, as github ran them hours
+late or not at all. A cron on `mikestuff` (user `mike`, `gh` logged in with
+a fine-grained token with Actions: read and write on this repo) dispatches
+them instead:
+
+```
+7 * * * *   /usr/bin/gh workflow run slow.yml     -R mhristof/ekatanalotis --ref main >> $HOME/.cache/ekatanalotis/cron.log 2>&1
+12 12 * * * /usr/bin/gh workflow run schedule.yml -R mhristof/ekatanalotis --ref main >> $HOME/.cache/ekatanalotis/cron.log 2>&1
+```
+
 ## Running
 
 ```

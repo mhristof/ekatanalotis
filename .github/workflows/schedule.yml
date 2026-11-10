@@ -1,8 +1,8 @@
 name: Schedule
 
+# triggered daily at 12:12 by a cron on mikestuff (see README): github's
+# schedule ran hours late
 on:
-  schedule:
-    - cron: '12 10 * * *'
   workflow_dispatch:
 
 env:
