@@ -25,6 +25,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             .github
+            catalog
             scripts
           sparse-checkout-cone-mode: true
 
@@ -44,7 +45,7 @@ jobs:
       - name: commit csv files to main
         # commit whatever stores succeeded, even when another one failed
         if: success() || failure()
-        run: bash scripts/commit_push.sh "Update csv files" smdata/
+        run: bash scripts/commit_push.sh "Update csv files" smdata/ catalog/
 
   self-hosted:
     runs-on: [self-hosted, Linux, X64]
@@ -57,6 +58,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             .github
+            catalog
             scripts
           sparse-checkout-cone-mode: true
 
@@ -75,4 +77,4 @@ jobs:
 
       - name: commit csv files to main
         if: success() || failure()
-        run: bash scripts/commit_push.sh "Update sklavenitis csv" smdata/
+        run: bash scripts/commit_push.sh "Update sklavenitis csv" smdata/ catalog/

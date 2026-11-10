@@ -60,3 +60,17 @@ def test_finalize_partial_day_is_written_but_fails(store, tmp_path):
 def test_finalize_empty_day_is_not_written(store, tmp_path):
     assert slow.finalize("fakestore", "2026-10-21") is False
     assert not (tmp_path / "smdata").exists()
+
+
+def test_finalize_updates_catalog(store, tmp_path):
+    def fetch_page(section, page):
+        return [[f"{section}1", "name", 1.5, {"brand": section}]] if page == 1 else []
+
+    store.fetch_page = fetch_page
+    slow.scrape("fakestore", "2026-10-21", 3)
+
+    assert slow.finalize("fakestore", "2026-10-21") is True
+    assert (tmp_path / "catalog/fakestore.csv").read_text().splitlines()[1:] == [
+        f"{s}1,name,{s},,,,," for s in "abc"
+    ]
+    assert not (tmp_path / "pending/fakestore-2026-10-21.catalog.csv").exists()

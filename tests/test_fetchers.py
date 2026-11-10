@@ -3,6 +3,7 @@ section and a single page, and check the rows look sane."""
 
 import pytest
 
+import catalog
 from ab import ab
 from efresh import efresh
 from kritikos import kritikos
@@ -22,6 +23,11 @@ STORES = {
     "xalkiadakis": (xalkiadakis, ["moro"]),
 }
 
+# catalog fields every store fills for most products; kritikos is the
+# only one with barcodes
+FIELDS = ["brand", "category", "unit", "unit_price"]
+STORE_FIELDS = {"ab": ["size"], "efresh": ["size"], "kritikos": ["size", "ean"]}
+
 # stores whose bot protection blocks some IPs (GitHub runners, or any IP
 # after too many requests); reported as XPASS when they do work
 BLOCKED = {"sklavenitis", "xalkiadakis"}
@@ -39,8 +45,19 @@ def test_fetcher(store, request):
     assert rows, f"{store} returned no rows"
 
     for row in rows:
-        assert len(row) == 3, row
-        code, name, price = row
+        assert len(row) == 4, row
+        code, name, price, details = row
         assert str(code).strip(), row
         assert str(name).strip(), row
         assert float(price) > 0, row
+        assert isinstance(details, dict), row
+
+    products = catalog.products(rows).values()
+
+    for field in FIELDS + STORE_FIELDS.get(store, []):
+        filled = sum(1 for p in products if p[field])
+        assert filled >= 0.8 * len(products), f"{store}: {field} in {filled}/{len(products)}"
+
+    for p in products:
+        if p["unit_price"]:
+            assert float(p["unit_price"]) > 0, p

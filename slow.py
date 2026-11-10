@@ -13,6 +13,7 @@ import importlib
 import os
 import sys
 
+import catalog
 import net
 import sm
 
@@ -21,6 +22,10 @@ SECTIONS_PER_RUN = 2
 
 def paths(store, day):
     return f"pending/{store}-{day}.csv", f"pending/{store}-{day}.done"
+
+
+def catalog_path(store, day):
+    return f"pending/{store}-{day}.catalog.csv"
 
 
 def read_lines(path):
@@ -61,6 +66,7 @@ def scrape(store, day, sections_per_run=SECTIONS_PER_RUN):
     os.makedirs("pending", exist_ok=True)
     write_lines(csv_path, sm.sort_lines(read_lines(csv_path) + sm.csv_lines(rows, day)))
     write_lines(done_path, [f"{s}\n" for s in done])
+    catalog.update(catalog_path(store, day), catalog.products(rows))
     print(f"[{store}] {day}: {len(done)}/{len(module.SECTIONS)} sections done")
 
     return not failed
@@ -85,8 +91,9 @@ def finalize(store, day):
     if ok:
         os.makedirs("smdata", exist_ok=True)
         write_lines(f"smdata/{store}-{day}.csv", lines)
+        catalog.update(catalog.path(store), catalog.read(catalog_path(store, day)))
 
-    for path in (csv_path, done_path):
+    for path in (csv_path, done_path, catalog_path(store, day)):
         if os.path.exists(path):
             os.remove(path)
 

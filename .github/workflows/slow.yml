@@ -39,6 +39,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             .github
+            catalog
             pending
             scripts
           sparse-checkout-cone-mode: true

@@ -15,6 +15,8 @@ import datetime
 import time
 from concurrent.futures import ThreadPoolExecutor
 
+import catalog
+
 from mymarket import mymarket
 from efresh import efresh
 from sklavenitis import sklavenitis
@@ -56,6 +58,12 @@ def save_to_file(sms, today):
         with open(f"smdata/{sm}-{today}.csv", "w") as f:
             f.writelines(lines)
             print(f"saved {len(lines)} items to {sm}.csv")
+
+
+def save_catalog(sms):
+    for sm, data in sms.items():
+        count = catalog.update(catalog.path(sm), catalog.products(data))
+        print(f"updated {count} products in {catalog.path(sm)}")
 
 
 # a store returning less than this fraction of its previous row count is
@@ -145,6 +153,7 @@ def insert_all(stores=STORES):
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     report = validate(sms, today)
     save_to_file(sms, today)
+    save_catalog(sms)
     print(summary(report, durations))
 
     return [sm for sm, (_, _, ok) in report.items() if not ok]

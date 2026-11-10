@@ -1,5 +1,7 @@
+import html
 import time
 
+import catalog
 import net
 
 # the site's bot protection (incapsula) sets a cookie on the first
@@ -39,9 +41,12 @@ SECTIONS = [
 ]
 
 
-def parse(text):
+def parse(text, category=None):
     rows = []
     price_in_next_line = False
+    brand_in_next_line = False
+    in_unit_price = False
+    brand, unit_price = None, None
 
     for line in text.split("\n"):
         if "img src=" in line:
@@ -50,8 +55,26 @@ def parse(text):
             except:
                 uid = None
 
+            brand, unit_price = None, None
+
+        # <a class="product-brand-title ..."\n href="...">ORIENTAL EXPRESS</a>
+        if 'class="product-brand-title' in line:
+            brand_in_next_line = True
+        elif brand_in_next_line:
+            brand = html.unescape(line.split(">")[1].split("<")[0]).strip()
+            brand_in_next_line = False
+
         if 'class="product-title"' in line:
             name = line.split('title="')[1].split('">')[0]
+
+        # the old unit price is in a <del>, the current one in a <span>:
+        # <span>0.18&euro;/τεμ.</span>
+        if 'class="selling-unit-price"' in line:
+            in_unit_price = True
+        elif in_unit_price and "<span>" in line:
+            value, _, unit = line.split("<span>")[1].split("</span>")[0].partition("&euro;")
+            unit_price = (catalog.price(value), catalog.unit(unit))
+            in_unit_price = False
 
         if price_in_next_line:
             price = float(line.split("&euro")[0].replace(",", "."))
@@ -60,10 +83,16 @@ def parse(text):
             if uid is None:
                 raise Exception(f"name: {name}, price: {price}, uid is None")
 
-            rows.append([uid, name, price])
+            details = {"name": html.unescape(name), "brand": brand, "category": category}
+
+            if unit_price:
+                details["unit_price"], details["unit"] = unit_price
+
+            rows.append([uid, name, price, details])
 
         if 'class="price"' in line:
             price_in_next_line = True
+            in_unit_price = False
 
     return rows
 
@@ -82,7 +111,7 @@ def fetch_page(section, page):
         text = net.get_text(url, session)
 
         if "_Incapsula_Resource" not in text or '<html lang="el">' in text:
-            return parse(text)
+            return parse(text, section)
 
     raise Exception(f"blocked by bot protection: {url}: {text[:300]!r}")
 
@@ -100,7 +129,7 @@ def xalkiadakis(sections=None, max_pages=None):
 
     prices = {}
 
-    for uid, name, price in rows:
+    for uid, name, price, _ in rows:
         if prices.setdefault(uid, price) != price:
             raise Exception(
                 f"uid: {uid}, name: {name}, price: {price}, old price: {prices[uid]}"

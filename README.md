@@ -4,6 +4,13 @@ Daily supermarket prices, scraped by `.github/workflows/schedule.yml` and
 committed to `smdata/<store>-<YYYY-MM-DD>.csv` as `date,code,name,price`
 rows, sorted by code.
 
+Product details for matching products across stores are kept in
+`catalog/<store>.csv` as `code,name,brand,category,size,unit,unit_price,ean`
+rows: one per product code ever seen, updated in place by every run.
+`unit` is `kg`, `l`, `piece`, `wash` or `m`, the unit `unit_price` is
+per. Only kritikos lists barcodes (`ean`, `;` separated, old and multipack
+ones included); ab and mymarket find products by EAN in their site search.
+
 ## Layout
 
 - `sm.py` - runs every store in `STORES`, drops failed scrapes (no rows,
@@ -17,6 +24,9 @@ rows, sorted by code.
   branch; the first run of the next day folds it into one commit on main
   (`smdata/<store>-<day>.csv`) and deletes the branch
   (`scripts/slow_store.sh`).
+- `catalog.py` - reads, merges and writes `catalog/`; fetchers return
+  `[code, name, price, details]` rows and the price csv uses the first
+  three.
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 
@@ -27,7 +37,8 @@ rows, sorted by code.
 - `slow.yml` (hourly): xalkiadakis on the self-hosted runner.
 - `test.yml`: tests on branches and pull requests, github runners only.
 
-Both scrape jobs commit through `scripts/commit_push.sh`.
+Both scrape jobs commit `smdata/` and `catalog/` through
+`scripts/commit_push.sh`.
 
 The scrape workflows have no `schedule:` trigger, as github ran them hours
 late or not at all. A cron on `mikestuff` (user `mike`, `gh` logged in with
