@@ -27,6 +27,12 @@ ones included); ab and mymarket find products by EAN in their site search.
 - `catalog.py` - reads, merges and writes `catalog/`; fetchers return
   `[code, name, price, details]` rows and the price csv uses the first
   three.
+- `match.py` - matches kritikos products to ab and mymarket by EAN.
+  `python match.py search [--limit N]` searches the store sites for EANs
+  not searched before (live, one search per 1.5 s per store) and appends
+  the results to `matches/ean_search.csv`; `python match.py accept`
+  (offline) checks the hits by size and brand and writes
+  `matches/matches.csv` and `matches/ean_candidates.csv` for review.
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 

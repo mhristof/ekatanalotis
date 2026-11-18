@@ -18,6 +18,13 @@ QUERY = (
     " categories{name} price{value supplementaryPriceLabel1 supplementaryPriceLabel2}}}}"
 )
 HEADERS = {"apollo-require-preflight": "true"}
+# the site search finds a product by its EAN
+SEARCH_QUERY = (
+    "query GetProductSearch($lang:String$searchQuery:String$pageSize:Int$pageNumber:Int)"
+    "{productSearch:productSearchV2(lang:$lang searchQuery:$searchQuery pageSize:$pageSize"
+    " pageNumber:$pageNumber sort:\"relevance\"){products{code name url manufacturerName"
+    " categories{name} price{value supplementaryPriceLabel1 supplementaryPriceLabel2}}}}"
+)
 
 
 def details(p):
@@ -35,7 +42,7 @@ def details(p):
     }
 
 
-def parse(data):
+def parse(data, field="categoryProductSearch"):
     return [
         [
             p["code"],
@@ -43,7 +50,7 @@ def parse(data):
             p["price"]["value"],
             details(p),
         ]
-        for p in data["data"]["categoryProductSearch"]["products"]
+        for p in data["data"][field]["products"]
     ]
 
 
@@ -74,3 +81,15 @@ def ab(sections=None, max_pages=None):
         seen.setdefault(row[0], row)
 
     return list(seen.values())
+
+
+def search(text):
+    """Rows for the products the site search finds for text, e.g. an EAN."""
+    variables = {"lang": "gr", "searchQuery": text, "pageNumber": 0, "pageSize": 5}
+    params = {
+        "operationName": "GetProductSearch",
+        "query": SEARCH_QUERY,
+        "variables": json.dumps(variables),
+    }
+
+    return parse(net.get(URL, params=params, headers=HEADERS).json(), "productSearch")

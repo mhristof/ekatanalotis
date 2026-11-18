@@ -81,3 +81,8 @@ def fetch_page(section, page):
 
 def mymarket(sections=None, max_pages=None):
     return net.crawl("mymarket", sections or SECTIONS, fetch_page, max_pages)
+
+
+def search(text):
+    """Rows for the products the site search finds for text, e.g. an EAN."""
+    return parse(net.get_text("https://www.mymarket.gr/search", params={"query": text}))
