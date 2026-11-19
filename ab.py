@@ -54,6 +54,13 @@ def parse(data, field="categoryProductSearch"):
     ]
 
 
+def query(params):
+    # since 2026-11-19 the api also wants the operation name as a header
+    headers = {**HEADERS, "x-apollo-operation-name": params["operationName"]}
+
+    return net.get(URL, params=params, headers=headers).json()
+
+
 def fetch_page(category, page):
     variables = {
         "lang": "gr",
@@ -68,7 +75,7 @@ def fetch_page(category, page):
         "variables": json.dumps(variables),
     }
 
-    return parse(net.get(URL, params=params, headers=HEADERS).json())
+    return parse(query(params))
 
 
 def ab(sections=None, max_pages=None):
@@ -92,4 +99,4 @@ def search(text):
         "variables": json.dumps(variables),
     }
 
-    return parse(net.get(URL, params=params, headers=HEADERS).json(), "productSearch")
+    return parse(query(params), "productSearch")
