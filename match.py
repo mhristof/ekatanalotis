@@ -54,6 +54,12 @@ GREEK = dict(
     )
 )
 
+LOOKALIKES = str.maketrans("ABEHIKMNOPTXYZ", "ΑΒΕΗΙΚΜΝΟΡΤΧΥΖ")
+
+# latin() words in brands that say nothing about which brand it is:
+# estate, cooperative, winery, company forms
+BRAND_NOISE = {"ktima", "ktimata", "eas", "oinopoiitiki", "oinopoieio", "abee", "spa"}
+
 # size units, after normalise(): (pattern, base unit, factor)
 SIZE_UNITS = [
     (r"kg|kgr|kilo|κιλ\w*|κ", "g", 1000),
@@ -61,7 +67,7 @@ SIZE_UNITS = [
     (r"ml|μλ", "ml", 1),
     (r"cl", "ml", 10),
     (r"l|lt|ltr|lit\w*|λιτ\w*|λ", "ml", 1000),
-    (r"τεμ\w*|τμχ|pcs|τεμαχι\w*|αρι|αδα|φυλλα", "piece", 1),
+    (r"τεμ\w*|τμχ|pcs|τεμαχι\w*|αρι|αδα|φυλλα|δισκι\w*|καψουλ\w*|ταινι\w*", "piece", 1),
     (r"μεζ\w*|wash\w*|μεζουρ\w*", "wash", 1),
 ]
 SIZE = re.compile(
@@ -80,9 +86,16 @@ def normalise(text):
 
 def latin(text):
     """normalise()d text in Latin letters, letters and digits only."""
-    text = normalise(text).replace("ου", "ou").replace("μπ", "b")
+    for greek, latin_ in (("ου", "ou"), ("αυ", "av"), ("ευ", "ev"), ("μπ", "b")):
+        text = normalise(text).replace(greek, latin_)
 
     return re.sub(r"[^a-z0-9]", "", "".join(GREEK.get(c, c) for c in text))
+
+
+def as_greek(text):
+    """Latin capitals that look like Greek ones as Greek: 'HBH' -> 'ΗΒΗ',
+    as some stores type Greek brands in Latin letters."""
+    return (text or "").translate(LOOKALIKES)
 
 
 def sizes(text):
@@ -99,11 +112,19 @@ def sizes(text):
     return out
 
 
-def same_size(a, b):
-    """True/False when both products have a size in the same unit (within
-    5%), None when that can't be told."""
-    a = sizes(f"{a['size']} {a['name']}")
-    b = sizes(f"{b['size']} {b['name']}")
+def name_sizes(text):
+    """sizes() of a product name, where a size next to a piece count may be
+    per piece or the total: 'Snickers 50gr 3τεμ' is 150g, 'Zewa 90τεμ
+    0,162kg' is 162g, so both are kept."""
+    out = sizes(text)
+    pieces = [q for q, u in out if u == "piece" and q > 1]
+
+    return out | {(round(q * n, 3), u) for q, u in out if u != "piece" for n in pieces}
+
+
+def compare(a, b):
+    """True/False when a and b have a size in the same unit, None when
+    they don't."""
     units = {u for _, u in a} & {u for _, u in b}
 
     if not units:
@@ -117,20 +138,55 @@ def same_size(a, b):
     )
 
 
+def same_size(a, b):
+    """True/False when both products have a size in the same unit (within
+    5%), None when that can't be told. Sizes come from the size field and
+    the name, any of them agreeing is enough, as either can be wrong (ab
+    '100 γρ' for 'Τσίχλες 90g')."""
+    return compare(
+        sizes(a["size"]) | name_sizes(a["name"]), sizes(b["size"]) | name_sizes(b["name"])
+    )
+
+
+def words(text):
+    """The latin() words of text, without short and BRAND_NOISE ones."""
+    out = (latin(w) for w in re.split(r"[^\w]+", normalise(text)))
+
+    return {w for w in out if len(w) >= 3 and w not in BRAND_NOISE}
+
+
+def similar(a, b):
+    """Two words that differ by an ending: 'skoura' and 'skouras'."""
+    return SequenceMatcher(None, a, b).ratio() >= 0.8
+
+
 def same_brand(a, b):
-    """True/False when both products have a brand, None otherwise. A brand
-    in the other product's name counts, as names often carry it."""
+    """True/False when both products have a brand, None otherwise. Brands
+    are spelled differently across stores ('NICO LAZARIDI', 'ΚΤΗΜΑ Ν.
+    ΛΑΖΑΡΙΔΗ'), so one similar word is enough, in the other product's
+    brand or name."""
     ba, bb = latin(a["brand"]), latin(b["brand"])
 
     if not ba or not bb:
         return None
 
-    return (
+    if (
         ba in bb
         or bb in ba
-        or ba in latin(b["name"])
-        or bb in latin(a["name"])
-        or SequenceMatcher(None, ba, bb).ratio() >= 0.8
+        or similar(ba, bb)
+        or similar(latin(as_greek(a["brand"])), latin(as_greek(b["brand"])))
+    ):
+        return True
+
+    wa = words(a["brand"])
+    wb = words(b["brand"])
+
+    return any(
+        similar(x, y)
+        for x, y in [
+            *((x, y) for x in wa for y in wb | words(b["name"])),
+            *((x, y) for x in wb for y in words(a["name"])),
+        ]
     )
 
 
@@ -146,13 +202,19 @@ def score(a, b):
     return round(len(ta & tb) / len(ta | tb), 2) if ta and tb else 0.0
 
 
-def verdict(product, hit):
-    """'ok', or why the hit is not the product: 'size', 'brand'."""
-    wrong = [
-        name
-        for name, same in (("size", same_size), ("brand", same_brand))
-        if same(product, hit) is False
-    ]
+def verdict(product, hit, sole=True):
+    """'ok', or why the hit is not the product: 'size', 'brand'. A brand
+    spelled differently doesn't count when the size agrees and the hit was
+    the only result, a sure EAN hit; several results mean the site fell
+    back to a text search."""
+    size = same_size(product, hit)
+    wrong = []
+
+    if size is False:
+        wrong.append("size")
+
+    if same_brand(product, hit) is False and not (size and sole):
+        wrong.append("brand")
 
     return ",".join(wrong) or "ok"
 
@@ -179,24 +241,26 @@ def product_eans(product):
     return sorted(filter(None, product["ean"].split(";")), key=lambda e: (-len(e), e))
 
 
-def pending(products, results, store):
-    """The products with an EAN not searched yet on store, unless an
-    earlier search already found them."""
+def pending(products, results, store, matched):
+    """The products with an EAN not searched yet on store, unless one of
+    their hits there was accepted (kritikos code in matched)."""
     searched = {r["ean"] for r in results if r["store"] == store}
-    found = {r["ean"] for r in results if r["store"] == store and r["code"]}
 
     return [
         p
         for p in products
-        if not found & set(product_eans(p)) and set(product_eans(p)) - searched
+        if p["code"] not in matched and set(product_eans(p)) - searched
     ]
 
 
 def search(stores, limit=None, path=SEARCH_PATH, kritikos="catalog/kritikos.csv"):
     """Search each store for the EANs of up to `limit` pending products,
-    one product's EANs until one is found, appending results to path."""
+    one product's EANs until a hit is accepted, appending results to
+    path."""
     results = read_csv(path)
-    products = [p for p in catalog.read(kritikos).values() if p["ean"]]
+    products = {code: p for code, p in catalog.read(kritikos).items() if p["ean"]}
+    catalogs = {store: catalog.read(catalog.path(store)) for store in stores}
+    found = candidates(products, results, catalogs)
     today = datetime.date.today().isoformat()
     lock = threading.Lock()
 
@@ -209,7 +273,8 @@ def search(stores, limit=None, path=SEARCH_PATH, kritikos="catalog/kritikos.csv"
         writer.writeheader()
 
     def one(store):
-        todo = pending(products, results, store)[:limit]
+        matched = {c["kritikos"] for c in found if c["store"] == store and c["verdict"] == "ok"}
+        todo = pending(products.values(), results, store, matched)[:limit]
         searched = {r["ean"] for r in results if r["store"] == store}
         counts = {"products": len(todo), "searches": 0, "found": 0}
         print(f"[{store}] {len(todo)} products to search")
@@ -239,7 +304,10 @@ def search(stores, limit=None, path=SEARCH_PATH, kritikos="catalog/kritikos.csv"
                     )
                     out.flush()
 
-                if rows:
+                if any(
+                    verdict(product, catalogs[store].get(r["code"]) or r, len(rows) == 1) == "ok"
+                    for r in rows
+                ):
                     counts["found"] += 1
                     break
 
@@ -270,10 +338,13 @@ def candidates(products, results, catalogs):
     score and verdict. Hits are checked with the store's catalog row when
     there is one, as it has more details than a search result."""
     hits = {}
+    results_per_search = {}
 
     for r in results:
         if r["code"]:
             hits.setdefault(r["ean"], []).append(r)
+            key = (r["store"], r["ean"])
+            results_per_search[key] = results_per_search.get(key, 0) + 1
 
     out = []
 
@@ -301,7 +372,9 @@ def candidates(products, results, catalogs):
                         "brand": hit["brand"],
                         "size": hit["size"],
                         "score": score(product, hit),
-                        "verdict": verdict(product, hit),
+                        "verdict": verdict(
+                            product, hit, results_per_search[(r["store"], ean)] == 1
+                        ),
                     }
                 )
 

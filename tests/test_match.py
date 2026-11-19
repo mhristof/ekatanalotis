@@ -19,6 +19,8 @@ def product(name="", brand="", size="", code="1", ean=""):
         ("ZEWA Χ.ΥΓΕΙΑΣ DELUXE 8ΑΡΙ LAVENDER 704ΓΡ", {(8, "piece"), (704, "g")}),
         ("28 μεζ", {(28, "wash")}),
         ("Χρυσά Αυγά Φρέσκα 10άδα", {(10, "piece")}),
+        ("Υποκατάστατο Ζάχαρης 120 Δισκία", {(120, "piece")}),
+        ("Κρύο Κερί 20 Ταινιές", {(20, "piece")}),
         ("33cl", {(330, "ml")}),
         ("Κιλό", set()),
         ("Τιμή Κιλού", set()),
@@ -35,6 +37,27 @@ def test_same_size_compares_totals_within_5_percent():
     assert match.same_size(product(size="6*330ml"), product(size="330 ml")) is False
 
 
+def test_same_size_size_fields_first():
+    # the name's 20 pieces are no contradiction when the size fields agree
+    assert match.same_size(
+        product(size="20*1,6γρ."), product(name="Τσάι Πράσινο 20 Τεμάχια", size="32 γρ")
+    )
+    assert match.same_size(product(size="5τεμ."), product(name="Ξυραφάκια 5 Τεμάχια"))
+
+
+@pytest.mark.parametrize(
+    "size, name",
+    [
+        ("3*50γρ.", "Snickers Σοκολάτα Γεμιστή 50gr 3τεμ"),
+        ("162γρ.", "Zewa Χαρτομάντηλα 90τεμ 0,162kg"),
+        ("2*40gr", "Afroso Block Ανταλλακτικό 2τεμ 80 gr"),
+        ("330ml", "Coca-Cola 330ml 1τεμ"),
+    ],
+)
+def test_same_size_name_piece_count_per_piece_or_total(size, name):
+    assert match.same_size(product(size=size), product(name=name))
+
+
 def test_same_size_unknown_without_a_shared_unit():
     assert match.same_size(product(size="Κιλό"), product(size="1 κιλ")) is None
     assert match.same_size(product(size="500γρ."), product(size="1 λιτ")) is None
@@ -45,6 +68,37 @@ def test_same_brand_across_scripts_and_spelling():
     assert match.same_brand(product(brand="COCA-COLA"), product(brand="Coca Cola"))
     assert match.same_brand(product(brand="NOXZEMA"), product(brand="GILLETTE")) is False
     assert match.same_brand(product(brand=""), product(brand="GILLETTE")) is None
+
+
+@pytest.mark.parametrize(
+    "a, b",
+    [
+        ("NICO LAZARIDI", "ΚΤΗΜΑ Ν. ΛΑΖΑΡΙΔΗ"),
+        ("ΣΚΟΥΡΑΣ", "ΚΤΗΜΑ ΣΚΟΥΡΑ"),
+        ("ΚΑΤΩΓΙ ΑΒΕΡΩΦ", "Κτήμα Αβέρωφ"),
+        ("ΣΑΜΟΣ VIN DOUX", "ΕΑΣ ΣΑΜΟΥ"),
+    ],
+)
+def test_same_brand_by_one_similar_word(a, b):
+    assert match.same_brand(product(brand=a), product(brand=b))
+
+
+def test_same_brand_greek_typed_in_latin_and_digraphs():
+    assert match.same_brand(product(brand="ΗΒΗ"), product(brand="HBH"))
+    assert match.same_brand(product(brand="AVRA"), product(brand="ΑΥΡΑ"))
+
+
+def test_verdict_ignores_brand_for_a_sole_hit_of_the_right_size():
+    kritikos = product("7UP ΦΙΑΛΗ 1.5L", "7UP", "1,5L")
+    hit = product("Αναψυκτικό 1,5lt", "Seven Up", "1,5 λιτ")
+
+    assert match.verdict(kritikos, hit, sole=True) == "ok"
+    assert match.verdict(kritikos, hit, sole=False) == "brand"
+    assert match.verdict(kritikos, product("Σκούπα", "Κύκλωψ"), sole=True) == "brand"
+
+
+def test_same_brand_not_by_noise_words():
+    assert match.same_brand(product(brand="ΚΤΗΜΑ ΑΛΦΑ"), product(brand="ΚΤΗΜΑ ΣΚΟΥΡΑ")) is False
 
 
 def test_same_brand_in_the_other_name():
@@ -62,7 +116,7 @@ def test_verdict():
     assert match.verdict(kritikos, product("Καφές 100g", "JACOBS", "100 γρ")) == "size,brand"
 
 
-def test_pending_skips_found_and_fully_searched_products():
+def test_pending_skips_matched_and_fully_searched_products():
     products = [
         product(code="1", ean="5449000000996"),
         product(code="2", ean="5201314076612;96385074"),
@@ -74,8 +128,15 @@ def test_pending_skips_found_and_fully_searched_products():
         {"store": "mymarket", "ean": "5000112637922", "code": ""},
     ]
 
-    assert [p["code"] for p in match.pending(products, results, "ab")] == ["2", "3"]
-    assert [p["code"] for p in match.pending(products, results, "mymarket")] == ["1", "2"]
+    assert [p["code"] for p in match.pending(products, results, "ab", {"1"})] == ["2", "3"]
+    assert [p["code"] for p in match.pending(products, results, "mymarket", set())] == ["1", "2"]
+
+
+def test_pending_retries_products_whose_hit_was_rejected():
+    products = [product(code="1", ean="5449000000996;96385074")]
+    results = [{"store": "ab", "ean": "5449000000996", "code": "7"}]
+
+    assert match.pending(products, results, "ab", set()) == products
 
 
 def test_product_eans_ean13_first():

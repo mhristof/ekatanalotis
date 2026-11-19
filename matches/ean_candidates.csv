@@ -1,0 +1,820 @@
+kritikos,kritikos_name,kritikos_brand,kritikos_size,store,code,name,brand,size,score,verdict
+100010,GILLETTE BLUE II SLALOM ΞΥΡ.ΜΗΧ. 5T,GILLETTE,5τεμ.,ab,7847298,Ξυραφάκια Blue II Slalom Μιας Χρήσης 5 Τεμάχια,GILLETTE,5 τεμ,0.29,ok
+100010,GILLETTE BLUE II SLALOM ΞΥΡ.ΜΗΧ. 5T,GILLETTE,5τεμ.,mymarket,709408,Gillette Blue II Slalom Ξυραφάκια Μιας Χρήσης με Κινούμενη Κεφαλή 5τεμ,Gillette,,0.34,ok
+100012,GILLETTE BLUE II FIXED ΞΥΡ.ΜΗΧ. 5Τ,GILLETTE,5τεμ.,ab,7847287,Ξυραφάκια Blue II Μίας Χρήσης 5 Τεμάχια,GILLETTE,5 τεμ,0.19,ok
+100012,GILLETTE BLUE II FIXED ΞΥΡ.ΜΗΧ. 5Τ,GILLETTE,5τεμ.,mymarket,709409,Gillette Blue II Fixed Ξυραφάκια Μιας Χρήσης 5τεμ,Gillette,,0.45,ok
+100039,GILLETTE BLUEII PLUS SL.SENS.SKIN ΞΥΡ.ΜΗΧ. 5T,GILLETTE,5τεμ.,ab,7114221,Ξυριστική Μηχανή Μιας Χρήσης Plus Slalom 5 Τεμάχια,GILLETTE,5 τεμ,0.18,ok
+100039,GILLETTE BLUEII PLUS SL.SENS.SKIN ΞΥΡ.ΜΗΧ. 5T,GILLETTE,5τεμ.,mymarket,709430,Gillette Blue IΙ Plus Slalom Ξυραφάκια μιας Χρήσης 5τεμ,Gillette,,0.33,ok
+100049,GILLETTE VENUS ΓΥΝ. ΑΝΤ/ΚΑ 4Τ,GILLETTE,4τεμ.,ab,7121436,Ανταλλακτικά Ξυριστικής Μηχανής 4 Τεμάχια,GILLETTE,4 τεμ,0.12,ok
+100049,GILLETTE VENUS ΓΥΝ. ΑΝΤ/ΚΑ 4Τ,GILLETTE,4τεμ.,mymarket,709443,Gillette Venus Smooth Ανταλλακτικά 4τεμ,Gillette,,0.38,ok
+10010,ΚΑΤΩΓΙ ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML.,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750ml,ab,7144616,Οίνος Λευκός Ποικιλιακός 750ml,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750 ml,0.6,ok
+10010,ΚΑΤΩΓΙ ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML.,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750ml,mymarket,431460,Αβέρωφ Κατώγι Λευκός Οίνος 750ml,Κτήμα Αβέρωφ,,0.56,ok
+10013,ΚΟΥΡΤΑΚΗ ΡΕΤΣΙΝΑ ΠΕΡΙΕΧΟΜΕΝΟ 0.5LT,ΕΛΛΗΝΙΚΑ ΚΕΛΛΑΡΙΑ,500ml,ab,7091201,Οίνος Λευκός Ρετσίνα 500ml,ΚΟΥΡΤΑΚΗ,500 ml,0.18,ok
+10013,ΚΟΥΡΤΑΚΗ ΡΕΤΣΙΝΑ ΠΕΡΙΕΧΟΜΕΝΟ 0.5LT,ΕΛΛΗΝΙΚΑ ΚΕΛΛΑΡΙΑ,500ml,mymarket,430101,Κουρτάκη Ρετσίνα 500ml,Κουρτάκη,,0.25,ok
+100458,BIC TWIN LADY(PASTEL) ΞΥΡ.ΜΗΧΑΝΗ 5ΤΕΜ,BIC,5τεμ.,ab,7740612,Ξυραφάκια Twin Lady Sensitive 5 Τεμάχια,BIC,5 τεμ,0.18,ok
+100458,BIC TWIN LADY(PASTEL) ΞΥΡ.ΜΗΧΑΝΗ 5ΤΕΜ,BIC,5τεμ.,mymarket,709056,BIC Twin Lady Ξυριστική Μηχανή 5τεμ,BIC,,0.51,ok
+10056,ΜΑΛΑΜΑΤΙΝΑ ΡΕΤΣΙΝΑ ΠΕΡΙΕΧΟΜΕΝΟ 500ML,ΜΑΛΑΜΑΤΙΝΑ,500ml,ab,7091212,Ρετσίνα  500ml,ΜΑΛΑΜΑΤΙΝΑ,500 ml,0.5,ok
+10056,ΜΑΛΑΜΑΤΙΝΑ ΡΕΤΣΙΝΑ ΠΕΡΙΕΧΟΜΕΝΟ 500ML,ΜΑΛΑΜΑΤΙΝΑ,500ml,mymarket,431201,Μαλαματίνα Ρετσίνα 500ml,Μαλαματίνα,,0.53,ok
+100594,BIC 1 P10 20R. 10ΤΕΜ,BIC,10τεμ.,ab,7114432,Ξυραφάκια Μιας Χρήσης 1 Λεπίδα 10 Τεμάχια,BIC,10 τεμ,0.08,ok
+100594,BIC 1 P10 20R. 10ΤΕΜ,BIC,10τεμ.,mymarket,709042,BIC 1 Classic Ξυριστική Μηχανή Οικογενειακή Συσκευασία 10τεμ,BIC,,0.11,ok
+100595,BIC ΣΥΣΚ.METAL ΣΑΚ.10/200.,BIC,5τεμ.,ab,7114433,Ξυραφάκια Μίας Χρήσης 1 Λεπίδα 10 Τεμάχια,BIC,10 τεμ,0.02,size
+100595,BIC ΣΥΣΚ.METAL ΣΑΚ.10/200.,BIC,5τεμ.,mymarket,709040,BIC Ξυραφάκια Μιας Χρήσης 10 τεμ,BIC,,0.07,size
+10101,ΚΤΗΜΑ ΑΛΦΑ SAUVIGNON     BLANC ΛΕΥΚΟ 750ML,ΚΤΗΜΑ ΑΛΦΑ,750ml,ab,7102541,Οίνος Λευκός Sauvignon Blanc 750ml,ΚΤΗΜΑ ΑΛΦΑ,750 ml,0.56,ok
+10101,ΚΤΗΜΑ ΑΛΦΑ SAUVIGNON     BLANC ΛΕΥΚΟ 750ML,ΚΤΗΜΑ ΑΛΦΑ,750ml,mymarket,431751,Κτήμα Άλφα Λευκός Οίνος 750ml,Κτήμα Άλφα,,0.35,ok
+10110,ΚΡΑΣΙ ΚΤΗΜΑ Κ.ΛΑΖΑΡΙΔΗ ΑΜΕΘΥΣΤΟΣ ΛΕΥΚΟΣ 750ML,ΚΤΗΜΑ ΛΑΖΑΡΙΔΗ,750ml,mymarket,431461,Κ.Λαζαρίδη Αμέθυστος Λευκός Οίνος 750ml,Κτήμα Κ. Λαζαρίδη,,0.71,ok
+10123,SAMOS VIN DOUX ΚΡΑΣΙ 750ML,ΣΑΜΟΣ VIN DOUX,750ml,ab,7296073,Οίνος Λευκός Vin Doux 750ml,ΕΑΣ ΣΑΜΟΥ,750 ml,0.31,ok
+10123,SAMOS VIN DOUX ΚΡΑΣΙ 750ML,ΣΑΜΟΣ VIN DOUX,750ml,mymarket,430962,ΕΟΣ Σάμου Vin Doux Γλυκός Οίνος 750ml,ΕΟΣ Σάμου,,0.23,ok
+10125,CAIR BRUT 0.75LT.,CAIR,750ml,ab,7495017,Αφρώδης Οίνος Brut 750ml,CAIR,750 ml,0.12,ok
+10125,CAIR BRUT 0.75LT.,CAIR,750ml,mymarket,440001,Cair Αφρώδης Οίνος Brut 750ml,Cair,,0.19,ok
+10131,ΚΑΤΩΓΙ ΟΙΝΟΣ ΕΡΥΘΡΟΣ 750ML.,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750ml,ab,7146543,Οίνος Ερυθρός Ξηρός Κατώγι Αβέρωφ 750ml,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750 ml,0.6,ok
+10131,ΚΑΤΩΓΙ ΟΙΝΟΣ ΕΡΥΘΡΟΣ 750ML.,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750ml,mymarket,431459,Αβέρωφ Κατώγι Ερυθρός Οίνος 750ml,Κτήμα Αβέρωφ,,0.59,ok
+10132,ΑΚΡΕΣ ΣΚΟΥΡΑ ΟΙΝΟΣ ΕΡΥΘΡΟΣ (STELVIN) 750ML,ΣΚΟΥΡΑΣ,750ml,ab,7091225,Οίνος Ερυθρός Cabernet Sauvignion 750ml,ΚΤΗΜΑ ΣΚΟΥΡΑ,750 ml,0.34,ok
+10132,ΑΚΡΕΣ ΣΚΟΥΡΑ ΟΙΝΟΣ ΕΡΥΘΡΟΣ (STELVIN) 750ML,ΣΚΟΥΡΑΣ,750ml,mymarket,431495,Σκούρας Άκρες Ερυθρός Οίνος 750ml,Κτήμα Σκούρας,,0.5,ok
+10133,CAIR DEMI SEC 0.75LT.,CAIR,750ml,ab,7495071,Αφρώδης Οίνος Demi Sec 750ml,CAIR,750 ml,0.2,ok
+10133,CAIR DEMI SEC 0.75LT.,CAIR,750ml,mymarket,440002,Cair Αφρώδης Οίνος Demi Sec 750ml,Cair,,0.26,ok
+10135,ΑΚΡΕΣ ΣΚΟΥΡΑΣ ΟΙΝΟΣ ΛΕΥΚΟΣ (STELVIN) 750ML,ΣΚΟΥΡΑΣ,750ml,ab,7090751,Οινός Λευκός Άκρες 750ml,ΚΤΗΜΑ ΣΚΟΥΡΑ,750 ml,0.44,ok
+10135,ΑΚΡΕΣ ΣΚΟΥΡΑΣ ΟΙΝΟΣ ΛΕΥΚΟΣ (STELVIN) 750ML,ΣΚΟΥΡΑΣ,750ml,mymarket,431494,Σκούρας Άκρες Λευκός Οίνος 750ml,Κτήμα Σκούρας,,0.51,ok
+10141,ΚΡΑΣΙ ΚΤΗΜΑ Κ.ΛΑΖΑΡΙΔΗ ΑΜΕΘΥΣΤΟΣ ΕΡΥΘΡΟΣ 750ML,ΚΤΗΜΑ ΛΑΖΑΡΙΔΗ,750ml,ab,7091024,Οίνος Ερυθρός Amethystos 750ml,ΚΤΗΜΑ Κ. ΛΑΖΑΡΙΔΗ,750 ml,0.65,ok
+10141,ΚΡΑΣΙ ΚΤΗΜΑ Κ.ΛΑΖΑΡΙΔΗ ΑΜΕΘΥΣΤΟΣ ΕΡΥΘΡΟΣ 750ML,ΚΤΗΜΑ ΛΑΖΑΡΙΔΗ,750ml,mymarket,431463,Κ.Λαζαρίδη Αμέθυστος Ερυθρός Οίνος 750ml,Κτήμα Κ. Λαζαρίδη,,0.72,ok
+10145,ΝΑΜΑ VICTOR 375ML.,VICTOR,375ml,mymarket,430660,Νama Εκκλησιαστικός Ερυθρός Οίνος 375ml,Βυζαντινό,,0.1,ok
+10157,ΛΗΜΝΟΣ ΕΑΣ ΛΗΜ.ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML.,ΛΗΜΝΟΣ,750ml,ab,7090749,Οινός Λευκός Λήμνος Ξηρός 750ml,ΕΑΣ ΛΗΜΝΟΥ,750 ml,0.62,ok
+10157,ΛΗΜΝΟΣ ΕΑΣ ΛΗΜ.ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML.,ΛΗΜΝΟΣ,750ml,mymarket,430925,Λήμνος Λευκός Οίνος 750ml,Λήμνος,,0.69,ok
+10160,NICO LAZARIDI ΚΡΑΣΙ ΝΤΑΜΑ ΚΟΥΠΑ ΛΕΥΚΟ 750ML,NICO LAZARIDI,750ml,ab,7103970,Οίνος Λευκός Ξηρός Ντάμα Κούπα 750ml,ΚΤΗΜΑ Ν. ΛΑΖΑΡΙΔΗ,750 ml,0.33,ok
+10160,NICO LAZARIDI ΚΡΑΣΙ ΝΤΑΜΑ ΚΟΥΠΑ ΛΕΥΚΟ 750ML,NICO LAZARIDI,750ml,mymarket,431503,Ν.Λαζαρίδη Ντάμα Κούπα Λευκός Οίνος 750ml,Κτήμα Ν. Λαζαρίδη,,0.46,ok
+10161,NICO LAZARIDI ΚΡΑΣΙ ΡΗΓΑΣ ΚΟΥΠΑ ΕΡΥΘΡΟ 750ML,NICO LAZARIDI,750ml,ab,7103968,Οίνος Ερυθρός Ξηρός Ρήγας Κούπα 750ml,ΚΤΗΜΑ Ν. ΛΑΖΑΡΙΔΗ,750 ml,0.36,ok
+10161,NICO LAZARIDI ΚΡΑΣΙ ΡΗΓΑΣ ΚΟΥΠΑ ΕΡΥΘΡΟ 750ML,NICO LAZARIDI,750ml,mymarket,431504,Ν.Λαζαρίδη Ρήγας Κούπα Ερυθρός Οίνος 750ml,Κτήμα Ν. Λαζαρίδη,,0.47,ok
+10171,ΣΤΡΟΦΙΛΙΑ ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML,ΣΤΡΟΦΙΛΙΑ,750ml,ab,7303520,Οίνος Λευκός Ξηρός 750ml,ΣΤΡΟΦΙΛΙΑ,750 ml,0.77,ok
+10189,FINLANDIA VODKA 700ML,FINLANDIA,700ml,ab,7091537,Βότκα Finlandia 700ml,FINLANDIA,700 ml,0.58,ok
+10189,FINLANDIA VODKA 700ML,FINLANDIA,700ml,mymarket,450301,Finlandia Vodka 700ml,Finlandia,,1.0,ok
+10199,ΜΠΟΥΤΑΡΗ ΝΑΟΥΣΣΑ 750ML,ΜΠΟΥΤΑΡΗ,750ml,mymarket,430021,Νάουσσα Μπουτάρη Ερυθρός Οίνος 750ml,Μπουτάρης Οινοποιητική,,0.3,ok
+102028,GILLETTE FUSION ANT/KA 4Τ,GILLETTE,4τεμ.,ab,7118441,Ανταλλακτικά Ξυριστικής Μηχανής 4 Τεμάχια,GILLETTE,4 τεμ,0.12,ok
+102028,GILLETTE FUSION ANT/KA 4Τ,GILLETTE,4τεμ.,mymarket,709509,Gillette Fusion Manual Ανταλλακτικά 4τεμ,Gillette,,0.42,ok
+102029,GILLETTE FUSION POWER ANT/KA 4Τ,GILLETTE,4τεμ.,ab,7118446,Ανταλλακτικά Ξυριστικής Μηχανής 4 Τεμάχια,GILLETTE,4 τεμ,0.11,ok
+102029,GILLETTE FUSION POWER ANT/KA 4Τ,GILLETTE,4τεμ.,mymarket,709522,Gillette Fusion Power Ανταλλακτικά 4τεμ,Gillette,,0.65,ok
+102156,NIVEA MEN ΑΦΡΟΣ ΞΥΡΙΣΜΑΤΟΣ PROTECT & CARE 200ML,NIVEA,200ml,ab,7840369,Αφρός Ξυρίσματος Hydrocare 200ml,NIVEA,200 ml,0.48,ok
+102156,NIVEA MEN ΑΦΡΟΣ ΞΥΡΙΣΜΑΤΟΣ PROTECT & CARE 200ML,NIVEA,200ml,mymarket,707401,Nivea Men Αφρός Ξυρίσματος Κανονικά 200ml,Nivea,,0.53,ok
+10224,ΜΠΟΥΤΑΡΗ ΚΡΗΤΙΚΟΣ ΛΕΥΚΟΣ 750ML.,ΜΠΟΥΤΑΡΗ,750ml,ab,7090808,Οίνος Λευκός Κρητικός 750ml,ΜΠΟΥΤΑΡΗ,750 ml,0.66,ok
+10224,ΜΠΟΥΤΑΡΗ ΚΡΗΤΙΚΟΣ ΛΕΥΚΟΣ 750ML.,ΜΠΟΥΤΑΡΗ,750ml,mymarket,430015,Κρητικός Μπουτάρη Λευκός Οίνος 750ml,Μπουτάρη,,0.62,ok
+102404,NOXZEMA ΑΦΡΟΣ CLASSIC 300ML,NOXZEMA,300ml,ab,7114161,Αφρός Ξυρίσματος Classic 300ml,NOXZEMA,300 ml,0.65,ok
+102404,NOXZEMA ΑΦΡΟΣ CLASSIC 300ML,NOXZEMA,300ml,mymarket,707551,Noxzema Men αφρός ξυρίσματος Classic 300ml,Noxzema,,0.56,ok
+10265,ΚΟΥΡΤΑΚΗ ΜΑΥΡΟΔΑΦΝΗ 750ML,ΕΛΛΗΝΙΚΑ ΚΕΛΛΑΡΙΑ,750ml,ab,7091745,Οίνος Γλυκός Ερυθρός Γλυκός Μαυροδάφνη 750ml,ΚΟΥΡΤΑΚΗ,750 ml,0.33,ok
+10266,ΜΠΟΥΤΑΡΗ ROSE DEMI SEC 750ML.,ROSE BOUTARI DEMI-SEC,750ml,ab,7225177,Οίνος Ροζέ Demi Sec 750ml,ΜΠΟΥΤΑΡΗ,750 ml,0.43,ok
+10266,ΜΠΟΥΤΑΡΗ ROSE DEMI SEC 750ML.,ROSE BOUTARI DEMI-SEC,750ml,mymarket,430012,Μπουτάρη Ροζέ Οίνος Demi Sec 750ml,Μπουτάρης Οινοποιητική,,0.35,ok
+102694,NOXZEMA ΑΦΡΟΣ EYAIΣΘΗΤΑ 300ML,NOXZEMA,300ml,ab,7114161,Αφρός Ξυρίσματος Classic 300ml,NOXZEMA,300 ml,0.28,ok
+102694,NOXZEMA ΑΦΡΟΣ EYAIΣΘΗΤΑ 300ML,NOXZEMA,300ml,mymarket,707552,Noxzema Men αφρός ξυρίσματος Sensitive 300ml,Noxzema,,0.25,ok
+102822,NOXZEMA ΑΦΡΟΛΟΥΤΡΟ NEUTRAL 750ML,NOXZEMA,750ml,ab,7112872,Αφρόλουτρο Neutral Protect 750ml,NOXZEMA,750 ml,0.65,ok
+102822,NOXZEMA ΑΦΡΟΛΟΥΤΡΟ NEUTRAL 750ML,NOXZEMA,750ml,mymarket,755520,Noxzema Αφρόλουτρο Neutral 750ml,Noxzema,,1.0,ok
+102967,GILLETTE VENUS WOMEN (MHXANH+2 ΑΝΤ/KA),GILLETTE,Τεμάχιο,ab,7151249,Ξυριστική Μηχανή Venus & 2 Ανταλλακτικές Λεπίδες 1 Τεμάχιο,GILLETTE,1 τεμ,0.15,ok
+102967,GILLETTE VENUS WOMEN (MHXANH+2 ΑΝΤ/KA),GILLETTE,Τεμάχιο,mymarket,709521,Gillette Venus Smooth Μηχανή & Ανταλλακτικά 2τεμ,Gillette,,0.24,ok
+103003,NIVEA ΓΑΛΑΚΤΩΜΑ ΚΑΘΑΡ.Κ/Μ 200ML,NIVEA,200ml,ab,7112692,Γαλάκτωμα Καθαρισμού Κανονική Μικτή Επιδερμίδα 200ml,NIVEA,200 ml,0.37,ok
+103003,NIVEA ΓΑΛΑΚΤΩΜΑ ΚΑΘΑΡ.Κ/Μ 200ML,NIVEA,200ml,mymarket,706241,Nivea Face Γαλάκτωμα Καθαρισμού 200ml Καν/κές & Μικτές Επιδ/δες 200ml,Nivea,,0.34,ok
+103032,NIVEA DEO ROLL ON PEARL & BEAUTY ΓΥΝ.50ML,NIVEA,50ml,ab,7116486,Αποσμητικό Roll On Pearl & Beauty 50ml,NIVEA,50 ml,0.47,ok
+103032,NIVEA DEO ROLL ON PEARL & BEAUTY ΓΥΝ.50ML,NIVEA,50ml,mymarket,717498,Nivea Deo Pearl & Beauty Roll-On Γυναικείο 50ml,Nivea,,0.52,ok
+103057,NIVEA BODY MILK 250ML,NIVEA,250ml,ab,7111045,Γαλάκτωμα Σώματος Αμυγδαλέλαιο 250ml,NIVEA,250 ml,0.13,ok
+103057,NIVEA BODY MILK 250ML,NIVEA,250ml,mymarket,716404,Nivea Body Nourishing Milk 250ml,Nivea,,0.53,ok
+10311,ΠΑΡΑΓΚΑ KTHMA ΚΥΡ ΓΙΑΝΝΗ OINOS ΕΡΥΘΡΟΣ 750ML.,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,ab,7123702,Οίνος Ερυθρός Παράγκα 750ml,ΚΥΡ ΓΙΑΝΝΗ,750 ml,0.61,ok
+10311,ΠΑΡΑΓΚΑ KTHMA ΚΥΡ ΓΙΑΝΝΗ OINOS ΕΡΥΘΡΟΣ 750ML.,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,mymarket,431469,Κυρ Γιάννη Παράγκα Ερυθρός Οίνος 750ml,Κτήμα Κυρ Γιάννη,,0.69,ok
+10312,ΣΑΜΑΡΟΠΕΤΡΑ ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,ab,7123706,Οίνος Λευκός Σαμαρόπετρα 750ml,ΣΑΜΑΡΟΠΕΤΡΑ,750 ml,0.45,ok
+10312,ΣΑΜΑΡΟΠΕΤΡΑ ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,mymarket,431468,Σαμαρόπετρα Κυρ Γιάννη Λευκός Οίνος 750ml,Κτήμα Κυρ Γιάννη,,0.8,ok
+103265,NIVEA ΤΑΙΝΙΕΣ ΚΑΘΑΡΙΣΜΟΥ ΓΙΑ ΜΑΥΡΑ ΣΤΙΓΜΑΤΑ 6ΤΕΜ.,NIVEA,6τεμ.,ab,7112743,Ταινίες Καθαρισμού Clear Up Strips 6 Τεμάχια,NIVEA,6 τεμ,0.37,ok
+103265,NIVEA ΤΑΙΝΙΕΣ ΚΑΘΑΡΙΣΜΟΥ ΓΙΑ ΜΑΥΡΑ ΣΤΙΓΜΑΤΑ 6ΤΕΜ.,NIVEA,6τεμ.,mymarket,706259,Nivea Face Clear Up Strips 6τεμ,Nivea,,0.11,ok
+103363,NIVEA MEN  GEL ΞΥΡΙΣΜ. SENSITIVE 200ML,NIVEA,200ml,ab,7841022,Gel Ξυρίσματος Sensitive 200ml,NIVEA,200 ml,0.55,ok
+103363,NIVEA MEN  GEL ΞΥΡΙΣΜ. SENSITIVE 200ML,NIVEA,200ml,mymarket,707403,Nivea Men Gel Ξυρίσματος Sensitive 200ml,Nivea,,0.78,ok
+10348,ΠΑΡΑΓΚΑ KTHMA ΚΥΡ.ΓΙΑΝΝΗ ΛΕΥΚΟΣ 750ML.,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,ab,7102595,Οίνος Λευκός Παράγκα 750ml,ΚΥΡ ΓΙΑΝΝΗ,750 ml,0.41,ok
+10348,ΠΑΡΑΓΚΑ KTHMA ΚΥΡ.ΓΙΑΝΝΗ ΛΕΥΚΟΣ 750ML.,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,mymarket,431471,Κτήμα Κυρ Γιάννη Παράγκα Λευκό 750ml,Κτήμα Κυρ Γιάννη,,0.61,ok
+10366,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ ΛΕΥΚΟ TETRA PACK 1L,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ,1L,ab,7090756,Οίνος Λευκός 1lt,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ,1 λιτ,0.43,ok
+10366,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ ΛΕΥΚΟ TETRA PACK 1L,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ,1L,mymarket,430481,Το Κρασί Της Παρέας Λευκό 1lt,Το Κρασί Της Παρέας,,0.6,ok
+103699,NIVEA ΚΡΕΜΑ ΞΥΡ/ΤΟΣ 100ML 81772,NIVEA,100ml,ab,7114377,Κρέμα Ξυρίσματος 100ml,NIVEA,100 ml,0.53,ok
+103699,NIVEA ΚΡΕΜΑ ΞΥΡ/ΤΟΣ 100ML 81772,NIVEA,100ml,mymarket,708401,Nivea Men Originals Κρέμα Ξυρίσματος 100ml,Nivea,,0.37,ok
+103863,NIVEA MEN ΑΦΡΟΣ ΞΥΡΙΣΜΑΤΟΣ SENSITIVE 250ML,NIVEA,250ml,mymarket,707447,Nivea Men Sensitive Αφρός Ξυρίσματος 250ml,Nivea,,0.75,ok
+103889,DERMO EXPERT ΑΔΙΑΒΡ ΝΤΕΜΑΚ ΜΑΤ/ΧΕΙΛ 125ML,L΄OREAL,125ml,ab,7110524,Ντεμακιγιάζ Ματιών & Χειλιών Απαλό 125ml,L'OREAL,125 ml,0.24,ok
+103889,DERMO EXPERT ΑΔΙΑΒΡ ΝΤΕΜΑΚ ΜΑΤ/ΧΕΙΛ 125ML,L΄OREAL,125ml,mymarket,756505,L'OREAL Dermo Expertise Λοσιόν-Αδιάβροχο Ντεμακιγιάζ 125ml,L'OREAL,,0.39,ok
+104009,NIVEA CREME 75ML,NIVEA,75ml,ab,7111087,Κρέμα Χεριών 75 ml,NIVEA,75 ml,0.22,ok
+104009,NIVEA CREME 75ML,NIVEA,75ml,mymarket,718404,Nivea Κρέμα Χεριών 75ml,Nivea,,0.3,ok
+104012,NIVEA CREME 150ML,NIVEA,150ml,ab,7111082,Κρέμα Χεριών 150ml,NIVEA,150 ml,0.25,ok
+104012,NIVEA CREME 150ML,NIVEA,150ml,mymarket,718405,Nivea Κρέμα Χεριών 150ml,Nivea,,0.32,ok
+104174,NIVEA SOFT 200ML 89050,NIVEA,200ml,ab,7111092,Κρέμα Χεριών Soft 200ml,NIVEA,200 ml,0.3,ok
+104174,NIVEA SOFT 200ML 89050,NIVEA,200ml,mymarket,718415,Nivea Soft Κρέμα 200ml,Nivea,,0.46,ok
+10433,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ ΚΡΑΣΙ ΕΡΥΘΡΟ TETRA PACK 1L,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ,1L,ab,7090978,Οίνος Ερυθρός 1lt,ΤΟ ΚΡΑΣΙ ΤΗΣ ΠΑΡΕΑΣ,1 λιτ,0.4,ok
+104625,VASELINE PETR. JELLY 100ML,VASELINE,100ml,ab,7111116,Βαζελίνη Κλασική 100ml,VASELINE,100 ml,0.31,ok
+104625,VASELINE PETR. JELLY 100ML,VASELINE,100ml,mymarket,716294,Vaseline Petroleum Jelly 100ml,Vaseline,,0.69,ok
+10487,ΜΠΟΥΤΑΡΗ ΜΟΣΧΟΦΙΛΕΡΟ 750ML,ΜΠΟΥΤΑΡΗ,750ml,ab,7439135,Οίνος Λευκός Μοσχοφίλερο 750ml,ΜΠΟΥΤΑΡΗ,750 ml,0.54,ok
+10487,ΜΠΟΥΤΑΡΗ ΜΟΣΧΟΦΙΛΕΡΟ 750ML,ΜΠΟΥΤΑΡΗ,750ml,mymarket,430065,Μοσχοφίλερο Μπουτάρη Λευκός Οίνος 750ml,Μπουτάρη,,0.53,ok
+105034,EXCELLENCE NO 01 ΥΠΕΡ-ΞΑΝΘΟ ΦΥΣΙΚΟ,EXCELLENCE,48ml,ab,7120486,Βαφή Μαλλιών Νο01 Υπέρ Ξανθό Φυσικό 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.5,ok
+105034,EXCELLENCE NO 01 ΥΠΕΡ-ΞΑΝΘΟ ΦΥΣΙΚΟ,EXCELLENCE,48ml,mymarket,705501,L'OREAL Excellence Cream No01 Υπερ Ξανθό Φυσικό 48ml,L'OREAL,,0.54,ok
+105041,EXCELLENCE CREME N.9 48ML,EXCELLENCE,48ml,ab,7120517,Βαφή Μαλλιών Νο9 Ξανθό Πολύ Ανοιχτό 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.13,ok
+105042,EXCELLENCE N.9.1,EXCELLENCE,48ml,ab,7120539,Βαφή Μαλλιών Νο9.1 Ξανθό Πολύ Ανοιχτό Σαντρέ 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.13,ok
+105042,EXCELLENCE N.9.1,EXCELLENCE,48ml,mymarket,705498,L'OREAL Excellence Cream No 9.1 Ξανθό Πολύ Ανοιχτό Σαντρέ 48ml,L'OREAL,,0.14,ok
+105049,EXCELLENCE CREME N.1  ΜΑΥΡΟ 48ML,EXCELLENCE,48ml,ab,7120528,Βαφή Μαλλιών Νο1 Μαύρο 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.24,ok
+105049,EXCELLENCE CREME N.1  ΜΑΥΡΟ 48ML,EXCELLENCE,48ml,mymarket,705343,L'OREAL Excellence Cream No 1 Μαύρο 48ml,L'OREAL,,0.49,ok
+105051,EXCELLENCE CREME N.4 ΚΑΣΤΑΝΟ 48ML,EXCELLENCE,48ml,ab,7120489,Βαφή Μαλλιών Νο4 Καστανό 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.29,ok
+105051,EXCELLENCE CREME N.4 ΚΑΣΤΑΝΟ 48ML,EXCELLENCE,48ml,mymarket,705591,L'OREAL Excellence Cream No 4 Καστανό 48ml,L'OREAL,,0.53,ok
+105052,EXCELLENCE CREME N.5 48ML,EXCELLENCE,48ml,ab,7120493,Βαφή Μαλλιών Νο5 Καστανό Ανοιχτό 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.14,ok
+105052,EXCELLENCE CREME N.5 48ML,EXCELLENCE,48ml,mymarket,705593,L'OREAL Excellence Cream No 5 Καστανό Ανοιχτό 48ml,L'OREAL,,0.27,ok
+105056,EXCELLENCE CREME N.6 48ML,EXCELLENCE,48ml,ab,7120497,Βαφή Μαλλιών Νο6 Ξανθό Σκούρο 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.14,ok
+105056,EXCELLENCE CREME N.6 48ML,EXCELLENCE,48ml,mymarket,705595,L'OREAL Excellence Cream No 6 Ξανθό Σκούρο 48ml,L'OREAL,,0.28,ok
+105059,EXCELLENCE CREME N.7 48ML,EXCELLENCE,48ml,ab,7120501,Βαφή Μαλλιών Νο7 Ξανθό 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.16,ok
+105059,EXCELLENCE CREME N.7 48ML,EXCELLENCE,48ml,mymarket,705597,L'OREAL Excellence Cream No 7 Ξανθό 48ml,L'OREAL,,0.32,ok
+105060,EXCELLENCE CREME N.7.1 48ML,EXCELLENCE,48ml,mymarket,705421,"L'OREAL Excellence Cream No 7,1 Ξανθό Σαντρέ 48ml",L'OREAL,,0.27,ok
+105061,EXCELLENCE CREME N.8 48ML,EXCELLENCE,48ml,ab,7120508,Βαφή Μαλλιών Νο8 Ξανθό Ανοιχτό 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.14,ok
+105061,EXCELLENCE CREME N.8 48ML,EXCELLENCE,48ml,mymarket,705599,L'OREAL Excellence Cream No 8 Ξανθό Ανοιχτό 48ml,L'OREAL,,0.27,ok
+105062,EXCELLENCE CREME N.8.1 48ML,EXCELLENCE,48ml,ab,7120513,Βαφή Μαλλιών Νο8.1 Ξανθό Ανοιχτό Σαντρέ 1 Τεμάχιο,EXCELLENCE,1 τεμ,0.12,ok
+105062,EXCELLENCE CREME N.8.1 48ML,EXCELLENCE,48ml,mymarket,705500,L'OREAL Excellence Cream No 8.1 Ξανθό Ανοιχτό Σαντρέ 48ml,L'OREAL,,0.23,ok
+105726,KOLESTON KIT 7/0 MEDIUM BL GR-IL 50ML,KOLESTON,50ml,ab,7112999,Βαφή Μαλλιών 7/0 Μεσαίο Ξανθό 1 Τεμάχιο,KOLESTON,1 τεμ,0.13,ok
+105726,KOLESTON KIT 7/0 MEDIUM BL GR-IL 50ML,KOLESTON,50ml,mymarket,765392,Koleston Βαφή Μαλλιών Νο7/0 50ml,Koleston,,0.22,ok
+105727,KOLESTON KIT 7/1 MEDIUM ASH BL GR-IL 50ML,KOLESTON,50ml,ab,7113002,Βαφή Μαλλιών 7/1 Μεσαίο Ξανθό Σαντρέ 1 Τεμάχιο,KOLESTON,1 τεμ,0.12,ok
+105727,KOLESTON KIT 7/1 MEDIUM ASH BL GR-IL 50ML,KOLESTON,50ml,mymarket,765393,Koleston Βαφή Μαλλιών Νο 7/1 50ml,Koleston,,0.21,ok
+105729,KOLESTON KIT 8/0 LIGHT BL GR-IL 50ML,KOLESTON,50ml,ab,7113008,Βαφή Μαλλιών 8/0 Ανοιχτό Ξανθό 1 Τεμάχιο,KOLESTON,1 τεμ,0.1,ok
+105729,KOLESTON KIT 8/0 LIGHT BL GR-IL 50ML,KOLESTON,50ml,mymarket,765398,Koleston Βαφή Μαλλιών Νο 8/0 50ml,Koleston,,0.23,ok
+105742,KOLESTON KIT 5/0 LIGHT BROWN GR-IL 50ML,KOLESTON,50ml,ab,7112977,Βαφή Μαλλιών 5/0 Ανοιχτό Καστανό 1 Τεμάχιο,KOLESTON,1 τεμ,0.09,ok
+105742,KOLESTON KIT 5/0 LIGHT BROWN GR-IL 50ML,KOLESTON,50ml,mymarket,765379,Koleston Βαφή Μαλλιών No5/0 50ml,Koleston,,0.21,ok
+105744,KOLESTON KIT 67 CHOCOLATE BROWN GR-IL 50ML,KOLESTON,50ml,ab,7112991,Βαφή Μαλλιών 6/7 Υπέροχο Σοκολατί 1 Τεμάχιο,KOLESTON,1 τεμ,0.13,ok
+105744,KOLESTON KIT 67 CHOCOLATE BROWN GR-IL 50ML,KOLESTON,50ml,mymarket,765388,Koleston Βαφή Μαλλιών No6/7 50ml,Koleston,,0.2,ok
+105746,KOLESTON KIT 7/77 SEDUC BROWN GR-IL 50ML,KOLESTON,50ml,ab,7113006,Βαφή Μαλλιών 7/77 Αρμονικό Καστανό 1 Τεμάχιο,KOLESTON,1 τεμ,0.1,ok
+105746,KOLESTON KIT 7/77 SEDUC BROWN GR-IL 50ML,KOLESTON,50ml,mymarket,765410,Koleston Βαφή Μαλλιών Νο7/77 50ml,Koleston,,0.23,ok
+106104,GILLETTE GEL SATIN WOM.SENSIT.SKIN 200ML,GILLETTE,200ml,ab,7114298,Gel Ξυρίσματος Sensitive Skin 200ml,GILLETTE,200 ml,0.4,ok
+106104,GILLETTE GEL SATIN WOM.SENSIT.SKIN 200ML,GILLETTE,200ml,mymarket,707229,Gillette Venus Satin Gel Sensitive Skin 200ml,Gillette,,0.5,ok
+106106,GILLETTE  VENUS 3MULTICOLOR ΜΙΑΣ ΧΡΗΣΗΣ 4Τ,GILLETTE,4τεμ.,ab,7740727,Ξυραφάκια Venus 3 Colors 4 Τεμάχια,GILLETTE,4 τεμ,0.24,ok
+106106,GILLETTE  VENUS 3MULTICOLOR ΜΙΑΣ ΧΡΗΣΗΣ 4Τ,GILLETTE,4τεμ.,mymarket,709269,Gillette Venus Comfort Color Ξυραφάκια Μιας Χρήσης 4τεμ,Gillette,,0.46,ok
+10617,ΚΡΑΣΙ ΚΤΗΜΑ ΓΕΡΟΒΑΣΙΛΕΙΟΥ ΛΕΥΚΟ 750ML,ΚΤΗΜΑ ΓΕΡΟΒΑΣΙΛΕΙΟΥ,750ml,ab,7092840,Οίνος Λευκός Γεροβασιλείου 750ml,ΚΤΗΜΑ ΓΕΡΟΒΑΣΙΛΕΙΟΥ,750 ml,0.5,ok
+10617,ΚΡΑΣΙ ΚΤΗΜΑ ΓΕΡΟΒΑΣΙΛΕΙΟΥ ΛΕΥΚΟ 750ML,ΚΤΗΜΑ ΓΕΡΟΒΑΣΙΛΕΙΟΥ,750ml,mymarket,431497,Γεροβασιλείου Ξηρός Λευκός 750ml,Κτήμα Γεροβασιλείου,,0.5,ok
+10623,THEMA ΠΑΥΛΙΔΗ ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML.,ΚΤΗΜΑ ΠΑΥΛΙΔΗ,750ml,ab,7098749,Οίνος Λευκός Thema 750ml,ΚΤΗΜΑ ΠΑΥΛΙΔΗ,750 ml,0.77,ok
+10623,THEMA ΠΑΥΛΙΔΗ ΟΙΝΟΣ ΛΕΥΚΟΣ 750ML.,ΚΤΗΜΑ ΠΑΥΛΙΔΗ,750ml,mymarket,431451,Κτήμα Παυλίδη Thema Λευκός Οίνος 750ml,Κτήμα Παυλίδη,,0.73,ok
+10656,ΤΕΣΣΕΡΙΣ ΛΙΜΝΕΣ ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ ΛΕΥΚΟΣ 750ML,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,ab,7090778,Οίνος Λευκός Ξηρός Τέσσερις Λίμνες 750ml,ΚΥΡ ΓΙΑΝΝΗ,750 ml,0.5,ok
+10656,ΤΕΣΣΕΡΙΣ ΛΙΜΝΕΣ ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ ΛΕΥΚΟΣ 750ML,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,mymarket,431467,Τέσσερις Λίμνες Κυρ Γιάννη Λευκός Οίνος 750ml,Κτήμα Κυρ Γιάννη,,0.84,ok
+106854,STUDIO FX GEL EX.ΔΥΝ.150ML.,STUDIO LINE,150ml,ab,7110294,Gel Μαλλιών Διάφανο Πολύ Δυνατό Κράτημα 150ml,STUDIO LINE,150 ml,0.22,ok
+106854,STUDIO FX GEL EX.ΔΥΝ.150ML.,STUDIO LINE,150ml,mymarket,704571,L'OREAL Styling Studio Line FX Ρευστό Gel Extra Δυνατό 150ml,L'OREAL,,0.25,ok
+10691,ΑΓΙΩΡΓΙΤΙΚΟ ΜΠΟΥΤΑΡΗ 750ML.,ΜΠΟΥΤΑΡΗ,750ml,ab,7087476,Οίνος Ερυθρός Αγιωργήτικο 750ml,ΜΠΟΥΤΑΡΗ,750 ml,0.42,ok
+10691,ΑΓΙΩΡΓΙΤΙΚΟ ΜΠΟΥΤΑΡΗ 750ML.,ΜΠΟΥΤΑΡΗ,750ml,mymarket,430070,Μπουτάρη Αγιωργίτικο Ερυθρός Οίνος 750ml,Μπουτάρης Οινοποιητική,,0.4,ok
+107001,ELNETT HAIRSPRAY SATIN KANONIKA 400ML,ELNETT,400ml,ab,7110261,Λακ Χτενίσματος Extra Δυνατό Κράτημα 400ml,ELNETT,400 ml,0.14,ok
+107001,ELNETT HAIRSPRAY SATIN KANONIKA 400ML,ELNETT,400ml,mymarket,754005,L'OREAL Elnett Satin Spray Κανονικό Κράτημα 400ml,L'OREAL,,0.35,ok
+10702,ΜΠΑΜΠΑΤΖΙΜ ΤΣΙΠΟΥΡΟ ΧΩΡΙΣ ΓΛΥΚΑΝΙΣΟ 200ML,ΜΠΑΜΠΑΤΖΙΜ,200ml,ab,7104110,Τσίπουρο χωρίς Γλυκάνισο 200ml,ΜΠΑΜΠΑΤΖΙΜ,200 ml,0.94,ok
+10702,ΜΠΑΜΠΑΤΖΙΜ ΤΣΙΠΟΥΡΟ ΧΩΡΙΣ ΓΛΥΚΑΝΙΣΟ 200ML,ΜΠΑΜΠΑΤΖΙΜ,200ml,mymarket,461563,Μπαμπατζίμ Τσίπουρο Χωρίς Γλυκάνισο 200ml,Μπαμπατζίμ,,1.0,ok
+10718,MOSCATO D^ASTI DOCG GANCIA 750ML,DOCG,750ml,ab,7227631,Οίνος Αφρώδης Moscato Dasti 750ml,GANCIA,750 ml,0.4,ok
+10721,ΑΓΙΩΡΓΙΤΙΚΟ ΡΕΠΑΝΗ ΟΙΝΟΣ ΕΡΥΘΡΟΣ 750ML,ΡΕΠΑΝΗ,750ml,mymarket,430926,Αγιωργίτικο Ρεπάνης Ερυθρός Οίνος 750ml,Ρεπάνης,,0.73,ok
+10722,ΡΕΠΑΝΗ ΚΡΑΣΙ ΜΟΣΧΟΦΙΛΕΡΟ ΛΕΥΚΟ 750ML,ΡΕΠΑΝΗ,750ml,mymarket,430920,Ρεπάνη Μοσχοφίλερο Λευκός Οίνος 750ml,Ρεπάνης,,0.51,ok
+107474,WELLAFLEX HS ΑΟΡΑΤΟ ΚΡΑΤΗΜΑ 250ML,WELLAFLEX,250ml,ab,7110211,Λακ Μαλλιών Invisible Hold Έξτρα Δυνατό 250ml,WELLAFLEX,250 ml,0.17,ok
+107474,WELLAFLEX HS ΑΟΡΑΤΟ ΚΡΑΤΗΜΑ 250ML,WELLAFLEX,250ml,mymarket,704772,Wellaflex Λακ Πολύ Δυνατό 250ml,Wella,,0.25,ok
+1075,ΜΑΝΙΤΑΡΙΑ ΠΛΕΥΡΩΤΟΥΣ ΚΕΧΑΓΙΑ ΕΛΛΗΝΙΚΑ 500ΓΡ,Κεχαγία,500gr,mymarket,198477,Μανιτάρια Πλευρώτους Ελληνικά 500gr,,,0.67,ok
+10760,ΚΡΑΣΙ MOSTRA ΛΕΥΚΟΣ 500ML,MOSTRA,500ml,mymarket,431456,Mostra Λευκός Οίνος 500ml,Mostra,,0.52,ok
+10761,ΑΚΑΚΙΕΣ KTHMA ΚΥΡ ΓΙΑΝΝΗ ΟΙΝΟΣ ΡΟΖΕ 750ML,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,ab,7123708,Οίνος Ροζέ Αkakies 750ml,ΑΚΑΚΙΕΣ,750 ml,0.34,ok
+10761,ΑΚΑΚΙΕΣ KTHMA ΚΥΡ ΓΙΑΝΝΗ ΟΙΝΟΣ ΡΟΖΕ 750ML,ΚΤΗΜΑ ΚΥΡ ΓΙΑΝΝΗ,750ml,mymarket,431470,Κτήμα Κυρ Γιάννη Ακακίες Ροζέ Οίνος 750ml,Κτήμα Κυρ Γιάννη,,0.62,ok
+10762,ΚΡΑΣΙ MOSTRA ΡΟΖΕ 500ML,MOSTRA,500ml,mymarket,431457,Mostra Ροζέ Οίνος 500ml,Mostra,,0.38,ok
+10764,ΚΡΑΣΙ MOSTRA ΕΡΥΘΡΟΣ 500ML,MOSTRA,500ml,mymarket,431458,Mostra Ερυθρός Οίνος 500ml,Mostra,,0.55,ok
+107694,WELLAFLEX HS 2ND DAY VOL.ΕΞ.ΔΥΝΑΤΟ ΚΡΑΤΗΜΑ 400ML,WELLAFLEX,400ml,ab,7127061,Λακ Μαλλιών 2Days Volume Πολύ Δυνατό 400ml,WELLAFLEX,400 ml,0.24,ok
+107694,WELLAFLEX HS 2ND DAY VOL.ΕΞ.ΔΥΝΑΤΟ ΚΡΑΤΗΜΑ 400ML,WELLAFLEX,400ml,mymarket,704058,Wellaflex Λακ Όγκος 2 Ημερών 400ml,WELLAFLEX,,0.21,ok
+107799,WELLAFLEX HS ΕΞΑΙΡΕΤΙΚΑ ΔΥΝΑΤΟ ΚΡΑΤΗΜΑ 250ML,WELLAFLEX,250ml,ab,7110211,Λακ Μαλλιών Invisible Hold Έξτρα Δυνατό 250ml,WELLAFLEX,250 ml,0.21,ok
+107799,WELLAFLEX HS ΕΞΑΙΡΕΤΙΚΑ ΔΥΝΑΤΟ ΚΡΑΤΗΜΑ 250ML,WELLAFLEX,250ml,mymarket,704773,Wella Flex Λακ Εξαιρετικά Δυνατό 250ml,Wella,,0.5,ok
+107820,PALETTE ICC SEMI SET N.1 ΜΑΥΡΟ ΜΠΛΕ,PALETTE,50ml,ab,7113496,Βαφή Μαλλιών Intensive Color 1 Μαύρο Μπλε 1 Τεμάχιο,PALETTE,1 τεμ,0.19,ok
+107820,PALETTE ICC SEMI SET N.1 ΜΑΥΡΟ ΜΠΛΕ,PALETTE,50ml,mymarket,765192,Palette Κρέμα Βαφή Μαλλιών N1 Μαύρο Μπλε,Palette,,0.34,ok
+107821,PALETTE ICC SEMI SET N.4 ΚΑΣΤΑΝΟ,PALETTE,50ml,ab,7113486,Βαφή Μαλλιών Intensive Color 4 Καστανό 1 Τεμάχιο,PALETTE,1 τεμ,0.18,ok
+107821,PALETTE ICC SEMI SET N.4 ΚΑΣΤΑΝΟ,PALETTE,50ml,mymarket,765199,Palette Κρέμα Βαφή Μαλλιών Ν4 Καστανό,Palette,,0.32,ok
+107822,PALETTE SEMI SET N.5,PALETTE,50ml,ab,7113488,Βαφή Μαλλιών Intensive Color 5 Καστανό Ανοιχτό 1 Τεμάχιο,PALETTE,1 τεμ,0.08,ok
+107822,PALETTE SEMI SET N.5,PALETTE,50ml,mymarket,765198,Palette Κρέμα Βαφή Μαλλιών Ν5 Καστανό Ανοιχτό,Palette,,0.15,ok
+107823,PALETTE SEMI SET N.6,PALETTE,50ml,ab,7113489,Βαφή Μαλλιών Intensive Color 6 Ξανθό Σκούρο 1 Τεμάχιο,PALETTE,1 τεμ,0.08,ok
+107823,PALETTE SEMI SET N.6,PALETTE,50ml,mymarket,765197,Palette Κρέμα Βαφή Μαλλιών Ν6 Ξανθό Σκούρο,Palette,,0.15,ok
+107824,PALETTE ICC SEMI SET N.7 ΞΑΝΘΟ,PALETTE,50ml,ab,7113490,Βαφή Μαλλιών Intensive Color 7 Ξανθό 1 Τεμάχιο,PALETTE,1 τεμ,0.16,ok
+107824,PALETTE ICC SEMI SET N.7 ΞΑΝΘΟ,PALETTE,50ml,mymarket,765196,Palette Κρέμα Βαφή Μαλλιών Ν7 Ξανθό,Palette,,0.3,ok
+107825,PALETTE SEMI SET N.8,PALETTE,50ml,ab,7113491,Βαφή Μαλλιών Intensive Color 8 Ξανθό Ανοιχτό 1 Τεμάχιο,PALETTE,1 τεμ,0.08,ok
+107825,PALETTE SEMI SET N.8,PALETTE,50ml,mymarket,765195,Palette Κρέμα Βαφή Μαλλιών N8 Ξανθό Ανοιχτό,Palette,,0.15,ok
+107826,PALETTE SEMI SET N.9,PALETTE,50ml,ab,7113493,Βαφή Μαλλιών Intensive Color 9 Ξανθό Πολύ Ανοιχτό 1 Τεμάχιο,PALETTE,1 τεμ,0.07,ok
+107826,PALETTE SEMI SET N.9,PALETTE,50ml,mymarket,765194,Palette Κρέμα Βαφή Μαλλιών Ν9 Ξανθό Πολύ Ανοιχτό,Palette,,0.13,ok
+107828,PALETTE SEMI SET N. 7.1,PALETTE,50ml,ab,7113503,Βαφή Μαλλιών Intensive Color 7.1 Ξανθό Σαντρέ 1 Τεμάχιο,PALETTE,1 τεμ,0.08,ok
+107828,PALETTE SEMI SET N. 7.1,PALETTE,50ml,mymarket,765186,Palette Κρέμα Βαφή Μαλλιών Ν7.1 Ξανθό Σαντρέ,Palette,,0.17,ok
+107832,PALETTE SEMI SET N. 10.1,PALETTE,50ml,ab,7113498,Βαφή Μαλλιών Intensive Color 10.1 Κατάξανθο Σαντρέ 1 Τεμάχιο,PALETTE,1 τεμ,0.09,ok
+107832,PALETTE SEMI SET N. 10.1,PALETTE,50ml,mymarket,765191,Palette Κρέμα Βαφή Μαλλιών Ν10.1 Κατάξανθο Σαντρέ,Palette,,0.18,ok
+107835,PALETTE SEMI SET N.6.65,PALETTE,50ml,mymarket,765190,Palette Κρέμα Βαφή Μαλλιών N6.65 Έντονο Κόκκινο,Palette,,0.18,ok
+107837,PALETTE SEMI SET N.3,PALETTE,50ml,ab,7113513,Βαφή Μαλλιών Intensive Color 3 Καστανό Σκούρο 1 Τεμάχιο,PALETTE,1 τεμ,0.08,ok
+107837,PALETTE SEMI SET N.3,PALETTE,50ml,mymarket,765727,Palette Κρέμα Βαφή Μαλλιών Ν3 Καστανό Σκούρο,Palette,,0.15,ok
+107841,WELLAFLEX ΑΦΡΟΣ ΜΕΤΑΞΕΝΙΟ ΚΡΑΤΗΜΑ 200ML,WELLAFLEX,200ml,ab,7136509,Αφρός Μαλλιών Smooth Volume Πολύ Δυνατό 200ml,WELLAFLEX,200 ml,0.25,ok
+107841,WELLAFLEX ΑΦΡΟΣ ΜΕΤΑΞΕΝΙΟ ΚΡΑΤΗΜΑ 200ML,WELLAFLEX,200ml,mymarket,704771,Wella Flex Αφρός Μαλλιών Εξαιρετικά Δυνατός 200ml,Wella,,0.26,ok
+107996,SYOSS SHAMPOO INTENSE REPAIR 750ML,SYOSS,750ml,ab,7097174,Σαμπουάν Επανόρθωσης 750ml,SYOSS,750 ml,0.17,ok
+107996,SYOSS SHAMPOO INTENSE REPAIR 750ML,SYOSS,750ml,mymarket,771910,Syoss Shampoo Repair 750ml,Syoss,,0.65,ok
+107997,SYOSS SHAMPOO INTENSE COLOR 750ML,SYOSS,750ml,ab,7097172,Σαμπουάν Βαμμένα Μαλλιά 750ml,SYOSS,750 ml,0.14,ok
+107997,SYOSS SHAMPOO INTENSE COLOR 750ML,SYOSS,750ml,mymarket,771908,Syoss Shampoo Color 750ml,Syoss,,0.63,ok
+108005,SYOSS SHAMPOO INTENSE VOLUME 750ML,SYOSS,750ml,ab,7097177,Σαμπουάν Volume Λεπτά Αδύναμα Μαλλιά 750ml,SYOSS,750 ml,0.2,ok
+108005,SYOSS SHAMPOO INTENSE VOLUME 750ML,SYOSS,750ml,mymarket,771909,Syoss Shampoo Volume 750ml,Syoss,,0.65,ok
+108012,PALETTE SEMI-SET N.5.76 VELV.BROWN 50ML,PALETTE,50ml,ab,7113508,Βαφή Μαλλιών Intensive 5.76 Καστανό Ανοιχτό Σοκολατί 1 Τεμάχιο,PALETTE,1 τεμ,0.07,ok
+108012,PALETTE SEMI-SET N.5.76 VELV.BROWN 50ML,PALETTE,50ml,mymarket,765847,Palette Κρέμα Βαφή Μαλλιών N5.76 Καστανό Ανοιχτό Σοκολατί,Palette,,0.13,ok
+108013,PALETTE SEMI-SET N.4.26 60ML,PALETTE,60ml,mymarket,765779,Palette Κρέμα Βαφή Μαλλιών Ν4.26 Δαμασκηνί,Palette,,0.18,ok
+108059,SYOSS HAIRSPRAY MAX HOLD 400ML,SYOSS,400ml,ab,7109874,Spray Μαλλιών Max Hold 400ml,SYOSS,400 ml,0.56,ok
+108059,SYOSS HAIRSPRAY MAX HOLD 400ML,SYOSS,400ml,mymarket,774706,Syoss Λακ Max 400ml,Syoss,,0.27,ok
+108060,SYOSS HAIR SPRAY VOLUME LIFT 400ML,SYOSS,400ml,ab,7109875,Spray Χτενίσματος Volume Lift 400ml,SYOSS,400 ml,0.45,ok
+108060,SYOSS HAIR SPRAY VOLUME LIFT 400ML,SYOSS,400ml,mymarket,774707,Syoss Λακ Volume Lift 400ml,Syoss,,0.53,ok
+108061,SYOSS MOUSSE CURL CONTROL 250ML,SYOSS,250ml,mymarket,774710,Syoss Μους Curls 250ml,Syoss,,0.44,ok
+108063,SYOSS HAIRSPRAY STRONG 400ML,SYOSS,400ml,mymarket,774708,Syoss Λακ Strong 400ml,Syoss,,0.47,ok
+10876,ΚΑΤΩΓΙ ΑΒΕΡΩΦ ΡΟΖΕ DEMI 750ML,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750ml,ab,7343459,Οίνος Ροζέ Ημίξηρος 750ml,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750 ml,0.36,ok
+10876,ΚΑΤΩΓΙ ΑΒΕΡΩΦ ΡΟΖΕ DEMI 750ML,ΚΑΤΩΓΙ ΑΒΕΡΩΦ,750ml,mymarket,431492,Αβέρωφ Ροζέ Οίνος 750ml,Κτήμα Αβέρωφ,,0.28,ok
+10889,CALLIGA DEMI SEC ΟΙΝΟΣ ΡΟΖΕ 750ML,CALLIGA,750ml,mymarket,430972,Calliga Ροζέ Οίνος Demi Sec 750ml,Calliga,,0.56,ok
+11001,SPRITE ΓΚΑΖΟΖΑ 1.5L,SPRITE,"1,5L",ab,7092677,Αναψυκτικό Γκαζόζα Φιάλη 1.5lt,SPRITE,"1,5 λιτ",0.27,ok
+11001,SPRITE ΓΚΑΖΟΖΑ 1.5L,SPRITE,"1,5L",mymarket,401120,"Sprite 6x1,5lt",Sprite,,0.33,size
+11002,SPRITE ΓΚΑΖΟΖΑ ΚΟΥΤΙ    330ML,SPRITE,330ml,ab,7092661,Αναψυκτικό Γκαζόζα Κουτί 330ml,SPRITE,330 ml,0.53,ok
+11004,7UP ΦΙΑΛΗ 1.5L,7UP,"1,5L",ab,7092647,"Αναψυκτικό Γκαζόζα Φιάλη 1,5lt",7UP,"1,5 λιτ",0.22,ok
+11004,7UP ΦΙΑΛΗ 1.5L,7UP,"1,5L",mymarket,401014,"7 Up 1,5lt 6τεμ",Seven Up,,0.17,ok
+11008,SPRITE ΓΚΑΖΟΖΑ 500ML,SPRITE,500ml,ab,7092669,Αναψυκτικό Γκαζόζα Φιάλη 500ml,SPRITE,500 ml,0.32,ok
+11010,COCA COLA 1.5L,COCA COLA,1.5L,ab,7092468,"Αναψυκτικό Cola Φιάλη 1,5lt",COCA COLA,"1,5 λιτ",0.23,ok
+11010,COCA COLA 1.5L,COCA COLA,1.5L,mymarket,401140,"Coca-Cola 6x1,5lt",Coca Cola,,0.53,size
+11011,COCA COLA LIGHT 1.5L,COCA COLA,"1,5L",ab,7092505,"Αναψυκτικό Cola Light Φιάλη 1,5lt",COCA COLA,"1,5 λιτ",0.34,ok
+11011,COCA COLA LIGHT 1.5L,COCA COLA,"1,5L",mymarket,401765,"Coca Cola Light 6x1,5lt",Coca Cola,,0.65,size
+11012,COCA COLA SLK ΚΟΥΤΙ 330ML,COCA COLA,330ml,ab,7092436,Αναψυκτικό Cola Κουτί 330ml,COCA COLA,330 ml,0.4,ok
+11012,COCA COLA SLK ΚΟΥΤΙ 330ML,COCA COLA,330ml,mymarket,401132,Coca-Cola 330ml 1τεμ,Coca Cola,,0.38,ok
+11013,COCA COLA LIGHT ΚΟΥΤΙ 330ML,COCA COLA,330ml,ab,7092486,Αναψυκτικό Cola Κουτί 330ml,COCA COLA,330 ml,0.38,ok
+11014,PEPSI COLA 1.5L,PEPSI,"1,5L",ab,7092417,Αναψυκτικό Cola 1.5lt,PEPSI,"1,5 λιτ",0.31,ok
+11014,PEPSI COLA 1.5L,PEPSI,"1,5L",mymarket,401028,"Pepsi Cola 1,5lt",Pepsi,,0.92,ok
+11027,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 500ML,FANTA,500ml,ab,7092583,Πορτοκαλάδα Φιάλη 500ml,FANTA,500 ml,0.61,ok
+11051,ΛΟΥΞ ΛΕΜΟΝΑΔΑ PET 1.5L,ΛΟΥΞ,1.5L,ab,7092738,Λεμονάδα Φιάλη 1.5lt,ΛΟΥΞ,"1,5 λιτ",0.44,ok
+11051,ΛΟΥΞ ΛΕΜΟΝΑΔΑ PET 1.5L,ΛΟΥΞ,1.5L,mymarket,401988,Λουξ Λεμονάδα 1.5lt,Λουξ,,0.6,ok
+11056,ΛΟΥΞ ΠΟΡΤΟΚΑΛΑΔΑ 1.5L,ΛΟΥΞ,"1,5L",ab,7092599,Πορτοκαλάδα με Ανθρακικό 1.5lt,ΛΟΥΞ,"1,5 λιτ",0.42,ok
+11057,PEPSI TWIST 1.5L,PEPSI,1.5L,ab,7092985,Αναψυκτικό Cola 1.5lt,PEPSI,"1,5 λιτ",0.13,ok
+11057,PEPSI TWIST 1.5L,PEPSI,1.5L,mymarket,401386,"Pepsi Twist 1,5lt",Pepsi,,0.93,ok
+11114,COCA COLA 2*1.5L,COCA COLA,2*1.5L,ab,7092456,"Αναψυκτικό Cola Φιάλη 2x1,5lt",COCA COLA,3 λιτ,0.21,ok
+11114,COCA COLA 2*1.5L,COCA COLA,2*1.5L,mymarket,401807,"Coca-Cola 2x1,5lt",Coca Cola,,0.6,ok
+11119,ΛΟΥΞ ΓΚΑΖΟΖΑ PET 330ML,ΛΟΥΞ,330ml,ab,7092100,Αναψυκτικό Γκαζόζα Φιάλη 330ml,ΛΟΥΞ,330 ml,0.26,ok
+11125,ΛΟΥΞ ΒΥΣΣΙΝΑΔΑ PET 330ML,ΛΟΥΞ,330ml,ab,7091561,Βυσσινάδα  330ml,ΛΟΥΞ,330 ml,0.61,ok
+11144,COCA COLA 0.5L,COCA COLA,500ml,ab,7092447,Αναψυκτικό Cola Φιάλη 500ml,COCA COLA,500 ml,0.18,ok
+11144,COCA COLA 0.5L,COCA COLA,500ml,mymarket,401151,Coca-Cola 500ml 1τεμ,Coca Cola,,0.37,ok
+11171,COCA COLA 4*500ML,COCA COLA,4*500ml,ab,7092484,Αναψυκτικό Cola Φιάλη 4x500ml,COCA COLA,2 λιτ,0.26,ok
+11171,COCA COLA 4*500ML,COCA COLA,4*500ml,mymarket,401155,Coca-Cola 4x500ml,Coca Cola,,0.69,ok
+112010,VEET ΑΠΟΤΡΙΧ/ΚΗ ΚΡΕΜΑ DERMORESPECT 100ML,VEET,100ml,ab,7111288,Αποτριχωτική Κρέμα Pure Ευαίσθητες Επιδερμίδες 100ml,VEET,100 ml,0.3,ok
+112010,VEET ΑΠΟΤΡΙΧ/ΚΗ ΚΡΕΜΑ DERMORESPECT 100ML,VEET,100ml,mymarket,716513,Veet Pure Αποτριχωτική Κρέμα για Ευαίσθητες Επιδερμίδες 100ml,Veet,,0.28,ok
+112055,VEET ΑΠΟΤΡΙΧ/ΚΗ ΚΡΕΜΑ ΚΑΝΟΝΙΚΗ ΕΠΙΔΕΡΜΙΔΑ 100ML,VEET,100ml,ab,7111284,Αποτριχωτική Κρέμα Pure Κανονικές Επιδερμίδες 100ml,VEET,100 ml,0.53,ok
+112055,VEET ΑΠΟΤΡΙΧ/ΚΗ ΚΡΕΜΑ ΚΑΝΟΝΙΚΗ ΕΠΙΔΕΡΜΙΔΑ 100ML,VEET,100ml,mymarket,716506,Veet Αποτριχωτική Κρέμα Κανονικές Επιδερμίδες 100ml,Veet,,0.66,ok
+11241,PEPSI ZERO SUGAR 1.5LT,PEPSI,"1,5L",ab,7092392,Αναψυκτικό Cola Zero 1.5lt,PEPSI,"1,5 λιτ",0.19,ok
+11241,PEPSI ZERO SUGAR 1.5LT,PEPSI,"1,5L",mymarket,401059,"Pepsi Zero 6x1,5lt",Pepsi,,0.5,size
+112507,VEET ΑΠΟΤΡΙΧ/ΚΟ ΚΕΡΙ ΚΡΥΟ ΠΟΔΙΩΝ ΚΑΝΟΝΙΚΟ 20Τ,VEET,20 τεμ.,ab,7111276,Αποτριχωτικές Ταινίες Σώματος Κανονικές Επιδερμίδες 20 Τεμάχια,VEET,20 τεμ,0.2,ok
+112507,VEET ΑΠΟΤΡΙΧ/ΚΟ ΚΕΡΙ ΚΡΥΟ ΠΟΔΙΩΝ ΚΑΝΟΝΙΚΟ 20Τ,VEET,20 τεμ.,mymarket,716508,Veet Αποτριχωτικό Κρύο Κερί Ταινίες Ποδιών 20τεμ,Veet,,0.41,ok
+112508,VEET ΑΠΟΤΡΙΧ/ΚΟ ΚΕΡΙ ΚΡΥΟ ΠΟΔΙΑ ΕΥ.ΕΠΙΔΕΡΜ. 20Τ,VEET,20 τεμ.,ab,7111277,Αποτριχωτικές Ταινίες Σώματος Ευαίσθητες Επιδερμίδες 20 Τεμάχια,VEET,20 τεμ,0.19,ok
+112508,VEET ΑΠΟΤΡΙΧ/ΚΟ ΚΕΡΙ ΚΡΥΟ ΠΟΔΙΑ ΕΥ.ΕΠΙΔΕΡΜ. 20Τ,VEET,20 τεμ.,mymarket,716249,Veet Κρύο Κερί Πόδια Ευαίσθητες Επιδερμίδες 20 Ταινιές,Veet,,0.3,ok
+11252,PEPSI ZERO SUGAR PET 500ML,PEPSI,500ml,ab,7092387,Αναψυκτικό Cola Zero 500ml,PEPSI,500 ml,0.2,ok
+112521,VEET ΑΠΟΤΡΙΧ/ΚΟ ΚΕΡΙ ΚΡΥΟ ΓΙΑ ΠΡΟΣΩΠΟ 20T,VEET,20ταινίες,ab,7111275,Αποτριχωτικές Ταινίες Προσώπου Κανονική Επιδερμίδα 20 Τεμάχια,VEET,20 τεμ,0.21,ok
+112521,VEET ΑΠΟΤΡΙΧ/ΚΟ ΚΕΡΙ ΚΡΥΟ ΓΙΑ ΠΡΟΣΩΠΟ 20T,VEET,20ταινίες,mymarket,716526,Veet Αποτριχωτικο Κρυο Κερι Προσώπου 20τεμ,Veet,,0.49,ok
+114000,LIPOSAN CLASSIC CARE BLISTER 4.8ΓΡ.,LIPOSAN,"4,8γρ.",ab,7113570,"Ενυδατικό Χειλιών Original 5,5ml",LIPOSAN,5 γρ,0.09,ok
+114000,LIPOSAN CLASSIC CARE BLISTER 4.8ΓΡ.,LIPOSAN,"4,8γρ.",mymarket,706445,"Liposan Classic 4,8gr",Liposan,,0.52,ok
+114010,LIPOSAN ΚΕΡΑΣΙ BLISTER 4.8ΓΡ,LIPOSAN,"4,8γρ.",ab,7113563,"Ενυδατικό Χειλιών Κεράσι 5,5ml",LIPOSAN,5 γρ,0.22,ok
+114010,LIPOSAN ΚΕΡΑΣΙ BLISTER 4.8ΓΡ,LIPOSAN,"4,8γρ.",mymarket,706402,"Liposan Cherry 4,8gr",Liposan,,0.28,ok
+11414,COCA COLA LIGHT 0.5L,COCA COLA,500ml,ab,7092494,Αναψυκτικό Cola Φιάλη 500ml,COCA COLA,500 ml,0.19,ok
+11551,COCA COLA ΚΟΥΤΙ 330ML(5+1)Δ,COCA COLA,6*330ml,ab,7092440,Αναψυκτικό Cola Κουτί 6x330ml 5+1 Δώρο,COCA COLA,"1,98 λιτ",0.42,ok
+11551,COCA COLA ΚΟΥΤΙ 330ML(5+1)Δ,COCA COLA,6*330ml,mymarket,401136,Coca-Cola 330ml 5+1τεμ,Coca Cola,,0.48,ok
+11739,COCA COLA LIGHT 2*1.5L,COCA COLA,"2*1,5L",ab,7092500,"Αναψυκτικό Cola Light Φιάλη 2x1,5lt",COCA COLA,3 λιτ,0.32,ok
+11739,COCA COLA LIGHT 2*1.5L,COCA COLA,"2*1,5L",mymarket,401808,"Coca-Cola Light 2x1,5lt",Coca Cola,,0.7,ok
+11840,FANTA ΠΟΡΤΟΚΑΛΑΔΑ SLK 6*330ML,FANTA,6*330ml,ab,7743070,Πορτοκαλάδα Κόκκινη Λιγότερη Ζάχαρη Κουτί 6x330ml,FANTA,"1,98 λιτ",0.3,ok
+11840,FANTA ΠΟΡΤΟΚΑΛΑΔΑ SLK 6*330ML,FANTA,6*330ml,mymarket,401186,Fanta Πορτοκαλάδα 6x330ml,Fanta,,0.66,ok
+11842,COCA COLA LIGHT SLK ΚΟΥΤΙ  6*330ML,COCA COLA,6*330ml,ab,7092490,Αναψυκτικό Cola Κουτί 6x330ml,COCA COLA,"1,98 λιτ",0.3,ok
+11842,COCA COLA LIGHT SLK ΚΟΥΤΙ  6*330ML,COCA COLA,6*330ml,mymarket,401154,Coca-Cola Light 6x330ml,Coca Cola,,0.5,ok
+11843,COCA COLA SLK ΚΟΥΤΙ 6*330ML,COCA COLA,6*330ml,mymarket,401137,Coca-Cola 6x330ml,Coca Cola,,0.4,ok
+11859,SPRITE ΓΚΑΖΟΖΑ          4*500ML,SPRITE,4*500ml,ab,7092671,Αναψυκτικό Γκαζόζα Φιάλη 4x500ml,SPRITE,2 λιτ,0.29,ok
+11859,SPRITE ΓΚΑΖΟΖΑ          4*500ML,SPRITE,4*500ml,mymarket,401105,Sprite 4x500ml,Sprite,,0.39,ok
+11860,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 4*500ML,FANTA,4*500ml,ab,7743155,Πορτοκαλάδα Φιάλη 4x500ml,FANTA,2 λιτ,0.55,ok
+11860,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 4*500ML,FANTA,4*500ml,mymarket,401169,Fanta Πορτοκαλάδα 4x500ml,Fanta,,0.8,ok
+11864,ΑΛΦΑ ΜΠΥΡΑ ΚΟΥΤΙ 6*330ML,ΑΛΦΑ,6*330ml,ab,7837086,Μπύρα Lager Κουτί 6x330ml,ΑΛΦΑ,"1,98 λιτ",0.45,ok
+11869,AMSTEL ΚΟΥΤΙ 4*500ML,AMSTEL,4*500ml,ab,7091608,Μπύρα Lager Κουτί 4x500ml,AMSTEL,2 λιτ,0.35,ok
+11869,AMSTEL ΚΟΥΤΙ 4*500ML,AMSTEL,4*500ml,mymarket,420016,ΑΜΣΤΕΛ Μπίρα Κουτί 4x500ml,ΑΜΣΤΕΛ,,0.5,ok
+11870,HEINEKEN ΚΟΥΤΙ 4*500ML,HEINEKEN,4*500ml,ab,7091638,Μπύρα Lager Κουτί 4x500ml,HEINEKEN,2 λιτ,0.39,ok
+11870,HEINEKEN ΚΟΥΤΙ 4*500ML,HEINEKEN,4*500ml,mymarket,420030,Heineken Μπίρα Lager Κουτί 4x500ml,Heineken,,0.45,ok
+11871,FISCHER ΜΠΥΡΑ ΚΟΥΤΙ SLK 6*330ML,FISCHER,6*330ml,ab,7087704,Μπύρα Ρilsener Κουτί 6x330ml,FISCHER,"1,98 λιτ",0.38,ok
+11871,FISCHER ΜΠΥΡΑ ΚΟΥΤΙ SLK 6*330ML,FISCHER,6*330ml,mymarket,420084,Fischer Μπίρα Pilsner Κουτί 6x330ml,Fischer,,0.34,ok
+11872,AMSTEL ΚΟΥΤΙ 6*330ML,AMSTEL,6*330ml,ab,7091595,Μπύρα Lager Κουτί 6x330ml,AMSTEL,"1,98 λιτ",0.35,ok
+11873,HEINEKEN ΚΟΥΤΙ 6*330ML,HEINEKEN,6*330ml,ab,7091630,Μπύρα Lager Κουτί 6x330ml,HEINEKEN,"1,98 λιτ",0.39,ok
+11873,HEINEKEN ΚΟΥΤΙ 6*330ML,HEINEKEN,6*330ml,mymarket,420035,Heineken Μπύρα Lager Κουτί 6x330ml,Heineken,,0.45,ok
+11878,PERRIER ΦΙΑΛΗ ΓΑΛΛΙΑΣ 6*200ML,PERRIER,6*200ml,ab,7092065,Ανθρακούχο Νερό Φυσικό Μεταλλικό 6x200ml,PERRIER,"1,2 λιτ",0.18,ok
+11878,PERRIER ΦΙΑΛΗ ΓΑΛΛΙΑΣ 6*200ML,PERRIER,6*200ml,mymarket,403108,Perrier Ανθρακούχο Νερό Φυσικό Μεταλλικό 6x200ml,Perrier,,0.21,ok
+11889,COCA COLA 1L,COCA COLA,1L,ab,7127774,Αναψυκτικό Cola Φιάλη 1lt,COCA COLA,1 λιτ,0.2,ok
+11889,COCA COLA 1L,COCA COLA,1L,mymarket,401130,Coca-Cola 1lt 1τεμ,Coca Cola,,0.64,ok
+11892,COCA COLA ZERO 1L,COCA COLA,1L,ab,7127757,Αναψυκτικό Cola Zero Φιάλη 1lt,COCA COLA,1 λιτ,0.29,ok
+11892,COCA COLA ZERO 1L,COCA COLA,1L,mymarket,401198,Coca-Cola Zero 1lt 1τεμ,Coca Cola,,0.72,ok
+11893,COCA COLA LIGHT 1L,COCA COLA,1L,mymarket,401197,Coca-Cola Light 1lt 1 τεμάχιo,Coca Cola,,0.58,ok
+119024,BIC ΑΝΑΠΤΗΡΑΣ MEGALIGHTER U-140,BIC,Τεμάχιο,ab,7122989,Αναπτήρας Mega Lighter Design U140 1 Τεμάχιο,BIC,1 τεμ,0.52,ok
+119024,BIC ΑΝΑΠΤΗΡΑΣ MEGALIGHTER U-140,BIC,Τεμάχιο,mymarket,528034,BIC Megalighter Multi Αναπτήρας Πολλαπλών Χρήσεων - Μαυρο ή Μπλε 1τεμ,BIC,,0.29,ok
+11906,COCA COLA 2*1L,COCA COLA,2*1L,ab,7092478,Αναψυκτικό Cola Φιάλη 2x1lt,COCA COLA,2 λιτ,0.18,ok
+11906,COCA COLA 2*1L,COCA COLA,2*1L,mymarket,401125,Coca-Cola 2x1lt,Coca Cola,,0.57,ok
+11909,COCA COLA LIGHT 4*500ML,COCA COLA,4*500ml,ab,7127821,Αναψυκτικό Cola Light Φιάλη 4x500ml,COCA COLA,2 λιτ,0.36,ok
+11909,COCA COLA LIGHT 4*500ML,COCA COLA,4*500ml,mymarket,401810,Coca-Cola Light 4x500ml,Coca Cola,,0.76,ok
+119529,BIC ΑΝΑΠΤΗΡΑΣ J25 ΜΙΝΙ AST M3,BIC,Τεμάχιο,ab,7120336,Αναπτήρας Μίνι J25 3 Τεμάχια,BIC,3 τεμ,0.35,ok
+119529,BIC ΑΝΑΠΤΗΡΑΣ J25 ΜΙΝΙ AST M3,BIC,Τεμάχιο,mymarket,528035,BIC Mini Αναπτήρας Ασφαλείας J25 3τεμ,BIC,,0.44,ok
+11954,FANTA ΠΟΡΤΟΚΑΛΑΔΑ ΜΠΛΕ  1.5LT,FANTA,"1,5L",ab,7100180,Πορτοκαλάδα Χωρίς Ανθρακικό Φιάλη 1.5lt,FANTA,"1,5 λιτ",0.36,ok
+11954,FANTA ΠΟΡΤΟΚΑΛΑΔΑ ΜΠΛΕ  1.5LT,FANTA,"1,5L",mymarket,401570,"Fanta Πορτοκαλάδα Μπλε 1,5lt",Fanta,,1.0,ok
+12001,FISCHER ΜΠΥΡΑ 330ML ΚΟΥΤΙ,FISCHER,330ml,mymarket,420082,Fischer Μπίρα Pilsner Κουτί 330ml,Fischer,,0.4,ok
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,ab,7087699,Μπύρα Pilsner Φιάλη 500ml,FISCHER,500 ml,0.47,ok
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,ab,7336103,Κρέμα Βαλσάμικο  250 ml,ΠΑΝ,250 ml,0.02,"size,brand"
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,ab,7350561,Βαλσάμικο Ξύδι με Ρόδι  250 ml,ΠΑΝ,250 ml,0.02,"size,brand"
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,ab,7620354,Κρέμα Βαλσάμικο  500ml,ΠΑΝ,500 ml,0.06,brand
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,ab,7673793,Κρέμα Βαλσάμικο με Μέλι 250ml,ΠΑΝ,250 ml,0.04,"size,brand"
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,mymarket,202021,ΠΑΝ Βαλσαμικό Ξίδι 250ml,Παν,,0.02,"size,brand"
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,mymarket,202027,ΠΑΝ Βαλσαμικό Ξίδι με Ρόδι 250ml,Παν,,0.02,"size,brand"
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,mymarket,202080,Παν Κρέμα Βαλσάμικο Με Μέλι 250ml,Παν,,0.03,"size,brand"
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,mymarket,202158,ΠΑΝ Μηλόξιδο Πλαστική Φιάλη 350ml,Παν,,0.07,"size,brand"
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,mymarket,202760,ΠΑΝ Βαλσάμικο Ξύδι 500ml,Παν,,0.08,brand
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,mymarket,420081,Fischer Μπίρα Pilsner Φιάλη 500ml,Fischer,,0.37,ok
+12003,FISCHER ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,FISCHER,500ml,mymarket,659553,ΠΑΝ Κρέμα Βαλσάμικο 250ml,Παν,,0.02,"size,brand"
+12004,STELLA ARTOIS ΜΠΥΡΑ ΦΙΑΛΗ OW 5% 330ML,STELLA ARTOIS,330ml,ab,7087333,Μπύρα Φιάλη 330ml,STELLA ARTOIS,330 ml,0.71,ok
+12004,STELLA ARTOIS ΜΠΥΡΑ ΦΙΑΛΗ OW 5% 330ML,STELLA ARTOIS,330ml,mymarket,420803,Stella Artois Μπύρα Φιάλη 330ml,Stella Artois,,0.77,ok
+12015,AMSTEL ΦΙΑΛΗ 500ML ΠΕΡΙΕΧ.,AMSTEL,500ml,ab,7091591,Μπύρα Lager Φιάλη 500ml,AMSTEL,500 ml,0.35,ok
+12015,AMSTEL ΦΙΑΛΗ 500ML ΠΕΡΙΕΧ.,AMSTEL,500ml,mymarket,420003,ΑΜΣΤΕΛ Μπίρα Lager Φιάλη 500ml,ΑΜΣΤΕΛ,,0.41,ok
+12016,AMSTEL ΚΟΥΤΙ 500ML,AMSTEL,500ml,ab,7091606,Μπύρα Lager Κουτί 500ml,AMSTEL,500 ml,0.44,ok
+12016,AMSTEL ΚΟΥΤΙ 500ML,AMSTEL,500ml,mymarket,420012,ΑΜΣΤΕΛ Μπίρα Lager Κουτί 500ml,ΑΜΣΤΕΛ,,0.52,ok
+12017,AMSTEL ΚΟΥΤΙ 330ML,AMSTEL,330ml,ab,7091593,Μπύρα Lager Κουτί 330ml,AMSTEL,330 ml,0.44,ok
+12017,AMSTEL ΚΟΥΤΙ 330ML,AMSTEL,330ml,mymarket,420011,ΑΜΣΤΕΛ Μπίρα Lager Κουτί 330ml,ΑΜΣΤΕΛ,,0.52,ok
+12019,HEINEKEN BEER ΚΟΥΤΙ 500ML,HEINEKEN,500ml,ab,7091637,Μπύρα Lager Κουτί 500ml,HEINEKEN,500 ml,0.57,ok
+12019,HEINEKEN BEER ΚΟΥΤΙ 500ML,HEINEKEN,500ml,mymarket,420032,Heineken Μπίρα Lager Κουτί 500ml,Heineken,,0.63,ok
+12020,HEINEKEN BEER ΚΟΥΤΙ Shrink 330ML,HEINEKEN,330ml,ab,7091627,Μπύρα Lager Κουτί 330ml,HEINEKEN,330 ml,0.39,ok
+12020,HEINEKEN BEER ΚΟΥΤΙ Shrink 330ML,HEINEKEN,330ml,mymarket,420031,Heineken Μπίρα Lager Κουτί 330ml,Heineken,,0.45,ok
+12031,BUD BEER ΦΙΑΛΗ 0.33LT.,BUD,330ml,ab,7091700,Μπύρα Bud Lager Φιάλη 330ml,BUD,330 ml,0.23,ok
+12038,ΑΛΦΑ ΜΠΥΡΑ LAGER ΦΙΑΛΗ   500ML,ΑΛΦΑ,500ml,ab,7087935,Μπύρα Lager Φιάλη 500ml,ΑΛΦΑ,500 ml,0.91,ok
+12038,ΑΛΦΑ ΜΠΥΡΑ LAGER ΦΙΑΛΗ   500ML,ΑΛΦΑ,500ml,mymarket,420052,Άλφα Μπίρα Lager Φιάλη (500ml),ΑΛΦΑ,,0.77,ok
+12039,ΑΛΦΑ ΜΠΥΡΑ ΚΟΥΤΙ 330ML,ΑΛΦΑ,330ml,ab,7087940,Μπύρα Lager Κουτί 330ml,ΑΛΦΑ,330 ml,0.56,ok
+12039,ΑΛΦΑ ΜΠΥΡΑ ΚΟΥΤΙ 330ML,ΑΛΦΑ,330ml,mymarket,420053,Άλφα Μπίρα Lager Κουτί 330ml,ΑΛΦΑ,,0.46,ok
+12044,HEINEKEN ΦΙΑΛΗ Κ2 NEW 500ML,HEINEKEN,500ml,ab,7091621,Μπύρα Lager Φιάλη 500ml,HEINEKEN,500 ml,0.33,ok
+12044,HEINEKEN ΦΙΑΛΗ Κ2 NEW 500ML,HEINEKEN,500ml,mymarket,420023,Heineken Μπίρα Lager Φιάλη 500ml,Heineken,,0.39,ok
+12069,POWERADE MOUN.BLAST 500ML,POWERADE,500ml,ab,7088307,Ισοτονικό Mountain Blast 500ml,POWERADE,500 ml,0.45,ok
+12069,POWERADE MOUN.BLAST 500ML,POWERADE,500ml,mymarket,401716,Powerade Βατόμουρο 500ml,Powerade,,0.38,ok
+12103,SOL ΜΠΥΡΑ ΦΙΑΛΗ 330ML OW ΖΥΘΟΣ,SOL,330ml,ab,7087316,Μπύρα Exotic Lager Φιάλη 330ml,SOL,330 ml,0.34,ok
+12104,KAISER ΜΠΥΡΑ 330ML ΚΟΥΤΙ,KAISER,330ml,ab,7091729,Μπύρα Κουτί 330ml,KAISER,330 ml,0.58,ok
+12104,KAISER ΜΠΥΡΑ 330ML ΚΟΥΤΙ,KAISER,330ml,mymarket,420136,Kaiser Μπίρα Κουτί 330 ml,Kaiser,,0.48,ok
+12105,KAISER ΜΠΥΡΑ KOYTI 4*500ML,KAISER,4*500ml,ab,7091738,Μπύρα Κουτί 4x500ml,KAISER,2 λιτ,0.52,ok
+12105,KAISER ΜΠΥΡΑ KOYTI 4*500ML,KAISER,4*500ml,mymarket,420153,Kaiser Μπίρα 4x500ml,Kaiser,,0.36,ok
+12111,KAISER ΜΠΥΡΑ ΚΟΥΤΙ 500ML,KAISER,500ml,ab,7091737,Μπύρα Κουτί 500ml,KAISER,500 ml,0.9,ok
+12167,ΦΙΞ ΕΛΛΑΣ ΜΠΥΡΑ ΚΟΥΤΙ 330ML,ΦΙΞ,330ml,ab,7088283,Μπύρα Κουτί 330ml,FIX,330 ml,0.54,ok
+12167,ΦΙΞ ΕΛΛΑΣ ΜΠΥΡΑ ΚΟΥΤΙ 330ML,ΦΙΞ,330ml,mymarket,420427,Fix Μπίρα Κουτί 330ml,FIX,,0.5,ok
+12178,ΦΙΞ ΕΛΛΑΣ ΜΠΥΡΑ ΚΟΥΤΙ 500ML,ΦΙΞ,500ml,ab,7102427,Μπύρα Κουτί 500ml,FIX,500 ml,0.54,ok
+12178,ΦΙΞ ΕΛΛΑΣ ΜΠΥΡΑ ΚΟΥΤΙ 500ML,ΦΙΞ,500ml,mymarket,420430,Fix Μπίρα Κουτί 500ml,FIX,,0.5,ok
+124025,ΣΦΟΥΓΓΑΡΙ ΚΥΤΑΡΙΤ.ΜΕΓ.Z/S N108,ZAN SOT,Τεμάχιο,mymarket,923737,Zan Sot Σφουγγάρι Κυτταρίτιδας Μεγάλο,Zan Sot,,0.46,ok
+124045,SCOTCH BRITE ΣΦΟΥΓΓΑΡΑΚΙ ΠΡΑΣΙΝΟ ΜΙΚΡΟ 75*115Μ,SCOTCH BRITE,Τεμάχιο,ab,7568191,Σφουγγάρι Κουζίνας Πολύ Δυνατό 1 Τεμάχιο,SCOTCH BRITE,1 τεμ,0.25,ok
+124045,SCOTCH BRITE ΣΦΟΥΓΓΑΡΑΚΙ ΠΡΑΣΙΝΟ ΜΙΚΡΟ 75*115Μ,SCOTCH BRITE,Τεμάχιο,mymarket,515302,Scotch Brite Σφουγγαράκι Κουζίνας Πράσινο,Scotch-Brite,,0.53,ok
+12405,MYTHOS ΜΠΥΡΑ ΚΟΥΤΙ 330ML (5+1)Δ,MYTHOS,330ml,mymarket,420167,Mythos Μπίρα Κουτί 330ml 5+1Δώρο,Mythos,,0.69,ok
+124050,SCOTCH BRITE ΣΦΟΥΓΓΑΡΙ ΠΡΑΣ.ΓΙΓΑΣ ANTIB. 95*158Μ,SCOTCH BRITE,Τεμάχιο,ab,7568181,Σφουγγάρι Κουζίνας Γίγας Πολύ Δυνατό 1 Τεμάχιο,SCOTCH BRITE,1 τεμ,0.35,ok
+124050,SCOTCH BRITE ΣΦΟΥΓΓΑΡΙ ΠΡΑΣ.ΓΙΓΑΣ ANTIB. 95*158Μ,SCOTCH BRITE,Τεμάχιο,mymarket,515303,Scotch Brite Σφουγγαράκι Κουζίνας Αντιβακτηριδιακό Γίγας,Scotch-Brite,,0.39,ok
+124067,SCOTCH BRITE ΣΦΟΥΓΓΑΡΑΚΙ - ΓΟΜΑ SUPER CLEANER.,SCOTCH BRITE,Τεμάχιο,ab,7596132,Σφουγγάρι Super Cleaner 1 Τεμάχιο,SCOTCH BRITE,1 τεμ,0.55,ok
+124067,SCOTCH BRITE ΣΦΟΥΓΓΑΡΑΚΙ - ΓΟΜΑ SUPER CLEANER.,SCOTCH BRITE,Τεμάχιο,mymarket,515300,Scotch-Brite Μαγική Γόμα Super Cleaner,Scotch-Brite,,0.63,ok
+124153,ΣΦΟΥΓΓΑΡΙ ΔΙΠΛΟ ΜΕΣΑΙΟ Z/S 110,ZAN SOT,Τεμάχιο,mymarket,923735,Zan Sot Σφουγγάρι Διπλό Μεσαίο,Zan Sot,,0.77,ok
+12440,MYTHOS ΜΠΥΡΑ ΚΟΥΤΙ 330ML,MYTHOS,330ml,ab,7091778,Μπύρα Κουτί 330ml,MYTHOS,330 ml,0.9,ok
+12440,MYTHOS ΜΠΥΡΑ ΚΟΥΤΙ 330ML,MYTHOS,330ml,mymarket,420165,Mythos Μπίρα Κουτί 330ml,Mythos,,0.74,ok
+12470,RED BULL 250ML,RED BULL,250ml,ab,7093060,Ενεργειακό Ποτό Red Bull 250ml,REDBULL,250 ml,0.36,ok
+12470,RED BULL 250ML,RED BULL,250ml,mymarket,401591,Red Bull Energy Drink 250ml,Red Bull,,0.4,ok
+12472,RED BULL ENERGY DRINK 355ML,RED BULL,355ml,ab,7093064,Ενεργειακό Ποτό Red Bull 355ml,REDBULL,355 ml,0.36,ok
+12472,RED BULL ENERGY DRINK 355ML,RED BULL,355ml,mymarket,401192,Red Bull Energy Drink 355ml,Red Bull,,1.0,ok
+124969,SCOTCH BRITE ΣΦΟΥΓΓΑΡΙ ΠΡΑΣ.ΜΙΚΡΟ ΑΝΤΙΒ.75*115Μ,SCOTCH BRITE,Τεμάχιο,ab,7575580,Σφουγγάρι Κουζίνας Αντιβακτηριδιακό 1 Τεμάχιο,SCOTCH BRITE,1 τεμ,0.3,ok
+124969,SCOTCH BRITE ΣΦΟΥΓΓΑΡΙ ΠΡΑΣ.ΜΙΚΡΟ ΑΝΤΙΒ.75*115Μ,SCOTCH BRITE,Τεμάχιο,mymarket,515312,Scotch Brite Σφουγγαράκι Κουζίνας Αντιβακτηριδιακό,Scotch-Brite,,0.33,ok
+12564,KAISER ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,KAISER,500ml,ab,7091726,Μπύρα Φιάλη 500ml,KAISER,500 ml,0.35,ok
+12564,KAISER ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,KAISER,500ml,mymarket,420133,Kaiser Μπίρα Φιάλη 500ml,Kaiser,,0.41,ok
+12582,MYTHOS ΜΠΥΡΑ ΚΟΥΤΙ 500ML,MYTHOS,500ml,ab,7091786,Μπύρα Κουτί 500ml,MYTHOS,500 ml,0.9,ok
+12585,MYTHOS ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,MYTHOS,500ml,ab,7091777,Μπύρα Φιάλη 500ml,MYTHOS,500 ml,0.56,ok
+12585,MYTHOS ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,MYTHOS,500ml,mymarket,420163,Mythos Μπύρα Φιάλη 500ml,Mythos,,0.62,ok
+126440,VILEDA ΚΟΝΤΑΡΙ ΦΑΡΔΥ ΒΙΔΩΜΑ,VILEDA,"1,25m",mymarket,531808,Vileda Super Κοντάρι Σφουγγαρίστρας,Vileda,,0.26,ok
+126817,FORKAL ΣΚΟΥΠΑ ΜΟΚΕΤΩΝ SUPERIOR N.321,FORKAL,Τεμάχιο,mymarket,529530,Κύκλωψ Σκούπα Χαλιών Ν103,Κύκλωψ,,0.08,brand
+12697,PAULANER WEISS ΜΠΥΡΑ    ΦΙΑΛΗ 500ML,PAULANER HEFFEWEISS,500ml,ab,7087348,Μπύρα Weiss Φιάλη 500ml,PAULANER,500 ml,0.47,ok
+12697,PAULANER WEISS ΜΠΥΡΑ    ΦΙΑΛΗ 500ML,PAULANER HEFFEWEISS,500ml,mymarket,420240,Paulaner Hefeweiss Μπίρα Φιάλη 500ml,Paulaner,,0.62,ok
+12750,RED BULL ΧΩΡΙΣ ΖΑΧΑΡΗ ΚΟΥΤΙ 250ML.,RED BULL,250ml,ab,7100626,Ενεργειακό Ποτό Red Bull Χωρίς Ζάχαρη 250ml,REDBULL,250 ml,0.47,ok
+12750,RED BULL ΧΩΡΙΣ ΖΑΧΑΡΗ ΚΟΥΤΙ 250ML.,RED BULL,250ml,mymarket,401594,Red Bull Sugarfree 250ml,Red Bull,,0.24,ok
+12788,PILS HELLAS ΜΠΥΡΑ ΚΟΥΤΙ 330ML,PILS HELLAS,330ml,ab,7091797,Μπύρα Κουτί 330ml,PILS HELLAS,330 ml,0.92,ok
+12788,PILS HELLAS ΜΠΥΡΑ ΚΟΥΤΙ 330ML,PILS HELLAS,330ml,mymarket,420565,Pils Μπίρα Κουτί 330ml,Pils,,0.45,ok
+12825,ΒΕΡΓΙΝΑ ΜΠΥΡΑ ΦΙΑΛΗ ΠΕΡΙΕΧΟΜΕΝΟ 500ML,ΒΕΡΓΙΝΑ,500ml,ab,7087663,Μπύρα Lager Φιάλη 500ml,ΒΕΡΓΙΝΑ,500 ml,0.36,ok
+12827,ΒΕΡΓΙΝΑ ΜΠΥΡΑ ΚΟΥΤΙ 330ML,ΒΕΡΓΙΝΑ,330ml,ab,7087664,Μπύρα Lager Κουτί 330ml,ΒΕΡΓΙΝΑ,330 ml,0.61,ok
+12827,ΒΕΡΓΙΝΑ ΜΠΥΡΑ ΚΟΥΤΙ 330ML,ΒΕΡΓΙΝΑ,330ml,mymarket,420591,Βεργίνα Μπίρα 330ml,Βεργίνα,,0.42,ok
+12883,ΦΙΞ ΕΛΛΑΣ ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,ΦΙΞ ΕΛΛΑΣ,500ml,ab,7088277,Μπύρα Lager Φιάλη 500ml,FIX,500 ml,0.26,ok
+12883,ΦΙΞ ΕΛΛΑΣ ΜΠΥΡΑ ΦΙΑΛΗ 500ML ΠΕΡΙΕΧΟΜΕΝΟ,ΦΙΞ ΕΛΛΑΣ,500ml,mymarket,420426,Fix Μπύρα Φιάλη 500ml,FIX,,0.34,ok
+12894,ΜΠΥΡΑ HENNINGER ΚΟΥΤΙ 330ML,HENNINGER,330ml,ab,7742791,Μπύρα Lager Κουτί 330ml,HENNINGER,330 ml,0.78,ok
+129326,LE PETIT MARS.SHAMPOO NUTRITION 300ML,LE PETIT MARSEILLAIS,300ml,ab,7556599,Σαμπουάν Θρέψη Βιολογικό Μέλι Προβηγκίας & Καριτέ 300ml,LE PETIT MARSEILLAIS,300 ml,0.24,ok
+129326,LE PETIT MARS.SHAMPOO NUTRITION 300ML,LE PETIT MARSEILLAIS,300ml,mymarket,771595,Le Petit Marseillais Σαμπουάν Nutrition Karite 300ml,LE PETIT MARSEILLAIS,,0.51,ok
+129331,LE PETIT MAR.COND.NUTRITION KARITE 200ML,LE PETIT MARSEILLAIS,200ml,ab,7556621,Conditioner Θρέψη Βιολογικό Μέλι Προβηγκίας & Καριτέ 200ml,LE PETIT MARSEILLAIS,200 ml,0.38,ok
+129331,LE PETIT MAR.COND.NUTRITION KARITE 200ML,LE PETIT MARSEILLAIS,200ml,mymarket,702707,Le Petit Marseilais Conditioner Βιολογικό Μέλι Προβηγκίας Και Καριτέ 200ml,LE PETIT MARSEILLAIS,,0.42,ok
+129337,LE PETIT MARSELLIER SH.GEL VANILLA 400ML,LE PETIT MARSEILLAIS,400ml,ab,7113265,Αφρόλουτρο Βανίλια,LE PETIT MARSEILLAIS,400 ml,0.37,ok
+129337,LE PETIT MARSELLIER SH.GEL VANILLA 400ML,LE PETIT MARSEILLAIS,400ml,mymarket,775475,Le Petit Marseillais Vanilla Aφρόλουτρο 400ml,LE PETIT MARSEILLAIS,,0.46,ok
+129338,LE PETIT MARS. ΑΦΡΟΛ.ΑΝΘΗ ΠΟΡΤΟΚΑΛΙΑΣ 400ML,LE PETIT MARSEILLAIS,400ml,ab,7113260,Αφρόλουτρο Βιολογικό Άνθος Πορτοκαλιάς 400ml,LE PETIT MARSEILLAIS,400 ml,0.56,ok
+129372,LE PETIT MARSELLAIS BODY OIL SPRAY 150ML.,LE PETIT MARSEILLAIS,150ml,ab,7111144,Λάδι Σώματος 150ml,LE PETIT MARSEILLAIS,150 ml,0.41,ok
+129372,LE PETIT MARSELLAIS BODY OIL SPRAY 150ML.,LE PETIT MARSEILLAIS,150ml,mymarket,716602,Le Petit Marseillais Λάδι Σώματος 150ml,LE PETIT MARSEILLAIS,,0.43,ok
+12938,PILS HELLAS ΜΠΥΡΑ ΚΟΥΤΙ 4*500ML,PILS HELLAS,4*500ml,mymarket,420579,Pils Μπίρα Κουτί 4x500ml,Pils,,0.36,ok
+12940,ΗΒΗ GO BLUE ΦΥΣ.ΧΥΜ.250ML,ΗΒΗ,250ml,mymarket,411274,Ηβη Go! Blue Φυσικός Χυμός Μήλο Πορτοκάλι Ροδάκινο Βερύκοκο 250ml,Ηβη,,0.31,ok
+13011,ΑΜΙΤΑ MOTION 1.5L,AMITA,"1,5L",ab,7092254,Φυσικός Χυμός 9 Φρούτων 7 Βιταμίνες 1.5lt,AMITA,"1,5 λιτ",0.11,ok
+13011,ΑΜΙΤΑ MOTION 1.5L,AMITA,"1,5L",mymarket,411223,"Amita Motion Χυμός 1,5lt",Amita,,0.52,ok
+13017,AMITA ΠΟΡΤ-ΜΗΛ-ΒΕΡ      1.5L,AMITA,1.5L,ab,7092324,Φρουτοποτό Πορτοκάλι Μήλο Βερίκοκο 1.5lt,AMITA,"1,5 λιτ",0.17,ok
+13017,AMITA ΠΟΡΤ-ΜΗΛ-ΒΕΡ      1.5L,AMITA,1.5L,mymarket,411110,"Amita Φρουτοποτό Πορτοκάλι, Βερύκοκο & Μήλο 1,5lt 1τεμ",Amita,,0.2,ok
+13050,ΗΒΗ ΠΟΡΤΟΚΑΛΑΔΑ 1.5LT,ΗΒΗ,"1,5L",ab,7092548,Αναψυκτικό Πορτοκαλάδα 1.5lt,HBH,"1,5 λιτ",0.41,ok
+13050,ΗΒΗ ΠΟΡΤΟΚΑΛΑΔΑ 1.5LT,ΗΒΗ,"1,5L",mymarket,401094,"ΗΒΗ Πορτοκαλάδα 6x1,5lt",Ηβη,,0.73,size
+13052,ΑΜΙΤΑ ΠΟΡΤΟΚΑΛΙ 1L,AMITA,1L,ab,7092213,Χυμός Πορτοκάλι 1lt,AMITA,1 λιτ,0.48,ok
+13052,ΑΜΙΤΑ ΠΟΡΤΟΚΑΛΙ 1L,AMITA,1L,mymarket,411121,Amita Φυσικός Χυμός Πορτοκάλι 1lt,Amita,,0.44,ok
+13053,AMITA ΠΟΡΤ-ΜΗΛ-ΒΕΡ      250ML,AMITA,250ml,ab,7751585,Φρουτοποτό Πορτοκάλι Μήλο Βερίκοκο 250ml,AMITA,250 ml,0.21,ok
+13053,AMITA ΠΟΡΤ-ΜΗΛ-ΒΕΡ      250ML,AMITA,250ml,mymarket,411112,"Amita Φρουτοποτό Πορτοκάλι, Βερύκοκο & Μήλο 250ml",Amita,,0.26,ok
+13054,AMITA ΠΟΡΤ-ΜΗΛ-ΒΕΡ 1L,AMITA,1L,ab,7092321,Φρουτοποτό Πορτοκάλι Μήλο Βερίκοκο 1lt,AMITA,1 λιτ,0.16,ok
+13054,AMITA ΠΟΡΤ-ΜΗΛ-ΒΕΡ 1L,AMITA,1L,mymarket,411114,"Amita Φρουτοποτό Πορτοκάλι, Βερύκοκο & Μήλο 1lt 1τεμ",Amita,,0.18,ok
+131014,MEGGLE ΚΡΕΜΑ ΓΑΛ.500ML,MEGGLE,500ml,ab,7078295,Κρέμα Γάλακτος 500 ml,MEGGLE,500 ml,0.58,ok
+13103,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 1.5L,FANTA,"1,5L",ab,7743116,Πορτοκαλάδα Φιάλη 1.5lt,FANTA,"1,5 λιτ",0.56,ok
+13103,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 1.5L,FANTA,"1,5L",mymarket,401178,"Fanta Πορτοκαλάδα 1,5lt",Fanta,,0.95,ok
+13103,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 1.5L,FANTA,"1,5L",mymarket,401190,"Fanta Πορτοκαλάδα 6x1,5lt",Fanta,,0.71,size
+13104,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 330ML,FANTA,330ml,ab,7743133,Πορτοκαλάδα Κόκκινη Λιγότερη Ζάχαρη Κουτί 330ml,FANTA,330 ml,0.34,ok
+13104,FANTA ΠΟΡΤΟΚΑΛΑΔΑ 330ML,FANTA,330ml,mymarket,401186,Fanta Πορτοκαλάδα 6x330ml,Fanta,,0.76,size
+131049,ΦΑΓΕ FLAIR 225ΓΡ,ΦΑΓΕ,225γρ.,ab,7076467,Τυρί Cottage 4% Λιπαρά 225gr,ΦΑΓΕ,225 γρ,0.16,ok
+131049,ΦΑΓΕ FLAIR 225ΓΡ,ΦΑΓΕ,225γρ.,mymarket,129281,ΦΑΓΕ Flair Cottage Cheese 225gr,ΦΑΓΕ,,0.41,ok
+13106,FANTA ΛΕΜΟΝΑΔΑ SLK      ΚΟΥΤΙ 330ML,FANTA,330ml,ab,7092726,Αναψυκτικό Λεμονίτα Κουτί 330ml,FANTA,330 ml,0.32,ok
+13109,TUBORG ΣΟΔΑ ΚΟΥΤΙ 330ML       0133,TUBORG,330ml,ab,7092853,Σόδα Κουτί 330ml,TUBORG,330 ml,0.75,ok
+13110,TUBORG TONIC ΚΟΥΤΙ 330ML,TUBORG,330ml,ab,7092785,Τόνικ Κουτί 330ml,TUBORG,330 ml,0.7,ok
+13120,ΚΥΚΝΟΣ ΧΥΜΟΣ ΤΟΜΑΤΑΣ ΕΛΑΦΡΑ ΣΥΜΠΥΚΝ. 500ΓΡ,ΚΥΚΝΟΣ,500γρ.,ab,7085907,Τομάτα Passata Κλασικό 7% Χάρτινο 500 gr,ΚΥΚΝΟΣ,500 γρ,0.22,ok
+13120,ΚΥΚΝΟΣ ΧΥΜΟΣ ΤΟΜΑΤΑΣ ΕΛΑΦΡΑ ΣΥΜΠΥΚΝ. 500ΓΡ,ΚΥΚΝΟΣ,500γρ.,mymarket,226015,Kyknos Χυμός Τομάτας Χάρτινο 500gr,Kyknos,,0.5,ok
+13129,ΑΜΙΤΑ ΜΠΑΝΑΝΑ 1L,AMITA,1L,ab,7092236,Φρουτοποτό Μπανάνα 1lt,AMITA,1 λιτ,0.32,ok
+13129,ΑΜΙΤΑ ΜΠΑΝΑΝΑ 1L,AMITA,1L,mymarket,411132,Amita Φρουτοποτό Μπανάνα 1lt,Amita,,0.4,ok
+13132,ΑΜΙΤΑ ΡΟΔΑΚΙΝΟ 250ML,AMITA,250ml,ab,7751666,Φρουτοποτό Ροδάκινο 250ml,AMITA,250 ml,0.47,ok
+13132,ΑΜΙΤΑ ΡΟΔΑΚΙΝΟ 250ML,AMITA,250ml,mymarket,411119,Amita Φρουτοποτό Ροδάκινο 250ml,Amita,,0.53,ok
+13148,ΑΜΙΤΑ ΛΕΜΟΝΙ 1L,AMITA,1L,ab,7095064,Φρουτοποτό Λεμόνι 1lt,AMITA,1 λιτ,0.35,ok
+13148,ΑΜΙΤΑ ΛΕΜΟΝΙ 1L,AMITA,1L,mymarket,411136,Amita Φρουτοποτό Λεμόνι 1lt,Amita,,0.42,ok
+13229,ΑΜΙΤΑ ΡΟΔΑΚΙΝΟ 1L,AMITA,1L,ab,7092311,Φρουτοποτό Ροδάκινο,AMITA,1 λιτ,0.33,ok
+13229,ΑΜΙΤΑ ΡΟΔΑΚΙΝΟ 1L,AMITA,1L,mymarket,411129,Amita Φρουτοποτό Ροδάκινο 1lt,Amita,,0.46,ok
+13258,ST.DALFOUR ΜΑΡΜΕΛΑΔΑ ΦΡΑΟΥΛΑ 284ΓΡ,ST. DALFOUR,284gr,mymarket,321151,St. Dalfour Μαρμελάδα Φράουλα 284gr,St. Dalfour,,1.0,ok
+13277,FANTA ΛΕΜΟΝΑΔΑ 500ΜL,FANTA,500ml,ab,7092729,Αναψυκτικό Λεμονίτα Φιάλη 500ml,FANTA,500 ml,0.25,ok
+13431,ΑΜΙΤΑ ΒΥΣΣΙΝΟ 250ML,AMITA,250ml,ab,7748112,Φρουτοποτό Βύσσινο 250ml,AMITA,250 ml,0.45,ok
+13431,ΑΜΙΤΑ ΒΥΣΣΙΝΟ 250ML,AMITA,250ml,mymarket,411120,Amita Φρουτοποτό Βύσσινο 250ml 1τεμ,Amita,,0.45,ok
+13500,ΑΜΙΤΑ MOTION 1L,AMITA,1L,ab,7092243,Φυσικός Χυμός 9 Φρούτων 7 Βιταμίνες 1lt,AMITA,1 λιτ,0.09,ok
+13500,ΑΜΙΤΑ MOTION 1L,AMITA,1L,mymarket,411133,Amita Φυσικός Χυμός 9 Φρούτων Motion 1lt,Amita,,0.3,ok
+13502,ΑΜΙΤΑ ΒΥΣΣΙΝΟ 1L,AMITA,1L,ab,7092229,Φρουτοποτό Βύσσινο 1lt,AMITA,1 λιτ,0.37,ok
+13502,ΑΜΙΤΑ ΒΥΣΣΙΝΟ 1L,AMITA,1L,mymarket,411130,Amita Φρουτοποτό Βύσσινο 1lt,Amita,,0.44,ok
+13631,ΑΜΙΤΑ ΒΥΣΣΙΝΟ 1.5L,AMITA,"1,5L",ab,7092247,"Φρουτοποτό Βύσσινο 1,5lt",AMITA,"1,5 λιτ",0.39,ok
+13631,ΑΜΙΤΑ ΒΥΣΣΙΝΟ 1.5L,AMITA,"1,5L",mymarket,411254,"Amita Φρουτοποτό Βύσσινο 1,5lt",Amita,,0.46,ok
+13714,FANTA ΠΟΡΤΟΚΑΛΑΔΑ ΜΠΛΕ SLK ΚΟΥΤΙ 330ML,FANTA,330ml,ab,7092561,Αναψυκτικό Πορτοκαλάδα Μπλε Χωρίς Ανθρακικό Κουτί 330ml,FANTA,330 ml,0.38,ok
+13983,ΑΜΙΤΑ ΑΝΑΝΑΣ 1L,AMITA,1L,ab,7092821,Ανανάς Νέκταρ  1lt,AMITA,1 λιτ,0.4,ok
+140000,CANDEREL ΓΛΥΚΑΝΤΙΚΟ ΣΚΟΝΗ 40ΓΡ,CANDEREL,40γρ.,ab,7066686,Υποκατάστατο Ζάχαρης Sucralose Σκόνη 40gr,CANDEREL,40 γρ,0.22,ok
+140018,CANDEREL ΓΛΥΚΑΝΤΙΚΟ ΣΕ ΔΙΣΚΙΑ 120Τ 10.2ΓΡ,CANDEREL,120τεμ.,ab,7451865,Υποκατάστατο Ζάχαρης Pocket 120 Δισκία 10gr,CANDEREL,10 γρ,0.18,ok
+140018,CANDEREL ΓΛΥΚΑΝΤΙΚΟ ΣΕ ΔΙΣΚΙΑ 120Τ 10.2ΓΡ,CANDEREL,120τεμ.,mymarket,275450,Canderel Γλυκαντικό σε δισκία 120τεμ,Canderel,,0.81,ok
+140252,ΖΩΓΡΑΦΟΣ ΖΑΧΑΡΗ ΚΑΣΤΑΝΗ Χ.ΓΛΟΥΤΕΝΗ 500ΓΡ,ΖΩΓΡΑΦΟΣ,500γρ.,ab,7071882,Ζάχαρη Καστανή 500g,ΖΩΓΡΑΦΟΣ,500 γρ,0.67,ok
+140252,ΖΩΓΡΑΦΟΣ ΖΑΧΑΡΗ ΚΑΣΤΑΝΗ Χ.ΓΛΟΥΤΕΝΗ 500ΓΡ,ΖΩΓΡΑΦΟΣ,500γρ.,mymarket,275211,Ζωγράφος Ζάχαρη Καστανή 500gr,Ζωγράφος,,0.72,ok
+14029,ΣΟΥΡΩΤΗ ΑΝΘΡ.ΝΕΡΟ ΦΙΑΛΗ 250ML ΠΕΡΙΕΧΟΜΕΝΟ,ΣΟΥΡΩΤΗ,250ml,ab,7092046,Νερό Ανθρακούχο Φιάλη 250ml,ΣΟΥΡΩΤΗ,250 ml,0.41,ok
+14029,ΣΟΥΡΩΤΗ ΑΝΘΡ.ΝΕΡΟ ΦΙΑΛΗ 250ML ΠΕΡΙΕΧΟΜΕΝΟ,ΣΟΥΡΩΤΗ,250ml,mymarket,402901,Σουρωτή Ανθρακούχο Νερό Φιάλη 250ml,Σουρωτή,,0.54,ok
+14046,ΖΑΓΟΡΙ ΝΕΡΟ PET 500ML,ΖΑΓΟΡΙ,500ml,ab,7092008,Νερό Φυσικό Μεταλλικό 500ml,ΖΑΓΟΡΙ,500 ml,0.32,ok
+14048,ΖΑΓΟΡΙ ΝΕΡΟ PET 12*500ML,ΖΑΓΟΡΙ,12*500ml,ab,7102090,Νερό Φυσικό Μεταλλικό 12x500ml,ΖΑΓΟΡΙ,6 λιτ,0.28,ok
+14048,ΖΑΓΟΡΙ ΝΕΡΟ PET 12*500ML,ΖΑΓΟΡΙ,12*500ml,mymarket,404159,Ζαγόρι Φυσικό Μεταλλικό Νερό 12x500ml,Ζαγόρι Φυσικό Μεταλλικό Νερό,,0.21,ok
+14236,AVRA Φ.ΜΕΤΑΛΛΙΚΟ ΝΕΡΟ    500ML,AVRA,500ml,mymarket,404302,Αύρα Φυσικό Μεταλλικό Νερό 500ml,ΑΥΡΑ,,0.72,ok
+14255,AVRA Φ.ΜΕΤΑΛΛΙΚΟ ΝΕΡΟ     1.5L,AVRA,1.5lt,ab,7092108,Νερό Φυσικό Μεταλλικό 1.5lt,ΑΥΡΑ,"1,5 λιτ",0.41,ok
+14507,AVRA ΝΕΡΟ ACTIVE CAP PET 750ML,ΑΥΡΑ,750ml,ab,7096728,Νερό Φυσικό Μεταλλικό 750ml,ΑΥΡΑ,750 ml,0.22,ok
+14517,AVRA Φ.ΜΕΤΑΛΛΙΚΟ ΝΕΡΟ    6*1.5L,AVRA,6*1.5lt,ab,7092109,Νερό Φυσικό Μεταλλικό 6x1.5lt,ΑΥΡΑ,9 λιτ,0.33,ok
+14522,ΣΟΥΡΩΤΗ ΑΝΘΡ.ΝΕΡΟ ΚΟΥΤΙ 330ML,ΣΟΥΡΩΤΗ,330ml,ab,7092047,Νερό Ανθρακούχο Κουτί 330ml,ΣΟΥΡΩΤΗ,330 ml,0.51,ok
+14719,ΖΑΓΟΡΙ ΝΕΡΟ PET 1.5L,ΖΑΓΟΡΙ,"1,5L",ab,7092003,"Νερό Φυσικό Μεταλλικό 1,5lt",ΖΑΓΟΡΙ,"1,5 λιτ",0.27,ok
+14726,ΖΑΓΟΡΑΚΙ ΝΕΡΟ PET 6*330ML,ΖΑΓΟΡΑΚΙ,6*330ml,ab,7092010,Νερό Φυσικό Μεταλλικό 6x330ml,ΖΑΓΟΡΑΚΙ,"1,98 λιτ",0.33,ok
+1476,ΜΑΝΙΤΑΡΙΑ ΛΕΥΚΑ ΚΕΧΑΓΙΑ ΕΙΣΑΓΩΓΗΣ 500ΓΡ,,500gr,mymarket,198179,Μανιτάρια Φρέσκα Εισαγωγής 500gr,ΠΕΦΑΝΗΣ,,0.43,ok
+14778,ΚΟΡΠΗ 6*1.5LΤ,ΚΟΡΠΗ,"6*1,5L",ab,7092173,"Νερό Φυσικό Μεταλλικό 6x1,5lt",ΚΟΡΠΗ,9 λιτ,0.19,ok
+14778,ΚΟΡΠΗ 6*1.5LΤ,ΚΟΡΠΗ,"6*1,5L",mymarket,404926,"Κορπή Νερό Φυσικό Μεταλλικό 6x1,5lt",Κορπή,,0.23,ok
+14779,ΖΑΓΟΡΙ ΝΕΡΟ PET 6*1.5L,ΖΑΓΟΡΙ,6*1.5L,ab,7092004,Νερό Φυσικό Μεταλλικό 6x1.5lt,ΖΑΓΟΡΙ,9 λιτ,0.25,ok
+14892,ΣΟΥΡΩΤΗ ΑΝΘΡ.ΝΕΡΟ ΚΟΥΤΙ 6*330ML,ΣΟΥΡΩΤΗ,6*330ml,ab,7092052,Ανθρακούχο Νερό  6 X 330 ml,ΣΟΥΡΩΤΗ,"1,98 λιτ",0.41,ok
+152366,FERRERO ROCHER ΣΟΚΟΛΑΤΑ ΓΑΛΑΚΤΟΣ 90ΓΡ,FERRERO,90gr,mymarket,337958,Ferrero Rocher Σοκολάτα Γάλακτος 90g,Ferrero-Kinder,,0.73,ok
+152415,ATLANTIC ΑΝΑΠΛΗΡΩΜΑ ΧΑΒΙΑΡΙΟΥ 50ΓΡ ΓΕΡΜΑΝΙΑΣ,ATLANTIC,50γρ.,ab,7672870,Υποκατάστατο Χαβιαριού Μαύρο Atlantic 50g,,50 γρ,0.25,ok
+152736,HELL ENERGY DRINK BLACK CHERRY 500ML,HELL,500ml,mymarket,402060,Hell Energy Black Cherry 500ml,Hell,,0.73,ok
+153722,HELL ICE COFFEE SALTED CARAMEL 250ML,HELL,250ml,mymarket,402455,Hell Ice Coffee Salted Caramel 250ml,Hell,,1.0,ok
+154232,LAVAZZA ΚΑΦΕΣ QUALITA ROSSA BEANS 250ΓΡ,LAVAZZA,250gr,ab,7575896,Καφές Espresso Qualita Rossa Κόκκοι 250g,LAVAZZA,250 γρ,0.42,ok
+154232,LAVAZZA ΚΑΦΕΣ QUALITA ROSSA BEANS 250ΓΡ,LAVAZZA,250gr,mymarket,262138,Lavazza Espresso Rossa Σπυρί 250gr,Lavazza,,0.25,ok
+15449,SUNSWEET ΔΑΜΑΣΚΗΝΑ Χ.ΓΛ. ΚΑΛΙΦΟΡΝΙΑ 250ΓΡ,SUNSWEET,250γρ.,mymarket,330561,Sunsweet Δαμάσκηνα Απύρηνα 250gr,Sunsweet,,0.49,ok
+16057,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ ΡΟΔΑΚΙΝΟ 370ΓΡ,BONNE MAMAN,370γρ.,ab,7083138,Μαρμελάδα Ροδάκινο 370g,BONNE MAMAN,370 γρ,0.91,ok
+16057,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ ΡΟΔΑΚΙΝΟ 370ΓΡ,BONNE MAMAN,370γρ.,mymarket,321503,Bonne Maman Μαρμελάδα Ροδάκινο 370gr,Bonne Maman,,1.0,ok
+16058,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ ΒΕΡΙΚΟΚΟ 370ΓΡ,BONNE MAMAN,370γρ.,ab,7083136,Μαρμελάδα Βερύκοκο 370g,BONNE MAMAN,370 γρ,0.74,ok
+16058,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ ΒΕΡΙΚΟΚΟ 370ΓΡ,BONNE MAMAN,370γρ.,mymarket,321501,Bonne Maman Μαρμελάδα Βερίκοκο 370gr,Bonne Maman,,1.0,ok
+16059,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ ΦΡΑΟΥΛΑ 370ΓΡ,BONNE MAMAN,370γρ.,ab,7083132,Μαρμελάδα Φράουλα 370g,BONNE MAMAN,370 γρ,0.9,ok
+16059,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ ΦΡΑΟΥΛΑ 370ΓΡ,BONNE MAMAN,370γρ.,mymarket,321502,Bonne Maman Μαρμελάδα Φράουλα 370gr,Bonne Maman,,1.0,ok
+16139,ΑΛΦΑ ΜΠΥΡΑ ΚΟΥΤΙ 4*500ML,ΑΛΦΑ,4*500ml,ab,7087948,Μπύρα Lager Κουτί 4x500ml,ΑΛΦΑ,2 λιτ,0.45,ok
+16139,ΑΛΦΑ ΜΠΥΡΑ ΚΟΥΤΙ 4*500ML,ΑΛΦΑ,4*500ml,mymarket,420238,Άλφα Μπίρα Lager Κουτί 4x500ml,ΑΛΦΑ,,0.38,ok
+16141,CRETA F.ΓΑΛΟΠ.ΒΡΑΣΤΗ ΕΝ.ΕΛ.Φ.160ΓΡ,CRETA FARMS,160gr,ab,7080314,Γαλοπούλα Βραστή Φέτες 160g,ΕΝ ΕΛΛΑΔΙ,160 γρ,0.22,ok
+16141,CRETA F.ΓΑΛΟΠ.ΒΡΑΣΤΗ ΕΝ.ΕΛ.Φ.160ΓΡ,CRETA FARMS,160gr,mymarket,105780,Creta Farms Εν Ελλάδι Γαλοπούλα Βραστή Χωρίς Γλουτένη Φέτες 160gr,Creta Farms,,0.33,ok
+16192,ΟΙΚ. ΣΤΕΡΓΙΟΥ ΧΩΡ.ΦΡΑΤΖ. ΣΤΗΘ.ΚΟΤΟΠ-CHEDAR 180ΓΡ,ΟΙΚ. ΣΤΕΡΓΙΟΥ,180γρ.,mymarket,158484,Οικογένεια Στεργίου Σάντουιτς Φρατζολάκι Κοτόπουλο Cheddar,Οικογένεια Στεργίου,,0.24,ok
+16197,ELITE ΤΡΙΜΜΑ ΦΡΥΓ. ΣΙΤ.360ΓΡ,ELITE,360γρ.,ab,7578661,Φρυγανιά Τριμμένη Σίτου Σίκαλης 360g,ELITE,360 γρ,0.23,ok
+16252,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ 4 ΦΡΟΥΤΑ 370ΓΡ,BONNE MAMAN,370γρ.,ab,7083142,Μαρμελάδα 4 Φρούτα 370g,BONNE MAMAN,370 γρ,0.9,ok
+16252,BONNE MAMAN ΜΑΡΜΕΛΑΔΑ 4 ΦΡΟΥΤΑ 370ΓΡ,BONNE MAMAN,370γρ.,mymarket,321505,Bonne Maman Μαρμελάδα 4 Φρούτα 370gr,Bonne Maman,,1.0,ok
+16280,ΦΕΤΑ ΔΩΔΩΝΗΣ VACUUM ΠΟΠ 400ΓΡ,ΔΩΔΩΝΗ,400γρ.,ab,7816143,Τυρί Φέτα ΠΟΠ Vacuum 400g,ΔΩΔΩΝΗ,400 γρ,0.39,ok
+16308,ΖΩΓΡΑΦΟΣ ΜΑΡΜ.ΔΑΜΑΣΚΗΝΟ ΜΕ ΦΡΟΥΚΤΟΖΗ 415ΓΡ,ΖΩΓΡΑΦΟΣ,415γρ.,ab,7083103,Μαρμελάδα Δαμάσκηνο Φρουκτόζη 415g,ΖΩΓΡΑΦΟΣ,415 γρ,0.62,ok
+16310,ΖΩΓΡΑΦΟΣ ΜΑΡΜ.ΦΡΑΟΥΛΑ ΜΕ ΦΡΟΥΚΤΟΖΗ 415ΓΡ,ΖΩΓΡΑΦΟΣ,415γρ.,ab,7083100,Μαρμελάδα Φράουλα Φρουκτόζη 415g,ΖΩΓΡΑΦΟΣ,415 γρ,0.6,ok
+16310,ΖΩΓΡΑΦΟΣ ΜΑΡΜ.ΦΡΑΟΥΛΑ ΜΕ ΦΡΟΥΚΤΟΖΗ 415ΓΡ,ΖΩΓΡΑΦΟΣ,415γρ.,mymarket,321911,Ζωγράφος Μαρμελάδα Με Φρουκτόζη Φράουλα 415gr,Ζωγράφος,,0.67,ok
+16330,ΧΡΥΣΑ ΑΥΓΑ ΒΙΟΛΟΓΙΚΑ 6ΑΔΑ (M) 53-63ΓΡ,ΧΡΥΣΑ ΑΥΓΑ,53-63γρ.,ab,7082573,Αυγά Βιολογικά Medium 6 Τεμάχια,ΧΡΥΣΑ ΑΥΓΑ,6 τεμ,0.4,ok
+16330,ΧΡΥΣΑ ΑΥΓΑ ΒΙΟΛΟΓΙΚΑ 6ΑΔΑ (M) 53-63ΓΡ,ΧΡΥΣΑ ΑΥΓΑ,53-63γρ.,mymarket,111082,Χρυσά Αυγά Βιολογικά 6άδα 53-63g (M),Χρυσά Αυγά,,0.79,ok
+16333,ΟΛΥΜΠΟΣ ΓΑΛΑ ΒΙΟ ΕΛΑΦΡΥ 1.7% 1L,ΟΛΥΜΠΟΣ,1L,ab,7076979,Γάλα Βιολογικό Παστεριωμένο Ελαφρύ 1lt,ΟΛΥΜΠΟΣ,1 λιτ,0.39,ok
+16333,ΟΛΥΜΠΟΣ ΓΑΛΑ ΒΙΟ ΕΛΑΦΡΥ 1.7% 1L,ΟΛΥΜΠΟΣ,1L,mymarket,113514,"Όλυμπος Βιολογικό Γάλα Παστεριωμένο 1,7% 1lt",Ολυμπος,,0.23,ok
+16369,7 ΘΑΛΑΣΣΕΣ ΑΠΟΜΙΜΗΣΗ ΓΑΡΙΔΑΣ ΚΤΨ 250ΓΡ,7 ΘΑΛΑΣΣΕΣ,250γρ.,mymarket,146669,"""7 Θάλασσες"" Απομίμηση Γαρίδας Κατεψυγμένα 250gr",7 Θάλασσες,,0.62,ok
+16405,ZEWA Χ.ΥΓΕΙΑΣ DELUXE 8ΑΡΙ ΧΑΜΟΜΗΛΙ 704ΓΡ,ZEWA,704gr,ab,7530364,Χαρτί Υγείας Chamomile Comfort 3 Φύλλα 8 Τεμάχια,ZEWA,704 γρ,0.22,ok
+16405,ZEWA Χ.ΥΓΕΙΑΣ DELUXE 8ΑΡΙ ΧΑΜΟΜΗΛΙ 704ΓΡ,ZEWA,704gr,mymarket,610249,"Zewa Deluxe Χαρτί Υγείας Χαμομήλι 3φύλλων 8άρι 0,704kg",Zewa,,0.36,ok
+16463,ΝΟΥΝΟΥ ΕΒΑΠΟΡΕ LIGHT 170ΓΡ,ΝΟΥΝΟΥ,170gr,ab,7087422,Γάλα Συμπυκνωμένο Χαμηλά Λιπαρά 170g,ΝΟΥΝΟΥ,170 γρ,0.1,ok
+16463,ΝΟΥΝΟΥ ΕΒΑΠΟΡΕ LIGHT 170ΓΡ,ΝΟΥΝΟΥ,170gr,mymarket,250016,ΝΟΥΝΟΥ Εβαπορέ Γάλα Light 170gr,NOYNOY,,0.62,ok
+16464,ΓΙΩΤΗΣ ΚΡΕΜΑ ΒΑΝΙΛΙΑ 300ΓΡ,ΓΙΩΤΗΣ,300γρ.,ab,7133797,Βρεφική Κρέμα Βανίλια 300g,ΓΙΩΤΗΣ,300 γρ,0.56,ok
+16464,ΓΙΩΤΗΣ ΚΡΕΜΑ ΒΑΝΙΛΙΑ 300ΓΡ,ΓΙΩΤΗΣ,300γρ.,mymarket,271103,Γιώτης Κρέμα Ρυζάλευρου Βανίλια 300gr,Γιώτης,,0.6,ok
+16476,ST.DALFOUR ΜΑΡΜΕΛΑΔΑ 4 ΦΡΟΥΤΑ 284ΓΡ,ST. DALFOUR,284gr,mymarket,321152,St. Dalfour Μαρμελάδα 4 Φρούτα 284gr,St. Dalfour,,1.0,ok
+16514,ΑΝΑΤΟΛΗ ΣΟΔΑ ΓΥΑΛ. 380ΓΡ,ΑΝΑΤΟΛΗ,380γρ.,mymarket,317609,ΑΝΑΤΟΛΗ Σόδα σε Γυάλινη Συσκευασία 380gr,ΑΝΑΤΟΛΗ,,0.41,ok
+16536,ΠΑΥΛΙΔΗΣ ΣΟΚ.ΥΓΕΙΑΣ ΚΡ.ΚΑΚΑΟ 100ΓΡ,ΠΑΥΛΙΔΗΣ,100γρ.,ab,7632242,Σοκολάτα Υγείας Κρέμα Κακάο 100g,ΠΑΥΛΙΔΗΣ,100 γρ,0.55,ok
+16536,ΠΑΥΛΙΔΗΣ ΣΟΚ.ΥΓΕΙΑΣ ΚΡ.ΚΑΚΑΟ 100ΓΡ,ΠΑΥΛΙΔΗΣ,100γρ.,mymarket,337495,Παυλίδης Σοκολάτα Υγείας Γέμιση Κρέμα Κακάο 100gr,Παυλίδης,,0.48,ok
+16537,LACTA ΣΟΚ.LOVIT OREO 105ΓΡ,LACTA,105γρ.,ab,7067445,Σοκολάτα Γάλακτος Μπισκότο Oreo 105gr,LACTA,105 γρ,0.33,ok
+16537,LACTA ΣΟΚ.LOVIT OREO 105ΓΡ,LACTA,105γρ.,mymarket,337118,Lacta Σοκολάτα Γάλακτος Με Κομματάκια Μπισκότου Oreo 105gr,Lacta,,0.27,ok
+16567,LIPTON ΠΡΑΣΙΝΟ ΤΣΑΙ ΛΕΜΟΝΙ-ΜΕΛΙΣΣΟΧΟΡΤΟ 20*1.6ΓΡ,LIPTON,"20*1,6γρ.",ab,7070704,Τσάι Πράσινο Λεμόνι & Μελισσόχορτο 20 Τεμάχια,LIPTON,32 γρ,0.54,ok
+16567,LIPTON ΠΡΑΣΙΝΟ ΤΣΑΙ ΛΕΜΟΝΙ-ΜΕΛΙΣΣΟΧΟΡΤΟ 20*1.6ΓΡ,LIPTON,"20*1,6γρ.",mymarket,265100,Lipton Πράσινο Τσάι Λεμόνι-Μελισσόχορτο 20 Πυραμίδες,Lipton,,0.75,ok
+16652,ΖΑΓΟΡΙΣΙΟ ΦΥΛΛΟ ΚΤΨ 750ΓΡ ΧΑΒΕΛΑΣ,ΧΑΒΕΛΑΣ,750γρ.,ab,7510592,Φύλλο Ζαγορίσιο Παραδοσιακό Κατεψυγμένο 750g,ΖΑΓΟΡΙΣΙΟ,750 γρ,0.24,ok
+16652,ΖΑΓΟΡΙΣΙΟ ΦΥΛΛΟ ΚΤΨ 750ΓΡ ΧΑΒΕΛΑΣ,ΧΑΒΕΛΑΣ,750γρ.,mymarket,156571,Χαβέλας Ζαγορίσιο Παραδοσιακό Φύλλο Κατεψυγμένο 750gr,Χαβέλας,,0.4,ok
+16774,ST.DALFOUR ΜΑΡΜΕΛΑΔΑ ΒΕΡΙΚΟΚΟ 284ΓΡ,ST. DALFOUR,284gr,mymarket,321156,St. Dalfour Μαρμελάδα Βερίκοκο 284gr,St.Dalfour,,1.0,ok
+16809,GORDON S GIN ABV 37.5% 700ML,GORDON΄S,700ml,ab,7091530,Τζιν London Dry 700ml,GORDON'S,700 ml,0.24,ok
+16809,GORDON S GIN ABV 37.5% 700ML,GORDON΄S,700ml,mymarket,451004,Gordon's Gin 700ml,Gordon's,,0.55,ok
+16847,ST.DALFOUR ΜΑΡΜΕΛΑΔΑ ΠΟΡΤΟΚΑΛΙ 284ΓΡ,ST. DALFOUR,284gr,mymarket,321153,St. Dalfour Μαρμελάδα Πορτοκάλι 284gr,St.Dalfour,,1.0,ok
+16850,ΤΗΓΑΝΟΨΩΜΟ ΕΥΒΟΙΑΣ ΚΤΨ   2*225ΓΡ,ΑΛΙΜΠΙΝΙΣΗΣ,2*225γρ.,ab,7657786,Τηγανόψωμο Ευβοίας 2x225g,ΑΛΙΜΠΙΝΙΣΗΣ,450 γρ,0.7,ok
+16850,ΤΗΓΑΝΟΨΩΜΟ ΕΥΒΟΙΑΣ ΚΤΨ   2*225ΓΡ,ΑΛΙΜΠΙΝΙΣΗΣ,2*225γρ.,mymarket,157337,Αλιμπινίσης Τηγανόψωμα Εύβοιας Μεγάλα (2Χ225gr) 450gr,Αλιμπινίσης,,0.46,ok
+18128,ALPRO ΡΟΦΗΜΑ NATURAL SOYA 1L,ALPRO,1L,ab,7141806,Ρόφημα Σόγιας Natural 1 Lt,ALPRO,1 λιτ,0.4,ok
+18128,ALPRO ΡΟΦΗΜΑ NATURAL SOYA 1L,ALPRO,1L,mymarket,113895,Alpro Ρόφημα Σόγιας Natural 1lt,Alpro,,0.46,ok
+18129,ALPRO ΡΟΦΗΜΑ ΣΟΚΟΛΑΤΑ SOYA 1L,ALPRO,1L,ab,7141866,Ρόφημα Σόγιας Σοκολάτα 1 Lt,ALPRO,1 λιτ,0.56,ok
+18129,ALPRO ΡΟΦΗΜΑ ΣΟΚΟΛΑΤΑ SOYA 1L,ALPRO,1L,mymarket,113896,Alpro Ρόφημα Σόγιας Σοκολάτα 1lt,Alpro,,0.62,ok
+18130,ALPRO ΡΟΦΗΜΑ ΒΑΝΙΛΙΑ SOYA 1L,ALPRO,1L,ab,7141869,Ρόφημα Σόγιας Βανίλια 1 Lt,ALPRO,1 λιτ,0.53,ok
+18130,ALPRO ΡΟΦΗΜΑ ΒΑΝΙΛΙΑ SOYA 1L,ALPRO,1L,mymarket,113897,Alpro Ρόφημα Σόγιας Βανίλια 1lt,Alpro,,0.59,ok
+18985,SWEET&BALANCE ΓΛΥΚΑΝΤΙΚΟ ΣΚΟΝΗ STEVIA 80ΓΡ,SWEET & BALANCE,80γρ.,ab,7224366,Γλυκαντικό Στέβια Σκόνη 80g,SWEET & BALANCE,80 γρ,0.69,ok
+18985,SWEET&BALANCE ΓΛΥΚΑΝΤΙΚΟ ΣΚΟΝΗ STEVIA 80ΓΡ,SWEET & BALANCE,80γρ.,mymarket,275220,Γιώτης Sweet & Balance Γλυκαντικό Stevia Σκόνη 80gr,Γιώτης,,0.6,ok
+19020,MALTESERS ΣΟΚ.ΓΕΜΙΣΤΑ 37ΓΡ,MALTESERS,37γρ.,ab,7068030,Σοκολατένια Κουφετάκια Γάλακτος 37gr,MALTESERS,37 γρ,0.24,ok
+19020,MALTESERS ΣΟΚ.ΓΕΜΙΣΤΑ 37ΓΡ,MALTESERS,37γρ.,mymarket,337235,Maltesers Σοκολάτακια Γεμιστά 37gr,Maltesers,,0.64,ok
+19055,ΤΣΙΧΛΕΣ MENTOS PURE FRESH MINT CURVY POCKET BOTTLE 28ΓΡ,MENTOS,28γρ.,ab,7252147,Τσίχλες Pure Fresh Μέντα 28g,MENTOS,28 γρ,0.42,ok
+19055,ΤΣΙΧΛΕΣ MENTOS PURE FRESH MINT CURVY POCKET BOTTLE 28ΓΡ,MENTOS,28γρ.,mymarket,340944,Mentos Pure Fresh Pocket Bottle Mint Τσίχλες 28gr,Mentos,,0.6,ok
+19056,MENTOS CURVY POCKET BOTTLE WINTERGREEN,MENTOS,28γρ.,ab,7252254,Τσίχλες Pure Fresh Δυόσμος 28g,MENTOS,28 γρ,0.08,ok
+19091,GUM ON JELLY BEANS 90ΓΡ,ΛΑΒΔΑΣ,90gr,ab,7466979,Καραμέλες Ζελίνια Gum On Jelly Beans 90gr,GUM ON,90 γρ,0.41,ok
+19091,GUM ON JELLY BEANS 90ΓΡ,ΛΑΒΔΑΣ,90gr,mymarket,340523,Λάβδας Gum On Jelly Beans 90gr,Λάβδας,,0.92,ok
+193133,ΛΑΣΤΙΧΟ ΜΑΛΛΙΩΝ ΑΠΛΟ,ZAN SOT,Τεμάχιο,mymarket,703816,Zan Sot Λάστιχο Μαλλιών Απλό Μικρό,Zan Sot,,0.77,ok
+193318,ΧΤΕΝΑ ΑΝΔΡΙΚΗ ΔΙΠΛΗ ΤΑΡΤΑΡΟΥΓΑ,,Τεμάχιο,mymarket,654211,Zan Sot Χτένα Ανδρική Διπλή Ταρταρούγα,,,0.81,ok
+193324,ΒΟΥΡΤΣΑ PNEUMATIC ANATOMIC ΜΕΓΑΛΗ,PNEUMATIC,Τεμάχιο,mymarket,703801,Zan Sot Βούρτσα Pneumatic Anatomic Μεγάλη,Zan Sot,,0.74,ok
+193354,ΑΦΡΟΧΤΕΝΟ ΜΙΚΡΟ ΜΟΝΟΧΡΩΜΟ,,Τεμάχιο,mymarket,654213,Zan Sot Αφρόχτενο Μικρό Μονόχρωμο,Zan Sot,,0.71,ok
+193623,ΚΛΑΜΕΡ ΜΙΚΡΟ CLASSIC 17105,ZAN SOT,Τεμάχιο,mymarket,703805,Zan Sot Klamer Μικρό Classic,Zan Sot,,0.76,ok
+193626,ΚΛΑΜΕΡ ΟΒΑΛ CLASSIC ΜΕΣΑΙΟ,ZAN SOT,Τεμάχιο,mymarket,654224,Zan Sot Κλάμερ Classic Μεσαίο 17402,Zan Sot,,0.58,ok
+193635,ΣΤΕΚΑ CLASSIC 8mm,ZAN SOT,Τεμάχιο,mymarket,703821,Zan Sot Στέκα Classic 8mm,Zan Sot,,0.9,ok
+193662,ΒΟΥΡΤΣΑ ΣΤΡΟΓΓΥΛΗ ANATOMIC 15 mm,ZAN SOT,Τεμάχιο,mymarket,703803,Zan Sot Βούρτσα Στρογγυλή Ανατομική 15mm,Zan Sot,,0.76,ok
+193747,ΛΑΣΤΙΧΟ ΜΑΛΛΙΩΝ  ΥΦΑΣΜΑΤΙΝΟ,ZAN SOT,Τεμάχιο,mymarket,654207,Zan Sot Λάστιχο Μαλλιών Ύφασμα 18136,,,0.74,ok
+195234,ΑΕΡΟΒΟΥΡΤΣΑ ΤΕΤΡΑΓΩΝΗ ΜΙΚΡΗ,ZAN SOT,Τεμάχιο,mymarket,703802,Zan Sot Αερόβουρτσα Τετράγωνη Μικρή,Zan Sot,,0.94,ok
+19554,MENTOS ΜΕΝΤΑ ΜΑΣΟΥΡΙ,MENTOS,38γρ.,mymarket,339201,Mentos Καραμέλες Μέντα 38gr,Mentos,,0.25,ok
+19574,MENTOS STICK FRUITS,MENTOS,38γρ.,mymarket,339202,Mentos Καραμέλες Φρούτου 38gr,Mentos,,0.16,ok
+196308,AFROSO WC BLOCK ΣΤΕΡΕΟ ΤΡΙΑΝΤΑΦΥΛΛΟ 40ΓΡ,AFROSO,40gr,ab,7344103,Καθαριστικό Block Τουαλέτας Passionate Rose 40g,AFROSO,40 γρ,0.12,ok
+196308,AFROSO WC BLOCK ΣΤΕΡΕΟ ΤΡΙΑΝΤΑΦΥΛΛΟ 40ΓΡ,AFROSO,40gr,mymarket,509980,Afroso Block Passionate Rose 40gr,Afroso,,0.24,ok
+196328,AFROSO BLOCK ΑΝΤ/ΚΟ ΣΤΕΡΕΟ ΤΡΙΑΝΤΑΦΥΛΛΟ 2*40ΓΡ,AFROSO,2*40gr,ab,7344160,Καθαριστικό Block Τουαλέτας Passionate Rose 2x40g,AFROSO,80 γρ,0.13,ok
+196328,AFROSO BLOCK ΑΝΤ/ΚΟ ΣΤΕΡΕΟ ΤΡΙΑΝΤΑΦΥΛΛΟ 2*40ΓΡ,AFROSO,2*40gr,mymarket,509983,Afroso Block Passionate Rose Ανταλλακτικό 2τεμ 80 gr,Afroso,,0.22,ok
+19646,MENTOS PURE WHITE BIG BOTTLE SPREAMINT,MENTOS,90γρ.,ab,7065779,Τσίχλες Δυόσμος 90g,MENTOS,100 γρ,0.12,ok
+19646,MENTOS PURE WHITE BIG BOTTLE SPREAMINT,MENTOS,90γρ.,mymarket,340072,Mentos Pure Bottle White Spearmint Τσίχλες 90gr,Mentos,,0.42,ok
+196537,3 WAY ΠΑΠΙ WC ΓΙΑ ΚΑΖΑΝΑΚΙ 50ΓΡ.,DUCK,50gr,ab,7118226,Υγρό Τουαλέτας WC Block Marine 50g,DUCK,50 γρ,0.05,ok
+196537,3 WAY ΠΑΠΙ WC ΓΙΑ ΚΑΖΑΝΑΚΙ 50ΓΡ.,DUCK,50gr,mymarket,509201,Duck Block Για Καζανάκι 3 σε 1 50gr,Duck,,0.31,ok
+196802,HELLMANNS ΜΟΥΣΤΑΡΔΑ ΑΠΑΛΗ TOP DOWN 265ΓΡ,HELLMANN΄S,265γρ.,ab,7084732,Μουστάρδα Απαλή Top Down 265 ml,HELLMANN'S,265 γρ,0.84,ok
+196802,HELLMANNS ΜΟΥΣΤΑΡΔΑ ΑΠΑΛΗ TOP DOWN 265ΓΡ,HELLMANN΄S,265γρ.,mymarket,207404,Hellmann's Μουστάρδα Απαλή 265gr,Hellmanns,,0.7,ok
+197067,HELLMANNS ΜΑΓΙΟΝΕΖΑ ΑΝΑΠΛΗΡΩΜΑ LIGHT 450ΓΡ,HELLMANN΄S,450γρ.,ab,7069521,Μαγιονέζα Light 450 gr,HELLMANN'S,450 γρ,0.64,ok
+197067,HELLMANNS ΜΑΓΙΟΝΕΖΑ ΑΝΑΠΛΗΡΩΜΑ LIGHT 450ΓΡ,HELLMANN΄S,450γρ.,mymarket,110270,Hellmann's Light Μαγιονέζα 450ml,Hellmanns,,0.43,ok
+197072,HELLMANNS ΜΑΓΙΟΝΕΖΑ REAL T.D. 430ML,HELLMANN΄S,430ml,ab,7127630,Μαγιονέζα Real Top Down 430 ml,HELLMANN'S,430 ml,0.65,ok
+197072,HELLMANNS ΜΑΓΙΟΝΕΖΑ REAL T.D. 430ML,HELLMANN΄S,430ml,mymarket,110273,Hellmann's Μαγιονέζα Top Down 430ml,Hellmanns,,0.55,ok
+197076,HELLMANNS ΜΑΓΙΟΝΕΖΑ 225ML,HELLMANN΄S,225ml,ab,7069993,Μαγιονέζα Real 225 ml,HELLMANN'S,225 ml,0.66,ok
+197076,HELLMANNS ΜΑΓΙΟΝΕΖΑ 225ML,HELLMANN΄S,225ml,mymarket,110125,Hellmann's Real Μαγιονέζα 225ml,Hellmanns,,0.75,ok
+197077,HELLMANNS ΜΑΓΙΟΝΕΖΑ 450ML,HELLMANN΄S,450ml,ab,7069999,Μαγιονέζα Real 450 ml,HELLMANN'S,450 ml,0.66,ok
+197077,HELLMANNS ΜΑΓΙΟΝΕΖΑ 450ML,HELLMANN΄S,450ml,mymarket,110126,Hellmann's Real Μαγιονέζα 450ml,Hellmanns,,0.75,ok
+197079,HELLMANNS ΜΑΓΙΟΝΕΖΑ 650ML,HELLMANN΄S,650ml,ab,7069996,Μαγιονέζα Real 650 ml,HELLMANN'S,650 ml,0.66,ok
+197079,HELLMANNS ΜΑΓΙΟΝΕΖΑ 650ML,HELLMANN΄S,650ml,mymarket,110107,Hellmann's Real Μαγιονέζα Real 650ml,Hellmanns,,0.59,ok
+197997,HELLMANNS ΜΑΓΙΟΝΕΖΑ LIGHT 225ML,HELLMANN΄S,225ml,ab,7069507,Μαγιονέζα Light 225 gr,HELLMANN'S,225 γρ,0.8,ok
+197997,HELLMANNS ΜΑΓΙΟΝΕΖΑ LIGHT 225ML,HELLMANN΄S,225ml,mymarket,110271,Hellmann's Light Μαγιονέζα 225ml,Hellmanns,,0.65,ok
+198232,ΛΙΜΑ ΝΥΧΙΩΝ 16CM Ν.602,ZAN SOT,16cm,mymarket,654209,Λίμα Νυχιών 16cm 20303,,,0.46,ok
+198453,ΝΥΧΟΚΟΠΤΗΣ ΜΕΓΑΛΟΣ ZAN SOT,ZAN SOT,Τεμάχιο,mymarket,703826,Zan Sot Νυχοκόπτης Κλασσικός Μεγάλος,Zan Sot,,0.58,ok
+198828,ΗΒΗ ENERGY BLUE ΦΡΟΥ/ΤΟ.250ML,ΗΒΗ,250ml,mymarket,411006,Ηβη Energy 7 Φρουτοποτό 250ml,Ηβη,,0.58,ok
+199048,ΚΛΑΜΕΡ CLASSIC ΠΟΛΥ ΜΕΓΑΛΟ,,Τεμάχιο,mymarket,703809,Zan Sot Klamer Χταποδάκι Classic Πολύ Μεγάλο,Zan Sot,,0.5,ok
+19919,MALTESERS POUCH 175ΓΡ,MALTESERS,175γρ.,ab,7064900,Σοκολατένια Κουφετάκια Γάλακτος 175gr,MALTESERS,175 γρ,0.2,ok
+19919,MALTESERS POUCH 175ΓΡ,MALTESERS,175γρ.,mymarket,338127,Maltesers Σοκολατάκια Γεμιστά Pouch 175gr,Maltesers,,0.44,ok
+199403,ΨΑΛΙΔΑΚΙ ΧΟΝΤ.ΜΥΤΕΡ.ΑΚΡΕΣ Ν617,ZAN SOT,Τεμάχιο,mymarket,703825,Zan Sot Ψαλιδάκι Νυχιών,Zan Sot,,0.32,ok
+19954,MARS SINGLE 51ΓΡ,MARS,51γρ.,ab,7067951,Σοκολάτα Γάλακτος Γεμιστή Καραμέλα 51gr,MARS,51 γρ,0.11,ok
+19954,MARS SINGLE 51ΓΡ,MARS,51γρ.,mymarket,337778,Mars Σοκολάτα Γεμιστή 51gr,Mars,,0.23,ok
+199968,VILEDA ΓΑΝΤΙΑ SENS.PLUS SMALL.,VILEDA,Τεμάχιο,mymarket,515824,Vileda Γάντια Κουζίνας Sensitive Small,Vileda,,0.4,ok
+19997,M&M΄S CHOCO 45ΓΡ,M&M΄S,45γρ.,mymarket,338128,M&M's Minis Σοκολάτα 45gr,m&m's,,0.19,ok
+199971,VILEDA ΓΑΝΤΙΑ SENS.PLUS LARGE.,VILEDA,Τεμάχιο,mymarket,515826,Vileda Γάντια Κουζίνας Sensitive Large,Vileda,,0.4,ok
+199972,VILEDA ΓΑΝΤΙΑ SENS.PLUS MEDIUM.,VILEDA,Τεμάχιο,mymarket,515825,Vileda Γάντια Κουζίνας Sensitive Μedium,Vileda,,0.42,ok
+19999,M&M΄S CHOCO ΣΑΚΟΥΛΑΚΙ 125ΓΡ,M&M΄S,125γρ.,ab,7778652,Σοκολατένια Κουφετάκια 125g,M & M'S,125 γρ,0.14,ok
+19999,M&M΄S CHOCO ΣΑΚΟΥΛΑΚΙ 125ΓΡ,M&M΄S,125γρ.,mymarket,337234,M&M'S Σοκολάτα 125gr,m&m's,,0.19,ok
+2001,DEWARS WHISKEY 700ML.,DEWARS,700ml,ab,7091405,Ουίσκι Σκωτίας 700ml,DEWARS,700 ml,0.26,ok
+2001,DEWARS WHISKEY 700ML.,DEWARS,700ml,mymarket,470401,Dewar's Ουίσκυ 700ml,Dewar's,,0.46,ok
+20010,ΕΛΜΑ ΤΣΙΧΛΕΣ ΧΙΟΥ,ΕΛΜΑ,13γρ.,mymarket,340051,Έλμα Τσίχλα Κουφέτο 13gr,Έλμα,,0.34,ok
+200124,ZEWA ΕΠΙΤΡ. ΧΑΡΤΟΜ/ΛΑ FAMILY 3Φ 162ΓΡ,ZEWA,162γρ.,ab,7128601,Χαρτομάντηλα Επιτραπέζια 3 Φύλλα 90 Τεμάχια 162g,ZEWA,162 γρ,0.21,ok
+200124,ZEWA ΕΠΙΤΡ. ΧΑΡΤΟΜ/ΛΑ FAMILY 3Φ 162ΓΡ,ZEWA,162γρ.,mymarket,970018,"Zewa Deluxe Χαρτομάντηλα Επιτραπέζια 3φύλλων 90τεμ 0,162kg",Zewa,,0.2,ok
+2003,BALLANTINES WHISKEY 40% 700ML.,BALLANTINES,700ml,ab,7091400,Ουίσκι Σκωτίας 700ml,BALLANTINES,700 ml,0.34,ok
+2003,BALLANTINES WHISKEY 40% 700ML.,BALLANTINES,700ml,mymarket,470001,Ballantines Finest Standard Whisky 700ml,Ballantine's,,0.4,ok
+2004,CHIVAS REGAL WHISKEY 12Y 700ML,CHIVAS,700ml.,ab,7091338,Ουίσκι 12 ετών 700ml,CHIVAS REGAL,700 ml,0.33,ok
+2004,CHIVAS REGAL WHISKEY 12Y 700ML,CHIVAS,700ml.,mymarket,470701,Chivas Regal 12 Years Old Deluxe Whisky 700ml,Chivas Regal,,0.36,ok
+2006,BACARDI BREEZER LEMON 275ML.,BACARDI,275ml,ab,7096762,Ready To Drink Lemon 275ml,BACARDI,275 ml,0.35,ok
+2006,BACARDI BREEZER LEMON 275ML.,BACARDI,275ml,mymarket,425202,Bacardi Breezer Λεμόνι 275ml,Bacardi,,0.81,ok
+20060,ELMA ΤΣΙΧΛΑ ΧΩΡΙΣ ΖΑΧΑΡΗ 13ΓΡ,ΕΛΜΑ,14gr,mymarket,340052,Έλμα Τσίχλα Κουφέτο Χωρίς Ζάχαρη 13gr,Έλμα,,0.72,ok
+200620,ZEWA Χ.ΥΓΕΙΑΣ EXCLUSIVE 8ΑΡΙ 888ΓΡ,ZEWA,8*122gr,ab,7537275,Χαρτί Υγείας Exclusive Ultra Soft 8 Τεμάχια,ZEWA,888 γρ,0.32,ok
+200620,ZEWA Χ.ΥΓΕΙΑΣ EXCLUSIVE 8ΑΡΙ 888ΓΡ,ZEWA,8*122gr,mymarket,607350,"Zewa Exclusive Ultra Soft Χαρτί Υγείας 4φύλλων 8άρι 0,888kg",Zewa,,0.29,ok
+2008,JAMESON WHISKEY ΙΡΛΑΝΔΙΑΣ 700ML,JAMESON,700ml,ab,7091377,Ουίσκι Ιρλανδίας Triple Distilled 700ml,JAMESON,700 ml,0.31,ok
+2008,JAMESON WHISKEY ΙΡΛΑΝΔΙΑΣ 700ML,JAMESON,700ml,mymarket,470991,Jameson Irish Whisky 700ml,Jameson Irish Whisky,,0.28,ok
+2010,CUTTY SARK WHISKEY 700ML,CUTTY SARK,700ml,ab,7091296,Ουίσκι Σκωτίας 700ml,CUTTY SARK,700 ml,0.32,ok
+2010,CUTTY SARK WHISKEY 700ML,CUTTY SARK,700ml,mymarket,470301,Cutty Sark Whisky 700ml,Cutty Sark,,0.78,ok
+2012,BACARDI BREEZER ORANGE 275ML.,BACARDI,275ml,mymarket,425201,Breezer Πορτοκάλι 275ml,Bacardi,,0.43,ok
+2013,JOHNNIE WALKER 40% 700ML,JOHNNIE WALKER,700ml,ab,7091318,Ουίσκι Red Label 700ml,JOHNNIE WALKER,700 ml,0.39,ok
+2013,JOHNNIE WALKER 40% 700ML,JOHNNIE WALKER,700ml,mymarket,470101,Johnnie Walker Red Label Whisky 700ml,Johnnie Walker,,0.44,ok
+2015,TEACHER^S WHISKY 40% 700ML,TEACHER΄S,700ml,ab,7091397,Ουίσκι Σκωτίας 700ml,TEACHERS,700 ml,0.29,ok
+2015,TEACHER^S WHISKY 40% 700ML,TEACHER΄S,700ml,mymarket,470931,Teacher's Ουίσκυ 700ml,Teacher's,,0.48,ok
+2017,BACARDI BREEZER LIME 275ML.,BACARDI,275ml,mymarket,425230,Breezer Lime 275ml,Bacardi,,0.95,ok
+2020,FAMOUS GROUSE WHISKEY 40% 700ML.,THE FAMOUS GROUSE,700ml,ab,7091389,Ουίσκι Σκωτίας 700ml,FAMOUS GROUSE,700 ml,0.33,ok
+2020,FAMOUS GROUSE WHISKEY 40% 700ML.,THE FAMOUS GROUSE,700ml,mymarket,470971,Famous Grouse Whisky 700ml,Famous Grouse,,0.63,ok
+2022,ABSOLUT VODKA 700ML.,ABSOLUT,700ml,ab,7091516,Βότκα Absolut 700ml,ABSOLUT,700 ml,0.42,ok
+2022,ABSOLUT VODKA 700ML.,ABSOLUT,700ml,mymarket,450201,Absolut Vodka 700ml,Absolut,,1.0,ok
+202635,ZEWA ΧΑΡΤΙ ΚΟΥΖΙΝΑΣ W&W ORIGINAL 2ΠΛΟ 220ΓΡ,ZEWA,220gr,ab,7642816,Χαρτί Κουζίνας Wisch & Wec Original 2x110g,ZEWA,220 γρ,0.46,ok
+2027,JOHNNIE WALKER BLACK 12ΕΤΩΝ 700ML,JOHNNIE WALKER,700ml,ab,7091349,Ουίσκι Black Label 700ml,JOHNNIE WALKER,700 ml,0.39,ok
+2027,JOHNNIE WALKER BLACK 12ΕΤΩΝ 700ML,JOHNNIE WALKER,700ml,mymarket,470102,Johnnie Walker Black Label Deluxe Whisky 700ml,Johnnie Walker,,0.44,ok
+2030,BACARDI BREEZER WATERMELLON 275ML.,BACARDI,275ml,ab,7096765,Ready To Drink Watermelon 275ml,BACARDI,275 ml,0.39,ok
+2030,BACARDI BREEZER WATERMELLON 275ML.,BACARDI,275ml,mymarket,425203,Breezer Καρπούζι 275ml,Bacardi,,0.38,ok
+2035,JACK DANIELS WHISKEY 700ML.,JACK DANIELS,700ml,ab,7735316,Ουίσκι Jack Daniel’s Tennessee 700ml,JACK DANIEL'S,700 ml,0.32,ok
+2035,JACK DANIELS WHISKEY 700ML.,JACK DANIELS,700ml,mymarket,470957,Jack Daniel’s Νο 7 Tennessee Ουίσκι 700ml,Jack Daniels,,0.36,ok
+2037,DI SARONNO ORIGINALE 700ML,DISARONNO,700ml,ab,7091460,Λικέρ Disaronno Originale 700ml,DISARONNO,700 ml,0.7,ok
+2037,DI SARONNO ORIGINALE 700ML,DISARONNO,700ml,mymarket,460945,Disaronno Amaretto Λικέρ 700ml,Disaronno,,0.32,ok
+205037,JB GEL ΚΑΘΑΡΙΣΜΟΥ ESS.NORM.SKIN 150ML,JOHNSON΄S,150ml,mymarket,756674,Johnson's Daily Essentials Wash Normal 150ml,Johnson's,,0.21,ok
+206032,RAID ΜΥΡΜΗΓΚΟΚΤOΝΟ ΔΟΛΩΜΑ,RAID,Τεμάχιο,ab,7319198,Μυρμηγκοκτόνο Δόλωμα Ant Bait 1 Τεμάχιο,RAID,1 τεμ,0.54,ok
+206032,RAID ΜΥΡΜΗΓΚΟΚΤOΝΟ ΔΟΛΩΜΑ,RAID,Τεμάχιο,mymarket,519212,Raid Ant Bait. Μυρμηγκοκτόνο Δόλωμα,Raid,,0.66,ok
+206801,TEZA FIK ΕΝΤΟΜΟΚΤΟΝΟ SPRAY 300ML,TEZA,300ml,ab,7318798,Εντομοκτόνο Spray για Μύγες & Κουνούπια 300ml,TEZA,300 ml,0.39,ok
+206801,TEZA FIK ΕΝΤΟΜΟΚΤΟΝΟ SPRAY 300ML,TEZA,300ml,mymarket,519978,Teza Εντομοκτόνο Spray 300ml,Teza,,0.77,ok
+206804,TEZA ΚΑΤΣΑΡΙΔΟΚΤΟΝΟ MEC ΣΠΡΕΥ 400ML,TEZA,400ml,ab,7585066,Εντομοκτόνο Mec Spray Άοσμο 400ml,TEZA,400 ml,0.32,ok
+206807,TEZA SPRAY ΑΟΣΜΟ 300ML,TEZA,300ml,ab,7318810,Spray Χωρίς Άρωμα για Κατσαρίδες & Μυρμήγκια 300ml,TEZA,300 ml,0.19,ok
+206807,TEZA SPRAY ΑΟΣΜΟ 300ML,TEZA,300ml,mymarket,519975,Teza Κατσαριδοκτόνο Χωρίς Άρωμα 300ml,Teza,,0.16,ok
+206808,AROXOL ΕΝΤΟΜΟΚΤΟΝΟ 300ML,AROXOL,300ml,ab,7121510,Εντομοκτόνο Spray Μύγες & Κουνούπια 300ml,AROXOL,300 ml,0.42,ok
+206808,AROXOL ΕΝΤΟΜΟΚΤΟΝΟ 300ML,AROXOL,300ml,mymarket,518634,Aroxol Εντομοκτονο 300ml,Aroxol,,1.0,ok
+206810,AROXOL ΚΑΤΣΑΡΙΔΟΚΤΟΝΟ MEC INSTANT 400ML,AROXOL,400ml,ab,7738323,Εντομοκτόνο Spray Mec Instant 400ml,AROXOL,400 ml,0.43,ok
+206810,AROXOL ΚΑΤΣΑΡΙΔΟΚΤΟΝΟ MEC INSTANT 400ML,AROXOL,400ml,mymarket,519600,Aroxol Mec Instant Κατσαριδοκτόνο Με Αντλία 400ml,Aroxol,,0.67,ok
+206811,AROXOL ΚΑΤΣΑΡΙΔΟΚΤΟΝΟ IMIPROTHRIN 300ML,AROXOL,300ml,ab,7121499,Εντομοκτόνο Spray Κατσαρίδες Μυρμήγκια 300ml,AROXOL,300 ml,0.27,ok
+206814,RAID ΕΝΤΟΜΟΚΤΟΝΟ SPRAY 300ML,RAID,300ml,ab,7541396,Εντομοκτόνο Spray Κουνούπια Μύγες 300ml,RAID,300 ml,0.51,ok
+206871,TEZA SPRAY EXTRA IMIPRO 400ML,TEZA,400ml,ab,7318767,Extra Spray για Κατσαρίδες & Μυρμήγκια 400ml,TEZA,400 ml,0.23,ok
+206871,TEZA SPRAY EXTRA IMIPRO 400ML,TEZA,400ml,mymarket,519973,Teza Κατσαριδοκτόνο Spray Extra 400ml,Teza,,0.35,ok
+207045,AUTAN FAMILY CARE SOFT SPRAY 100ML.,AUTAN,100ml,ab,7656616,Απωθητικό Κουνουπιών Family Care Soft Spray 100ml,AUTAN,1 τεμ,0.55,ok
+207045,AUTAN FAMILY CARE SOFT SPRAY 100ML.,AUTAN,100ml,mymarket,518331,Autan Family Care Soft Spray 100ml,Autan,,1.0,ok
+20942,ORBIT ΤΣΙΧΛΕΣ PROF.WHITE ΜΠΟΥKΑΛΙ 64ΓΡ,ORBIT,64γρ.,ab,7136581,Τσίχλες White Teeth Μπουκάλι 46 Τεμάχια,ORBIT,64 γρ,0.37,ok
+20942,ORBIT ΤΣΙΧΛΕΣ PROF.WHITE ΜΠΟΥKΑΛΙ 64ΓΡ,ORBIT,64γρ.,mymarket,340677,Orbit Τσίχλες Profeessional White Μπουκάλι 46τεμ,Orbit,,0.55,ok
+20947,ORBIT ΤΣΙΧΛΕΣ SPEARMINT ΜΠΟΥKΑΛΙ 64ΓΡ,ORBIT,64γρ.,ab,7136580,Τσίχλες Δυόσμος 64g,ORBIT,64 γρ,0.29,ok
+20947,ORBIT ΤΣΙΧΛΕΣ SPEARMINT ΜΠΟΥKΑΛΙ 64ΓΡ,ORBIT,64γρ.,mymarket,340678,Orbit Τσίχλες Spearmint Μπουκάλι 46τεμ,Orbit,,0.76,ok
+2099,BACARDI 700ML,BACARDI,700ml,ab,7091532,Ρούμι Λευκό Carta Blanca 700ml,BACARDI,700 ml,0.24,ok
+2099,BACARDI 700ML,BACARDI,700ml,mymarket,452001,Bacardi Carta Blanca Ρούμι 700ml,Bacardi,,0.41,ok
+211248,SANITAS WRAP 50M,SANITAS,Τεμάχιο,ab,7640212,Μεμβράνη 50m 1 Τεμάχιο,SANITAS,15 μ2,0.19,ok
+2118,GRANT^S WHISKY 40% 700ML.,GRANT΄S,700ml,ab,7091380,Ουίσκι Σκωτίας Triple Wood Blended 700ml,GRANTS,700 ml,0.16,ok
+2118,GRANT^S WHISKY 40% 700ML.,GRANT΄S,700ml,mymarket,470501,Grant's Ουίσκυ 700ml,Grants,,0.44,ok
+217361,ΚΑΡΑΜΟΛΕΓΚΟΣ Κ ΨΩΜΙ HIGH PROTEIN 500ΓΡ,ΚΑΡΑΜΟΛΕΓΚΟΣ,500γρ.,ab,7724788,Ψωμί Τοστ Ολικής Άλεσης High Protein 500g,ΚΑΡΑΜΟΛΕΓΚΟΣ,500 γρ,0.49,ok
+217361,ΚΑΡΑΜΟΛΕΓΚΟΣ Κ ΨΩΜΙ HIGH PROTEIN 500ΓΡ,ΚΑΡΑΜΟΛΕΓΚΟΣ,500γρ.,mymarket,303568,Καραμολέγκος High Protein Ολικής Άλεσης Ψωμί Του Τόστ 500gr,Καραμολέγκος,,0.47,ok
+217365,TEZA CIK SPRAY ULTRA 400ML,TEZA,400ml,ab,7725074,Εντομοκτόνο Spray Ultra για Κατσαρίδες & Μυρμήγκια 400ml,TEZA,400 ml,0.24,ok
+217365,TEZA CIK SPRAY ULTRA 400ML,TEZA,400ml,mymarket,519011,Teza Ultra Κατσαριδοκτόνο Cik Σπρέυ 400ml,Teza,,0.32,ok
+217366,ΚΑΡΑΜΟΛΕΓΚΟΣ ΨΩΜΙ ZEAΣ 500ΓΡ,ΚΑΡΑΜΟΛΕΓΚΟΣ,500γρ.,ab,7724752,Ψωμί Τοστ με Αλεύρι Ζέας 500g,ΚΑΡΑΜΟΛΕΓΚΟΣ,500 γρ,0.56,ok
+217366,ΚΑΡΑΜΟΛΕΓΚΟΣ ΨΩΜΙ ZEAΣ 500ΓΡ,ΚΑΡΑΜΟΛΕΓΚΟΣ,500γρ.,mymarket,303566,Καραμολέγκος Ζέας Ψωμί Για Τόστ 500gr,Καραμολέγκος,,0.55,ok
+217399,TERRA CRETA ΕΛΑΙΟΛΑΔΟ EΞ.ΠΑΡΘ.ΧΑΝΙA ΓΥΑΛΙΝΟ 1L,TERRA CRETA,1L,ab,7726907,Ελαιόλαδο Εξαιρετικό Παρθένο ΠΓΕ Χανιά 1lt,TERRA CRETA,1 λιτ,0.43,ok
+217399,TERRA CRETA ΕΛΑΙΟΛΑΔΟ EΞ.ΠΑΡΘ.ΧΑΝΙA ΓΥΑΛΙΝΟ 1L,TERRA CRETA,1L,mymarket,240078,Terra Creta Εξαιρετικό Παρθένο Ελαιόλαδο Χανίων 1lt,Terra Creta,,0.38,ok
+217416,ΑΛΛΑΤΙΝΗ SOFT KINGS ΑΛΑΤΙΣΜ.ΚΑΡΑΜΕΛΑ 160ΓΡ,ΑΛΛΑΤΙΝΗ,160gr,ab,7723260,Μπισκότα Soft Kings Salted Caramel 160g,ΑΛΛΑΤΙΝΗ,160 γρ,0.37,ok
+217416,ΑΛΛΑΤΙΝΗ SOFT KINGS ΑΛΑΤΙΣΜ.ΚΑΡΑΜΕΛΑ 160ΓΡ,ΑΛΛΑΤΙΝΗ,160gr,mymarket,333376,Αλλατίνη King Soft Με Αλάτι & Καραμέλα 160gr,Αλλατίνη,,0.57,ok
+217428,ELVIVE ΣΑΜΠΟΥΑΝ HYALURONIC PURE 400ML,ELVIVE,400ml,ab,7720476,Σαμπουάν Hydra Hyaluronic Pure 400ml,ELVIVE,400 ml,0.81,ok
+217431,BABYLINO KIDS PANTS SAFE NIG.BOY 4-10Y/20-35K 14T.,BABYLINO,14τεμ.,ab,7715558,Εσώρουχο Kids Pants Αγόρι 4-7 Ετών 14 Τεμάχια,SAFE NIGHTS,14 τεμ,0.19,ok
+217431,BABYLINO KIDS PANTS SAFE NIG.BOY 4-10Y/20-35K 14T.,BABYLINO,14τεμ.,mymarket,605287,Safe Nights Παιδικό Εσώρουχο Αγόρι 4-10 Ετών 20-35kg 14τεμ,Babylino,,0.22,ok
+217519,ΜΑΚΕΔΟΝΙΚΟΣ ΧΑΛΒΑΣ ΒΑΝΙΛΙΑ VACUUM 400ΓΡ,ΜΑΚΕΔΟΝΙΚΟΣ,400γρ.,ab,7719846,Χαλβάς Βανίλια Vacuum 400g,ΜΑΚΕΔΟΝΙΚΟΣ,400 γρ,0.92,ok
+217520,ΜΑΚΕΔΟΝΙΚΟΣ ΧΑΛΒΑΣ ΚΑΚΑΟ VACUUM 400ΓΡ,ΜΑΚΕΔΟΝΙΚΟΣ,400γρ.,ab,7719876,Χαλβάς Κακάο Vacuum 400g,ΜΑΚΕΔΟΝΙΚΟΣ,400 γρ,0.91,ok
+217521,ΟΛΥΜΠΟΣ ΧΑΛΒΑΣ ΚΑΚΑΟ VACUUM 350ΓΡ,ΟΛΥΜΠΟΣ,350γρ.,ab,7720123,Χαλβάς Κακάο Vacuum 350g,ΟΛΥΜΠΟΣ,350 γρ,0.9,ok
+217522,ΟΛΥΜΠΟΣ ΧΑΛΒΑΣ ΒΑΝΙΛΙΑ VACUUM 350ΓΡ,ΟΛΥΜΠΟΣ,350γρ.,ab,7720131,Χαλβάς Βανίλια Vacuum 350g,ΟΛΥΜΠΟΣ,350 γρ,0.9,ok
+217525,ΠΑΠΑΔΟΠΟΛΟΥ ΠΟΛΥΔΗΜΗΤΡ.ΜΕ ΠΡΩΤΕΙΝΗ 160ΓΡ,ΠΑΠΑΔΟΠΟΥΛΟΥ,160γρ.,ab,7723259,Μπισκότα Πολυδημητριακά με Πρωτεΐνη 160g,ΠΑΠΑΔΟΠΟΥΛΟΥ,160 γρ,0.58,ok
+217525,ΠΑΠΑΔΟΠΟΛΟΥ ΠΟΛΥΔΗΜΗΤΡ.ΜΕ ΠΡΩΤΕΙΝΗ 160ΓΡ,ΠΑΠΑΔΟΠΟΥΛΟΥ,160γρ.,mymarket,350013,Παπαδοπούλου Πολυδημητριακά Με Πρωτεϊνη 160gr,Παπαδοπούλου,,0.79,ok
+217528,AGRINO RICE CHIPS SOUR CREAM & ONION 60ΓΡ,AGRINO,60γρ.,ab,7725112,Τσιπς Ρυζιού Sour Cream & Onion 60g,AGRINO,60 γρ,0.44,ok
+217528,AGRINO RICE CHIPS SOUR CREAM & ONION 60ΓΡ,AGRINO,60γρ.,mymarket,332065,Agrino Rice Chips Sour Cream & Onion 60gr,Agrino,,1.0,ok
+217530,AGRINO RICE CHIPS AEGEAN HERBS 60ΓΡ,AGRINO,60γρ.,ab,7725161,Τσιπς Ρυζιού Aegean Herbs 60g,AGRINO,60 γρ,0.4,ok
+217530,AGRINO RICE CHIPS AEGEAN HERBS 60ΓΡ,AGRINO,60γρ.,mymarket,332071,Agrino Chips Ρυζιού Aegean Herbs 60gr,Agrino,,0.55,ok
+217534,ΤΟ ΜΑΝΝΑ ΠΑΞΙΜ.ΛΑΔΙΟΥ Χ.ΠΡΟΣΘΕΤΟ ΑΛΑΤΙ 300ΓΡ,ΤΟ ΜΑΝΝΑ,300γρ.,ab,7718270,Παξιμάδια Λαδιού Χωρίς Πρόσθετο Αλάτι 300g,ΜΑΝΝΑ,"0,3 τεμ",0.61,ok
+217534,ΤΟ ΜΑΝΝΑ ΠΑΞΙΜ.ΛΑΔΙΟΥ Χ.ΠΡΟΣΘΕΤΟ ΑΛΑΤΙ 300ΓΡ,ΤΟ ΜΑΝΝΑ,300γρ.,mymarket,303550,Το Μάννα Παξιμάδι Λαδιού Χωρίς Aλάτι 300gr,Το Μάννα,,0.53,ok
+217535,NIVEA BODY LOTION FIRM.Q10PL.VITAM.C 400ML,NIVEA,400ml,ab,7584208,Λοσιόν Σύσφιξης Σώματος Q10 Plus Vitamin C 400ml,NIVEA,400 ml,0.22,ok
+217540,AJAX ΥΓΡΟ ΚΑΘ/ΚΟ ΠΡΑΣΙΝΟ ΣΑΠΟΥΝΙ 1LT,AJAX,1L,ab,7704756,Καθαριστικό Πατώματος Πράσινο Σαπούνι 1lt,AJAX,1 λιτ,0.4,ok
+217540,AJAX ΥΓΡΟ ΚΑΘ/ΚΟ ΠΡΑΣΙΝΟ ΣΑΠΟΥΝΙ 1LT,AJAX,1L,mymarket,511333,Ajax Υγρό Καθαριστικό Πράσινο Σαπούνι Για Μάρμαρα & Πλακάκια 1lt,Ajax,,0.47,ok
+217542,TAFT MOUSSE ΕΛΑΣΤΙΚΕΣ ΜΠΟΥΚΛΕΣ 200ML,SCHWARZKOPF,200ml,ab,7712069,Αφρός Μαλλιών για Μπούκλες Taft Curl 200ml,TAFT,200 ml,0.17,ok
+217542,TAFT MOUSSE ΕΛΑΣΤΙΚΕΣ ΜΠΟΥΚΛΕΣ 200ML,SCHWARZKOPF,200ml,mymarket,704045,Schwarzkopf Mousse Μαλλιών Για Μπούκλες 200ml,Schwarzkopf,,0.41,ok
+217545,TAFT HAIRSPRAY ΔΥΝ.ΚΡΑΤΗΜΑ 72H 250ML,SCHWARZKOPF,250ml,ab,7712066,Λακ Spray Μαλλιών Taft Power 250ml,TAFT,250 ml,0.13,ok
+217545,TAFT HAIRSPRAY ΔΥΝ.ΚΡΑΤΗΜΑ 72H 250ML,SCHWARZKOPF,250ml,mymarket,704032,Schwarzkopf Taft Λακ Power HL5 250ml,Schwarzkopf,,0.29,ok
+217546,TAFT HAIRSPRAY ΑΠΟΛ.ΚΡΑΤΗΜΑ & ΛΑΜΨΗ 250ML,SCHWARZKOPF,250ml,ab,7712071,Λακ Spray Μαλλιών Taft Ultimate 250ml,TAFT,250 ml,0.17,ok
+217546,TAFT HAIRSPRAY ΑΠΟΛ.ΚΡΑΤΗΜΑ & ΛΑΜΨΗ 250ML,SCHWARZKOPF,250ml,mymarket,704030,Schwarzkopf Taft Ultimate HL6 250ml,Schwarzkopf,,0.32,ok
+217547,TAFT GEL V12 250ML,SCHWARZKOPF,250ml,mymarket,704000,Schwarzkopf Taft Styling Gel V12,Schwarzkopf,,0.49,ok
+217548,TAFT GEL MAXX POWER 300ML,SCHWARZKOPF,300ml,ab,7121169,Gel Μαλλιών Maxx Power 8 300ml,TAFT,300 ml,0.42,ok
+217550,PERSIL ΥΓΡΟ ΠΛΥΝΤ.RENEW DARK BLOOM(28MEZ)1.4L,PERSIL,28μεζ.,ab,7714904,Yγρό Πλυντηρίου Ρούχων Dark Bloom για Σκούρα 28 Μεζούρες,PERSIL,28 μεζ,0.35,ok
+217550,PERSIL ΥΓΡΟ ΠΛΥΝΤ.RENEW DARK BLOOM(28MEZ)1.4L,PERSIL,28μεζ.,mymarket,551584,"Persil Υγρό Απορρυπαντικό Πλυντηρίου Dark Bloom 28μεζ 1,441lt",Persil,,0.46,ok
+217593,HEAD & SH ΣΑΜΠΟΥΑΝ COOL MENTHOL 330ML,HEAD & SHOULDERS,330ml,ab,7717172,Σαμπουάν Cool Menthol 330ml,HEAD&SHOULDERS,330 ml,0.84,ok
+217594,HEAD & SH ΣΑΜΠΟΥΑΝ CITRUS FRESH 330ML,HEAD & SHOULDERS,330ml,ab,7717105,Σαμπουάν Citrus Fresh Λιπαρά Μαλλιά 330ml,HEAD&SHOULDERS,330 ml,0.58,ok
+217594,HEAD & SH ΣΑΜΠΟΥΑΝ CITRUS FRESH 330ML,HEAD & SHOULDERS,330ml,mymarket,771315,Head & Shoulders Σαμπουάν Citrus Fresh 330ml,Head and Shoulders,,0.81,ok
+217595,HEAD & SH ΣΑΜΠΟΥΑΝ 2IN1 CLASSIC CLEAN 625ML,HEAD & SHOULDERS,625ml,ab,7719621,Σαμπουάν Classic Clean 2σε1 625ml,HEAD&SHOULDERS,625 ml,0.6,ok
+217595,HEAD & SH ΣΑΜΠΟΥΑΝ 2IN1 CLASSIC CLEAN 625ML,HEAD & SHOULDERS,625ml,mymarket,771311,Head & Shoulders 2in1 Σαμπουάν Classic Clean 625ml,Head and Shoulders,,0.69,ok
+217596,HEAD&SH ΣΑΜΠΟΥΑΝ CLASSIC CLEAN 330ML,HEAD & SHOULDERS,330ml,ab,7717142,Σαμπουάν Classic Clean 330ml,HEAD&SHOULDERS,330 ml,0.85,ok
+217596,HEAD&SH ΣΑΜΠΟΥΑΝ CLASSIC CLEAN 330ML,HEAD & SHOULDERS,330ml,mymarket,771292,Head & Shoulders Σαμπουάν Classic Clean 330ml,Head and Shoulders,,0.81,ok
+217597,HEAD&SH ΣΑΜΠΟΥΑΝ CITRUS FRESH 625ML,HEAD & SHOULDERS,625ml,ab,7719779,Σαμπουάν Citrus Fresh Λιπαρά Μαλλιά 625ml,HEAD&SHOULDERS,625 ml,0.58,ok
+217597,HEAD&SH ΣΑΜΠΟΥΑΝ CITRUS FRESH 625ML,HEAD & SHOULDERS,625ml,mymarket,771297,Head & Shoulders Σαμπουάν Citrus Fresh 625ml,Head and Shoulders,,0.81,ok
+217598,HEAD&SH ΣΑΜΠΟΥΑΝ ΕΝΥΔΑΤΩΣΗ 330ML,HEAD & SHOULDERS,330ml,ab,7719629,Σαμπουάν Ενυδάτωσης 330ml,HEAD&SHOULDERS,330 ml,0.72,ok
+217598,HEAD&SH ΣΑΜΠΟΥΑΝ ΕΝΥΔΑΤΩΣΗ 330ML,HEAD & SHOULDERS,330ml,mymarket,771314,Head & Shoulders Σαμπουάν Ενυδάτωσης Για Ξηροδερμία 330ml,Head and Shoulders,,0.55,ok
+217600,GLISS MASK BOND-BULDING 4IN1 REPAIR 400ML,GLISS,400ml,mymarket,702709,Gliss 4 in 1 Μάσκα Μαλλιών Bond Building Repair 400ml,Gliss,,0.46,ok
+217613,FITNESS ΔΗΜΗΤΡΙΑΚΑ ΧΩΡΙΣ ΠΡΟΣΘΗΚΗ ΖΑΧ.ΚΑΚΑΟ 310ΓΡ,FITNESS,310gr,ab,7717162,Δημητριακά Protein Κακάο Χωρίς Προσθήκη Ζάχαρης 310g,FITNESS,310 γρ,0.61,ok
+217613,FITNESS ΔΗΜΗΤΡΙΑΚΑ ΧΩΡΙΣ ΠΡΟΣΘΗΚΗ ΖΑΧ.ΚΑΚΑΟ 310ΓΡ,FITNESS,310gr,mymarket,272267,Fitness Δημητριακά Protein με Κακάο Χωρίς Προσθήκη Ζάχαρης 310gr,Nestle,,0.56,ok
+217628,ΒΟΣΙΝΑΚΗ ΦΟΥΡΝΙΣΜΑΤΑ ΠΟΛΥΣΠΟΡΟ 500ΓΡ,ΒΟΣΙΝΑΚΗ,500gr,ab,7716459,Ψωμί Φουρνίσματα Προζυμένιο Πολύσπορο Φέτες 500g,ΒΟΣΙΝΑΚΗΣ,500 γρ,0.45,ok
+217628,ΒΟΣΙΝΑΚΗ ΦΟΥΡΝΙΣΜΑΤΑ ΠΟΛΥΣΠΟΡΟ 500ΓΡ,ΒΟΣΙΝΑΚΗ,500gr,mymarket,300075,Βοσινάκης Φουρνίσματα Προζυμένιο Πολύσπορο 500gr,Βοσινάκης,,0.57,ok
+217632,ΓΚΡΕΚΑ ΤΟΜΑΤΑ POLPA 400ΓΡ,ΓΚΡΕΚΑ,400γρ.,ab,7718807,Ψίχα Τομάτας Τριμμένη Polpa 400g,ΓΚΡΕΚΑ,400 γρ,0.4,ok
+217632,ΓΚΡΕΚΑ ΤΟΜΑΤΑ POLPA 400ΓΡ,ΓΚΡΕΚΑ,400γρ.,mymarket,226089,ΓΚΡΕΚΑ Polpa Ψίχα Τομάτας Τριμμένη 400gr,Γκρέκα,,0.44,ok
+217731,ΠΤΙ ΜΠΕΡ ΟΛ.ΜΑΥ.ΣΟΚΟΛ.& ΠΟΡΤΟΚ.200ΓΡ,ΠΑΠΑΔΟΠΟΥΛΟΥ,200γρ.,ab,7719364,Μπισκότα Πτι Μπερ με Μαύρη Σοκολάτα & Πορτοκάλι 200g,ΠΑΠΑΔΟΠΟΥΛΟΥ,200 γρ,0.38,ok
+217839,ΜΕΛΙΣΣΑ ΧΡΥΣΗ ΕΠΙΛΟΓΗ ΠΛΕΞΟΥΔΕΣ 500ΓΡ,ΜΕΛΙΣΣΑ,500gr,ab,7684516,Πλεξούδες Χρυσή Επιλογή 500g,ΜΕΛΙΣΣΑ,500 γρ,0.62,ok
+217839,ΜΕΛΙΣΣΑ ΧΡΥΣΗ ΕΠΙΛΟΓΗ ΠΛΕΞΟΥΔΕΣ 500ΓΡ,ΜΕΛΙΣΣΑ,500gr,mymarket,233106,Mέλισσα Χρυσή Επιλογή Πλεξούδες 500gr,Melissa,,1.0,ok
+217867,FYTRO ΝΙΦΑΔΕΣ ΒΡΩΜΗΣ 500ΓΡ,FYTRO,500gr,ab,7714832,Νιφάδες Βρώμης Ολικής Άλεσης 500g,FYTRO,500 γρ,0.57,ok
+217867,FYTRO ΝΙΦΑΔΕΣ ΒΡΩΜΗΣ 500ΓΡ,FYTRO,500gr,mymarket,273199,Fytro Νιφάδες Βρώμης 500gr,Fytro,,1.0,ok
+218015,ΑΡΚΑΔΙ ΥΓΡΟ ΠΙΑΤΩΝ ΡΟΔΙ & ΣΤΑΦΥΛΙ ΑΝΤΛΙΑ 550ML,ΑΡΚΑΔΙ,550ml,ab,7729425,Υγρό Πιάτων Ρόδι Σταφύλι Αντλία 550ml,ΑΡΚΑΔΙ,550 ml,0.95,ok
+218015,ΑΡΚΑΔΙ ΥΓΡΟ ΠΙΑΤΩΝ ΡΟΔΙ & ΣΤΑΦΥΛΙ ΑΝΤΛΙΑ 550ML,ΑΡΚΑΔΙ,550ml,mymarket,504229,Αρκάδι Υγρό Πιάτων Ρόδι & Σταφύλια Αντλία 550ml,Αρκάδι,,0.92,ok
+218016,ΑΡΚΑΔΙ ΥΓΡΟ ΠΙΑΤΩΝ ΠΕΡΓΜ.&ΓΚΡΕΙΠ.ΑΝΤΛ.550ML,ΑΡΚΑΔΙ,550ml,ab,7729486,Υγρό Πιάτων Περγαμόντο Γκρέιπφρουτ Αντλία 550ml,ΑΡΚΑΔΙ,550 ml,0.49,ok
+218016,ΑΡΚΑΔΙ ΥΓΡΟ ΠΙΑΤΩΝ ΠΕΡΓΜ.&ΓΚΡΕΙΠ.ΑΝΤΛ.550ML,ΑΡΚΑΔΙ,550ml,mymarket,504227,Αρκάδι Υγρό Πιάτων Περγαμόντο & Γρέιπφρουτ Αντλία 550ml,Αρκάδι,,0.48,ok
+218089,BABYLINO PANDS ECONOMY UNISEX NO7 15-25KG 28Τ,BABYLINO,28τεμ.,ab,7706300,Πάνες Βρακάκι Sensitive Pants Νο7 28 Τεμάχια,BABYLINO,28 τεμ,0.17,ok
+218089,BABYLINO PANDS ECONOMY UNISEX NO7 15-25KG 28Τ,BABYLINO,28τεμ.,mymarket,605254,Babylino Πάνες Sensitive Cotton Soft Pants XL Plus No7 15-25kg 28τεμ,Babylino,,0.31,ok
+218090,BABYLINO PANDS ECONOMY UNISEX N5 10-16KG 34Τ,BABYLINO,34τεμ.,ab,7706298,Πάνες Βρακάκι Sensitive Pants Νο5 34 Τεμάχια,BABYLINO,34 τεμ,0.16,ok
+218090,BABYLINO PANDS ECONOMY UNISEX N5 10-16KG 34Τ,BABYLINO,34τεμ.,mymarket,605252,Babylino Πάνες Sensitive Cotton Soft Pants Junior No5 10-16kg 34τεμ,Babylino,,0.29,ok
+218092,FITNESS ΔΗΜΗΤΡΙΑΚΑ ORIGINAL 540ΓΡ,FITNESS,540gr,ab,7707365,Δημητριακά Νιφάδες Σιταριού 540g,FITNESS,540 γρ,0.37,ok
+218092,FITNESS ΔΗΜΗΤΡΙΑΚΑ ORIGINAL 540ΓΡ,FITNESS,540gr,mymarket,272264,Fitness Δημητριακά Ολικής Άλεσης Με Νιφάδες Σιταριού 540gr,Nestle,,0.3,ok
+218107,DERBY ΣΟΚΟΛΑΤΑ ΜΙΝΙ ΣΑΚ.210ΓΡ,DERBY,210γρ.,ab,7720141,Σοκολατάκια Mini Derby 210g,DERBY,210 γρ,0.48,ok
+218107,DERBY ΣΟΚΟΛΑΤΑ ΜΙΝΙ ΣΑΚ.210ΓΡ,DERBY,210γρ.,mymarket,337915,ΙΟΝ Derby Mini 210gr,ΙΟΝ,,0.24,ok
+218121,ΓΙΩΤΗΣ ΤΡΟΥΦΑ ΣΟΚ.ΓΑΛΑΚΤΟΣ 100ΓΡ,ΓΙΩΤΗΣ,100γρ.,ab,7717743,Τρούφα Σοκολάτα Γάλακτος 100g,ΓΙΩΤΗΣ,100 γρ,0.66,ok
+218121,ΓΙΩΤΗΣ ΤΡΟΥΦΑ ΣΟΚ.ΓΑΛΑΚΤΟΣ 100ΓΡ,ΓΙΩΤΗΣ,100γρ.,mymarket,314000,Γιώτης Τρούφα Σοκολάτα Γάλακτος Ζαχαροπλαστικής 100gr,Γιώτης,,0.48,ok
+218122,MARS MULTIPACK 3X45ΓΡ,MARS,3*45γρ.,mymarket,337728,Mars Σοκολάτα Γεμιστή 135gr,Mars,,0.14,ok
+218123,SNICKERS MULTIPACK 3X50ΓΡ,SNICKERS,3*50γρ.,mymarket,337732,Snickers Σοκολάτα Γεμιστή 50gr 3τεμ,Snickers,,0.23,ok
+218124,TWIX MULTIPACK 3X50ΓΡ,TWIX,3*50γρ.,mymarket,337731,Twix Σοκολάτα Γεμιστή 50gr 3τεμ,Twix,,0.15,ok
+218135,ΧΕΝΙΑ ΗΛΕΛΑΙΟ ΦΙΑΛΗ PET 1L,XENIA,1L,ab,7684141,Ηλιέλαιο  1lt,XENIA,1 λιτ,0.27,ok
+218140,ΤΟ ΜΑΝΝΑ ΠΑΞΙΜΑΔΙ ΧΑΡΟΥΠΙ ΑΠΟ ΠΕΤΡΟΜΥΛΟ 270ΓΡ,ΤΟ ΜΑΝΝΑ,270γρ.,ab,7706613,Παξιμάδια με Χαρούπι από Πετρόμυλο 270g,ΜΑΝΝΑ,270 γρ,0.73,ok
+218140,ΤΟ ΜΑΝΝΑ ΠΑΞΙΜΑΔΙ ΧΑΡΟΥΠΙ ΑΠΟ ΠΕΤΡΟΜΥΛΟ 270ΓΡ,ΤΟ ΜΑΝΝΑ,270γρ.,mymarket,303498,Το Μάννα Παξιμάδια Χαρουπένια Από Πετρόμυλο 270gr,Το Μάννα,,0.71,ok
+218144,ΜΕΛΙΣΣΑ ΠΕΝΝΕΣ ΡΙΓΕ ΧΡΥΣΗ ΕΠΙΛΟΓΗ 500ΓΡ,ΜΕΛΙΣΣΑ,500γρ.,ab,7684515,Πέννες Ριγέ Χρυσή Επιλογή 500g,ΜΕΛΙΣΣΑ,500 γρ,0.91,ok
+218144,ΜΕΛΙΣΣΑ ΠΕΝΝΕΣ ΡΙΓΕ ΧΡΥΣΗ ΕΠΙΛΟΓΗ 500ΓΡ,ΜΕΛΙΣΣΑ,500γρ.,mymarket,233104,Mέλισσα Χρυσή Επιλογή Πέννες Ριγέ 500gr,Melissa,,0.71,ok
+218145,ΜΕΛΙΣΣΑ ΛΙΓΚΟΥΙΝΙ ΧΡΥΣΗ ΕΠΙΛΟΓΗ 500ΓΡ,ΜΕΛΙΣΣΑ,500γρ.,ab,7684528,Λιγκουίνι Χρυσή Επιλογή 500g,ΜΕΛΙΣΣΑ,500 γρ,0.91,ok
+218145,ΜΕΛΙΣΣΑ ΛΙΓΚΟΥΙΝΙ ΧΡΥΣΗ ΕΠΙΛΟΓΗ 500ΓΡ,ΜΕΛΙΣΣΑ,500γρ.,mymarket,233101,Μέλισσα Χρυσή Επιλογή Λιγκουίνι 500gr,Melissa,,0.74,ok
+218147,ΜΕΛΙΣΣΑ ΣΠΑΓΓΕΤΟΝΙ Ν6 ΧΡΥΣΗ ΕΠΙΛΟΓΗ 500ΓΡ,ΜΕΛΙΣΣΑ,500γρ.,ab,7684482,Σπαγγετόνι Χρυσή Επιλογή Νο6 500g,ΜΕΛΙΣΣΑ,500 γρ,0.64,ok
+218147,ΜΕΛΙΣΣΑ ΣΠΑΓΓΕΤΟΝΙ Ν6 ΧΡΥΣΗ ΕΠΙΛΟΓΗ 500ΓΡ,ΜΕΛΙΣΣΑ,500γρ.,mymarket,233103,Μέλισσα Χρυσή Επιλογή Σπαγγετόνι Ν.6 500gr,Melissa,,0.72,ok
+218165,BABYLINO PANDS ECONOMY UNISEX NO6 13-18K/31T,BABYLINO,31τεμ.,ab,7706299,Πάνες Βρακάκι Sensitive Pants Νο6 31 Τεμάχια,BABYLINO,31 τεμ,0.17,ok
+218165,BABYLINO PANDS ECONOMY UNISEX NO6 13-18K/31T,BABYLINO,31τεμ.,mymarket,605253,Babylino Πάνες Sensitive Cotton Soft Pants X-Large Νο6 13-18kg 31τεμ,Babylino,,0.26,ok
+218244,CORNY ΜΠΑΡΕΣ ΣΟΚΟΛΑΤΑ&ΜΠΑΝΑΝΑ 6*25ΓΡ,CORNY,6*25γρ.,mymarket,273457,Corny Μπάρα Με Σοκολάτα & Μπανάνα 6x25gr,Corny Chocolate,,0.48,ok
+218250,MAGGI ΖΩΜΟΣ ΚΛ.ΒΟΔΙΝΟ 3L 60ΓΡ,MAGGI,60γρ.,ab,7705544,Κύβοι Ζωμού Βοδινό 6 Τεμάχια 60g,MAGGI,60 γρ,0.25,ok
+218251,MAGGI ΖΩΜΟΣ ΒΟΔΙΝΟ 6L 120ΓΡ,MAGGI,120γρ.,ab,7705589,Κύβοι Ζωμού Βοδινό 12 Τεμάχια 120g,MAGGI,120 γρ,0.27,ok
+218251,MAGGI ΖΩΜΟΣ ΒΟΔΙΝΟ 6L 120ΓΡ,MAGGI,120γρ.,mymarket,211057,Maggi Ζωμός Βοδινού 12 κύβοι 120gr,Maggi,,0.58,ok
+218260,ΙΟΝ ΣΟΚΟΛΑΤΑ ΜΕ ΟΛΟΚΛ.ΦΟΥΝΤΟΥΚΙ 70ΓΡ,ΙΟΝ,70γρ.,ab,7727199,Σοκολάτα Γάλακτος Ολόκληρα Φουντούκια 70g,ΙΟΝ,70 γρ,0.41,ok
+218261,DERBY ΣΟΚΟΛΑΤΑ ΜΕ ΓΕΜΙΣΗ ΦΟΥΝΤΟΥΚΙ 38ΓΡ,DERBY,38γρ.,mymarket,337882,ΙΟΝ Derby Hazelnut 38gr,ΙΟΝ,,0.1,ok
+218262,ΓΙΩΤΗΣ ΚΡΕΜΑ ΖΑΧΑΡΟΠΛ.ΤΙΡΑΜΙΣΟΥ 150ΓΡ,ΓΙΩΤΗΣ,150γρ.,ab,7717799,Κρέμα Ζαχαροπλαστικής Τιραμισού 150g,ΓΙΩΤΗΣ,150 γρ,0.69,ok
+218262,ΓΙΩΤΗΣ ΚΡΕΜΑ ΖΑΧΑΡΟΠΛ.ΤΙΡΑΜΙΣΟΥ 150ΓΡ,ΓΙΩΤΗΣ,150γρ.,mymarket,310000,Γιώτης Κρέμα Ζαχαροπλαστικής Τιραμισού 150gr,Γιώτης,,0.76,ok
+218266,"CRISP CORN TRUFFLE MUSHROOMS & CHEESE 123,5ΓΡ ELGEN",CRISP CORN,123.5γρ.,mymarket,274028,"Crisp Corn Γκοφρέτες Καλαμποκιού με Γεύση Μανιτάρια, Τρούφα και Τυρί 5gr",Crisp Corn,,0.11,size
+218267,ΠΑΠAΔΟΠΟΥΛΟΥ CREAM CRACKERS ΧΑΡΟΥΠΙ 190ΓΡ,ΠΑΠΑΔΟΠΟΥΛΟΥ,190γρ.,ab,7711266,Κράκερς Χαρούπι 190g,ΠΑΠΑΔΟΠΟΥΛΟΥ,190 γρ,0.57,ok
+218267,ΠΑΠAΔΟΠΟΥΛΟΥ CREAM CRACKERS ΧΑΡΟΥΠΙ 190ΓΡ,ΠΑΠΑΔΟΠΟΥΛΟΥ,190γρ.,mymarket,332055,Παπαδοπούλου Cream Crackers Με Χαρούπι 190gr,Παπαδοπούλου,,0.85,ok
+218304,OMINO BIANCO ΥΓΡΟ ΠΛΥΝΤ.BLACK CARE 27ΜΕΖ,OMINO BIANCO,27μεζ.,ab,7654045,Υγρό Πλυντηρίου Ρούχων Black Care 27 Μεζούρες,OMINO BIANCO,27 μεζ,0.58,ok
+218304,OMINO BIANCO ΥΓΡΟ ΠΛΥΝΤ.BLACK CARE 27ΜΕΖ,OMINO BIANCO,27μεζ.,mymarket,551582,"Omino Bianco Black Wash Απορρυπαντικό Πλυντηρίου Ρούχων Υγρό 27μεζ 1,485lt",Omino Bianco,,0.31,ok
+218352,ΤΟ ΜΕΤΟΧΙ ΜΗΛΟΞΙΔΟ 6ΒΑΘΜΟΙ 340ML,ΤΟ ΜΕΤΟΧΙ,340ml,mymarket,202000,Το Μετόχι Μηλόξιδο 340ml,ΤΟ ΜΕΤΟΧΙ,,0.62,ok
+218354,SOFTEX ΧΑΡΤΙ ΥΓΕΙΑΣ PURE CLASSIC 2Φ.8Τ.496ΓΡ,SOFTEX,496γρ.,mymarket,607020,"Softex Classic Pure Χαρτί Υγείας 2 Φύλλων 8αρι 0,496kg",Softex,,0.45,ok
+218424,COOK AT HOME ΣΑΛΤΣΑ ΚΟΤΟΠΟΥΛΟ ΑΛΑ ΚΡΕΜ 260ΓΡ,COOK AT HOME,260γρ.,ab,7723438,Σάλτσα Κοτόπουλο Αλα Κρεμ 260g,COOK AT HOME,260 γρ,0.92,ok
+218424,COOK AT HOME ΣΑΛΤΣΑ ΚΟΤΟΠΟΥΛΟ ΑΛΑ ΚΡΕΜ 260ΓΡ,COOK AT HOME,260γρ.,mymarket,235129,Cook At Home Σάλτσα Για Κοτόπουλο Αλα Κρεμ 260gr,Cook At Home,,0.88,ok
+218425,RIO MARE INSALATISSIME SICILY EDITION 160ΓΡ,RIO MARE,160γρ.,ab,7723678,Insalatissime Τονοσαλάτα Sicily Edition 160g,RIO MARE,"0,16 τεμ",0.7,ok
+218425,RIO MARE INSALATISSIME SICILY EDITION 160ΓΡ,RIO MARE,160γρ.,mymarket,222089,Rio Mare Insalatissime Sicily 160gr,Rio Mare,,0.72,ok
+218438,JACOBS CAPPUCINO HAZELNUT 8*17.8ΓΡ,JACOBS,"8*17,8γρ.",ab,7680634,Στιγμιαίος Καφές Cappuccino Φουντούκι 8x17.8g,JACOBS,142 γρ,0.22,ok
+218438,JACOBS CAPPUCINO HAZELNUT 8*17.8ΓΡ,JACOBS,"8*17,8γρ.",mymarket,261220,Jacobs Καφές Cappuccino Hazelnut 142gr,JACOBS,,0.5,ok
+218470,FAIRY ΥΓΡΟ ΠΙΑΤΩΝ PLATINUM QUICKWASH 520ML,FAIRY,520ml,ab,7682085,Υγρό Πιάτων Platinum Quickwash 520ml,FAIRY,520 ml,0.95,ok
+218470,FAIRY ΥΓΡΟ ΠΙΑΤΩΝ PLATINUM QUICKWASH 520ML,FAIRY,520ml,mymarket,504191,Fairy Platinum Υγρό Πιάτων Quickw 520ml,Fairy,,0.58,ok
+218476,ALWAYS ΣΕΡΒ/ΤΑ ULTRA LONG PLUS VP 18T,ALWAYS,18τεμ.,ab,7683323,Σερβιέτες Ultra Day Long Plus 18 Τεμάχια,ALWAYS,18 τεμ,0.35,ok
+218476,ALWAYS ΣΕΡΒ/ΤΑ ULTRA LONG PLUS VP 18T,ALWAYS,18τεμ.,mymarket,601099,Always Ultra Long Plus 18τεμ,Always,,0.5,ok
+218579,KELLOGS COCO POPS 480ΓΡ,KELLOGG΄S,480gr,ab,7684505,Δημητριακά Coco Pops 480g,KELLOGGS,480 γρ,0.47,ok
+218579,KELLOGS COCO POPS 480ΓΡ,KELLOGG΄S,480gr,mymarket,272249,Kellogg's Coco Pops Δημητριακά 480gr,Kelloggs,,0.56,ok
+218588,FAIRY ΥΓΡΟ ΠΙΑΤΩΝ MAX POWER LEMON 660ML,FAIRY,660ml,ab,7682097,Υγρό Πιάτων Max Power Λεμόνι 660ml,FAIRY,660 ml,0.81,ok
+218588,FAIRY ΥΓΡΟ ΠΙΑΤΩΝ MAX POWER LEMON 660ML,FAIRY,660ml,mymarket,504207,Fairy Max Power Υγρό Πιάτων Λεμόνι 660ml,Fairy,,0.6,ok
+218610,FAIRY ΥΓΡΟ ΠΙΑΤΩΝ MAX POWER ΚΑΝΟΝΙΚΟ 660ML,FAIRY,660ml,ab,7682159,Υγρό Πιάτων Max Power Original 660ml,FAIRY,660 ml,0.52,ok
+218610,FAIRY ΥΓΡΟ ΠΙΑΤΩΝ MAX POWER ΚΑΝΟΝΙΚΟ 660ML,FAIRY,660ml,mymarket,504206,Fairy Max Power Υγρό Πιάτων Κανονικό 660ml,Fairy,,0.71,ok
+218613,EL SABOR WRAPS HAPPY TIME 6T 240ΓΡ,EL SABOR,240gr,mymarket,280085,El Sabor Tortilla Happy Time 20cm 6τεμ,El Sabor,,0.31,ok
+218647,NESTLE DESSERT Χ.ΓΛΟΥΤ. ΚΟΥΒΕΡΤΟΥΡΑ 170ΓΡ,NESTLE,170γρ.,ab,7669947,Κουβερτούρα Dessert 170g,NESTLE,170 γρ,0.46,ok
+218647,NESTLE DESSERT Χ.ΓΛΟΥΤ. ΚΟΥΒΕΡΤΟΥΡΑ 170ΓΡ,NESTLE,170γρ.,mymarket,268005,Nestle Dessert Κουβερτούρα 170 gr,Nestle,,0.75,ok
+218648,NESTLE DESSERT Χ.ΓΛ.ΚΟΥΒΕΡΤ.65% KAKAO 170ΓΡ,NESTLE,170γρ.,ab,7669961,Κουβερτούρα Dessert 65% Κακάο 170g,NESTLE,170 γρ,0.56,ok
+218648,NESTLE DESSERT Χ.ΓΛ.ΚΟΥΒΕΡΤ.65% KAKAO 170ΓΡ,NESTLE,170γρ.,mymarket,268004,Nestle Dessert 65% Κακάο 170 gr,Nestle,,0.71,ok
+218652,OMINO BIANCO ΥΓΡΟ ΠΛΥΝΤ. ΑΦΡΟΣ 37ΜΕΖ,OMINO BIANCO,37 μεζ.,ab,7731826,Υγρό Πλυντηρίου Ρούχων Αφρός Μασσαλίας 37 Μεζούρες,OMINO BIANCO,37 μεζ,0.43,ok
+218652,OMINO BIANCO ΥΓΡΟ ΠΛΥΝΤ. ΑΦΡΟΣ 37ΜΕΖ,OMINO BIANCO,37 μεζ.,mymarket,551580,Omino Bianco Αφρός Μασσαλίας Απορρυπαντικό Πλυντηρίου Υγρό 37μεζ 1.480ml,Omino Bianco,,0.33,ok
+218660,KITEKAT ΦΑΚΕΛΑΚΙ ΚΟΤΟΠΟΥΛΟ ΣΕ ΣΑΛΤΣΑ 85ΓΡ,KITEKAT,85γρ.,mymarket,292159,Kitekat Τροφή Γάτας Με Κοτόπουλο Σε Σάλτσα Φακελάκι 85gr,Kitekat,,0.56,ok
+218754,FITNESS ΔΗΜΗΤΡΙΑΚΑ ΜΑΥΡΗ ΣΟΚΟΛΑΤΑ 540ΓΡ,FITNESS,540gr,ab,7678279,Δημητριακά Ολικής Άλεσης με Μαύρη Σοκολάτα 540g,FITNESS,540 γρ,0.59,ok
+218754,FITNESS ΔΗΜΗΤΡΙΑΚΑ ΜΑΥΡΗ ΣΟΚΟΛΑΤΑ 540ΓΡ,FITNESS,540gr,mymarket,272231,Fitness Δημητριακά Ολικής Άλεσης με Μαύρη Σοκολάτα 540gr,Nestle,,0.55,ok
+218785,KELLOGGS COCO POPS CHOCOS 550ΓΡ,KELLOGG΄S,550gr,ab,7679401,Δημητριακά Coco Pops Chocos 550g,KELLOGGS,550 γρ,0.55,ok
+218785,KELLOGGS COCO POPS CHOCOS 550ΓΡ,KELLOGG΄S,550gr,mymarket,272223,Kellogg's Coco Pops Δημητριακά Chocos 550gr,Kelloggs,,0.63,ok
+218867,NATURE VALLEY ΜΠΑΡΕΣ ΜΟΥΣΛΙ CRANBERRY 5*42ΓΡ,NATURE VALLEY,5*42γρ.,ab,7680048,Μπάρες Δημητριακών Crunchy Κράνμπερι 5x42g,NATURE VALLEY,210 γρ,0.32,ok
+218867,NATURE VALLEY ΜΠΑΡΕΣ ΜΟΥΣΛΙ CRANBERRY 5*42ΓΡ,NATURE VALLEY,5*42γρ.,mymarket,273305,Nature Valley Bars Oats & Berries 5τεμ,Nature Valley,,0.33,ok
+218868,NATURE VALLEY ΜΠΑΡΕΣ ΜΟΥΣΛΙ&ΜΑΥΡΗ ΣΟΚ.5*42ΓΡ,NATURE VALLEY,5*42γρ.,ab,7679944,Μπάρες Δημητριακών Crunchy Μαύρη Σοκολάτα 5x42g,NATURE VALLEY,210 γρ,0.34,ok
+218868,NATURE VALLEY ΜΠΑΡΕΣ ΜΟΥΣΛΙ&ΜΑΥΡΗ ΣΟΚ.5*42ΓΡ,NATURE VALLEY,5*42γρ.,mymarket,273433,Nature Valley Bars Chocolate 5 τεμ 42gr,Nature Valley,,0.33,ok
+218869,NATURE VALLEY ΜΠΑΡΕΣ ΒΡΩΜΗΣ ΜΕ ΜΕΛΙ 5*42ΓΡ,NATURE VALLEY,5*42γρ.,ab,7679947,Μπάρες Δημητριακών Crunchy με Μέλι 5x42g,NATURE VALLEY,210 γρ,0.37,ok
+218869,NATURE VALLEY ΜΠΑΡΕΣ ΒΡΩΜΗΣ ΜΕ ΜΕΛΙ 5*42ΓΡ,NATURE VALLEY,5*42γρ.,mymarket,273434,Nature Valley Bars Oats & Honey 5τεμ 42gr,Nature Valley,,0.34,ok
+218912,COLGATE ΟΔ/ΤΣΑ ΠΑΙΔΙΚΗ 2-6 ΜΑΛΑΚΗ 2ΠΛΗ ΣΥΣΚ/ΣΙΑ,COLGATE,2τεμ.,mymarket,762058,Colgate Οδοντόβουρτσα Παιδική 2-6 Ετών Διπλή Συσκευασία 27gr,Colgate,,0.39,ok
+218913,ΜΕΓΑ ΚΡΕΜΟΣΑΠΟΥΝΟ ΠΑΙΔΙΚΟ ΑΝΤΛΙΑ 250ML,ΜΕΓΑ,250ml,ab,7676092,Κρεμοσάπουνο Kids Αντλία 250ml,ΜΕΓΑ,250 ml,0.57,ok
+218913,ΜΕΓΑ ΚΡΕΜΟΣΑΠΟΥΝΟ ΠΑΙΔΙΚΟ ΑΝΤΛΙΑ 250ML,ΜΕΓΑ,250ml,mymarket,714067,ΜΕΓΑ Κρεμοσάπουνο Kids 250ml,Μέγα,,0.47,ok
+218918,LE PETIT MARS.BODY LOTION BIO JOJOBA 250ML,LE PETIT MARSEILLAIS,250ml,ab,7679193,Γαλάκτωμα Σώματος με Βιολογικό Jojoba 250ml,LE PETIT MARSEILLAIS,250 ml,0.37,ok
+218945,KLINEX ΥΓΡΑ ΠΑΝΑΚΙΑ ΛΕΜΟΝΙ 30Τ,KLINEX,Τεμάχιο,ab,7678656,Πανάκια Καθαρισμού Λεμόνι 30 Τεμάχια,KLINEX,30 τεμ,0.33,ok
+218945,KLINEX ΥΓΡΑ ΠΑΝΑΚΙΑ ΛΕΜΟΝΙ 30Τ,KLINEX,Τεμάχιο,mymarket,533000,Klinex Υγρά Πανάκια Καθαρισμού Λεμόνι 30τεμ,Klinex,,0.59,ok
+218946,KLINEX ΥΓΡΑ ΠΑΝΑΚΙΑ ΦΡΕΣΚΑΔΑ ΩΚΕΑΝΟΥ 30Τ,KLINEX,30τεμ.,ab,7678768,Πανάκια Καθαρισμού Φρεσκάδα Ωκεανού 30 Τεμάχια,KLINEX,30 τεμ,0.44,ok
+218946,KLINEX ΥΓΡΑ ΠΑΝΑΚΙΑ ΦΡΕΣΚΑΔΑ ΩΚΕΑΝΟΥ 30Τ,KLINEX,30τεμ.,mymarket,533008,Klinex Υγρά Πανάκια Καθαρισμού 30τεμ,Klinex,,0.42,ok
+218966,BIOTEN FACE SERUM HYDRO X-CELL 30ML,BIOTEN,30ml,ab,7674288,Ενυδατικός Ορός Serum HYDRO X-CELL 30ml,BIOTEN,30 ml,0.47,ok
+218966,BIOTEN FACE SERUM HYDRO X-CELL 30ML,BIOTEN,30ml,mymarket,706137,Bioten Κρέμα Προσώπου Serum Hydra X-Cell 30ml,Bioten,,0.43,ok
+218967,TENA PANTS PLUS MEDIUM ECONOMY 24T,TENA,24τεμ.,ab,7672784,Πάνες Ακράτειας Pants M Plus 24 Τεμάχια,TENA,24 τεμ,0.21,ok
+218967,TENA PANTS PLUS MEDIUM ECONOMY 24T,TENA,24τεμ.,mymarket,606229,Tena Pants Plus Medium Εσώρουχα Ακράτειας 24τεμ,Tena,,0.43,ok
+218968,TENA PANTS PLUS LARGE ECONOMY 24T,TENA,24τεμ.,ab,7672783,Πάνες Ακράτειας Pants L Plus 24 Τεμάχια,TENA,24 τεμ,0.21,ok
+218968,TENA PANTS PLUS LARGE ECONOMY 24T,TENA,24τεμ.,mymarket,606239,Tena Pants Plus Large Εσώρουχα Ακράτειας 24τεμ,Tena,,0.42,ok
+218978,FINISH TABS ΠΛΥΝΤ.ΠΙΑΤΩΝ UL.ALL IN 1 LEMON 25T,FINISH,25τεμ.,ab,7664286,Κάψουλες Πλυντηρίου Πιάτων Ultimate Allin1 Λεμόνι 25 Tεμάχια,FINISH,25 μεζ,0.33,ok
+218978,FINISH TABS ΠΛΥΝΤ.ΠΙΑΤΩΝ UL.ALL IN 1 LEMON 25T,FINISH,25τεμ.,mymarket,503322,Finish Ultimate Caps Πλυντηρίου Πιάτων Lemon 25τεμ,Finish,,0.33,ok
+218979,FINISH TABS ΠΛΥΝΤ.ΠΙΑΤΩΝ UL.ALL IN 1 LEMON 16T,FINISH,16τεμ.,ab,7664335,Κάψουλες Πλυντηρίου Πιάτων Ultimate All in 1 Λεμόνι 16 Tεμάχια,FINISH,16 μεζ,0.33,ok
+218979,FINISH TABS ΠΛΥΝΤ.ΠΙΑΤΩΝ UL.ALL IN 1 LEMON 16T,FINISH,16τεμ.,mymarket,503318,Finish Ultimate Caps Πλυντηρίου Πιάτων Lemon 16τεμ,Finish,,0.33,ok
+218980,FINISH TABS ΠΛΥΝΤ.ΠΙΑΤΩΝ QUANT.ALL IN 1 LEMON 18T,FINISH,18τεμ.,ab,7664352,Κάψουλες Πλυντηρίου Πιάτων Quantum All in 1 Λεμόνι 18 Tεμάχια,FINISH,18 μεζ,0.38,ok
+218980,FINISH TABS ΠΛΥΝΤ.ΠΙΑΤΩΝ QUANT.ALL IN 1 LEMON 18T,FINISH,18τεμ.,mymarket,503323,Finish Quantum All In 1 Caps Πλυντηρίου Πιάτων Lemon 18τεμ,Finish,,0.44,ok
+219066,PANTENE HS ΕΞΤΡΑ ΔΥΝΑΤΟ ΚΡΑΤΗΜΑ 250ML,PANTENE,250ml,ab,7654767,Λακ Μαλλιών Πολύ Δυνατό Κράτημα 250ml,PANTENE,250 ml,0.44,ok
+219067,PALMOLIVE ΚΡΕΜ/ΝΟ ΑΝΤ/ΚΟ ΑΜΥΓΔΑΛΟ 900ML,PALMOLIVE,900ml,ab,7654622,Κρεμοσάπουνο Μέλι & Αμύγδαλο Ανταλλακτικό 900ml,PALMOLIVE,900 ml,0.4,ok
+219067,PALMOLIVE ΚΡΕΜ/ΝΟ ΑΝΤ/ΚΟ ΑΜΥΓΔΑΛΟ 900ML,PALMOLIVE,900ml,mymarket,714058,Palmolive Κρεμοσάπουνο Αμύγδαλο Ανταλλακτικό 900ml,Palmolive,,0.52,ok
+219068,PALMOLIVE ΚΡΕΜ/ΝΟ ΑΝΤ/ΚΟ HYGIENE PL 900ML,PALMOLIVE,900ml,mymarket,714000,Palmolive Hygiene Κρεμοσάπουνο Αντλ. Σακ. 900ml,Palmolive,,0.45,ok
+219069,PALMOLIVE ΚΡΕΜ/ΝΟ ΑΝΤ/ΚΟ ΜΕΛΙ-ΓΑΛΑ 900ML,PALMOLIVE,900ml,ab,7654600,Κρεμοσάπουνο Μέλι & Γάλα Ανταλλακτικό 900ml,PALMOLIVE,900 ml,0.4,ok
+219069,PALMOLIVE ΚΡΕΜ/ΝΟ ΑΝΤ/ΚΟ ΜΕΛΙ-ΓΑΛΑ 900ML,PALMOLIVE,900ml,mymarket,714057,Palmolive Κρεμοσάπουνο Μέλι & Γάλα Ανταλλακτικό 900ml,Palmolive,,0.44,ok
+219070,PANTENE ΑΦΡΟΣ ΤΕΛΕΙΕΣ ΜΠΟΥΚΛΕΣ 200ML,PANTENE,200ml,ab,7654789,Αφρός για Τέλειες Μπούκλες 200ml,PANTENE,200 ml,0.75,ok
+219070,PANTENE ΑΦΡΟΣ ΤΕΛΕΙΕΣ ΜΠΟΥΚΛΕΣ 200ML,PANTENE,200ml,mymarket,771175,Pantene Αφρός Τέλειες Μπούκλες 200ml,Pantene,,1.0,ok
+219071,PANTENE PRE STYLER 5IN1 MIRACLE 200ML,PANTENE,200ml,ab,7654892,Spray Μαλλιών Miracle 5σε1 Pre-Styler 200ml,PANTENE,200 ml,0.38,ok
+219071,PANTENE PRE STYLER 5IN1 MIRACLE 200ML,PANTENE,200ml,mymarket,771182,Pantene Pre Styler 5 σε 1 Miracle 200ml,Pantene,,0.77,ok
+219072,TESORI ΣΥΜΠ.ΜΑΛ/ΚΟ WHITE MUSK 38MEZ,TESORI,760ml,ab,7653780,Συμπυκνωμένο Μαλακτικό White Musk 38 Μεζούρες,TESORI,38 μεζ,0.47,ok
+219072,TESORI ΣΥΜΠ.ΜΑΛ/ΚΟ WHITE MUSK 38MEZ,TESORI,760ml,mymarket,506580,Tesori D'Oriente Μαλακτικό Ρούχων White Musk 38μεζ 760ml,Tesori,,0.33,ok
+219073,GOODMOOD Χ.ΥΓΕΙΑΣ 3Φ 85ΓΡ.8Τ,ENDLESS,680gr,ab,7675560,Χαρτί Υγείας Good Mood 3 Φύλλα 8 Ρολά 680g,ENDLESS,680 γρ,0.29,ok
+219073,GOODMOOD Χ.ΥΓΕΙΑΣ 3Φ 85ΓΡ.8Τ,ENDLESS,680gr,mymarket,609007,"Endless Goodmood Χαρτί Υγείας 3 φύλλων 0,680kg",Endless,,0.43,ok
+219074,GOODMOOD Χ.ΥΓΕΙΑΣ 4Φ 103ΓΡ.8Τ,ENDLESS,8*103gr,ab,7650326,Χαρτί Υγείας Good Mood 4 Φύλλα 8 Ρολά 824g,ENDLESS,824 γρ,0.29,ok
+219075,GOODMOOD ΧΑΡΤΙ ΚΟΥΖΙΝΑΣ 385ΓΡ.,ENDLESS,385gr,ab,7650380,Χαρτί Κουζίνας Good Mood 2 Φύλλα 385g,ENDLESS,385 γρ,0.6,ok
+219075,GOODMOOD ΧΑΡΤΙ ΚΟΥΖΙΝΑΣ 385ΓΡ.,ENDLESS,385gr,mymarket,609006,Endless Goodmood Ρολό Κουζίνας 2 Φύλλων 385gr,Endless,,0.44,ok
+219077,TESORI ΣΥΜΠ.ΜΑΛ/ΚΟ BYZANTIUM 38MEZ,TESORI,38μεζ.,ab,7653741,Συμπυκνωμένο Μαλακτικό Byzantium 38 Μεζούρες,TESORI,38 μεζ,0.46,ok
+219077,TESORI ΣΥΜΠ.ΜΑΛ/ΚΟ BYZANTIUM 38MEZ,TESORI,38μεζ.,mymarket,506581,Tesori D'Oriente Μαλακτικό Ρούχων Byzantium 38μεζ,Tesori,,0.37,ok
+219078,ΤΑΙ ΑΣΕΤΟΝ ΛΑΔΙ ΑΝΤΛΙΑ 200ML,TAI,200ml,mymarket,725006,Τai Ασετόν Oil Με Βαλβίδα 200ml,Tai,,0.35,ok
+219079,TAI AΣΕΤΟΝ 85% ΑΝΤΛΙΑ 200ΜL,TAI,200ml,mymarket,725005,Tai Ασετόν 85% Pump 200ml,Tai,,0.5,ok
+219097,MAGIC ΠΑΓΩΤΟ ΠΣ MINI DBL Σ-Κ 6*47ΓΡ,ALGIDA,6*47gr,mymarket,161379,Magic Παγωτό Mini Double Vanilla - Choco MP 330ml 282gr,Algida,,0.29,ok
+219105,PRINGLES BBQ 165ΓΡ,PRINGLES,165γρ.,ab,7657430,Τσιπς Barbeque 165g,PRINGLES,165 γρ,0.26,ok
+219188,NESCAFE GOLD BLEND DECAF 95ΓΡ,NESCAFE,95γρ.,ab,7659919,Στιγμιαίος Καφές Gold Decaf 95g,NESCAFE,95 γρ,0.33,ok
+219189,NESCAFE GOLD BLEND ORGANIC 95ΓΡ,NESCAFE,95γρ.,ab,7659876,Στιγμιαίος Καφές Gold Organic 95g,NESCAFE,95 γρ,0.37,ok
+219212,LACTA ΠΑΓΩΤΟ ΞΥΛΑΚΙΑ 3*65ΓΡ,LACTA,3*65γρ.,ab,7666226,Παγωτό Ξυλάκι Βανίλια Σοκολάτα Γάλακτος 3x65g,LACTA,196 γρ,0.35,ok
+219230,GILLETTE BLUE 3 ΜΙΑΣ ΧΡΗΣΗΣ COMFORT 6Τ.,GILLETTE,6τεμ.,ab,7662059,Ξυραφάκια Blue 3 Plus Comfort 6 Τεμάχια,GILLETTE,6 τεμ,0.3,ok
+219262,KELLOGGS EXTRA GRANOLA RED FRUIT 400ΓΡ,KELLOGG΄S,400gr,ab,7660752,Δημητριακά Extra Κόκκινα Φρούτα 400g,KELLOGGS,400 γρ,0.18,ok
+219349,3ΑΛΦΑ ΕΤΟΙΜΑ ΡΕΒΥΘΙΑ ΧΟΝΔΡΑ 180ΓΡ,3ΑΛΦΑ,180γρ.,ab,7664536,Ρεβύθια Χονδρά Έτοιμα Φυσικά 180g,3Α,180 γρ,0.55,ok
