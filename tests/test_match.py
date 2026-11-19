@@ -30,7 +30,7 @@ def test_sizes(text, sizes):
     assert match.sizes(text) == sizes
 
 
-def test_same_size_compares_totals_within_5_percent():
+def test_same_size_compares_totals():
     assert match.same_size(product(size="6*330ml"), product(size="1,98 λιτ"))
     assert match.same_size(product(size="500γρ."), product(name="Ρύζι 510g"))
     # a single can is not the 6 pack
@@ -56,6 +56,24 @@ def test_same_size_size_fields_first():
 )
 def test_same_size_name_piece_count_per_piece_or_total(size, name):
     assert match.same_size(product(size=size), product(name=name))
+
+
+def test_same_size_drained_weight_is_not_compared():
+    kritikos = product("RIO MARE ΤΟΝΟΣ ΦΑΚ. ΝΕΡΟ ΣΤ.Β. 72ΓΡ", size="72γρ.")
+
+    assert match.same_size(kritikos, product("Rio Mare Τόνος Φάκελο 80gr")) is None
+    assert match.same_size(
+        product("ΧΑΡΤΑ ΣΤΡ.ΒΙΟΛ. 500ΓΡ", size="500γρ."), product("Χαρτί 250gr")
+    ) is False
+
+
+def test_same_size_promo_pack():
+    assert match.same_size(product(size="6*330ml"), product("Βίκος Σόδα 330ml 4+2 Δώρο"))
+
+
+def test_same_size_within_10_percent():
+    assert match.same_size(product(size="20*1.7gr"), product(size="36 γρ"))
+    assert match.same_size(product(size="450γρ."), product(size="500 γρ")) is False
 
 
 def test_same_size_unknown_without_a_shared_unit():

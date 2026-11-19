@@ -70,6 +70,12 @@ SIZE_UNITS = [
     (r"τεμ\w*|τμχ|pcs|τεμαχι\w*|αρι|αδα|φυλλα|δισκι\w*|καψουλ\w*|ταινι\w*", "piece", 1),
     (r"μεζ\w*|wash\w*|μεζουρ\w*", "wash", 1),
 ]
+# sizes this close are the same, rounded differently; a wrong EAN hit is
+# usually a multipack, 2x or more
+TOLERANCE = 0.1
+# drained weight, after normalise(): 'ΣΤ.Β.', 'ΣΤΡ.ΒΑΡΟΣ', not 'ΣΤΡ.ΒΙΟΛ.'
+DRAINED = re.compile(r"\bστρ?\.\s*β(?:\.|αρ)")
+PROMO = re.compile(r"(\d+)\s*\+\s*(\d+)")
 SIZE = re.compile(
     r"(?:(\d+)\s*[x*χ×]\s*)?(\d+(?:\.\d+)?)\s*("
     + "|".join(f"(?:{pattern})" for pattern, _, _ in SIZE_UNITS)
@@ -117,6 +123,8 @@ def name_sizes(text):
     per piece or the total: 'Snickers 50gr 3τεμ' is 150g, 'Zewa 90τεμ
     0,162kg' is 162g, so both are kept."""
     out = sizes(text)
+    # '330ml 4+2 Δώρο' is a 6 pack
+    out |= {(int(a) + int(b), "piece") for a, b in PROMO.findall(text or "")}
     pieces = [q for q, u in out if u == "piece" and q > 1]
 
     return out | {(round(q * n, 3), u) for q, u in out if u != "piece" for n in pieces}
@@ -131,21 +139,29 @@ def compare(a, b):
         return None
 
     return any(
-        ua == ub and abs(qa - qb) <= 0.05 * max(qa, qb)
+        ua == ub and abs(qa - qb) < TOLERANCE * max(qa, qb)
         for qa, ua in a
         for qb, ub in b
         if ua in units
     )
 
 
+def product_sizes(product):
+    out = sizes(product["size"]) | name_sizes(product["name"])
+
+    # a drained weight can't be compared with a net weight
+    if DRAINED.search(normalise(product["name"])):
+        out = {(q, u) for q, u in out if u != "g"}
+
+    return out
+
+
 def same_size(a, b):
     """True/False when both products have a size in the same unit (within
-    5%), None when that can't be told. Sizes come from the size field and
+    TOLERANCE), None when that can't be told. Sizes come from the size field and
     the name, any of them agreeing is enough, as either can be wrong (ab
     '100 γρ' for 'Τσίχλες 90g')."""
-    return compare(
-        sizes(a["size"]) | name_sizes(a["name"]), sizes(b["size"]) | name_sizes(b["name"])
-    )
+    return compare(product_sizes(a), product_sizes(b))
 
 
 def words(text):
