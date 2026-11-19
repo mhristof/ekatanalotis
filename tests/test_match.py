@@ -63,6 +63,9 @@ def test_same_size_drained_weight_is_not_compared():
 
     assert match.same_size(kritikos, product("Rio Mare Τόνος Φάκελο 80gr")) is None
     assert match.same_size(
+        product("ΕΔΕΜ ΚΑΥΤΕΡΑ ΠΙΠΕΡΑΚΙΑ ΣΤΡΑΓ.ΒΑΡΟΣ 150ΓΡ", size="150gr"), product(size="330 γρ")
+    ) is None
+    assert match.same_size(
         product("ΧΑΡΤΑ ΣΤΡ.ΒΙΟΛ. 500ΓΡ", size="500γρ."), product("Χαρτί 250gr")
     ) is False
 

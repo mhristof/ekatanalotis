@@ -73,8 +73,9 @@ SIZE_UNITS = [
 # sizes this close are the same, rounded differently; a wrong EAN hit is
 # usually a multipack, 2x or more
 TOLERANCE = 0.1
-# drained weight, after normalise(): 'ΣΤ.Β.', 'ΣΤΡ.ΒΑΡΟΣ', not 'ΣΤΡ.ΒΙΟΛ.'
-DRAINED = re.compile(r"\bστρ?\.\s*β(?:\.|αρ)")
+# drained weight, after normalise(): 'ΣΤ.Β.', 'ΣΤΡ.ΒΑΡΟΣ', 'ΣΤΡΑΓ.ΒΑΡΟΣ',
+# not 'ΣΤΡ.ΒΙΟΛ.'
+DRAINED = re.compile(r"\bστρ?(?:αγ)?\.\s*β(?:\.|αρ)")
 PROMO = re.compile(r"(\d+)\s*\+\s*(\d+)")
 SIZE = re.compile(
     r"(?:(\d+)\s*[x*χ×]\s*)?(\d+(?:\.\d+)?)\s*("
