@@ -3,7 +3,8 @@ daily prices in catalog/<store>.csv: one row per product code ever seen,
 updated in place by every run.
 
 Fetchers return rows as [code, name, price, details], where details is a
-dict with any of FIELDS; the price csv files only use the first three."""
+dict with any of FIELDS, or other fields of that store's own; the price csv
+files only use the first three."""
 
 import csv
 import os
@@ -80,10 +81,12 @@ def read(path):
 
 
 def write(path, products):
+    """FIELDS, then any other field a store gives (efresh's slug)."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    extra = sorted({k for p in products.values() for k in p} - set(FIELDS))
 
     with open(path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, FIELDS, lineterminator="\n")
+        writer = csv.DictWriter(f, FIELDS + extra, restval="", lineterminator="\n")
         writer.writeheader()
         writer.writerows(products[code] for code in sorted(products))
 

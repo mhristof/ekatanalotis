@@ -68,6 +68,17 @@ def test_update_merges_by_code(tmp_path):
     )
 
 
+def test_write_keeps_a_store_s_own_fields(tmp_path):
+    path = str(tmp_path / "catalog/store.csv")
+    catalog.update(path, catalog.products([["1", "a", 1, {"slug": "a-b"}], ["2", "b", 1, {}]]))
+
+    assert open(path).read() == (
+        "code,name,brand,category,size,unit,unit_price,ean,slug\n"
+        "1,a,,,,,,,a-b\n"
+        "2,b,,,,,,,\n"
+    )
+
+
 def test_save_catalog(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
 

@@ -44,6 +44,9 @@ def details(p):
         "size": f"{p['pkg_value']:g} {pkg_unit}" if p.get("pkg_value") and pkg_unit else None,
         "unit": catalog.unit(pkg_unit) if pkg_unit else None,
         "unit_price": round(p["price_per_unit"], 3) if p.get("price_per_unit") else None,
+        # the names are in English, the slug is the Greek name in Latin
+        # letters, for matching with the other stores
+        "slug": p.get("slug"),
     }
 
 

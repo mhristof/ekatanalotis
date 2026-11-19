@@ -21,6 +21,9 @@ def product(name="", brand="", size="", code="1", ean=""):
         ("Χρυσά Αυγά Φρέσκα 10άδα", {(10, "piece")}),
         ("Υποκατάστατο Ζάχαρης 120 Δισκία", {(120, "piece")}),
         ("Κρύο Κερί 20 Ταινιές", {(20, "piece")}),
+        ("Aloma XXL Βανίλια 1,455gr 3lt", {(1455, "g"), (3000, "ml")}),
+        ("Bioten Eye Patches 5,5gr", {(5.5, "g")}),
+        ("Χαρτομάντηλα 4 Φύλλα 193gr", {(193, "g")}),
         ("33cl", {(330, "ml")}),
         ("Κιλό", set()),
         ("Τιμή Κιλού", set()),
@@ -77,6 +80,10 @@ def test_same_size_promo_pack():
 def test_same_size_within_10_percent():
     assert match.same_size(product(size="20*1.7gr"), product(size="36 γρ"))
     assert match.same_size(product(size="450γρ."), product(size="500 γρ")) is False
+
+
+def test_same_size_every_shared_unit_agrees():
+    assert match.same_size(product(size="30τεμ.", name="ΠΟΤΗΡΙΑ 200ML"), product("Ποτήρια 200ml 10τεμ")) is False
 
 
 def test_same_size_unknown_without_a_shared_unit():

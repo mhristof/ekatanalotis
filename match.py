@@ -5,8 +5,9 @@ the ab and mymarket site searches find a product by its EAN.
 appends every result, "not found" included, to matches/ean_search.csv, so
 it can be stopped and resumed. `accept` is offline: it checks every hit
 against the kritikos product (same size and brand; the price is no check,
-as promotions differ) and writes matches/matches.csv and, for review,
-matches/ean_candidates.csv."""
+as promotions differ) and writes matches/ean_matches.csv and, for review,
+matches/ean_candidates.csv. fuzzy.py adds the matches by name and writes
+matches/matches.csv."""
 
 import argparse
 import csv
@@ -30,7 +31,7 @@ DELAY = 1.5
 
 SEARCH_PATH = "matches/ean_search.csv"
 SEARCH_FIELDS = ["store", "ean", "searched", *catalog.FIELDS[:-1]]
-MATCHES_PATH = "matches/matches.csv"
+MATCHES_PATH = "matches/ean_matches.csv"
 MATCH_FIELDS = ["product_id", "store", "code", "method", "score"]
 CANDIDATES_PATH = "matches/ean_candidates.csv"
 CANDIDATE_FIELDS = [
@@ -67,7 +68,7 @@ SIZE_UNITS = [
     (r"ml|μλ", "ml", 1),
     (r"cl", "ml", 10),
     (r"l|lt|ltr|lit\w*|λιτ\w*|λ", "ml", 1000),
-    (r"τεμ\w*|τμχ|pcs|τεμαχι\w*|αρι|αδα|φυλλα|δισκι\w*|καψουλ\w*|ταινι\w*", "piece", 1),
+    (r"τεμ\w*|τμχ|pcs|τεμαχι\w*|αρι|αδα|δισκι\w*|καψουλ\w*|ταινι\w*", "piece", 1),
     (r"μεζ\w*|wash\w*|μεζουρ\w*", "wash", 1),
 ]
 # sizes this close are the same, rounded differently; a wrong EAN hit is
@@ -107,12 +108,16 @@ def as_greek(text):
 
 def sizes(text):
     """{(total quantity, unit)} in text, packs multiplied out: '4*125gr'
-    -> {(500, 'g')}, '1,5L' -> {(1500, 'ml')}."""
+    -> {(500, 'g')}, '1,5L' -> {(1500, 'ml')}. Grams or millilitres with 3
+    decimals are thousands: '1,480ml' is 1480ml."""
     out = set()
 
     for packs, qty, unit in SIZE.findall(normalise(text)):
         for pattern, base, factor in SIZE_UNITS:
             if re.fullmatch(pattern, unit):
+                if factor == 1 and re.fullmatch(r"\d\.\d{3}", qty):
+                    qty = qty.replace(".", "")
+
                 out.add((round(float(qty) * factor * int(packs or 1), 3), base))
                 break
 
@@ -132,18 +137,17 @@ def name_sizes(text):
 
 
 def compare(a, b):
-    """True/False when a and b have a size in the same unit, None when
-    they don't."""
+    """True when a and b agree in every unit both give a size in ('200ml
+    30τεμ' is not '200ml 10τεμ'), False when they don't, None when they
+    share no unit."""
     units = {u for _, u in a} & {u for _, u in b}
 
     if not units:
         return None
 
-    return any(
-        ua == ub and abs(qa - qb) < TOLERANCE * max(qa, qb)
-        for qa, ua in a
-        for qb, ub in b
-        if ua in units
+    return all(
+        any(abs(qa - qb) < TOLERANCE * max(qa, qb) for qa, ua in a if ua == u for qb, ub in b if ub == u)
+        for u in units
     )
 
 

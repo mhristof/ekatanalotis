@@ -3541,9 +3541,9 @@ kritikos,kritikos_name,kritikos_brand,kritikos_size,store,code,name,brand,size,s
 721651,ΠΑΛΙΡΡΟΙΑ ΦΑΒΑ ΜΕ ΚΡΕΜΜ.& ΧΥΜΟ ΛΕΜΟΝ.280ΓΡ,ΠΑΛΙΡΡΟΙΑ,280γρ.,mymarket,225919,Paliria Φάβα Με Κρεμμύδια & Χυμό Λεμόνι 280gr,Paliria,,0.59,ok
 721655,ΟΛΥΜΠΟΣ ΚΑΡΠΟΣ ΑΜΥΓΔΑΛΟ PROTEIN 1L,ΟΛΥΜΠΟΣ,1L,ab,7484264,Ρόφημα Αμυγδάλου Protein 1 Lt,ΟΛΥΜΠΟΣ,1 λιτ,0.41,ok
 721655,ΟΛΥΜΠΟΣ ΚΑΡΠΟΣ ΑΜΥΓΔΑΛΟ PROTEIN 1L,ΟΛΥΜΠΟΣ,1L,mymarket,113470,Όλυμπος Καρπός Ρόφημα Αμυγδάλου Πρωτεΐνη1lt,Ολυμπος,,0.52,ok
-721694,ALOMA ΠΑΓΩΤΟ ΒΑΝΙΛΙΑ ΣΟΚΟΛΑΤΑ 1455ΓΡ,ALOMA,1455γρ.,mymarket,160939,"Aloma XXL Βανίλια - Σοκολάτα 1,455gr 3lt",Aloma,,0.6,size
-721695,ALOMA ΠΑΓΩΤΟ ΒΑΝΙΛΙΑ ΣΟΚΟΛ.ΦΡΑ. 1455ΓΡ,ALOMA,1455γρ.,mymarket,160938,"Aloma XXL Βανίλια - Σοκολάτα - Φράουλα 1,455gr 3lt",Aloma,,0.42,size
-721697,ALOMA ΠΑΓΩΤΟ ΣΟΚΟΛ.ΜΠΙΣΚ ΦΟΥΝΤ.1455ΓΡ,ALOMA,1455γρ.,mymarket,160937,"Aloma ΧΧL Παγωτό Σοκολάτα Μπισκότο Φουντούκι 1,455gr (3lt)",Aloma,,0.41,size
+721694,ALOMA ΠΑΓΩΤΟ ΒΑΝΙΛΙΑ ΣΟΚΟΛΑΤΑ 1455ΓΡ,ALOMA,1455γρ.,mymarket,160939,"Aloma XXL Βανίλια - Σοκολάτα 1,455gr 3lt",Aloma,,0.6,ok
+721695,ALOMA ΠΑΓΩΤΟ ΒΑΝΙΛΙΑ ΣΟΚΟΛ.ΦΡΑ. 1455ΓΡ,ALOMA,1455γρ.,mymarket,160938,"Aloma XXL Βανίλια - Σοκολάτα - Φράουλα 1,455gr 3lt",Aloma,,0.42,ok
+721697,ALOMA ΠΑΓΩΤΟ ΣΟΚΟΛ.ΜΠΙΣΚ ΦΟΥΝΤ.1455ΓΡ,ALOMA,1455γρ.,mymarket,160937,"Aloma ΧΧL Παγωτό Σοκολάτα Μπισκότο Φουντούκι 1,455gr (3lt)",Aloma,,0.41,ok
 721788,HELLMANNS ΣΑΛΤΣΑ BURGER TOP DOWN 250ML,HELLMANN΄S,250ml,ab,7148736,Σάλτσα Μπέργκερ 250 ml,HELLMANN'S,250 ml,0.41,ok
 721788,HELLMANNS ΣΑΛΤΣΑ BURGER TOP DOWN 250ML,HELLMANN΄S,250ml,mymarket,235112,Hellmann's Σάλτσα Μπέργκερ 250ml,Hellmanns,,0.46,ok
 721800,HUNGRY NOT ΜΠΑΡΑ PROTEIN ΜΕ Μ.ΣΟΚ.&ΜΠΙΣΚΟΤΟ 3*45ΓΡ,HUNGRY NOT,3*45γρ.,ab,7625021,Μπάρες Πρωτείνης Μαύρη Σοκολάτα & Μπισκότο 3x45g,HUNGRYNOT,135 γρ,0.38,ok
@@ -4223,7 +4223,7 @@ kritikos,kritikos_name,kritikos_brand,kritikos_size,store,code,name,brand,size,s
 742910,NESCAFE CAPPUCCINO SWEET 10*14ΓΡ,NESCAFE,10*14γρ.,mymarket,261226,Nescafe Στιγμιαίος Καφές Cappuccino σε φακελάκια 10x14gr,Nescafe,,0.32,ok
 742926,ΑΝΑΤΟΛΗ ΠΙΠΕΡΙ ΤΡΙΜΜΕΝΟ ΓΥΑΛΙΝΟ 60ΓΡ,ΑΝΑΤΟΛΗ,60γρ.,mymarket,217209,ΑΝΑΤΟΛΗ Πιπέρι Τριμμένο Γυάλινο 60gr,ΑΝΑΤΟΛΗ,,1.0,ok
 742982,ΖΩΓΡΑΦΟΣ SLIM LINE ΜΕ STEVIA 100 ΔΙΣΚΙΑ 30ΓΡ,ΖΩΓΡΑΦΟΣ,100τεμ.,ab,7587634,Γλυκαντικό Δισκία Slim Line Stevia 30g,ΖΩΓΡΑΦΟΣ,30 γρ,0.46,ok
-742982,ΖΩΓΡΑΦΟΣ SLIM LINE ΜΕ STEVIA 100 ΔΙΣΚΙΑ 30ΓΡ,ΖΩΓΡΑΦΟΣ,100τεμ.,mymarket,275210,"Ζωγράφος Slim Line Stevia Δισκία 100τεμ 5,5gr",Ζωγράφος,,0.6,ok
+742982,ΖΩΓΡΑΦΟΣ SLIM LINE ΜΕ STEVIA 100 ΔΙΣΚΙΑ 30ΓΡ,ΖΩΓΡΑΦΟΣ,100τεμ.,mymarket,275210,"Ζωγράφος Slim Line Stevia Δισκία 100τεμ 5,5gr",Ζωγράφος,,0.6,size
 743001,ΟΛΥΜΠΟΣ ΓΑΛΑ ΑΓΕΛ.ΜΕΓΑΛΩΝΩ 2.3% 1L,ΟΛΥΜΠΟΣ,1L,ab,7561566,Ρόφημα Γάλακτος Παιδικό Μεγαλώνω Αγελαδινό 1lt,ΟΛΥΜΠΟΣ,1 λιτ,0.23,ok
 743001,ΟΛΥΜΠΟΣ ΓΑΛΑ ΑΓΕΛ.ΜΕΓΑΛΩΝΩ 2.3% 1L,ΟΛΥΜΠΟΣ,1L,mymarket,113619,Όλυμπος Μεγαλώνω Γάλα Αγελάδος 1 lt,Ολυμπος,,0.47,ok
 743026,ΓΙΩΤΗΣ ΜΙΓΜΑ ΓΙΑ ΚΡΕΠΕΣ 1.2 BAKE 300ΓΡ,ΓΙΩΤΗΣ,300gr,ab,7563067,Μείγμα για Κρέπες 300g,ΓΙΩΤΗΣ,300 γρ,0.5,ok
@@ -4352,7 +4352,7 @@ kritikos,kritikos_name,kritikos_brand,kritikos_size,store,code,name,brand,size,s
 746181,ΝΟΥΝΟΥ ΣΤΡΑΓΓΙΣΤΟ ΓΙΑΟΥΡΤΙ ΠΛΗΡΕΣ 1Κ,ΝΟΥΝΟΥ,1K,mymarket,117852,NOYNOY Γιαούρτι Στραγγιστό 5% 1kg,NOYNOY,,0.36,ok
 746185,ΚΡΙ ΚΡΙ SUPER SPOON ΛΕΥΚΟ HIGH PROTEIN 2X205ΓΡ,ΚΡΙ ΚΡΙ,2*205gr,ab,7587580,Επιδόρπιο Γιαουρτιού Super Spoon High Protein 2x205g,ΚΡΙ ΚΡΙ,410 γρ,0.44,ok
 746185,ΚΡΙ ΚΡΙ SUPER SPOON ΛΕΥΚΟ HIGH PROTEIN 2X205ΓΡ,ΚΡΙ ΚΡΙ,2*205gr,mymarket,118466,Κρι Κρι Superspoon Επιδόρπιο Γιαουρτιού High Protein 2x205gr,ΚΡΙ ΚΡΙ,,0.51,ok
-746205,ALOMA ΠΑΓΩΤΟ ΜΠΑΝ.ΚΑΡΑΜ.ΣΟΚΟΛΑΤΑ 1455ΓΡ,ALOMA,1455γρ.,mymarket,160349,Aloma XXL Παγωτό Καραμέλα-Μπανάνα 1.455gr (3000ml),Aloma,,0.33,size
+746205,ALOMA ΠΑΓΩΤΟ ΜΠΑΝ.ΚΑΡΑΜ.ΣΟΚΟΛΑΤΑ 1455ΓΡ,ALOMA,1455γρ.,mymarket,160349,Aloma XXL Παγωτό Καραμέλα-Μπανάνα 1.455gr (3000ml),Aloma,,0.33,ok
 746207,OREO ΠΑΓΩΤΟ MINI STICKS 6X36.5ΓΡ,OREO,6*50ml,mymarket,161403,Oreo Παγωτό Mini Ξυλάκια Πολυσυσκευασία 6x50ml 219gr,Oreo,,0.24,ok
 746215,LOR CAPS LUNGO PROFONDO NCC 20*5.2ΓΡ,L΄OR,20*5.2γρ.,ab,7484141,Κάψουλες Καφέ Espresso Lungo Profondo 20x5.2g,LOR,104 γρ,0.25,ok
 746215,LOR CAPS LUNGO PROFONDO NCC 20*5.2ΓΡ,L΄OR,20*5.2γρ.,mymarket,261077,L'OR Κάψουλες Lungo Profondo Συμβατές Με Μηχανές Nespresso* 20τεμ,L'OR,,0.23,ok
@@ -5991,7 +5991,7 @@ kritikos,kritikos_name,kritikos_brand,kritikos_size,store,code,name,brand,size,s
 81010847,ΚΡΙ ΚΡΙ ΠΑΓΩΤΟ HEARTMADE BANOFFEE 750ΓΡ,ΚΡΙ ΚΡΙ,750gr,ab,7746538,Παγωτό Heartmade Banoffee 750g,ΚΡΙ ΚΡΙ,750 γρ,0.97,ok
 81010848,HANKIES ΥΓΡΟΜΑΝΤΗΛΑ ANTIBAC.QUAT.PACK 4*15T,WET HANKIES,4*15 τεμ.,ab,7738680,Αντιβακτηριδιακά Μαντηλάκια 4x15 Τεμάχια,WET HANKIES,60 τεμ,0.21,ok
 81010848,HANKIES ΥΓΡΟΜΑΝΤΗΛΑ ANTIBAC.QUAT.PACK 4*15T,WET HANKIES,4*15 τεμ.,mymarket,611270,Wet Hankies Υγρά Μαντηλάκια Αντιβακτηριδιακά 4x15τεμ,Wet Hankies,,0.28,ok
-81010850,ΚΡΙ ΚΡΙ ΠΑΓΩΤΟ HEARTMD ΟΙΚΟΓ. ΒΑNΙΛΙΑ ΚΑKΑΟ 1500ΓΡ,ΚΡΙ ΚΡΙ,1500gr,mymarket,160060,Κρι Κρι Heartmade Βανίλια - Κακάο 1.500gr 3lt,ΚΡΙ ΚΡΙ,,0.46,size
+81010850,ΚΡΙ ΚΡΙ ΠΑΓΩΤΟ HEARTMD ΟΙΚΟΓ. ΒΑNΙΛΙΑ ΚΑKΑΟ 1500ΓΡ,ΚΡΙ ΚΡΙ,1500gr,mymarket,160060,Κρι Κρι Heartmade Βανίλια - Κακάο 1.500gr 3lt,ΚΡΙ ΚΡΙ,,0.46,ok
 81010893,MONSTER ENERGY DRINK    ULTRA STRAWBERRY 500ML,MONSTER,500ml,ab,7740425,Ενεργειακό Ποτό Ultra Strawberry Dream 500ml,MONSTER,500 ml,0.48,ok
 81010893,MONSTER ENERGY DRINK    ULTRA STRAWBERRY 500ML,MONSTER,500ml,mymarket,402472,Monster Ultra Strawberry Dream 500ml,Monster,,0.51,ok
 81010904,ΚΟΛΙΟΣ ΣΤΡ.ΓΙΑΟΥΡΤΙ 2% 850ΓΡ,KOLIOS,850gr,mymarket,117192,Kolios Στραγγιστό Γιαούρτι 2% Λιπαρά 850gr,Kolios,,0.47,ok
@@ -7205,7 +7205,7 @@ kritikos,kritikos_name,kritikos_brand,kritikos_size,store,code,name,brand,size,s
 871682,SANI LADY SENS.ΑΚΡΑΤΕΙΑΣ EXT.LARGE ΝΟ6 10T.,SANI,10τεμ.,mymarket,606148,Sani Lady Sensitive Σερβιέτες Ειδικών Χρήσεων No 6 Extra Large 10τεμ,Sani,,0.24,ok
 871700,SANITAS PRE-CUT BAKE 18 SHEETS.,SANITAS,Τεμάχιο,ab,7507719,Αντικολλητικό Χαρτί Ψησίματος 18 Φύλλα 1 Τεμάχιο,SANITAS,"2,9 μ2",0.07,ok
 871700,SANITAS PRE-CUT BAKE 18 SHEETS.,SANITAS,Τεμάχιο,mymarket,523623,"Sanitas Αντικολλητικό Χαρτί Ψησίματος Κομμένα 18 Φύλλα (2,9 τ.μ.)",Sanitas,,0.1,ok
-871853,FERRERO KINDER ΕΚΠΛΗΞΗ ΑΥΓΟ Χ.ΓΛ.T3Χ20ΓΡ 60ΓΡ,KINDER,3τεμ.,ab,7064903,Σοκολατένο Αυγό Ferrero Kinder Έκπληξη 3x20g,KINDER,1 τεμ,0.37,ok
+871853,FERRERO KINDER ΕΚΠΛΗΞΗ ΑΥΓΟ Χ.ΓΛ.T3Χ20ΓΡ 60ΓΡ,KINDER,3τεμ.,ab,7064903,Σοκολατένο Αυγό Ferrero Kinder Έκπληξη 3x20g,KINDER,1 τεμ,0.37,size
 871853,FERRERO KINDER ΕΚΠΛΗΞΗ ΑΥΓΟ Χ.ΓΛ.T3Χ20ΓΡ 60ΓΡ,KINDER,3τεμ.,mymarket,337629,Ferrero Kinder Εκπληξη Σοκολατένιο Αυγό 3τεμ,Ferrero-Kinder,,0.39,ok
 871861,ADORO ΚΡ.ΓΑΛΑΚΤΟΣ PER PASTA 3*200ML,ADORO,3*200ml,ab,7747850,Κρέμα Γάλακτος Per Pasta 3x200ml,ADORO,600 ml,0.62,ok
 871871,BIC MISS SOLEIL 3 ΜIΑΣ ΧΡΗΣΗΣ 4T,BIC,4τεμ.,ab,7114476,Ξυραφάκια Miss Soleil 4 Τεμάχια,BIC,4 τεμ,0.19,ok

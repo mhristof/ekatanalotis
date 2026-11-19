@@ -8,8 +8,9 @@ Product details for matching products across stores are kept in
 `catalog/<store>.csv` as `code,name,brand,category,size,unit,unit_price,ean`
 rows: one per product code ever seen, updated in place by every run.
 `unit` is `kg`, `l`, `piece`, `wash` or `m`, the unit `unit_price` is
-per. Only kritikos lists barcodes (`ean`, `;` separated, old and multipack
-ones included); ab and mymarket find products by EAN in their site search.
+per. Stores may add their own fields after these (efresh's `slug`). Only
+kritikos lists barcodes (`ean`, `;` separated, old and multipack ones
+included); ab and mymarket find products by EAN in their site search.
 
 ## Layout
 
@@ -32,7 +33,15 @@ ones included); ab and mymarket find products by EAN in their site search.
   not searched before (live, one search per 1.5 s per store) and appends
   the results to `matches/ean_search.csv`; `python match.py accept`
   (offline) checks the hits by size and brand and writes
-  `matches/matches.csv` and `matches/ean_candidates.csv` for review.
+  `matches/ean_matches.csv` and `matches/ean_candidates.csv` for review.
+- `fuzzy.py` - matches products of all stores by name, brand and size,
+  offline. `python fuzzy.py match` adds them to the EAN matches and writes
+  `matches/matches.csv` (`product_id,store,code,method,score`, one code
+  per store per product, `method` is `ean` or `fuzzy`). The scorer is a
+  logistic regression trained on the EAN matches: `python fuzzy.py train`
+  fits it, reports precision and recall on held-out EAN matches and writes
+  `matches/fuzzy_weights.json`. efresh names are in English, so efresh's
+  catalog also keeps the product's `slug`, its Greek name in Latin letters.
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 
