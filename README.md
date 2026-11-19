@@ -42,6 +42,11 @@ included); ab and mymarket find products by EAN in their site search.
   fits it, reports precision and recall on held-out EAN matches and writes
   `matches/fuzzy_weights.json`. efresh names are in English, so efresh's
   catalog also keeps the product's `slug`, its Greek name in Latin letters.
+- `publish.py` - `python publish.py build` writes the browser extension's
+  files under `site/`: `latest/<store>.json` (every code in the store's
+  latest price file: price, unit price, unit), `products.json` (the
+  matched products: name, brand, size and the code in each store) and
+  `index.json` (build time, each store's price date).
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 
@@ -50,6 +55,10 @@ included); ab and mymarket find products by EAN in their site search.
 - `schedule.yml` (daily): all stores on github runners, except sklavenitis
   which runs on the self-hosted runner, as its site blocks github IPs.
 - `slow.yml` (hourly): xalkiadakis on the self-hosted runner.
+- `publish.yml` (after `schedule.yml`): searches the EANs of new kritikos
+  products, re-runs the matching, commits `matches/` and publishes
+  `publish.py build`'s files on GitHub Pages
+  (https://mhristof.github.io/ekatanalotis/).
 - `test.yml`: tests on branches and pull requests, github runners only.
 
 Both scrape jobs commit `smdata/` and `catalog/` through

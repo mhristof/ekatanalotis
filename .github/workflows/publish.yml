@@ -1,0 +1,89 @@
+name: Publish
+
+# after the daily scrape: match new products, commit matches/ and publish
+# the extension's files (publish.py) on GitHub Pages
+on:
+  workflow_run:
+    workflows: [Schedule]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  GIT_AUTHOR_NAME: CI
+  GIT_AUTHOR_EMAIL: ci@github.com
+  GIT_COMMITTER_NAME: CI
+  GIT_COMMITTER_EMAIL: ci@github.com
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          # smdata/ is ~3GB: only the latest file of each store is fetched
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            catalog
+            matches
+            scripts
+          sparse-checkout-cone-mode: true
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Search new EANs
+        # live; a store site change must not stop the publishing
+        continue-on-error: true
+        run: python -u match.py search
+
+      - name: Match
+        run: |
+          python -u match.py accept
+          python -u fuzzy.py match
+
+      - name: Commit matches
+        run: bash scripts/commit_push.sh "Update matches" matches/
+
+      - name: Fetch the latest prices
+        run: |
+          mkdir -p smdata
+          git ls-tree --name-only HEAD smdata/ | python publish.py latest | while read -r f; do
+            git show "HEAD:$f" > "$f"
+          done
+
+      - name: Build
+        run: python -u publish.py build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
