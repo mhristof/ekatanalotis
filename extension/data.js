@@ -10,7 +10,9 @@ const MAX_AGE = 60 * 60 * 1000;
 let loading = null;
 
 async function getJSON(path) {
-  const response = await fetch(DATA_URL + path);
+  // revalidate: Pages lets browsers keep files for 10 minutes, so a new
+  // build could otherwise be missed
+  const response = await fetch(DATA_URL + path, { cache: "no-cache" });
 
   if (!response.ok) {
     throw new Error(`${path}: HTTP ${response.status}`);
