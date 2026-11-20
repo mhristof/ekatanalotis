@@ -18,7 +18,7 @@ UNITS = [
     ("kg", ("κιλ", "kg", "kilo")),
     ("l", ("λιτ", "lt", "lit", "l")),
     ("piece", ("τεμ", "τμχ", "κομ", "piece", "pcs")),
-    ("wash", ("μεζ", "wash")),
+    ("wash", ("μεζ", "πλυσ", "wash")),
     ("m", ("μετρ", "m")),
 ]
 
@@ -31,8 +31,11 @@ def strip_accents(text):
 
 def unit(text):
     """The unit a unit price is per: kg, l, piece, wash, m, or the text
-    itself, e.g. 'Τιμή λίτρου', '/ κιλ', 'ΤΕΜ', 'kilogram'."""
+    itself, e.g. 'Τιμή λίτρου', '/ κιλ', 'ΤΕΜ', 'kilogram'. mymarket's
+    offer price is 'Τελ. τιμή κιλού' (final price per kg), and '' when it
+    is 'Τελ. τιμή', the product's own final price."""
     text = strip_accents(text or "").lower().replace("τιμη", "").strip(" /.:")
+    text = text.removeprefix("τελ").strip(" /.:")
 
     for name, prefixes in UNITS:
         if text.startswith(prefixes):

@@ -34,13 +34,15 @@ UNIT_PRICE = re.compile(
 
 def details(data, body):
     unit_price = UNIT_PRICE.search(body)
+    # 'Τελ. τιμή' is the product's offer price, not a unit price
+    unit = catalog.unit(unit_price.group(2)) if unit_price else None
     categories = [data.get(k) for k in ("category", "category2", "category3")]
 
     return {
         "brand": data.get("brand"),
         "category": next((c for c in reversed(categories) if c), None),
-        "unit_price": catalog.price(unit_price.group(1)) if unit_price else None,
-        "unit": catalog.unit(unit_price.group(2)) if unit_price else None,
+        "unit_price": catalog.price(unit_price.group(1)) if unit else None,
+        "unit": unit or None,
     }
 
 
