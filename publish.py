@@ -8,10 +8,18 @@ price files, the catalog and the matches.
   unit_price, unit]}}`, every product in the store's latest price file
 - `products.json`: `{product_id: {"name", "brand", "size", "codes":
   {store: code}}}`, the products matched in 2 or more stores
+- `history/<product_id>.json`: `{store: [[date, price], ...]}`, the
+  matched product's price changes in each store
 
-In CI smdata/ isn't checked out (~3GB), so `latest` reads file names on
-stdin (`git ls-tree --name-only HEAD smdata/`) and prints the latest file
-of each store, to fetch only those."""
+`history` adds the price files not seen before to `history/<store>.csv`
+(`code,date,price` rows, one per price change, sorted by code and date;
+`history/dates.json` has the last date added per store), the committed
+history the build reads.
+
+In CI smdata/ isn't checked out (~3GB), so `needed` reads file names on
+stdin (`git ls-tree --name-only HEAD smdata/`) and prints the files
+`history` and `build` read: the ones newer than the history and the
+latest of each store, to fetch only those."""
 
 import argparse
 import csv
@@ -28,23 +36,108 @@ import match
 
 PRICES_DIRECTORY = "smdata"
 SITE_DIRECTORY = "site"
+HISTORY_DIRECTORY = "history"
 PRICE_FILE = re.compile(r"(?:.*/)?([a-z_]+)-(\d{4}-\d{2}-\d{2})\.csv")
 # the store whose name is shown for a product: these have the brand in the
 # name, ab's names don't and kritikos' are abbreviated capitals
 NAME_ORDER = ["mymarket", "sklavenitis", "marketin", "xalkiadakis", "ab", "kritikos", "efresh"]
 
 
-def latest_files(names):
-    """{store: (date, name)} of the newest price file of each store."""
-    out = {}
+def price_files(names):
+    """{store: [(date, name), ...]} sorted by date, of the known stores."""
+    out = defaultdict(list)
 
     for name in names:
         m = PRICE_FILE.fullmatch(name.strip())
 
-        if m and m[1] in fuzzy.STORES and (m[1] not in out or m[2] > out[m[1]][0]):
-            out[m[1]] = (m[2], name.strip())
+        if m and m[1] in fuzzy.STORES:
+            out[m[1]].append((m[2], name.strip()))
+
+    return {store: sorted(files) for store, files in out.items()}
+
+
+def latest_files(names):
+    """{store: (date, name)} of the newest price file of each store."""
+    return {store: files[-1] for store, files in price_files(names).items()}
+
+
+def needed_files(names, dates):
+    """The price files newer than `dates` ({store: last date in the
+    history}) and the newest of each store."""
+    out = set()
+
+    for store, files in price_files(names).items():
+        out.add(files[-1][1])
+        out.update(name for date, name in files if date > dates.get(store, ""))
+
+    return sorted(out)
+
+
+def read_history(path):
+    """{code: [[date, price], ...]} from a history csv."""
+    out = defaultdict(list)
+
+    if os.path.exists(path):
+        with open(path, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                out[row["code"]].append([row["date"], float(row["price"])])
 
     return out
+
+
+def write_history(path, history):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f, lineterminator="\n")
+        w.writerow(["code", "date", "price"])
+
+        for code in sorted(history):
+            for date, price in history[code]:
+                w.writerow([code, date, f"{price:g}"])
+
+
+def add_prices(history, date, path):
+    """Append the price file's prices that differ from the code's last."""
+    with open(path, newline="", encoding="utf-8") as f:
+        for _, code, _, price in csv.reader(f):
+            price = number(price)
+
+            # old mymarket files have a "None" code
+            if code != "None" and price is not None and (not history[code] or history[code][-1][1] != price):
+                history[code].append([date, price])
+
+
+def read_dates(directory=HISTORY_DIRECTORY):
+    path = f"{directory}/dates.json"
+
+    if not os.path.exists(path):
+        return {}
+
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def update_history(prices_directory=PRICES_DIRECTORY, directory=HISTORY_DIRECTORY):
+    dates = read_dates(directory)
+
+    for store, files in sorted(price_files(os.listdir(prices_directory)).items()):
+        new = [(date, name) for date, name in files if date > dates.get(store, "")]
+
+        if not new:
+            continue
+
+        path = f"{directory}/{store}.csv"
+        history = read_history(path)
+
+        for date, name in new:
+            add_prices(history, date, os.path.join(prices_directory, name))
+
+        write_history(path, history)
+        dates[store] = new[-1][0]
+        print(f"{store}: {len(new)} files, up to {dates[store]}")
+
+    write_json(f"{directory}/dates.json", dict(sorted(dates.items())))
 
 
 def number(text):
@@ -97,7 +190,30 @@ def write_json(path, data):
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
 
-def build(prices_directory=PRICES_DIRECTORY, catalog_directory="catalog", out=SITE_DIRECTORY):
+def product_history(products, histories):
+    """{product_id: {store: [[date, price], ...]}} of the matched codes
+    with a history."""
+    out = {}
+
+    for product_id, p in products.items():
+        found = {
+            store: histories[store][code]
+            for store, code in p["codes"].items()
+            if histories.get(store, {}).get(code)
+        }
+
+        if found:
+            out[product_id] = found
+
+    return out
+
+
+def build(
+    prices_directory=PRICES_DIRECTORY,
+    catalog_directory="catalog",
+    history_directory=HISTORY_DIRECTORY,
+    out=SITE_DIRECTORY,
+):
     catalogs = {s: catalog.read(catalog.path(s, catalog_directory)) for s in fuzzy.STORES}
     latest = latest_files(os.listdir(prices_directory))
 
@@ -109,6 +225,11 @@ def build(prices_directory=PRICES_DIRECTORY, catalog_directory="catalog", out=SI
     products = matched_products(match.read_csv(fuzzy.MATCHES_PATH), catalogs)
     write_json(f"{out}/products.json", products)
     print(f"{len(products)} matched products")
+
+    histories = {s: read_history(f"{history_directory}/{s}.csv") for s in fuzzy.STORES}
+
+    for product_id, found in product_history(products, histories).items():
+        write_json(f"{out}/history/{product_id}.json", found)
 
     write_json(
         f"{out}/index.json",
@@ -123,12 +244,15 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("build", help=f"write the files under {SITE_DIRECTORY}/")
-    commands.add_parser("latest", help="print the latest price file of each store")
+    commands.add_parser("history", help=f"add new price files to {HISTORY_DIRECTORY}/")
+    commands.add_parser("needed", help="print the price files history and build read")
     args = parser.parse_args(argv)
 
-    if args.command == "latest":
-        for _, name in sorted(latest_files(sys.stdin).values()):
+    if args.command == "needed":
+        for name in needed_files(sys.stdin, read_dates()):
             print(name)
+    elif args.command == "history":
+        update_history()
     else:
         build()
 

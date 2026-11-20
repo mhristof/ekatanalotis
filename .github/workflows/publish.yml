@@ -37,6 +37,7 @@ jobs:
           sparse-checkout: |
             .github
             catalog
+            history
             matches
             scripts
           sparse-checkout-cone-mode: true
@@ -63,12 +64,17 @@ jobs:
       - name: Commit matches
         run: bash scripts/commit_push.sh "Update matches" matches/
 
-      - name: Fetch the latest prices
+      - name: Fetch the new and latest prices
         run: |
           mkdir -p smdata
-          git ls-tree --name-only HEAD smdata/ | python publish.py latest | while read -r f; do
+          git ls-tree --name-only HEAD smdata/ | python publish.py needed | while read -r f; do
             git show "HEAD:$f" > "$f"
           done
+
+      - name: Update the price history
+        run: |
+          python -u publish.py history
+          bash scripts/commit_push.sh "Update price history" history/
 
       - name: Build
         run: python -u publish.py build

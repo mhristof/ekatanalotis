@@ -18,6 +18,40 @@ def test_latest_files_newest_per_store():
     }
 
 
+def test_needed_files_newer_than_history_and_latest():
+    names = [
+        "smdata/ab-2026-11-16.csv",
+        "smdata/ab-2026-11-17.csv",
+        "smdata/ab-2026-11-18.csv",
+        "smdata/efresh-2026-11-10.csv",
+        "smdata/efresh-2026-11-11.csv",
+    ]
+
+    assert publish.needed_files(names, {"ab": "2026-11-16", "efresh": "2026-11-11"}) == [
+        "smdata/ab-2026-11-17.csv",
+        "smdata/ab-2026-11-18.csv",
+        "smdata/efresh-2026-11-11.csv",
+    ]
+
+
+def test_update_history_keeps_price_changes(tmp_path):
+    prices = tmp_path / "smdata"
+    prices.mkdir()
+    (prices / "ab-2026-11-16.csv").write_text("2026-11-16,a1,Καφές,4.00\n")
+    (prices / "ab-2026-11-17.csv").write_text("2026-11-17,a1,Καφές,4.00\n2026-11-17,a2,Τσάι,1.10\n")
+    history = tmp_path / "history"
+
+    publish.update_history(prices, history)
+    # a second run only adds the new file
+    (prices / "ab-2026-11-18.csv").write_text("2026-11-18,a1,Καφές,4.20\n2026-11-18,a2,Τσάι,1.10\n")
+    publish.update_history(prices, history)
+
+    assert (history / "ab.csv").read_text() == (
+        "code,date,price\na1,2026-11-16,4\na1,2026-11-18,4.2\na2,2026-11-17,1.1\n"
+    )
+    assert json.loads((history / "dates.json").read_text()) == {"ab": "2026-11-18"}
+
+
 def test_matched_products_name_from_preferred_store():
     rows = [
         {"product_id": "kritikos-1", "store": "kritikos", "code": "1"},
@@ -58,6 +92,9 @@ def test_build(tmp_path, monkeypatch):
         "product_id,store,code,method,score\nab-a1,ab,a1,fuzzy,0.9\nab-a1,efresh,e1,fuzzy,0.9\n"
     )
 
+    (tmp_path / "history").mkdir()
+    (tmp_path / "history" / "ab.csv").write_text("code,date,price\na1,2026-11-17,4\na1,2026-11-18,4.2\n")
+
     publish.build()
 
     site = tmp_path / "site"
@@ -68,5 +105,8 @@ def test_build(tmp_path, monkeypatch):
     assert json.loads((site / "products.json").read_text())["ab-a1"]["codes"] == {
         "ab": "a1",
         "efresh": "e1",
+    }
+    assert json.loads((site / "history" / "ab-a1.json").read_text()) == {
+        "ab": [["2026-11-17", 4.0], ["2026-11-18", 4.2]]
     }
     assert json.loads((site / "index.json").read_text())["stores"] == {"ab": "2026-11-18"}

@@ -46,7 +46,17 @@ included); ab and mymarket find products by EAN in their site search.
   files under `site/`: `latest/<store>.json` (every code in the store's
   latest price file: price, unit price, unit), `products.json` (the
   matched products: name, brand, size and the code in each store) and
-  `index.json` (build time, each store's price date).
+  `index.json` (build time, each store's price date) and
+  `history/<product_id>.json` (each store's price changes of a matched
+  product). `python publish.py history` adds the price files not seen
+  before to `history/<store>.csv` (`code,date,price`, one row per price
+  change; `history/dates.json` has the last date added per store), so
+  the build doesn't need all of `smdata/`.
+- `extension/` - Chrome extension (Manifest V3). On a sklavenitis or ab
+  product page it shows a panel with the product's price history and
+  latest price in every store it is matched in, read from the GitHub
+  Pages files. Install with chrome://extensions, Developer mode, "Load
+  unpacked", and pick `extension/`.
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 
@@ -56,7 +66,8 @@ included); ab and mymarket find products by EAN in their site search.
   which runs on the self-hosted runner, as its site blocks github IPs.
 - `slow.yml` (hourly): xalkiadakis on the self-hosted runner.
 - `publish.yml` (after `schedule.yml`): searches the EANs of new kritikos
-  products, re-runs the matching, commits `matches/` and publishes
+  products, re-runs the matching, commits `matches/` and `history/` and
+  publishes
   `publish.py build`'s files on GitHub Pages
   (https://mhristof.github.io/ekatanalotis/).
 - `test.yml`: tests on branches and pull requests, github runners only.
