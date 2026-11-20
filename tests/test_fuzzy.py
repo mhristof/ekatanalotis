@@ -11,6 +11,7 @@ def product(name, brand="", size="", **extra):
         **p,
         "sizes": match.product_sizes(p),
         "brands": fuzzy.brand_keys(brand),
+        "name_brands": fuzzy.brand_keys(name),
         "brand_latin": fuzzy.fold(match.latin(brand)),
         "numbers": fuzzy.numbers(p),
         "stems": fuzzy.stems(p),
@@ -66,6 +67,19 @@ def test_candidates_same_size_and_brand_and_no_other_numbers():
     found = fuzzy.candidates(products)
 
     assert found[("kritikos", "1")]["ab"] == [("ab", "2")]
+
+
+def test_candidates_brand_in_the_other_name():
+    # sklavenitis files it under the line, mymarket under the maker
+    products = {
+        ("sklavenitis", "1"): product("ΦΑΓΕ Total Γιαούρτι Στραγγιστό 5% 500g", "TOTAL"),
+        ("mymarket", "2"): product("ΦΑΓΕ Total Στραγγιστό Γιαούρτι 5% Λιπαρά 500gr", "ΦΑΓΕ"),
+    }
+
+    found = fuzzy.candidates(products)
+
+    assert found[("sklavenitis", "1")]["mymarket"] == [("mymarket", "2")]
+    assert found[("mymarket", "2")]["sklavenitis"] == [("sklavenitis", "1")]
 
 
 def test_solve():
