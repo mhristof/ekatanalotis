@@ -10,6 +10,8 @@ price files, the catalog and the matches.
   {store: code}}}`, the products matched in 2 or more stores
 - `history/<product_id>.json`: `{store: [[date, price], ...]}`, the
   matched product's price changes in each store
+- `packs/<store>.json`: the store's products with a pack size that is
+  cheaper per unit (packs.cheaper())
 
 `history` adds the price files not seen before to `history/<store>.csv`
 (`code,date,price` rows, one per price change, sorted by code and date;
@@ -33,6 +35,7 @@ from collections import defaultdict
 import catalog
 import fuzzy
 import match
+import packs
 
 PRICES_DIRECTORY = "smdata"
 SITE_DIRECTORY = "site"
@@ -220,7 +223,9 @@ def build(
     for store, (date, name) in sorted(latest.items()):
         found = prices(os.path.join(prices_directory, name), catalogs[store])
         write_json(f"{out}/latest/{store}.json", {"date": date, "prices": found})
-        print(f"{store}: {len(found)} prices of {date}")
+        alternatives = packs.cheaper(catalogs[store], {c: v[0] for c, v in found.items() if v[0]})
+        write_json(f"{out}/packs/{store}.json", alternatives)
+        print(f"{store}: {len(found)} prices of {date}, {len(alternatives)} with a cheaper pack")
 
     products = matched_products(match.read_csv(fuzzy.MATCHES_PATH), catalogs)
     write_json(f"{out}/products.json", products)

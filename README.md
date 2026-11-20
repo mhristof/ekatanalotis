@@ -52,9 +52,13 @@ included); ab and mymarket find products by EAN in their site search.
   before to `history/<store>.csv` (`code,date,price`, one row per price
   change; `history/dates.json` has the last date added per store), so
   the build doesn't need all of `smdata/`.
+- `packs.py` - cheaper pack sizes of the same product in the same store
+  (same name once sizes are taken out, unit price from price and pack
+  size), published by `publish.py build` as `packs/<store>.json`.
 - `extension/` - Chrome extension (Manifest V3). On a sklavenitis or ab
   product page it shows a panel with the product's price history and
-  latest price in every store it is matched in, read from the GitHub
+  latest price in every store it is matched in, and the store's cheaper
+  pack sizes of it, read from the GitHub
   Pages files. Install with chrome://extensions, Developer mode, "Load
   unpacked", and pick `extension/`.
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the

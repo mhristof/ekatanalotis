@@ -17,6 +17,11 @@
     ["1Y", 365],
     ["All", null],
   ];
+  // a store's search page that finds a product by its code
+  const SEARCH = {
+    sklavenitis: (code) => `https://www.sklavenitis.gr/apotelesmata-anazitisis/?Query=${code}`,
+    ab: (code) => `https://www.ab.gr/search?q=${code}`,
+  };
   const DAY = 24 * 60 * 60 * 1000;
   const SVG = "http://www.w3.org/2000/svg";
 
@@ -194,6 +199,17 @@
     .cheapest { color: var(--accent); font-weight: 600; }
     .note { color: var(--muted); font-size: 11px; margin-top: 6px; }
     .message { color: var(--text-2); padding: 0 12px 12px; }
+    .packs { border: 1px solid var(--accent); border-radius: 8px; padding: 6px 8px; margin-bottom: 10px; }
+    .packs .head { font-weight: 600; margin-bottom: 2px; }
+    .packs .alt { display: flex; align-items: baseline; gap: 8px; padding: 3px 0; border-top: 1px solid var(--grid); }
+    .packs .alt:first-of-type { border-top: 0; }
+    .packs a, .packs .what { flex: 1; min-width: 0; color: var(--text); text-decoration: none;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .packs a:hover { text-decoration: underline; }
+    .packs .unit { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .packs .save { color: var(--accent); font-weight: 600; white-space: nowrap; }
+    .packs .price { color: var(--text-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .packs .tag { color: var(--muted); font-size: 11px; white-space: nowrap; }
   `;
 
   let host = null;
@@ -418,7 +434,45 @@
     p.append(h);
   }
 
+  // the store's cheaper pack sizes of the product, per unit
+  function packs(pack, here) {
+    const box = el("div", { class: "packs" }, el("div", { class: "head" }, `Cheaper per ${pack.unit} here`));
+
+    for (const [code, name, price, unitPrice, multipack] of pack.cheaper) {
+      const saving = Math.round(((unitPrice - pack.unit_price) / pack.unit_price) * 100);
+      const link = SEARCH[here]
+        ? el("a", { href: SEARCH[here](code), target: "_blank", rel: "noopener", title: name }, name)
+        : el("span", { class: "what", title: name }, name);
+      // cans for a big bottle, or the other way round, may not suit
+      const format = multipack === pack.multipack ? "" : multipack ? "multipack" : "single pack";
+      box.append(
+        el(
+          "div",
+          { class: "alt" },
+          link,
+          ...(format ? [el("span", { class: "tag" }, format)] : []),
+          el("span", { class: "unit" }, `${euro(unitPrice)}/${pack.unit}`),
+          el("span", { class: "save" }, `${saving}%`),
+          el("span", { class: "price" }, euro(price)),
+        ),
+      );
+    }
+
+    box.append(
+      el("div", { class: "note" }, `This one: ${euro(pack.unit_price)}/${pack.unit}. Unit prices from the pack sizes; offers change them.`),
+    );
+
+    return box;
+  }
+
   function render(result, here) {
+    if (!result.product) {
+      const p = panel();
+      header(p, result.pack.name, "A cheaper pack size in this store");
+      p.append(el("div", { class: "body" }, packs(result.pack, here)));
+      return;
+    }
+
     const p = panel();
     const all = series(result);
     const listed = Object.values(result.stores).filter((s) => s.price != null).length;
@@ -454,6 +508,11 @@
     }
 
     draw();
+
+    if (result.pack) {
+      body.append(packs(result.pack, here));
+    }
+
     body.append(
       ranges,
       holder,

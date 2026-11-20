@@ -22,10 +22,13 @@ async function getJSON(path) {
 }
 
 async function loadData() {
-  const [products, ...latest] = await Promise.all([
+  const [products, ...perStore] = await Promise.all([
     getJSON("products.json"),
     ...STORES.map((s) => getJSON(`latest/${s}.json`).catch(() => null)),
+    ...STORES.map((s) => getJSON(`packs/${s}.json`).catch(() => ({}))),
   ]);
+  const latest = perStore.slice(0, STORES.length);
+  const packs = perStore.slice(STORES.length);
   // {store: {code: product_id}}
   const ids = {};
 
@@ -40,6 +43,7 @@ async function loadData() {
     products,
     ids,
     latest: Object.fromEntries(STORES.map((s, i) => [s, latest[i]]).filter(([, l]) => l)),
+    packs: Object.fromEntries(STORES.map((s, i) => [s, packs[i]])),
   };
 }
 
@@ -61,14 +65,17 @@ function data() {
   return loading;
 }
 
-// {product, stores: {store: {code, price, unitPrice, unit, date, history}}}
-// or null when the code isn't matched to another store
+// {productId, product, stores: {store: {code, price, unitPrice, unit, date,
+// history}}, pack}: product and stores when the code is matched to another
+// store, pack ({name, unit, unit_price, multipack, cheaper}) when the store
+// has a cheaper pack size of it; null when neither
 async function lookup(store, code) {
   const d = await data();
   const productId = d.ids[store]?.[code];
+  const pack = d.packs[store]?.[code] || null;
 
   if (!productId) {
-    return null;
+    return pack && { pack };
   }
 
   const product = d.products[productId];
@@ -89,5 +96,5 @@ async function lookup(store, code) {
     };
   }
 
-  return { productId, product, stores };
+  return { productId, product, stores, pack };
 }

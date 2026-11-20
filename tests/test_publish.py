@@ -109,4 +109,5 @@ def test_build(tmp_path, monkeypatch):
     assert json.loads((site / "history" / "ab-a1.json").read_text()) == {
         "ab": [["2026-11-17", 4.0], ["2026-11-18", 4.2]]
     }
+    assert json.loads((site / "packs" / "ab.json").read_text()) == {}
     assert json.loads((site / "index.json").read_text())["stores"] == {"ab": "2026-11-18"}
