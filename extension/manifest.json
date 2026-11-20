@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ekatanalotis",
+  "version": "0.1.0",
+  "description": "Price history of a supermarket product in every Greek supermarket",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://mhristof.github.io/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.sklavenitis.gr/*", "https://www.ab.gr/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
