@@ -152,6 +152,7 @@
       color-scheme: light;
       position: fixed; right: 16px; bottom: 16px; z-index: 2147483647;
       width: 420px; max-width: calc(100vw - 32px); box-sizing: border-box;
+      max-height: calc(100vh - 32px); overflow-y: auto;
       background: var(--surface); color: var(--text);
       border: 1px solid var(--border); border-radius: 10px;
       box-shadow: 0 6px 24px rgba(0,0,0,.18);
@@ -201,12 +202,12 @@
     .message { color: var(--text-2); padding: 0 12px 12px; }
     .packs { border: 1px solid var(--accent); border-radius: 8px; padding: 6px 8px; margin-bottom: 10px; }
     .packs .head { font-weight: 600; margin-bottom: 2px; }
-    .packs .alt { display: flex; align-items: baseline; gap: 8px; padding: 3px 0; border-top: 1px solid var(--grid); }
-    .packs .alt:first-of-type { border-top: 0; }
-    .packs a, .packs .what { flex: 1; min-width: 0; color: var(--text); text-decoration: none;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .packs .alt { padding: 4px 0; border-top: 1px solid var(--grid); }
+    .packs .head + .alt { border-top: 0; }
+    .packs a, .packs .what { color: var(--text); text-decoration: none; }
     .packs a:hover { text-decoration: underline; }
-    .packs .unit { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .packs .meta { display: flex; gap: 10px; align-items: baseline; }
+    .packs .unit { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; }
     .packs .save { color: var(--accent); font-weight: 600; white-space: nowrap; }
     .packs .price { color: var(--text-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
     .packs .tag { color: var(--muted); font-size: 11px; white-space: nowrap; }
@@ -441,19 +442,23 @@
     for (const [code, name, price, unitPrice, multipack] of pack.cheaper) {
       const saving = Math.round(((unitPrice - pack.unit_price) / pack.unit_price) * 100);
       const link = SEARCH[here]
-        ? el("a", { href: SEARCH[here](code), target: "_blank", rel: "noopener", title: name }, name)
-        : el("span", { class: "what", title: name }, name);
+        ? el("a", { href: SEARCH[here](code), target: "_blank", rel: "noopener" }, name)
+        : el("span", { class: "what" }, name);
       // cans for a big bottle, or the other way round, may not suit
       const format = multipack === pack.multipack ? "" : multipack ? "multipack" : "single pack";
       box.append(
         el(
           "div",
           { class: "alt" },
-          link,
-          ...(format ? [el("span", { class: "tag" }, format)] : []),
-          el("span", { class: "unit" }, `${euro(unitPrice)}/${pack.unit}`),
-          el("span", { class: "save" }, `${saving}%`),
-          el("span", { class: "price" }, euro(price)),
+          el("div", {}, link),
+          el(
+            "div",
+            { class: "meta" },
+            el("span", { class: "unit" }, `${euro(unitPrice)}/${pack.unit}`),
+            el("span", { class: "save" }, `${saving}%`),
+            el("span", { class: "price" }, `${euro(price)} the pack`),
+            ...(format ? [el("span", { class: "tag" }, format)] : []),
+          ),
         ),
       );
     }
