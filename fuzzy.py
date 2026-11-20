@@ -126,6 +126,9 @@ def load(stores=STORES, directory="catalog"):
                     **p,
                     "sizes": sizes,
                     "brands": brands,
+                    # stores file some products under the line ('TOTAL'),
+                    # others under the maker ('ΦΑΓΕ'), the name has both
+                    "name_brands": brand_keys(p["name"]),
                     "brand_latin": fold(match.latin(p["brand"])),
                     "numbers": numbers(p),
                     "stems": stems(p),
@@ -147,7 +150,9 @@ def load(stores=STORES, directory="catalog"):
 
 def candidates(products):
     """{(store, code): {other store: [(store, code)]}}, the products of
-    other stores with the same size and brand and no other numbers."""
+    other stores with the same size and no other numbers, whose brand
+    starts like a word of the product's brand or name (or the other way
+    round)."""
     index = defaultdict(list)
 
     for key, p in products.items():
@@ -162,13 +167,13 @@ def candidates(products):
             (unit, b, brand)
             for unit, bucket in size_keys(p["sizes"])
             for b in (bucket - 1, bucket, bucket + 1)
-            for brand in p["brands"]
+            for brand in p["brands"] | p["name_brands"]
         }
         seen = set()
 
         for block in blocks:
             for other in index.get(block, ()):
-                if other[0] == key[0] or other in seen:
+                if other[0] == key[0] or other in seen or key in out[other][key[0]]:
                     continue
 
                 seen.add(other)
@@ -179,7 +184,9 @@ def candidates(products):
                     continue
 
                 if match.compare(p["sizes"], q["sizes"]):
+                    # both ways, as only one name may have the other's brand
                     out[key][other[0]].append(other)
+                    out[other][key[0]].append(key)
 
     return out
 
