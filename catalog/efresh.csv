@@ -74,8 +74,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100000303,"Kichi Mini, Frozen cheese rolls, Alfa (800 g)",Alfa,Mini Πιτάκια,0.8 kg,kg,5.537,,kixi-mini-katepsygmena-tyri-alfa-800-g
 4100000304,"Kichi Mini, Frozen cheese pie, Alfa (800 g)",Alfa,Οικογενειακές Πίτες,0.8 kg,kg,8.05,,pita-kixi-katepsygmenh-tyri-alfa-800-g
 4100000305,"Alfa Mini Frozen potato rolls, Alfa (800 g)",Alfa,Mini Πιτάκια,0.8 kg,kg,5.325,,rolla-mini-me-patata-katepsygmena-alfa-800-g
-4100000308,"Small cheese kourou pies, frozen ""Kefata"" Alfa (800 g)",Alfa,Mini Πιτάκια,0.8 kg,kg,6.637,,tyropitakia-katepsygmena-koyroy-klasika-alfa-800-g
-4100000309,"Small sausage pies, frozen ""Kourou"", Smoked sausage, Alfa (800 g)",Alfa,Mini Πιτάκια,0.8 kg,kg,8.112,,loykanikopitakia-katepsygmena-koyroy-klasika-alfa-800-g
+4100000308,"Small cheese kourou pies, frozen ""Kefata"" Alfa (800 g)",Alfa,Mini Πιτάκια,0.8 kg,kg,4.975,,tyropitakia-katepsygmena-koyroy-klasika-alfa-800-g
+4100000309,"Small sausage pies, frozen ""Kourou"", Smoked sausage, Alfa (800 g)",Alfa,Mini Πιτάκια,0.8 kg,kg,6.087,,loykanikopitakia-katepsygmena-koyroy-klasika-alfa-800-g
 4100000310,"Traditional pie, frozen ""Metsovou"" with Alfa cheese (850 g)",Alfa,Οικογενειακές Πίτες,0.85 kg,kg,6.424,,pita-paradosiakh-katepsygmenh-metsoboy-me-tyri-alfa-850-g
 4100000311,"Pastry, Traditional from Kozani, Frozen, ""Kichi"" Alfa (750 g)",Alfa,"Χωριάτικο, παραδοσιακό",0.75 kg,kg,4.387,,fyllo-xwriatiko-katepsygmeno-kozanhs-kixi-alfa-750-g
 4100000312,"Crust pastry, ""Politiko"", Frozen, Alfa (450 g)",Alfa,Κρούστας,0.45 kg,kg,5.867,,fyllo-kroystas-katepsygmeno-politiko-alfa-450-g
@@ -1605,8 +1605,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100012683,Organic Yogurt Dessert Apricot biotic (2x125g),Biotos,Με φρούτα,0.25 kg,kg,10.68,,
 4100012684,Organic Yogurt Dessert Bilberry biotic (2x125g),Biotos,Με φρούτα,0.25 kg,kg,10.68,,biologiko-epidorpio-giaoyrtioy-myrtillo-biotos-2x125g
 4100012685,Organic Yogurt Dessert Vanilla biotic (2x125g),Biotos,Με Γεύσεις,0.25 kg,kg,10.68,,
-4100012710,"Kassiata Pie from Zagori, Frozen, with Mizithra & Feta Cheese, Alfa (650 g)",Alfa,Οικογενειακές Πίτες,0.65 kg,kg,8.031,,pita-kassiata-zagorioy-katepsygmenh-me-myzhthra-feta-alfa-650-g
-4100012712,"Kassiata Pie from Zagori, Frozen, with Cheese & Spinach, Alfa (650 g)",Alfa,Οικογενειακές Πίτες,0.65 kg,kg,7.877,,pita-kassiata-zagorioy-katepsygmenh-me-tyri-spanaki-alfa-650-g
+4100012710,"Kassiata Pie from Zagori, Frozen, with Mizithra & Feta Cheese, Alfa (650 g)",Alfa,Οικογενειακές Πίτες,0.65 kg,kg,6.031,,pita-kassiata-zagorioy-katepsygmenh-me-myzhthra-feta-alfa-650-g
+4100012712,"Kassiata Pie from Zagori, Frozen, with Cheese & Spinach, Alfa (650 g)",Alfa,Οικογενειακές Πίτες,0.65 kg,kg,5.908,,pita-kassiata-zagorioy-katepsygmenh-me-tyri-spanaki-alfa-650-g
 4100012738,"Frozen Burger, Ifantis (640 g)",Υφαντής,Με κρέας,0.64 kg,kg,10.312,,mpiftekia-katepsygmena-yfanths-640g
 4100012751,"Vegetable chips, go Pure (90 g)",Go Pure,Πατατάκια,0.09 kg,kg,44.333,,tsips-laxanikwn-go-pure-90g
 4100012753,"Unsalted Chips, Natural Flavour, go Pure (125 g)",Go Pure,Πατατάκια,0.125 kg,kg,27.2,,patatakia-xwris-alati-fysikh-geysh-go-pure-125g
@@ -2337,7 +2337,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100135814,"Crispy salad, Barba Stathis (300 g)",Μπάρμπα Στάθης,Έτοιμες Σαλάτες,0.3 kg,kg,5.367,,salata-traganh-mparmpa-stathhs-300-g
 4100135836,Τυρί Φέτα Π.Ο.Π.με 40% λιγότερο αλάτι σε Άλμη Δωδώνη (400 g),DODONI S.A.,Φέτα Π.Ο.Π.,0.4 kg,kg,18.75,,tyri-feta-popme-40-ligotero-alati-se-almh-dwdwnh-400-g
 4100135844,"Chocolate Milk, Rodopaki, Rodopi (500 ml)",RODOPI,Σοκολατούχο Γάλα,0.5 lt,l,2.82,,gala-me-kakao-rodopaki-rodoph-500ml
-4100135867,"Pork Steak With Bone Organic Evviotopoi (minimum weight 1,1kg weight)",Ευβιότοποι,Χοιρινό Κρέας,1.1 kg,kg,17.5,,
+4100135867,"Pork Steak With Bone Organic Evviotopoi (minimum weight 1,1kg weight)",Ευβιότοποι,Χοιρινό Κρέας,1.1 kg,kg,17.5,,xoirinh-mprizola-mo-biologikh-eybiotopoi-elaxsto-baros-11kg
 4100135912,Ruffles Barbeque (400g),Ruffles,Πατατάκια,0.4 kg,kg,10.175,,patatakia-ruffles-barbeque-400g
 4100135922,"Cake with Cocoa dessert, Kinder Delice (39g)",Kinder,Γάλακτος,0.04 kg,kg,17.5,,glykisma-keik-me-kakao-kinder-delice-39g
 4100135923,Kinder Bueno White (39g),Kinder,Γκοφρέτες,0.039 kg,kg,27.179,,gkofreta-kinder-bueno-white-39g
@@ -2899,7 +2899,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100140108,"Ice-cream, Gold Caramel, Magic (440ml)",Magic,Κύπελα,0.44 lt,l,19.773,,
 4100140111,"Ice-cream, Soft, Cornetto (4x140ml)",Cornetto,Πολυσυσκευασίες,0.56 kg,kg,15.893,,pagwto-soft-cornetto-4x140ml
 4100140115,"Zero Cookies Orange with Dark Chocolate, Violanta (170g)",Βιολάντα,Cookies,0.17 kg,kg,11.706,,mpiskota-zero-cookies-portokali-me-kommatia-mayrhs-sokolatas-biolanta-170g
-4100140122,Combi Prizer and Edam (280 g),Τυποποιητική,Σετ αλλαντικών/τυριών,0.28 kg,kg,9.607,,
+4100140122,Combi Prizer and Edam (280 g),Τυποποιητική,Σετ αλλαντικών/τυριών,0.28 kg,kg,9.607,,combi-tyri-edam-pariza-77-fetes-280-g
 4100140123,"Turkey fillet and Gouda, Combi (280 g)",Τυποποιητική,Σετ αλλαντικών/τυριών,0.28 kg,kg,11.75,,combi-tyri-gouda-fileto-galopoylas-77-fetes-280-g
 4100140132,"Ice-cream, Super Mix Calippo (5x105ml)",Algida,Πολυσυσκευασίες,0.525 kg,kg,13.905,,pagwto-super-mix-calippo-5x105ml
 4100140134,"Organic, Oat Flakes, Biovita (350g)",Biovita,Βρώμη,0.35 kg,kg,4.657,,nifades-brwmhs-biologikes-biovita-350g
@@ -3076,7 +3076,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100141381,Chicken Leg Arta Chickens (minimum weight 800g),Arta,Μπούτι Κοτόπουλου & Άλλων Πουλερικών,0.8 kg,kg,6.4,,kopanaki-nwpo-kotopoyla-artas-elaxisto-baros-800g
 4100141388,Spiced Arta Chicken Wing (minimum weight 700g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.7 kg,kg,4.7,,
 4100141389,Spiced Arta Chicken Wing (minimum weight 800g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.8 kg,kg,4.7,,
-4100141390,Spiced Arta Chicken Wing (minimum weight 900g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.9 kg,kg,4.7,,
+4100141390,Spiced Arta Chicken Wing (minimum weight 900g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.9 kg,kg,4.7,,fteroyga-nwph-mpaxarwmenh-kotopoyla-artas-elaxisto-baros-900g
 4100141403,Stuffed Roll Arta Chickens (minimum weight 1.2kg),Arta,"Ρολά, μπιφτέκια & άλλα έτοιμα γεύματα",1.2 kg,kg,10.8,,
 4100141406,"Espresso capsules, Rossa, Lavazza (10 caps)",Lavazza,Κάψουλες,10 pcs,piece,0.567,,kapsoyles-espresso-rossa-lavazza-10-tem
 4100141407,"Espresso capsules, Oro, Lavazza (10 caps)",Lavazza,Κάψουλες,10 pcs,piece,0.515,,kapsoyles-espresso-oro-lavazza-10-tem-1
@@ -3093,7 +3093,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100141428,Extra Virgin Olive Oil with sea salt and rosemary BBQ Oils Karpea (250 ml),Karpea,Έξτρα παρθένο ελαιόλαδο,0.25 lt,l,25.68,,
 4100141434,"Smoked Scotland Salmon, Gourmet Select (200g)",Gourmet Selection,Ψάρια καπνιστά,0.2 kg,kg,124.95,,
 4100141435,"Smoked Scotland Salmon, Gourmet Select (200g)",Gourmet Selection,Ψάρια καπνιστά,0.2 kg,kg,81.75,,kapnistos-solomos-skwtias-makras-kophs-gourmet-select-200g
-4100141439,Leg Fillet Arta Chicken (minimum weight 400g),Arta,Φιλέτο Μπούτι,0.4 kg,kg,7.8,,
+4100141439,Leg Fillet Arta Chicken (minimum weight 400g),Arta,Φιλέτο Μπούτι,0.4 kg,kg,7.8,,fileto-mpoyti-kotopoyla-artas-elaxisto-baros-400g
 4100141448,"Lefkada type Dry Salami, Nikas (165 g)",Νίκας,Σαλάμι αέρος,0.165 kg,kg,16.667,,salami-aeros-tleykados-nikas-165g
 4100141457,"Pancetta Cubes Carbonara, Negroni (140g)",Negroni,Premium Αλλαντικά,0.14 kg,kg,20.143,,eklektoi-kyboi-pansetas-carbonara-negroni-120g
 4100141458,Gialantzi Dolmads with Rice and Spices Paliroia (200 g),Παλίρροια,Έτοιμα φαγητά,0.2 kg,kg,14.9,,ntolmadakia-me-ryzi-kai-myrwdika-gialantzi-piato-palirroia-200-g
@@ -3160,8 +3160,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100141970,Butter Cookies Dip in Milk Chocolate Marks & Spencer (135 g),Marks & Spencer,Κουλούρια & Βουτήματα,0.135 kg,kg,26.593,,
 4100141971,Potato Crackers with Gluten Free Gouda Cheese Marks & Spencer (100 g),Marks & Spencer,Κριτσίνια & Κράκερς,0.1 kg,kg,29.9,,krakerakia-patatas-me-tyri-gouda-xwris-gloytenh-marks-spencer-100-g
 4100141975,Round Butter Cookies with Dark Chocolate Coating Marks & Spencer (200 g),Marks & Spencer,Κλασικά,0.2 kg,kg,18.45,,stroggyla-mpiskota-boytyroy-me-epikalypsh-mayrhs-sokolatas-marks-spencer-200-g
-4100141976,Kefata puff pastry cheese pies with feta Alfa Pastry (1Kg),Alfa,Mini Πιτάκια,1 kg,kg,5.28,,kefata-tyropitakia-sfoliatas-me-feta-pop-alfa-pastry-1kg
-4100141977,Kefata puff pastry sausages Alfa Pastry (950g),Alfa,Mini Πιτάκια,0.95 kg,kg,6.737,,kefata-loykanopitakia-sfoliatasalfa-pastry-950g
+4100141976,Kefata puff pastry cheese pies with feta Alfa Pastry (1Kg),Alfa,Mini Πιτάκια,1 kg,kg,3.96,,kefata-tyropitakia-sfoliatas-me-feta-pop-alfa-pastry-1kg
+4100141977,Kefata puff pastry sausages Alfa Pastry (950g),Alfa,Mini Πιτάκια,0.95 kg,kg,5.053,,kefata-loykanopitakia-sfoliatasalfa-pastry-950g
 4100141978,Kefata cheese pies with Naxos gruyere Alfa Pastry (800g),Alfa,Mini Πιτάκια,0.8 kg,kg,6.862,,kefata-kaseropitakia-me-grabiera-naxoy-pop-alfa-pastry-800g
 4100141985,Soft Jelly Bubbles with Fruit Flavors & Sweet and Sour Aftertaste Marks & Spencer (170 g),Marks & Spencer,Ζελεδάκια,0.17 kg,kg,14.647,,malakes-zeledompoykitses-me-geyseis-froytwn-glykoxinh-epigeysh-marks-spencer-170-g
 4100141986,8 Butter Cookies with Peanuts and Almonds Marks & Spencer (200 g),Marks & Spencer,Κλασικά,0.2 kg,kg,18.45,,8-mpiskota-boytyroy-me-fistikia-typoy-aiginhs-kai-amygdala-marks-spencer-200-g
@@ -3276,10 +3276,10 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100142543,Smoothies Dream Cream Alterra (300 g),Alterra,Κατεψυγμένα,0.3 kg,kg,12.733,,smoothies-dream-cream-alterra-300-g
 4100142555,"Mozzarella Cheese, grated (180 g)",Τυποποιητική,Τριμμένα,0.18 kg,kg,12.5,,tyri-mozzarella-trimmenh-180g
 4100142556,"Mozzarella Cheese,sliced (10slices) (180 g)",Τυποποιητική,Σε Φέτες,0.18 kg,kg,12.5,,tyri-mozzarella-se-fetes-10-fetes-180g
-4100142557,"Mix 4 Cheese, grated (180 g)",Τυποποιητική,Τριμμένα,0.18 kg,kg,15.444,,
+4100142557,"Mix 4 Cheese, grated (180 g)",Τυποποιητική,Τριμμένα,0.18 kg,kg,15.444,,tyri-trimmeno-mix-4-tyria-180g
 4100142558,"Gouda Cheese, grated (180 g)",Τυποποιητική,Τριμμένα,0.18 kg,kg,13,,tyri-trimmeno-gouda-180-g
 4100142562,"Emmental Cheese, sliced (10 slices) (180 g)",Τυποποιητική,Σε Φέτες,0.18 kg,kg,13,,tyri-emmental-se-fetes-10-fetes-180g
-4100142563,"Cheddar Cheese, Grated (160 g)",Τυποποιητική,Τριμμένα,0.16 kg,kg,14.688,,
+4100142563,"Cheddar Cheese, Grated (160 g)",Τυποποιητική,Τριμμένα,0.16 kg,kg,14.688,,tyri-cheddar-trimmeno-160g
 4100142579,Plant Based Meatballs Frozen Esti (225g),Υφαντής,Κατεψυγμένα Υποκατάστατα Κρέατος,0.25 kg,kg,21,,plant-based-meatballs-katepsygmena-esti-225g
 4100142584,Chocolate Bar Protein Caramel ION (50 g),ION,Μπάρες δημητριακών,0.05 kg,kg,28.0,,mpara-sokolatas-protein-caramel-ion-50-g
 4100142590,Crumpled Triangles with PDO cheese from Grevena and PDO feta. Alfa Pastry (700 gr.),Alfa,Mini Πιτάκια,0.7 kg,kg,8.543,,tsalakwta-trigwnaria-me-tyri-pop-anebato-grebenwn-kai-feta-pop-alfa-pastry-700g
@@ -3493,7 +3493,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100143774,Spiced Arta Chicken Wing (minimum weight 750g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.75 kg,kg,4.707,,
 4100143778,Artas Fresh Chicken Legs (minimum weight 750g),Arta,Φιλέτο Μπούτι,0.75 kg,kg,4.253,,mpoyti-nwpo-kotopoyla-artas-elaxisto-baros-750g
 4100143779,Artas Fresh Chicken Legs (minimum weight 850g),Arta,Φιλέτο Μπούτι,0.85 kg,kg,4.259,,mpoyti-nwpo-kotopoyla-artas-elaxisto-baros-850g
-4100143781,Fried Chicken Arta's Chicken (minimum weight 750g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.7 kg,kg,6.486,,
+4100143780,Fried Chicken Arta's Chicken (minimum weight 650g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.65 kg,kg,6.477,,thgania-mpaxarwmenh-kotopoyla-artas-elaxisto-baros-650g
+4100143781,Fried Chicken Arta's Chicken (minimum weight 750g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.7 kg,kg,6.486,,thgania-mpaxarwmenh-kotopoyla-artas-elaxisto-baros-750g
 4100143784,Tzatziki ΒΕΜ (400g),Βεμ,Σαλάτες & Αλοιφές,0.4 kg,kg,7.775,,
 4100143785,Τυροκαυτερή Χτυπητή ΒΕΜ (400g),Βεμ,Σαλάτες & Αλοιφές,0.4 kg,kg,11.15,,tyrokayterh-xtyphth-bem-400g
 4100143786,Φάρμα ΒΕΜ (400g),Βεμ,Σαλάτες & Αλοιφές,0.45 kg,kg,9.289,,farma-bem-400g
@@ -3948,9 +3949,9 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145820,"White Mushrooms,Champignion Organic (1 item)",Bio Plus,Μανιτάρια,1 pcs,piece,4.25,,
 4100145821,Smash Burger Frozen Vegetable Origin Beyond Meat (2X76 g),Beyond Meat,Κατεψυγμένα Υποκατάστατα Κρέατος,0.152 kg,kg,31.25,,smash-burger-katepsygmena-fytikhs-proeleyshs-beyond-meat-2x76-g
 4100145822,Chicken Style Burger Frozen Vegetable Origin Beyond Meat (2X90 g),Beyond Meat,Πουλερικά,0.18 kg,kg,30.833,,chicken-style-burger-katepsygmena-fytikhs-proeleyshs-beyond-meat-2x90-g
-4100145824,"Mini Rollitos with mizithra, PDO feta and gruyere Alfa Pastry (750g)",Alfa,Mini Πιτάκια,0.75 kg,kg,7.32,,
-4100145825,Mini Rollitos with pizza flavor Alfa Pastry (750g),Alfa,Mini Πιτάκια,0.75 kg,kg,7.547,,mini-rollitos-me-geysh-pitsas-alfa-pastry-750g
-4100145826,Mini Rollitos με Cheddar & Bacon Alfa Pastry (750g),Alfa,Mini Πιτάκια,0.75 kg,kg,7.32,,mini-rollitos-me-tsentar-mpeikon-alfa-pastry-750g
+4100145824,"Mini Rollitos with mizithra, PDO feta and gruyere Alfa Pastry (750g)",Alfa,Mini Πιτάκια,0.75 kg,kg,5.493,,mini-rollitos-me-myzhthra-feta-pop-kai-grabiera-alfa-pastry-750g
+4100145825,Mini Rollitos with pizza flavor Alfa Pastry (750g),Alfa,Mini Πιτάκια,0.75 kg,kg,5.667,,mini-rollitos-me-geysh-pitsas-alfa-pastry-750g
+4100145826,Mini Rollitos με Cheddar & Bacon Alfa Pastry (750g),Alfa,Mini Πιτάκια,0.75 kg,kg,5.493,,mini-rollitos-me-tsentar-mpeikon-alfa-pastry-750g
 4100145831,Beirut Leaflet Alfa (450gr),Alfa,"Καταΐφι, Βηρυτού",0.45 kg,kg,7.089,,fyllo-politiko-bhrytoy-alfa-450gr
 4100145833,raviera Casserole - Caseri Alfa (800 g),Alfa,Οικογενειακές Πίτες,0.8 kg,kg,8.412,,kixi-tapsi-grabiera-kaseri-alfa-800-g
 4100145834,Pie Crinkled Cheese Pie Alfa (900 g),Alfa,Οικογενειακές Πίτες,0.9 kg,kg,6.956,,xortopita-tsalakwth-tyropita-alfa-900-g
@@ -4136,7 +4137,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146423,Roasted and Salted Pellito Cashews (120g),Pellito,Κάσιους,0.12 kg,kg,25.25,,
 4100146424,Pellito roasted and salted almonds (100g),Pellito,Αμύγδαλα,0.1 kg,kg,21,,
 4100146429,"Ketchup, Squeezy Bottle, Hellmann's (540 ml)",Hellmann's,Κέτσαπ,0.54 lt,l,5.537,,ketsap-squeezy-mpoykali-hellmanns-540-ml
-4100146434,Cassiata T. Zagorio with Minced Alfa (650 g),Alfa,Οικογενειακές Πίτες,0.65 kg,kg,9.215,,kassiata-tzagorioy-me-kima-alfa-650-g
+4100146434,Cassiata T. Zagorio with Minced Alfa (650 g),Alfa,Οικογενειακές Πίτες,0.65 kg,kg,6.908,,kassiata-tzagorioy-me-kima-alfa-650-g
 4100146441,Octopus Whole Indo-Pacific Frozen Pescanova (750gr - 600gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.6 kg,kg,31.133,,xtapodi-oloklhro-indo-eirhnikoy-katepsygmeno-pescanova-750gr-kb600gr
 4100146442,Mama's Cookie Grab N GO Protein Bars! MOOVEAT (3x40g),Mooveat,Μπάρες δημητριακών,0.12 kg,kg,29.083,,mpares-prwteinhs-mamas-cookie-grab-n-go-mooveat-3x40g
 4100146443,Beef Argentinian Pescanova (500gr),Pescanova,Γαρίδες & Όστρακα,0.5 kg,kg,27.36,,gamparh-argentinhs-pescanova-500gr
@@ -4516,7 +4517,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147749,Farm Meal Red Beans - Corn Agrokipos Halvadzi (220 g),Αγρόκηπος Χαλβατζή,Σαλάτες - γευματα,0.22 kg,kg,15.091,,geyma-toy-agroy-kokkina-fasolia-kalampoki-agrokhpos-xalbatzh-220-g
 4100147750,Farm Meal Belluga Lentils - Cereal Agrokipos Halvatzi (220 g),Αγρόκηπος Χαλβατζή,Σαλάτες - γευματα,0.22 kg,kg,15.091,,
 4100147751,Farm Meal Mavromatika - Wheat Agrokipos Halvatzi (220 g),Αγρόκηπος Χαλβατζή,Σαλάτες - γευματα,0.22 kg,kg,15.091,,geyma-toy-agroy-mayromatika-sitari-agrokhpos-xalbatzh-220-g
-4100147808,Twisted Pie with Apple and Cinnamon Vegan Bioagros (200 gr),Βιοαγρός,Οικογενειακές Πίτες,0.2 kg,kg,9.55,,strifth-pita-me-mhlo-kai-kanela-vegan-bioagros-200-gr
+4100147808,Twisted Pie with Apple and Cinnamon Vegan Bioagros (200 gr),Βιοαγρός,Οικογενειακές Πίτες,0.2 kg,kg,8.45,,strifth-pita-me-mhlo-kai-kanela-vegan-bioagros-200-gr
 4100147815,Espresso Ristretto Ardenza capsules for Nescafe Dolce Gusto coffee maker (16 caps),Nescafe Dolce Gusto,Κάψουλες,16 pcs,piece,0.426,,kapsoyles-espresso-ristretto-ardenza-gia-mhxanh-nescafe-dolce-gusto-16-tem
 4100147817,"Sausages, type Frankfurt, made with Chicken and Turkey, Wudy (300 g)",Wudy,Λουκάνικα,0.3 kg,kg,5.567,,
 4100147825,Bioagros Organic Almond Flour (250g),Βιοαγρός,Από διάφορα δημητριακά,0.25 kg,kg,23.84,,
@@ -5387,8 +5388,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150647,"Stir-Fry Sauce, Teriyaki, Blue Dragon (120 g)",Blue Dragon,Άπω Ανατολής,0.12 kg,kg,14.583,,wok-sws-terigiaki-blue-dragon-120g
 4100150650,"Protein Mixture for Pancakes & Waffles, 1-2-Bake, Jotis (300g)",Γιώτης,Μείγμα για σουφλέ,0.3 kg,kg,8.9,,
 4100150651,"Cinnamon Rolls With Cinnamon & Sugar, Alfa (6x570 gr)",Alfa,"Πίτες, Φύλλο Πίτας & Ζύμες",3.42 kg,kg,1.918,,rolakia-kanelas-me-kanela-zaxarh-alfa-6-temaxia-570-gr
-4100150652,"Pizza Rolls Margherita, Alfa (6x570 gr)",Alfa,Κρουασάν,3.42 kg,kg,2.19,,rolakia-pitsa-margarita-alfa-6x570-gr
-4100150653,"Pizza Rolls Mediterranian, Alfa (6x570 gr.)",Alfa,Κρουασάν,3.42 kg,kg,2.19,,rolakia-pitsa-mesogeiakh-alfa-6x570-gr
+4100150652,"Pizza Rolls Margherita, Alfa (6x570 gr)",Alfa,Κρουασάν,3.42 kg,kg,1.643,,rolakia-pitsa-margarita-alfa-6x570-gr
+4100150653,"Pizza Rolls Mediterranian, Alfa (6x570 gr.)",Alfa,Κρουασάν,3.42 kg,kg,1.643,,rolakia-pitsa-mesogeiakh-alfa-6x570-gr
 4100150655,Yogurt Dessert with Fibers and Cereal Flakes Activia (163 g),Activia,Με Γεύσεις,0.163 kg,kg,9.202,,epidorpio-giaoyrtioy-me-fibers-kai-nifades-dhmhtriakwn-activia-163-g
 4100150656,"Yoghurt Dessert with Fibres, Honey and Granola Activia (165 g)",Activia,Με Γεύσεις,0.165 kg,kg,9.091,,epidorpio-giaoyrtioy-me-fibers-meli-kai-gkranola-activia-165-g
 4100150657,Yogurt Dessert with Fibers and Cereal Flakes Activia (3x163g),Activia,Με Γεύσεις,0.489 kg,kg,9.141,,epidorpio-giaoyrtioy-me-fibers-kai-nifades-dhmhtriakwn-activia-3x163g
@@ -5398,7 +5399,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150664,"Espresso Capsules Guatemala, Jacobs Origins (18pcs)",Jacobs,Κάψουλες,18 pcs,piece,0.336,,kapsoyles-espresso-guatemala-jacobs-origins-18tem
 4100150665,"Gecchele Paprika Chips, Ελgen (100g)",Elgen,Πατατάκια,0.1 kg,kg,21.9,,chips-gecchele-me-geysh-paprika-elgen-100g
 4100150668,"Gecchele Bacon Chips, Ελgen (100g)",Elgen,Πατατάκια,0.1 kg,kg,21.9,,chips-gecchele-me-geysh-mpeikon-elgen-100g
-4100150670,Organic pork in stick (minimum weight 650g),Ευβιότοποι,Χοιρινό Κρέας,0.65 kg,kg,19.2,,
+4100150670,Organic pork in stick (minimum weight 650g),Ευβιότοποι,Χοιρινό Κρέας,0.65 kg,kg,19.2,,soyblaki-xoirino-bio-eybiotopoi-elaxisto-baros-650-g
 4100150672,"Organic Spare Ribs Evviotopoi (minimum weight 1,050g)",Ευβιότοποι,Χοιρινό Κρέας,1.05 kg,kg,11.505,,biologika-spare-ribs-eybiotopoi-elaxisto-baros-1050-kg
 4100150674,Arla Protein Vanilla and Biscuit Flavour Pudding (200 g),Arla,Φυτικά επιδόρπια,0.2 kg,kg,7.9,,arla-protein-poytigka-banilia-kai-mpiskoto-200-g
 4100150684,"Nachos with sour cream & onion, El Sabor (100g)",El Sabor,Nachos,0.1 kg,kg,11.1,,nachos-me-geysh-sour-cream-onion-el-sabor-100g
@@ -5778,8 +5779,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100151579,Life Lemon & Raspberry Juice (1 L),Life,Ψυγείου,1 lt,l,2.6,,xymos-lemoni-rasperi-life-1-l
 4100151580,Lychee & Dragon Fruit Juice Life (1 L),Life,Ψυγείου,1 lt,l,3.32,,xymos-litsi-dragon-fruit-life-1-l
 4100151581,Mango & Passion Fruit Juice Life (1 L),Life,Ψυγείου,1 lt,l,3.33,,xymos-mangko-passion-fruit-life-1-l
-4100151582,Mini Rollitos with 4 cheeses Alfa Pastry (750g),Alfa,Mini Πιτάκια,0.75 kg,kg,7.32,,mini-rollitos-me-4-tyria-alfa-pastry-750g
-4100151584,Cassiata from Zagori with Kasseri & Graviera from Naxos Alfa (650 g),Alfa,Οικογενειακές Πίτες,0.65 kg,kg,9.185,,kassiata-tzagorioy-me-kaseri-grabiera-naxoy-alfa-650-g
+4100151582,Mini Rollitos with 4 cheeses Alfa Pastry (750g),Alfa,Mini Πιτάκια,0.75 kg,kg,5.493,,mini-rollitos-me-4-tyria-alfa-pastry-750g
+4100151584,Cassiata from Zagori with Kasseri & Graviera from Naxos Alfa (650 g),Alfa,Οικογενειακές Πίτες,0.65 kg,kg,6.892,,kassiata-tzagorioy-me-kaseri-grabiera-naxoy-alfa-650-g
 4100151585,"Salted Crackers, Pick Rounds, Papadopoulou (335g)",Παπαδοπούλου,Κράκερς,0.335 kg,kg,6.388,,krakers-me-alati-se-bazo-pick-rounds-papadopoyloy-335g-1
 4100151586,Kihi TOP Kozani Lenten Pie with Spinach Alfa (800g),Alfa,Οικογενειακές Πίτες,0.8 kg,kg,7.912,,kixi-top-kozanitikh-nhstisimh-pita-me-spanaki-alfa-800g
 4100151587,Papadopoulou Pick Mix Salted Crackers in a Jar (335g),Παπαδοπούλου,Κράκερς,0.335 kg,kg,6.388,,krakers-me-alati-se-bazo-pick-mix-papadopoyloy-335g
@@ -6028,11 +6029,11 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100152044,Trikalinos Marinated Anchovies (200g),Trikalinos,Gourmet,0.2 kg,kg,46.5,,gayros-marinatos-trikalinos-200g
 4100152045,Trikalinos Marinated Sardine (200g),Trikalinos,Gourmet,0.2 kg,kg,46.5,,sardela-marinath-trikalinos-200g
 4100152046,Trikalinos Marinated Mackerel (200g),Trikalinos,Gourmet,0.2 kg,kg,46.5,,skoympri-marinato-trikalinos-200g
-4100152047,Natural Sea Salt Trikalinos (1kg),Trikalinos,Gourmet,1 kg,kg,8.94,,fysiko-thalassino-alati-trikalinos-1kg
+4100152047,Natural Sea Salt Trikalinos (1kg),Trikalinos,Μαγειρικό,1 kg,kg,8.94,,fysiko-thalassino-alati-trikalinos-1kg
 4100152048,Natural Sea Salt with Grated Trikalinos Bottarga (45g),Trikalinos,Gourmet,0.045 kg,kg,592.889,,fysiko-thalassino-alati-me-trimma-aygotaraxo-trikalinos-45g
 4100152049,Must Cookies Tria Lambda 300g,tria lamda,Γλυκά,0.3 kg,kg,10.367,,moystokoyloyra-tria-lamda-300-g
 4100152050,Afrina Trikalinos (90g),Trikalinos,Gourmet,0.09 kg,kg,55.333,,afrina-trikalinos-90g
-4100152051,Afrina Trikalinos (500g),Trikalinos,Gourmet,0.5 kg,kg,5.96,,afrina-trikalinos-500g
+4100152051,Afrina Trikalinos (500g),Trikalinos,Μαγειρικό,0.5 kg,kg,5.96,,afrina-trikalinos-500g
 4100152052,Cinnamon Cookies Tria Lambda (300 g),tria lamda,Γλυκά,0.3 kg,kg,10.367,,koyloyrakia-kanelas-tria-lamda-300-g
 4100152053,Coconut Biscuits Tria Lambda (300 g),tria lamda,Γλυκά,0.3 kg,kg,10.367,,mpiskota-karydas-tria-lamda-300-g
 4100152054,Maggi Chicken & Sesame Flavored Noodles (75 g),Maggi,Άπω Ανατολής,0.0156 kg,kg,115.385,,noodles-me-geysh-kotopoylo-soysami-maggi-75-g
@@ -6324,7 +6325,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200000334,"Beer, can, Premium Lager, Vergina (330 ml)",Βεργίνα,Μπύρες Lager,0.33 lt,l,2.97,,mpyra-koyti-premium-lager-bergina-330-ml
 4200000336,"Beer bottle, Red, Vergina (500 ml)",Βεργίνα,Μπύρες Lager,0.5 lt,l,3.94,,mpyra-fialh-red-bergina-330-ml
 4200000337,"Beer, bottle, Porfira, Vergina (330 ml)",Βεργίνα,Μπύρες Lager,0.33 lt,l,5.455,,mpyra-fialh-porfyra-bergina-330-ml
-4200000365,"Soft drink, Green Cola (4x500 ml)",Green Cola,Με γλυκαντικές ουσίες,2 lt,l,0.92,,anapsyktiko-green-cola-4x500-ml
+4200000365,"Soft drink, Green Cola (4x500 ml)",Green Cola,Με γλυκαντικές ουσίες,2 lt,l,1.84,,anapsyktiko-green-cola-4x500-ml
 4200000402,"Juice with Cranberries, Raspberries, Blueberries, Life (1lt)",Life,Ψυγείου,1 lt,l,2.96,,xymos-kranmperi-rasmperi-mploymperi-life-1-l
 4200000412,Juice Apple-Orange-Carrot Life (1 L),Life,Ψυγείου,1 lt,l,2.99,,
 4200000413,"Orange juice, Life, Kalimera (1lt)",Life,Χυμοί Ψυγείου,1 lt,l,3.55,,xymos-portokali-life-kalhmera-1-l
@@ -7896,7 +7897,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300006656,"Anti-Aging Day Cream, Lift+ Botology, Diadermine (50ml)",Diadermine,Κρέμες Προσώπου,0.05 lt,l,329.6,,antighrantikh-krema-hmeras-lift-botology-diadermine-50ml
 4300006657,"Face Cream, 24h Hydration, Skin Moisture, Bioten (50ml)",Bioten,Κρέμες Προσώπου,0.05 lt,l,76.8,,krema-proswpoy-24wrhs-enydatwshs-skin-moisture-bioten-50ml
 4300006678,Deodorant Spray Original Borotalco (150ml),Borotalco,Spray,0.15 lt,l,19.933,,aposmhtiko-spray-original-borotalco-150ml
-4300006679,Deodorant Spray Invisible Borotalco (150ml),Borotalco,Spray,0.15 lt,l,19.933,,
+4300006679,Deodorant Spray Invisible Borotalco (150ml),Borotalco,Spray,0.15 lt,l,19.933,,aposmhtiko-spray-invisible-borotalco-150ml
 4300006680,Deodorant Roll-on Original Borotalco (50ml),Borotalco,Roll on,0.05 lt,l,59.8,,aposmhtiko-roll-on-original-borotalco-50ml
 4300006681,Deodorant Roll-on Invisible Borotalco (50ml),Borotalco,Roll on,0.05 lt,l,59.8,,aposmhtiko-roll-on-invisible-borotalco-50ml
 4300006682,"Depilatory Cream for Sensitive Skin, Veet (400ml)",Veet,Αποτριχωτικά,0.4 lt,l,29.975,,
@@ -8831,7 +8832,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300009395,"Womens insoles, gelActiv Extreme Heels Dr. Scholl (1 pair)",Scholl,Φροντίδα ποδιών,1 pcs,piece,19.9,,set-patoi-gynaikeioi-gelactiv-extreme-heels-dr-scholl-1-zeygari
 4300009396,Toothpaste 3D Clinical Intensive White Oral-B (75 ml),Oral B,Καθημερινή Φροντίδα,0.075 lt,l,66.4,,odontokrema-3d-clinical-intensive-white-oral-b-75-ml
 4300009397,Deodorant Spray Soft Borotalco (150ml),Borotalco,Spray,0.15 lt,l,20,,aposmhtiko-spray-soft-borotalco-150ml
-4300009398,Deodorant Roll-on Soft Borotalco (50ml),Borotalco,Roll on,0.05 lt,l,60,,
+4300009398,Deodorant Roll-on Soft Borotalco (50ml),Borotalco,Roll on,0.05 lt,l,60,,aposmhtiko-roll-on-soft-borotalco-50ml
 4300009399,"Body lotion with Karite, Le Petit Marseillais (250 ml)",Le Petit Marseillais,Κρέμες σώματος,0.25 lt,l,14.64,,galaktwma-swmatos-me-karite-le-petit-marseillais-250-ml-1
 4300009400,"Body Oil, Spray, Le Petit Marseillais (150 ml)",Le Petit Marseillais,Κρέμες σώματος,0.15 lt,l,25.933,,ladi-swmatos-se-spray-le-petit-marseillais-150-ml-1
 4300009401,"Moisturising Lip Stick Le Petit Marseillais (4,9gr)",Le Petit Marseillais,Μακιγιάζ,1 pcs,piece,2.98,,enydatiko-stik-gia-ta-xeilh-le-petit-marseillais-49gr-1
@@ -9382,7 +9383,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4400003292,"Style Crystal, Rim Block, Blue Fresh, WC Net (36,5g)",WC Net,Στερεά μπλοκ,0.0365 lt,l,54.247,,rim-block-style-crystal-blue-fresh-wc-net-365g
 4400003293,"Liquid Detergent for all Surfaces, Intense Freshness, Overlay Express (1lt)",Overlay,Υγρό,1 lt,l,2.54,,ygro-katharistiko-gia-oles-tis-epifaneies-akatamaxhth-freskada-overlay-express-1lt
 4400003294,"Liquid Detergent for all Surfaces, Citrus Freshness, Overlay Express (1lt)",Overlay,Υγρό,1 lt,l,2.07,,ygro-katharistiko-gia-oles-tis-epifaneies-freskada-esperidoeidwn-overlay-express-1lt
-4400003295,"Liquid Detergent for Wooden Floors, Overlay Express (1lt)",Overlay,Υγρό,1 lt,l,2.62,,
+4400003295,"Liquid Detergent for Wooden Floors, Overlay Express (1lt)",Overlay,Υγρό,1 lt,l,2.62,,ygro-katharistiko-gia-xylina-patwmata-overlay-express-1lt
 4400003302,Surface Spray Cleaner 4 in 1Refil Ajax (500ml),Ajax,Ανταλλακτική συσκευασία,0.5 lt,l,3.72,,antallaktikh-syskeyasia-katharistiko-spray-epifaneiwn-4-se-1-ajax-500ml
 4400003310,"Wc Block, De Luxe, Pink Magnolia, Bref Wc (2x50g)",Bref,Στερεά μπλοκ,0.1 kg,kg,31.6,,mplok-toyaletas-de-luxe-pink-magnolia-bref-wc-2x50g
 4400003311,"Wc Block, Blue Activ, Hygiene, Bref Wc (2x50g)",Bref,Στερεά μπλοκ,0.1 kg,kg,27.9,,mplok-toyaletas-blue-activ-hygiene-bref-wc-2x50g
@@ -9543,7 +9544,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4400004438,Candle Freshly Baked Biscuit Scented Airwick (185g),Airwick,Κεριά & ρεσώ,1 pcs,piece,6.39,,arwmatiko-keri-freskopshmeno-mpiskoto-airwick-185g
 4400004441,Liquid Laundry Detergent Marseille Foam Omino Bianco (37caps),Omino Bianco,Απορρυπαντικά Πλυντηρίου σε Υγρό,37 μεζ,wash,0.122,,ygro-aporrypantiko-royxwn-afros-massalias-omino-bianco-37-mez
 4400004442,"Laundry Detergent for Black Clothes, Omino Bianco (27 caps)",Omino Bianco,Απορρυπαντικά Πλυντηρίου σε Υγρό,27 μεζ,wash,0.157,,ygro-aporrypantiko-gia-mayra-royxa-omino-bianco-27mez
-4400004443,"Laundry Detergent for Black Clothes, Omino Bianco (49 caps)",Omino Bianco,Απορρυπαντικά Πλυντηρίου σε Υγρό,49 μεζ,wash,0.143,,
+4400004443,"Laundry Detergent for Black Clothes, Omino Bianco (49 caps)",Omino Bianco,Απορρυπαντικά Πλυντηρίου σε Υγρό,49 μεζ,wash,0.143,,ygro-aporrypantiko-gia-mayra-royxa-omino-bianco-49-mez
 4400004444,"Liquid Laundry Detergent Omino Bianco Foam, Nature Fresh (37 caps)",Omino Bianco,Απορρυπαντικά Πλυντηρίου σε Υγρό,37 μεζ,wash,0.122,,ygro-aporrypantiko-royxwn-afros-massalias-nature-fresh-omino-bianco-37-mez
 4400004452,"Green Soap Bar, Arkadi (4x150g)",Αρκάδι,Πλάκα σαπουνιού,0.6 kg,kg,5.317,,plakes-prasinoy-sapoynioy-arkadi-4x150g
 4400004457,Microfiber Mop Supermocio Vileda (1 pc),Vileda,"Κουβάδες, Σφουγγαρίστρες, Κοντάρια",1 pcs,piece,5.1,,sfoyggaristra-mikroinwn-supermocio-vileda-1-tem
@@ -11177,7 +11178,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4700006704,Smart Zewa 3-sheet Toilet Paper (8pcs),Zewa,Χαρτιά Υγείας,8 pcs,piece,1.163,,xarti-ygeias-3fyllo-smart-zewa-8tem
 4700006706,Smart Zewa 3-sheet Toilet Paper (4pcs),Zewa,Χαρτιά Υγείας,4 pcs,piece,1.2,,xarti-ygeias-3fyllo-smart-zewa-4tem
 4700006707,Ultra Smart Zewa 4-sheet Toilet Paper (4pcs),Zewa,Χαρτιά Υγείας,4 pcs,piece,1.47,,xarti-ygeias-4fyllo-ultra-smart-zewa-4tem
-4700006708,Facial Endless Tissues (100 sheets),Endless,Χαρτομάντηλα,0.187 kg,kg,6.417,,xartomanthla-facial-endless-100-fylla
+4700006708,Facial Endless Tissues (100 sheets),Endless,Χαρτομάντηλα,0.187 kg,kg,8.717,,xartomanthla-facial-endless-100-fylla
 4700006709,Napkins Plain Lime Green 3-ply 33x33cm Fasana (20pcs),Fasana,Χαρτοπετσέτες,20 pcs,piece,0.066,,xartopetsetes-monoxrwmes-laxani-3fylles-33x33cm-fasana-20tem
 4700006710,Napkins Plain Powder Pink 3-ply 33x33cm Fasana (20pcs),Fasana,Χαρτοπετσέτες,20 pcs,piece,0.066,,xartopetsetes-monoxrwmes-roz-3fylles-33x33cm-fasana-20tem
 4700006711,Napkins Plain Orange 3-ply 33x33cm Fasana (20pcs),Fasana,Χαρτοπετσέτες,20 pcs,piece,0.066,,xartopetsetes-monoxrwmes-portokali-3fylles-33x33cm-fasana-20tem
