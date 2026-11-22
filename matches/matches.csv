@@ -500,7 +500,7 @@ ab-7083986,ab,7083986,fuzzy,0.93
 ab-7083986,mymarket,233924,fuzzy,0.93
 ab-7083986,sklavenitis,4173324,fuzzy,0.85
 ab-7083986,xalkiadakis,2858,fuzzy,0.84
-ab-7083986,efresh,4100005417,fuzzy,0.62
+ab-7083986,efresh,4100005417,fuzzy,0.61
 ab-7083996,ab,7083996,fuzzy,0.93
 ab-7083996,mymarket,235804,fuzzy,0.93
 ab-7083996,xalkiadakis,113924,fuzzy,0.84
@@ -634,10 +634,10 @@ ab-7085709,ab,7085709,fuzzy,0.65
 ab-7085709,xalkiadakis,183394,fuzzy,0.65
 ab-7085780,ab,7085780,fuzzy,0.81
 ab-7085780,xalkiadakis,184060,fuzzy,0.81
-ab-7085823,ab,7085823,fuzzy,0.64
-ab-7085823,mymarket,226522,fuzzy,0.64
-ab-7085823,sklavenitis,4167045,fuzzy,0.64
-ab-7085823,xalkiadakis,3020,fuzzy,0.64
+ab-7085823,ab,7085823,fuzzy,0.63
+ab-7085823,mymarket,226522,fuzzy,0.63
+ab-7085823,sklavenitis,4167045,fuzzy,0.63
+ab-7085823,xalkiadakis,3020,fuzzy,0.63
 ab-7085831,ab,7085831,fuzzy,0.93
 ab-7085831,mymarket,226023,fuzzy,0.61
 ab-7085831,sklavenitis,8455289,fuzzy,0.2
@@ -738,7 +738,7 @@ ab-7088285,efresh,4200001851,fuzzy,0.64
 ab-7088309,ab,7088309,fuzzy,0.39
 ab-7088309,mymarket,401717,fuzzy,0.29
 ab-7088309,efresh,4200001271,fuzzy,0.39
-ab-7088328,ab,7088328,fuzzy,0.5
+ab-7088328,ab,7088328,fuzzy,0.51
 ab-7088328,mymarket,225124,fuzzy,0.93
 ab-7088328,sklavenitis,4193116,fuzzy,0.59
 ab-7088328,xalkiadakis,6528,fuzzy,0.93
@@ -2120,9 +2120,6 @@ ab-7310184,efresh,4100010668,fuzzy,0.51
 ab-7310207,ab,7310207,fuzzy,0.77
 ab-7310207,mymarket,262570,fuzzy,0.77
 ab-7310207,efresh,4100136949,fuzzy,0.73
-ab-7310215,ab,7310215,fuzzy,0.32
-ab-7310215,mymarket,262574,fuzzy,0.66
-ab-7310215,efresh,4100136947,fuzzy,0.66
 ab-7310216,ab,7310216,fuzzy,0.49
 ab-7310216,efresh,4100136948,fuzzy,0.49
 ab-7310647,ab,7310647,fuzzy,0.88
@@ -3075,8 +3072,8 @@ ab-7523629,sklavenitis,1639404,fuzzy,0.91
 ab-7523629,xalkiadakis,174479,fuzzy,0.9
 ab-7524665,ab,7524665,fuzzy,0.88
 ab-7524665,efresh,4100149074,fuzzy,0.88
-ab-7524670,ab,7524670,fuzzy,0.38
-ab-7524670,efresh,4100004984,fuzzy,0.38
+ab-7524670,ab,7524670,fuzzy,0.39
+ab-7524670,efresh,4100004984,fuzzy,0.39
 ab-7524683,ab,7524683,fuzzy,0.93
 ab-7524683,xalkiadakis,72099,fuzzy,0.93
 ab-7525133,ab,7525133,fuzzy,0.78
@@ -3379,9 +3376,9 @@ ab-7566740,mymarket,234862,fuzzy,0.89
 ab-7566740,sklavenitis,1491559,fuzzy,0.89
 ab-7566740,xalkiadakis,176289,fuzzy,0.88
 ab-7566740,efresh,4100138681,fuzzy,0.65
-ab-7566843,ab,7566843,fuzzy,0.49
+ab-7566843,ab,7566843,fuzzy,0.5
 ab-7566843,mymarket,234861,fuzzy,0.46
-ab-7566843,xalkiadakis,174336,fuzzy,0.49
+ab-7566843,xalkiadakis,174336,fuzzy,0.5
 ab-7566843,efresh,4100138683,fuzzy,0.31
 ab-7566897,ab,7566897,fuzzy,0.93
 ab-7566897,mymarket,235074,fuzzy,0.93
@@ -3683,7 +3680,7 @@ ab-7594346,mymarket,302459,fuzzy,0.93
 ab-7594346,efresh,4100140927,fuzzy,0.44
 ab-7595365,ab,7595365,fuzzy,0.19
 ab-7595365,mymarket,129003,fuzzy,0.27
-ab-7595365,sklavenitis,1511921,fuzzy,0.23
+ab-7595365,sklavenitis,1511921,fuzzy,0.22
 ab-7595365,efresh,4100140850,fuzzy,0.27
 ab-7595386,ab,7595386,fuzzy,0.79
 ab-7595386,mymarket,602022,fuzzy,0.79
@@ -4563,6 +4560,9 @@ ab-7649529,xalkiadakis,192642,fuzzy,0.81
 ab-7649538,ab,7649538,fuzzy,0.82
 ab-7649538,mymarket,271480,fuzzy,0.82
 ab-7649538,xalkiadakis,189103,fuzzy,0.74
+ab-7649780,ab,7649780,fuzzy,0.81
+ab-7649780,mymarket,156427,fuzzy,0.75
+ab-7649780,sklavenitis,1632291,fuzzy,0.81
 ab-7650012,ab,7650012,fuzzy,0.52
 ab-7650012,mymarket,225852,fuzzy,0.19
 ab-7650012,sklavenitis,1634541,fuzzy,0.52
@@ -4822,7 +4822,7 @@ ab-7662824,ab,7662824,fuzzy,0.93
 ab-7662824,mymarket,771419,fuzzy,0.93
 ab-7662899,ab,7662899,fuzzy,0.37
 ab-7662899,efresh,4300009056,fuzzy,0.37
-ab-7662907,ab,7662907,fuzzy,0.27
+ab-7662907,ab,7662907,fuzzy,0.28
 ab-7662907,mymarket,506619,fuzzy,0.64
 ab-7662907,xalkiadakis,190899,fuzzy,0.64
 ab-7662907,efresh,4400004130,fuzzy,0.48
@@ -5565,8 +5565,8 @@ ab-7712288,ab,7712288,fuzzy,0.91
 ab-7712288,xalkiadakis,199382,fuzzy,0.91
 ab-7713339,ab,7713339,fuzzy,0.47
 ab-7713339,efresh,4100138211,fuzzy,0.47
-ab-7714704,ab,7714704,fuzzy,0.86
-ab-7714704,mymarket,509334,fuzzy,0.86
+ab-7714704,ab,7714704,fuzzy,0.87
+ab-7714704,mymarket,509334,fuzzy,0.87
 ab-7714704,xalkiadakis,196524,fuzzy,0.76
 ab-7714713,ab,7714713,fuzzy,0.6
 ab-7714713,efresh,4300008679,fuzzy,0.6
@@ -5811,7 +5811,7 @@ ab-7725028,ab,7725028,fuzzy,0.29
 ab-7725028,sklavenitis,1295430,fuzzy,0.29
 ab-7725456,ab,7725456,fuzzy,0.77
 ab-7725456,mymarket,110042,fuzzy,0.93
-ab-7725456,sklavenitis,1624064,fuzzy,0.71
+ab-7725456,sklavenitis,1624064,fuzzy,0.7
 ab-7725456,xalkiadakis,196813,fuzzy,0.93
 ab-7725523,ab,7725523,fuzzy,0.93
 ab-7725523,mymarket,227038,fuzzy,0.84
@@ -6634,7 +6634,7 @@ ab-7749596,mymarket,505094,fuzzy,0.84
 ab-7749596,xalkiadakis,203871,fuzzy,0.84
 ab-7750026,ab,7750026,fuzzy,0.72
 ab-7750026,mymarket,505091,fuzzy,0.72
-ab-7750026,xalkiadakis,204814,fuzzy,0.69
+ab-7750026,xalkiadakis,204814,fuzzy,0.7
 ab-7750056,ab,7750056,fuzzy,0.93
 ab-7750056,mymarket,712094,fuzzy,0.93
 ab-7750056,sklavenitis,1656162,fuzzy,0.93
@@ -7129,6 +7129,9 @@ ab-7771901,mymarket,114039,fuzzy,0.93
 ab-7771901,sklavenitis,6270714,fuzzy,0.93
 ab-7771901,xalkiadakis,161908,fuzzy,0.93
 ab-7771901,efresh,4100021626,fuzzy,0.9
+ab-7772095,ab,7772095,fuzzy,0.37
+ab-7772095,mymarket,261298,fuzzy,0.45
+ab-7772095,efresh,4100150664,fuzzy,0.45
 ab-7772099,ab,7772099,fuzzy,0.4
 ab-7772099,mymarket,511392,fuzzy,0.4
 ab-7772106,ab,7772106,fuzzy,0.97
@@ -7776,7 +7779,7 @@ ab-7810477,ab,7810477,fuzzy,0.7
 ab-7810477,mymarket,716300,fuzzy,0.7
 ab-7810477,xalkiadakis,212346,fuzzy,0.43
 ab-7810477,efresh,4300009564,fuzzy,0.68
-ab-7810495,ab,7810495,fuzzy,0.74
+ab-7810495,ab,7810495,fuzzy,0.73
 ab-7810495,mymarket,716321,fuzzy,0.86
 ab-7810495,xalkiadakis,212761,fuzzy,0.86
 ab-7810495,efresh,4300009565,fuzzy,0.8
@@ -8972,8 +8975,8 @@ ab-7849189,xalkiadakis,214716,fuzzy,0.73
 ab-7849194,ab,7849194,fuzzy,0.26
 ab-7849194,mymarket,338649,fuzzy,0.26
 ab-7849216,ab,7849216,fuzzy,0.29
-ab-7849216,mymarket,713050,fuzzy,0.88
-ab-7849216,xalkiadakis,214838,fuzzy,0.88
+ab-7849216,mymarket,713050,fuzzy,0.87
+ab-7849216,xalkiadakis,214838,fuzzy,0.87
 ab-7849345,ab,7849345,fuzzy,0.93
 ab-7849345,xalkiadakis,214375,fuzzy,0.93
 ab-7849539,ab,7849539,fuzzy,0.95
@@ -9299,8 +9302,7 @@ kritikos-10348,sklavenitis,6742233,fuzzy,0.84
 kritikos-10366,kritikos,10366,ean,
 kritikos-10366,ab,7090756,ean,0.43
 kritikos-10366,mymarket,430481,ean,0.6
-kritikos-10366,sklavenitis,9659020,fuzzy,0.87
-kritikos-10366,xalkiadakis,41424,fuzzy,0.87
+kritikos-10366,sklavenitis,9659020,fuzzy,0.5
 kritikos-103699,kritikos,103699,ean,
 kritikos-103699,ab,7114377,ean,0.53
 kritikos-103699,mymarket,708401,ean,0.37
@@ -9334,7 +9336,8 @@ kritikos-104174,xalkiadakis,9452,fuzzy,0.72
 kritikos-104174,efresh,4300002056,fuzzy,0.79
 kritikos-10433,kritikos,10433,ean,
 kritikos-10433,ab,7090978,ean,0.4
-kritikos-10433,sklavenitis,9659046,fuzzy,0.58
+kritikos-10433,sklavenitis,9659046,fuzzy,0.59
+kritikos-10433,xalkiadakis,41425,fuzzy,0.23
 kritikos-104625,kritikos,104625,ean,
 kritikos-104625,ab,7111116,ean,0.31
 kritikos-104625,mymarket,716294,ean,0.69
@@ -10228,7 +10231,7 @@ kritikos-14046,kritikos,14046,ean,
 kritikos-14046,ab,7092008,ean,0.32
 kritikos-14046,sklavenitis,1214568,fuzzy,0.93
 kritikos-14046,xalkiadakis,124365,fuzzy,0.93
-kritikos-14046,marketin,89033798,fuzzy,0.59
+kritikos-14046,marketin,89033798,fuzzy,0.58
 kritikos-14046,efresh,4200000832,fuzzy,0.57
 kritikos-14048,kritikos,14048,ean,
 kritikos-14048,ab,7102090,ean,0.28
@@ -10399,7 +10402,7 @@ kritikos-16464,ab,7133797,ean,0.56
 kritikos-16464,mymarket,271103,ean,0.6
 kritikos-16464,sklavenitis,6651012,fuzzy,0.92
 kritikos-16464,xalkiadakis,91117,fuzzy,0.92
-kritikos-16464,efresh,4500002775,fuzzy,0.59
+kritikos-16464,efresh,4500002775,fuzzy,0.6
 kritikos-16476,kritikos,16476,ean,
 kritikos-16476,ab,7071993,fuzzy,0.97
 kritikos-16476,mymarket,321152,ean,1.0
@@ -10635,7 +10638,7 @@ kritikos-2004,mymarket,470701,ean,0.36
 kritikos-2004,sklavenitis,4114153,fuzzy,0.97
 kritikos-2004,xalkiadakis,821,fuzzy,0.97
 kritikos-2004,marketin,13701002,fuzzy,0.8
-kritikos-2004,efresh,4200001509,fuzzy,0.8
+kritikos-2004,efresh,4200001509,fuzzy,0.79
 kritikos-2006,kritikos,2006,ean,
 kritikos-2006,ab,7096762,ean,0.35
 kritikos-2006,mymarket,425202,ean,0.81
@@ -11323,7 +11326,7 @@ kritikos-219230,ab,7662059,ean,0.3
 kritikos-219230,mymarket,709435,ean,0.53
 kritikos-219230,sklavenitis,1584372,fuzzy,0.97
 kritikos-219230,marketin,89089181,fuzzy,0.42
-kritikos-219230,efresh,4300008439,fuzzy,0.71
+kritikos-219230,efresh,4300008439,fuzzy,0.7
 kritikos-219232,kritikos,219232,ean,
 kritikos-219232,mymarket,709413,ean,0.54
 kritikos-219232,xalkiadakis,192144,fuzzy,0.93
@@ -11395,7 +11398,7 @@ kritikos-219636,efresh,4100144557,fuzzy,0.17
 kritikos-219675,kritikos,219675,ean,
 kritikos-219675,ab,7667675,ean,0.47
 kritikos-219675,mymarket,340159,ean,0.49
-kritikos-219675,xalkiadakis,191155,fuzzy,0.69
+kritikos-219675,xalkiadakis,191155,fuzzy,0.7
 kritikos-219701,kritikos,219701,ean,
 kritikos-219701,ab,7664966,ean,0.49
 kritikos-219701,mymarket,302365,ean,0.77
@@ -12379,7 +12382,7 @@ kritikos-3627,efresh,4200002662,fuzzy,0.82
 kritikos-36276,kritikos,36276,ean,
 kritikos-36276,ab,7657429,ean,0.42
 kritikos-36276,mymarket,331940,ean,0.63
-kritikos-36276,sklavenitis,1274647,fuzzy,0.52
+kritikos-36276,sklavenitis,1274647,fuzzy,0.51
 kritikos-36276,xalkiadakis,87251,fuzzy,0.75
 kritikos-36276,marketin,89020856,fuzzy,0.87
 kritikos-36276,efresh,4100144007,fuzzy,0.68
@@ -13428,7 +13431,7 @@ kritikos-44401,ab,7064423,ean,0.46
 kritikos-44401,mymarket,233313,ean,0.76
 kritikos-44401,sklavenitis,4482428,fuzzy,0.85
 kritikos-44401,xalkiadakis,134843,fuzzy,0.93
-kritikos-44401,efresh,4100137363,fuzzy,0.48
+kritikos-44401,efresh,4100137363,fuzzy,0.47
 kritikos-44405,kritikos,44405,ean,
 kritikos-44405,ab,7577897,ean,0.62
 kritikos-44405,mymarket,233253,ean,0.62
@@ -14475,7 +14478,7 @@ kritikos-526349,kritikos,526349,ean,
 kritikos-526349,ab,7765502,ean,0.47
 kritikos-526349,mymarket,321009,ean,0.81
 kritikos-526349,sklavenitis,1630937,fuzzy,0.87
-kritikos-526349,xalkiadakis,194320,fuzzy,0.72
+kritikos-526349,xalkiadakis,194320,fuzzy,0.73
 kritikos-527619,kritikos,527619,fuzzy,0.34
 kritikos-527619,sklavenitis,1622823,fuzzy,0.56
 kritikos-527619,xalkiadakis,192229,fuzzy,0.56
@@ -15783,6 +15786,7 @@ kritikos-68120,kritikos,68120,ean,
 kritikos-68120,ab,7067463,ean,0.6
 kritikos-68120,mymarket,337102,ean,0.68
 kritikos-68120,sklavenitis,4177200,fuzzy,0.93
+kritikos-68120,xalkiadakis,182639,fuzzy,0.93
 kritikos-68120,marketin,10701095,fuzzy,0.93
 kritikos-68120,efresh,4100002875,fuzzy,0.6
 kritikos-68138,kritikos,68138,ean,
@@ -18133,6 +18137,8 @@ kritikos-716575,ab,7433338,ean,0.91
 kritikos-716575,mymarket,306557,ean,0.7
 kritikos-716575,xalkiadakis,156930,fuzzy,0.91
 kritikos-716575,efresh,4100147359,fuzzy,0.46
+kritikos-716588,kritikos,716588,fuzzy,0.68
+kritikos-716588,mymarket,320121,fuzzy,0.68
 kritikos-716589,kritikos,716589,ean,
 kritikos-716589,mymarket,320110,ean,0.42
 kritikos-716609,kritikos,716609,fuzzy,0.93
@@ -18349,7 +18355,7 @@ kritikos-718421,kritikos,718421,ean,
 kritikos-718421,ab,7343899,ean,0.38
 kritikos-718421,mymarket,261057,ean,0.28
 kritikos-718421,xalkiadakis,160997,fuzzy,0.64
-kritikos-718421,marketin,89035331,fuzzy,0.74
+kritikos-718421,marketin,89035331,fuzzy,0.73
 kritikos-718510,kritikos,718510,ean,
 kritikos-718510,ab,7089520,ean,0.72
 kritikos-718510,mymarket,302903,ean,0.53
@@ -19329,7 +19335,7 @@ kritikos-724845,efresh,4200014836,fuzzy,0.74
 kritikos-724852,kritikos,724852,fuzzy,0.93
 kritikos-724852,sklavenitis,1438391,fuzzy,0.93
 kritikos-724852,xalkiadakis,168495,fuzzy,0.81
-kritikos-724852,marketin,89067201,fuzzy,0.27
+kritikos-724852,marketin,89067201,fuzzy,0.28
 kritikos-724852,efresh,4200003506,fuzzy,0.53
 kritikos-724915,kritikos,724915,ean,
 kritikos-724915,ab,7491243,ean,0.82
@@ -19661,7 +19667,8 @@ kritikos-727643,efresh,4100024647,fuzzy,0.3
 kritikos-727644,kritikos,727644,ean,
 kritikos-727644,ab,7497645,ean,0.94
 kritikos-727644,mymarket,340121,ean,0.81
-kritikos-727644,sklavenitis,1205247,fuzzy,0.68
+kritikos-727644,sklavenitis,1205247,fuzzy,0.93
+kritikos-727644,xalkiadakis,168345,fuzzy,0.93
 kritikos-727644,marketin,89036359,fuzzy,0.93
 kritikos-727644,efresh,4100024648,fuzzy,0.36
 kritikos-727645,kritikos,727645,ean,
@@ -20111,8 +20118,8 @@ kritikos-730567,kritikos,730567,fuzzy,0.24
 kritikos-730567,ab,7518689,fuzzy,0.34
 kritikos-730567,mymarket,430211,fuzzy,0.62
 kritikos-730567,efresh,4200016731,fuzzy,0.62
-kritikos-730570,kritikos,730570,fuzzy,0.54
-kritikos-730570,sklavenitis,1298531,fuzzy,0.54
+kritikos-730570,kritikos,730570,fuzzy,0.53
+kritikos-730570,sklavenitis,1298531,fuzzy,0.53
 kritikos-730585,kritikos,730585,ean,
 kritikos-730585,ab,7829670,ean,0.27
 kritikos-730585,mymarket,340141,ean,0.38
@@ -20517,7 +20524,7 @@ kritikos-741091,ab,7568054,ean,0.35
 kritikos-741117,kritikos,741117,ean,
 kritikos-741117,mymarket,340129,ean,0.55
 kritikos-741117,xalkiadakis,172701,fuzzy,0.71
-kritikos-741117,marketin,89043392,fuzzy,0.53
+kritikos-741117,marketin,89043392,fuzzy,0.52
 kritikos-741118,kritikos,741118,ean,
 kritikos-741118,mymarket,340128,ean,0.59
 kritikos-741118,marketin,89043391,fuzzy,0.44
@@ -21065,7 +21072,7 @@ kritikos-744808,ab,7566537,ean,0.73
 kritikos-744808,mymarket,233325,ean,1.0
 kritikos-744808,sklavenitis,1491575,fuzzy,0.93
 kritikos-744808,xalkiadakis,176803,fuzzy,0.72
-kritikos-744808,efresh,4100138777,fuzzy,0.6
+kritikos-744808,efresh,4100138777,fuzzy,0.61
 kritikos-744850,kritikos,744850,fuzzy,0.93
 kritikos-744850,ab,7835659,fuzzy,0.93
 kritikos-744864,kritikos,744864,fuzzy,0.85
@@ -21852,7 +21859,7 @@ kritikos-748363,ab,7731761,ean,0.27
 kritikos-748363,mymarket,340147,ean,0.32
 kritikos-748363,xalkiadakis,186763,fuzzy,0.93
 kritikos-748363,marketin,89072483,fuzzy,0.93
-kritikos-748363,efresh,4100144723,fuzzy,0.8
+kritikos-748363,efresh,4100144723,fuzzy,0.79
 kritikos-748438,kritikos,748438,ean,
 kritikos-748438,ab,7628045,ean,0.6
 kritikos-748438,mymarket,302210,ean,0.65
@@ -22024,6 +22031,7 @@ kritikos-749703,sklavenitis,1586053,fuzzy,0.88
 kritikos-749703,xalkiadakis,191781,fuzzy,0.93
 kritikos-749745,kritikos,749745,ean,
 kritikos-749745,mymarket,340168,ean,0.63
+kritikos-749745,xalkiadakis,192011,fuzzy,0.66
 kritikos-749893,kritikos,749893,ean,
 kritikos-749893,ab,7728071,ean,0.4
 kritikos-749893,mymarket,292052,ean,0.38
@@ -22217,8 +22225,8 @@ kritikos-753951,marketin,89049101,fuzzy,0.89
 kritikos-753961,kritikos,753961,ean,
 kritikos-753961,ab,7572074,ean,0.19
 kritikos-753961,mymarket,402179,ean,0.57
-kritikos-753961,sklavenitis,1480321,fuzzy,0.48
-kritikos-753961,xalkiadakis,177268,fuzzy,0.48
+kritikos-753961,sklavenitis,1480321,fuzzy,0.47
+kritikos-753961,xalkiadakis,177268,fuzzy,0.47
 kritikos-753961,marketin,89049102,fuzzy,0.34
 kritikos-753961,efresh,4200015122,fuzzy,0.65
 kritikos-753962,kritikos,753962,ean,
@@ -23527,7 +23535,7 @@ kritikos-772327,kritikos,772327,ean,
 kritikos-772327,ab,7664648,ean,0.53
 kritikos-772327,mymarket,118698,ean,0.48
 kritikos-772327,sklavenitis,1585837,fuzzy,0.93
-kritikos-772327,xalkiadakis,191819,fuzzy,0.58
+kritikos-772327,xalkiadakis,191819,fuzzy,0.57
 kritikos-772327,marketin,89072146,fuzzy,0.93
 kritikos-772327,efresh,4100150463,fuzzy,0.51
 kritikos-772332,kritikos,772332,ean,
@@ -24405,7 +24413,7 @@ kritikos-81000277,ab,7726185,ean,0.18
 kritikos-81000277,mymarket,775871,ean,0.29
 kritikos-81000277,sklavenitis,1617632,fuzzy,0.71
 kritikos-81000277,xalkiadakis,198058,fuzzy,0.93
-kritikos-81000277,efresh,4300008995,fuzzy,0.74
+kritikos-81000277,efresh,4300008995,fuzzy,0.75
 kritikos-81000281,kritikos,81000281,ean,
 kritikos-81000281,ab,7726228,ean,0.24
 kritikos-81000281,mymarket,775870,ean,0.41
@@ -24652,7 +24660,7 @@ kritikos-81001802,ab,7726224,ean,0.44
 kritikos-81001802,mymarket,775891,ean,0.27
 kritikos-81001802,sklavenitis,1617668,fuzzy,0.93
 kritikos-81001802,xalkiadakis,197933,fuzzy,0.93
-kritikos-81001802,efresh,4300008968,fuzzy,0.36
+kritikos-81001802,efresh,4300008968,fuzzy,0.37
 kritikos-81002052,kritikos,81002052,ean,
 kritikos-81002052,ab,7508705,ean,0.59
 kritikos-81002052,mymarket,336991,ean,0.72
@@ -25137,6 +25145,7 @@ kritikos-81005929,ab,7654032,ean,0.66
 kritikos-81005929,mymarket,509314,ean,1.0
 kritikos-81005929,sklavenitis,1631759,fuzzy,0.6
 kritikos-81005929,xalkiadakis,202330,fuzzy,0.69
+kritikos-81005929,marketin,89094991,fuzzy,0.93
 kritikos-81005929,efresh,4700006687,fuzzy,0.6
 kritikos-81005983,kritikos,81005983,ean,
 kritikos-81005983,ab,7719575,ean,0.76
@@ -27743,7 +27752,7 @@ kritikos-81016935,xalkiadakis,206918,fuzzy,0.93
 kritikos-81017020,kritikos,81017020,ean,
 kritikos-81017020,ab,7775013,ean,0.3
 kritikos-81017020,mymarket,611855,fuzzy,0.86
-kritikos-81017020,xalkiadakis,206255,fuzzy,0.39
+kritikos-81017020,xalkiadakis,206255,fuzzy,0.4
 kritikos-81017020,efresh,4500002844,fuzzy,0.8
 kritikos-81017045,kritikos,81017045,ean,
 kritikos-81017045,mymarket,719864,ean,0.36
@@ -27867,7 +27876,7 @@ kritikos-81018223,mymarket,338332,ean,0.71
 kritikos-81018223,sklavenitis,1667540,fuzzy,0.23
 kritikos-81018226,kritikos,81018226,ean,
 kritikos-81018226,ab,7778733,ean,0.21
-kritikos-81018226,mymarket,338334,fuzzy,0.78
+kritikos-81018226,mymarket,338334,fuzzy,0.79
 kritikos-81018226,sklavenitis,1667532,fuzzy,0.35
 kritikos-81018226,xalkiadakis,214348,fuzzy,0.35
 kritikos-81018228,kritikos,81018228,ean,
@@ -28055,6 +28064,7 @@ kritikos-81019060,xalkiadakis,208422,fuzzy,0.66
 kritikos-81019060,efresh,4100152105,fuzzy,0.69
 kritikos-81019061,kritikos,81019061,ean,
 kritikos-81019061,ab,7782592,ean,0.45
+kritikos-81019061,xalkiadakis,208421,fuzzy,0.65
 kritikos-81019067,kritikos,81019067,fuzzy,0.8
 kritikos-81019067,xalkiadakis,72077,fuzzy,0.71
 kritikos-81019067,marketin,10610808,fuzzy,0.8
@@ -29097,6 +29107,7 @@ kritikos-81024218,kritikos,81024218,ean,
 kritikos-81024218,ab,7828048,ean,0.35
 kritikos-81024218,mymarket,502169,fuzzy,0.7
 kritikos-81024218,xalkiadakis,211658,fuzzy,0.82
+kritikos-81024218,marketin,89105310,fuzzy,0.87
 kritikos-81024218,efresh,4400004973,fuzzy,0.43
 kritikos-81024230,kritikos,81024230,ean,
 kritikos-81024230,ab,7814600,ean,0.12
@@ -30107,7 +30118,7 @@ kritikos-863083,ab,7075681,ean,0.37
 kritikos-863083,mymarket,137261,ean,0.2
 kritikos-863083,sklavenitis,1055513,fuzzy,0.87
 kritikos-863083,xalkiadakis,105073,fuzzy,0.87
-kritikos-863083,efresh,4100142779,fuzzy,0.43
+kritikos-863083,efresh,4100142779,fuzzy,0.42
 kritikos-863084,kritikos,863084,fuzzy,0.41
 kritikos-863084,ab,7620850,fuzzy,0.48
 kritikos-863084,mymarket,137284,fuzzy,0.95
@@ -30596,7 +30607,7 @@ kritikos-869149,kritikos,869149,ean,
 kritikos-869149,ab,7133447,ean,0.79
 kritikos-869149,mymarket,420574,ean,0.55
 kritikos-869149,sklavenitis,1119450,fuzzy,0.86
-kritikos-869149,xalkiadakis,152727,fuzzy,0.31
+kritikos-869149,xalkiadakis,152727,fuzzy,0.32
 kritikos-869150,kritikos,869150,ean,
 kritikos-869150,ab,7141485,ean,0.29
 kritikos-869150,xalkiadakis,157061,fuzzy,0.73
@@ -31712,7 +31723,7 @@ kritikos-901574,ab,7081570,ean,0.32
 kritikos-901574,mymarket,142142,ean,0.48
 kritikos-901574,sklavenitis,5008560,fuzzy,0.93
 kritikos-901574,xalkiadakis,32750,fuzzy,0.93
-kritikos-901574,efresh,4100001964,fuzzy,0.68
+kritikos-901574,efresh,4100001964,fuzzy,0.67
 kritikos-901575,kritikos,901575,ean,
 kritikos-901575,ab,7073220,ean,0.36
 kritikos-901575,mymarket,142147,ean,0.54
@@ -32770,7 +32781,8 @@ kritikos-989594,kritikos,989594,ean,
 kritikos-989594,mymarket,306003,ean,0.51
 kritikos-989594,efresh,4100149801,fuzzy,0.63
 kritikos-989606,kritikos,989606,fuzzy,0.4
-kritikos-989606,marketin,89084287,fuzzy,0.4
+kritikos-989606,ab,7632136,fuzzy,0.47
+kritikos-989606,marketin,89084287,fuzzy,0.47
 kritikos-989659,kritikos,989659,ean,
 kritikos-989659,ab,7616345,ean,0.16
 kritikos-989659,mymarket,702499,ean,0.86
@@ -32918,7 +32930,7 @@ kritikos-994599,kritikos,994599,ean,
 kritikos-994599,ab,7662002,ean,0.26
 kritikos-994599,mymarket,709464,ean,0.57
 kritikos-994599,xalkiadakis,191765,fuzzy,0.97
-kritikos-994599,efresh,4300008442,fuzzy,0.71
+kritikos-994599,efresh,4300008442,fuzzy,0.7
 kritikos-995142,kritikos,995142,ean,
 kritikos-995142,ab,7667445,ean,0.19
 kritikos-995142,mymarket,272216,ean,0.74
@@ -33185,8 +33197,9 @@ mymarket-120132,marketin,89099766,fuzzy,0.93
 mymarket-120176,mymarket,120176,fuzzy,0.64
 mymarket-120176,sklavenitis,1675098,fuzzy,0.64
 mymarket-120176,xalkiadakis,210408,fuzzy,0.56
-mymarket-120508,mymarket,120508,fuzzy,0.63
+mymarket-120508,mymarket,120508,fuzzy,0.7
 mymarket-120508,sklavenitis,1614160,fuzzy,0.63
+mymarket-120508,xalkiadakis,210586,fuzzy,0.7
 mymarket-123068,mymarket,123068,fuzzy,0.93
 mymarket-123068,xalkiadakis,198371,fuzzy,0.93
 mymarket-123318,mymarket,123318,fuzzy,0.93
@@ -33403,8 +33416,6 @@ mymarket-156404,mymarket,156404,fuzzy,0.41
 mymarket-156404,sklavenitis,6736953,fuzzy,0.71
 mymarket-156404,xalkiadakis,91416,fuzzy,0.71
 mymarket-156404,efresh,4100004262,fuzzy,0.41
-mymarket-156427,mymarket,156427,fuzzy,0.68
-mymarket-156427,sklavenitis,1632291,fuzzy,0.68
 mymarket-157037,mymarket,157037,fuzzy,0.64
 mymarket-157037,sklavenitis,9269382,fuzzy,0.64
 mymarket-157105,mymarket,157105,fuzzy,0.43
@@ -33908,6 +33919,8 @@ mymarket-262321,xalkiadakis,213809,fuzzy,0.88
 mymarket-262321,efresh,4100151769,fuzzy,0.83
 mymarket-262518,mymarket,262518,fuzzy,0.18
 mymarket-262518,xalkiadakis,194231,fuzzy,0.18
+mymarket-262574,mymarket,262574,fuzzy,0.66
+mymarket-262574,efresh,4100136947,fuzzy,0.66
 mymarket-262604,mymarket,262604,fuzzy,0.61
 mymarket-262604,efresh,4100137171,fuzzy,0.61
 mymarket-262751,mymarket,262751,fuzzy,0.5
@@ -34074,7 +34087,7 @@ mymarket-275212,efresh,4100002009,fuzzy,0.24
 mymarket-275213,mymarket,275213,fuzzy,0.93
 mymarket-275213,sklavenitis,4674966,fuzzy,0.93
 mymarket-275213,xalkiadakis,72080,fuzzy,0.87
-mymarket-275213,efresh,4100002010,fuzzy,0.44
+mymarket-275213,efresh,4100002010,fuzzy,0.45
 mymarket-275311,mymarket,275311,fuzzy,0.84
 mymarket-275311,xalkiadakis,147752,fuzzy,0.84
 mymarket-275482,mymarket,275482,fuzzy,0.87
@@ -34944,8 +34957,8 @@ mymarket-516300,mymarket,516300,fuzzy,0.76
 mymarket-516300,xalkiadakis,200506,fuzzy,0.76
 mymarket-516340,mymarket,516340,fuzzy,0.28
 mymarket-516340,xalkiadakis,208992,fuzzy,0.28
-mymarket-516341,mymarket,516341,fuzzy,0.36
-mymarket-516341,xalkiadakis,208991,fuzzy,0.36
+mymarket-516341,mymarket,516341,fuzzy,0.37
+mymarket-516341,xalkiadakis,208991,fuzzy,0.37
 mymarket-516352,mymarket,516352,fuzzy,0.89
 mymarket-516352,xalkiadakis,200505,fuzzy,0.89
 mymarket-517188,mymarket,517188,fuzzy,0.19
@@ -36164,8 +36177,8 @@ sklavenitis-1435922,sklavenitis,1435922,fuzzy,0.72
 sklavenitis-1435922,xalkiadakis,187830,fuzzy,0.72
 sklavenitis-1435923,sklavenitis,1435923,fuzzy,0.74
 sklavenitis-1435923,xalkiadakis,187831,fuzzy,0.74
-sklavenitis-1438655,sklavenitis,1438655,fuzzy,0.48
-sklavenitis-1438655,xalkiadakis,166894,fuzzy,0.48
+sklavenitis-1438655,sklavenitis,1438655,fuzzy,0.47
+sklavenitis-1438655,xalkiadakis,166894,fuzzy,0.47
 sklavenitis-1439063,sklavenitis,1439063,fuzzy,0.85
 sklavenitis-1439063,xalkiadakis,167805,fuzzy,0.85
 sklavenitis-1439274,sklavenitis,1439274,fuzzy,0.37
@@ -36597,7 +36610,7 @@ sklavenitis-4154456,sklavenitis,4154456,fuzzy,0.77
 sklavenitis-4154456,xalkiadakis,117278,fuzzy,0.77
 sklavenitis-4169686,sklavenitis,4169686,fuzzy,0.93
 sklavenitis-4169686,xalkiadakis,7544,fuzzy,0.93
-sklavenitis-4169686,efresh,4400000822,fuzzy,0.31
+sklavenitis-4169686,efresh,4400000822,fuzzy,0.3
 sklavenitis-4171948,sklavenitis,4171948,fuzzy,0.93
 sklavenitis-4171948,xalkiadakis,3180,fuzzy,0.93
 sklavenitis-4171948,marketin,11101013,fuzzy,0.93
@@ -37071,8 +37084,8 @@ xalkiadakis-28498,xalkiadakis,28498,fuzzy,0.68
 xalkiadakis-28498,efresh,4100001367,fuzzy,0.68
 xalkiadakis-2872,xalkiadakis,2872,fuzzy,0.79
 xalkiadakis-2872,efresh,4100004036,fuzzy,0.79
-xalkiadakis-2882,xalkiadakis,2882,fuzzy,0.3
-xalkiadakis-2882,efresh,4100004044,fuzzy,0.3
+xalkiadakis-2882,xalkiadakis,2882,fuzzy,0.29
+xalkiadakis-2882,efresh,4100004044,fuzzy,0.29
 xalkiadakis-29306,xalkiadakis,29306,fuzzy,0.24
 xalkiadakis-29306,efresh,4100002149,fuzzy,0.24
 xalkiadakis-29728,xalkiadakis,29728,fuzzy,0.26
