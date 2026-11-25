@@ -450,7 +450,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100001816,"Coffee, Greek, Traditional, Papagalos Loumidis (194 g)",Λουμίδης Παπαγάλος,Ελληνικός,0.194 kg,kg,24.639,,kafes-ellhnikos-paradosiakos-loymidhs-papagalos-194-g
 4100001820,"P.D.O. Feta Cheese in plastic container, Mevgal (400 g)",Μεβγάλ,Φέτα Π.Ο.Π.,0.4 kg,kg,17,,tyri-feta-popse-taper-mebgal-400-g
 4100001825,Cereal bars Fitness Delice with milk chocolate Nestle (6x22.5 g),Fitness,Μπάρες δημητριακών,0.135 kg,kg,19.926,,mpares-dhmhtriakwn-fitness-delice-me-sokolata-galaktos-nestle-6x225-g
-4100001826,Cereal bars Fitness with chocolate Nestle (6x23.5),Fitness,Μπάρες δημητριακών,0.141 kg,kg,19.078,,
+4100001826,Cereal bars Fitness with chocolate Nestle (6x23.5),Fitness,Μπάρες δημητριακών,0.141 kg,kg,19.078,,mpares-dhmhtriakwn-fitness-me-sokolata-nestle-6-x-235-g
 4100001829,Cereal bars Fitness Cookies & Cream Nestle (6x23.5 g),Fitness,Μπάρες δημητριακών,0.141 kg,kg,19.078,,mpares-dhmhtriakwn-fitness-cookies-cream-nestle-6x235-g
 4100001851,Milk second infancy Powder Sanilac Yiotis 2 (400 g),Γιώτης,Γάλα,0.4 kg,kg,25.2,,gala-2hs-brefikhs-hlikias-se-skonh-sanilac-2-giwths-400-g
 4100001852,Milk third infancy Powder Sanilac Yiotis 3 (400 g),Γιώτης,Γάλα,0.4 kg,kg,26.4,,gala-3hs-brefikhs-hlikias-se-skonh-sanilac-3-giwths-400-g
@@ -467,7 +467,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100001933,Eucalyptus Zero candies (32 g),Zero,Διάφορες γεύσεις,0.032 kg,kg,32.5,,karameles-eykalyptos-zero-32-g
 4100001934,Cinnamon Zero candies (32 g),Zero,Διάφορες γεύσεις,0.032 kg,kg,32.5,,karameles-kanela-zero-32-g
 4100001935,"Super Jelly candies, Lavdas (200 g)",Λάβδας,Διάφορες γεύσεις,0.2 kg,kg,10.9,,karameles-super-jelly-labdas-200-g
-4100001936,Butterscotch Zero candies (32 g),Zero,Βουτύρου,0.032 kg,kg,32.5,,
+4100001936,Butterscotch Zero candies (32 g),Zero,Βουτύρου,0.032 kg,kg,32.5,,karameles-boytyroy-zero-32-g
 4100001944,Gum on! raspberry candies (100 g),Gum On!,Ζελεδάκια,0.1 kg,kg,11.2,,karameles-batomoyro-gum-on-100-g
 4100001957,"Frozen potatoes, Tradition McCain (1 kg)",McCain,Κατεψυγμένες Πατάτες,1 kg,kg,4.29,,patates-katepsygmenes-tradition-mccain-1-kg
 4100001959,"Frozen potatoes, Kid Smile, McCain (650 g)",McCain,Κατεψυγμένες Πατάτες,0.65 kg,kg,5.892,,patates-katepsygmenes-kid-smile-mccain-600-g
@@ -693,7 +693,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100002687,Thyme Honey from the Greek Islands (455 g),Αττική,Μέλι,0.455 kg,kg,19.385,,meli-thymari-nhswn-455-g
 4100002690,"Bagged Oregano, Dioscourides (100 g)",Διοσκουρίδης,Ρίγανη,0.1 kg,kg,24.6,,riganh-sakoylaki-dioskoyridhs-100-g
 4100002700,"Vine Leaves Stuffed with Rice, Zenith (280 g)",Ζενιθ,Έτοιμα φαγητά,0.28 kg,kg,8.893,,
-4100002701,"Honey from Thyme and other Flowers, in Portions, Attiki (30 g)",Αττική,Μέλι,0.15 kg,kg,17.467,,
+4100002701,"Honey from Thyme and other Flowers, in Portions, Attiki (30 g)",Αττική,Μέλι,0.15 kg,kg,17.467,,meli-se-merides-apo-thymari-kai-alles-anthofories-attikh-5x30-g
 4100002705,"Penne Rigate, Helios (500 g)",Ήλιος,Πένες & ριγκατόνι,0.5 kg,kg,2.2,,pennes-rige-hlios-500-g
 4100002712,"Spaghetti, No. 6, whole grain, Helios (500 g)",Ήλιος,Σπαγγέτι & άλλα Μακαρόνια,0.5 kg,kg,2.6,,spaggeti-no-6-olikhs-aleshs-hlios-500-g
 4100002722,"Traditional Egg Noodles from Velouchi, Helios (500 g)",Ήλιος,Χυλοπίτες & Τραχανάς,0.5 kg,kg,3.2,,xylopites-beloyxi-hlios-500-g
@@ -837,7 +837,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100003258,"Dried Plums, Sunsweet (500 g)",Sunsweet,Αποξηραμένα φρούτα,0.5 kg,kg,19.56,,apoxhramena-damaskhna-sunsweet-500-g
 4100003259,"Dried Plums, Sunsweet (250 g)",Sunsweet,Αποξηραμένα φρούτα,0.25 kg,kg,23.52,,apoxhramena-damaskhna-sunsweet-250-g
 4100003262,"Coffee filters, 102 (μικρά) Melitta (80 pcs)",Melitta,Υποκατάστατα & συνοδευτικά καφέ,80 pcs,piece,0.037,,filtra-kafe-1x2-melitta-40-tem
-4100003263,"Coffee filters, 1Χ4 (μεγάλα) Melitta (40 pcs)",Melitta,Υποκατάστατα & συνοδευτικά καφέ,40 pcs,piece,0.044,,
+4100003263,"Coffee filters, 1Χ4 (μεγάλα) Melitta (40 pcs)",Melitta,Υποκατάστατα & συνοδευτικά καφέ,40 pcs,piece,0.044,,filtra-kafe-1x4-melitta-40-tem
 4100003264,"Milk Substitute for Coffee, Compleat Melitta (200 g)",Melitta,Υποκατάστατα & συνοδευτικά καφέ,0.2 kg,kg,16.4,,
 4100003313,Cereals Muesli Sugar Alpen (560 g),Alpen,Muesli,0.56 kg,kg,13.75,,dhmhtriaka-muesli-xwris-zaxarh-alpen-560-g
 4100003317,"Apricot Jam, Bonne Maman (370 g)",Bonne Maman,Ροδάκινο & βερίκοκο,0.37 kg,kg,12.946,,marmelada-berikoko-bonne-maman-370-g
@@ -1017,6 +1017,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100004049,"Bucatini Pasta, No. 5 Stella (500 g)",Stella,Σπαγγέτι & άλλα Μακαρόνια,0.5 kg,kg,1.64,,makaronia-tryphta-no5-stella-500-g
 4100004050,Bucatini Pasta for Pastitsio No 2 Stella (500 g),Stella,Σπαγγέτι & άλλα Μακαρόνια,0.5 kg,kg,1.62,,pastitsio-no2-stella-500-g
 4100004073,"Tortillas, 8 pcs, Old El Paso (326 g)",Old el Paso,Τορτίγες & Τάκος,0.326 kg,kg,7.73,,pites-tortigias-8-tem-old-el-paso-326-g
+4100004076,"Whole grain Tortillas, Old El Paso (350 g)",Old el Paso,Τορτίγες & Τάκος,0.35 kg,kg,9.943,,tortigies-olikhs-aleshs-old-el-paso-350-g
 4100004078,Thick and Chunky Hot Salsa Old El Paso (226 g),Old el Paso,Μεξικάνικα,0.226 kg,kg,11.15,,thick-and-chunky-hot-salsa-old-el-paso-226-g
 4100004081,Fajita Dinner Kit Old El Paso (500 g),Old el Paso,Μεξικάνικα,0.5 kg,kg,9.58,,fajita-dinner-kit-old-el-paso-500-g
 4100004089,"Semolina, Thick, Melissa (500 g)",Melissa,Χονδρό,0.5 kg,kg,1.82,,
@@ -1182,7 +1183,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100004789,"Soft, gluten-free mustard, organic, Ζwergenwiese (160 g)",Ζwergenwiese,Μουστάρδα,0.16 kg,kg,24.5,,moystarda-apalh-xwris-gloytenh-biologikh-zwergenwiese-160-g
 4100004802,"Mousse Chocolate mix, Sweet & Balance (165 g)",Sweet & Balance,Μείγμα για super mousse,0.165 kg,kg,18.909,,meigma-mousse-sokolata-sweet-balance-165-g
 4100004804,"Stevia sweetener, in tablets, Sweet & Balance (6.5 g)",Sweet & Balance,Υποκατάστατο ζάχαρης,0.0065 kg,kg,550.769,,glykantiko-apo-stebia-se-diskio-sweet-balance-65-g
-4100004847,"Cypriot pita, Elviart (470g",Ελβιάρτ,Αραβικές & Κυπριακές,0.48 kg,kg,3.208,,
+4100004847,"Cypriot pita, Elviart (470g",Ελβιάρτ,Αραβικές & Κυπριακές,0.48 kg,kg,3.208,,pita-kypriakh-elbiart-6-tem-470-g
 4100004849,"Artichokes, frozen, Ainos (1 kg)",Αίνος,Αγκινάρες,1 kg,kg,6.85,,agkinares-katepsygmenes-ainos-1-kg
 4100004898,"Chocolate Cookies, Allatini (175 g)",Allatini,Cookies,0.175 kg,kg,9.029,,mpiskota-cookie-sokolata-allatinh-175-g
 4100004902,"Goody, Butter cookies, Allatini (175 g)",Allatini,Κλασικά,0.175 kg,kg,9.714,,mpiskota-goody-boytyroy-allatinh-175-g
@@ -1288,7 +1289,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100005736,"Chocolate Drink, Cadbury (250g)",Cadbury's,Κακάο & σοκολάτες,0.25 kg,kg,17.92,,rofhma-sokolatas-cadbury-250-g
 4100005745,"Thyme Honey, Golden Crete (450 g)",Golden Crete,Μέλι,0.45 kg,kg,15.467,,meli-thymarisio-xrysh-krhth-450-g
 4100005746,"Honey from Thyme and other Flowers, Smart Pack, Attiki (100 g)",Αττική,Μέλι,0.1 kg,kg,27,,meli-apo-thymari-kai-alles-anthofories-smart-pak-attikh-100-g
-4100005750,"Forest Honey, Fino (1 kg)",Φινο,Μέλι,1 kg,kg,11.99,,
+4100005750,"Forest Honey, Fino (1 kg)",Φινο,Μέλι,1 kg,kg,11.99,,meli-dasoys-fino-1-kg
 4100005751,"Honey from Thyme and other Flowers, Melissaki, Attiki (470 g)",Αττική,Μέλι,0.47 kg,kg,19.064,,meli-apo-thymari-kai-alles-anthofories-melissaki-attikh-470-g
 4100005752,"Honey from Thyme and other Flowers, Attiki (250 g)",Αττική,Μέλι,0.25 kg,kg,19.24,,meli-apo-thymari-kai-alles-anthofories-attikh-250-g
 4100005753,"Honey from Thyme and other Flowers, Attiki (455 kg)",Αττική,Μέλι,0.455 kg,kg,18.11,,meli-apo-thymari-kai-alles-anthofories-attikh-455g
@@ -1488,7 +1489,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100009078,"Lemon sauce, Vattis (330 ml)",Vattis,Χυμός λεμονιού,0.33 lt,l,1.636,,saltsa-lemonioy-vattis-330-ml
 4100009628,"Chickpeas, Frozen, Barba Stathis (600 g)",Μπάρμπα Στάθης,"Καλαμπόκι,Καρότα,Μανιτάρια",0.6 kg,kg,4.95,,rebithia-katepsygmena-mparmpa-stathhs-600-g
 4100009733,"Chicken fillet Schnitzel, Mimikos (470g)",Μιμίκος,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.47 kg,kg,15.957,,snitsel-apo-fileto-kotopoyloy-mimikos-470-g
-4100009734,"Cordon Bleu, Mimikos (480 g)",Μιμίκος,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.48 kg,kg,16.667,,
+4100009734,"Cordon Bleu, Mimikos (480 g)",Μιμίκος,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.48 kg,kg,16.667,,cordon-bleu-mimikos-480-g
 4100009839,"Fresh Small Onions, Freskoulis (100 g)",Φρεσκούλης,"Πατάτες, Κρεμμύδια, Σκόρδα",0.1 kg,kg,7.5,,kremmydakia-freska-freskoylhs-100-g
 4100009842,"Broccoli and Cabbage, Freskoulis (500 g)",Φρεσκούλης,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.5 kg,kg,4.98,,mprokolo-kai-koynoypidi-freskoylhs-500-g
 4100009843,Parsley Packed Freskoulis (40 g),Φρεσκούλης,"Άνηθος, Μαϊντανός & Σχοινόπρασο",0.04 kg,kg,15.5,,maintanos-syskeyasmenos-freskoylhs-40-g
@@ -1532,7 +1533,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100011118,"Round bun with burger, Edam Cheese and Sauce, Stergiou (170 g)",Stergiou Family,Σάντουιτς Έτοιμα,0.17 kg,kg,11.706,,stroggylo-pswmaki-me-mpifteki-entam-sauce-stergioy-180-g
 4100011119,"Croissant with Turkey and Cheese, Stergiou (170 g)",Στεργίου,Σάντουιτς Έτοιμα,0.17 kg,kg,13.412,,kroyasan-me-galopoyla-tyri-stergioy-170-g
 4100011120,"Arabic Pita with Turkey, Cheddar & Light Sauce, Stergiou (130 g)",Stergiou Family,Σάντουιτς Έτοιμα,0.13 kg,kg,14.615,,arabikh-pita-me-galopoyla-cheddar-sauce-stergioy-130-g
-4100011147,"Milk candies, Lavdas (300 g)",Λάβδας,Βουτύρου,0.3 kg,kg,11.167,,
+4100011147,"Milk candies, Lavdas (300 g)",Λάβδας,Βουτύρου,0.3 kg,kg,11.167,,karameles-galaktos-labdas-300-g
 4100011191,"Protein Bar with Red Skin Peanuts, Almonds and partially covered with Salted Caramel, Nature Valley (4x40g)",Nature Valley,Μπάρες δημητριακών,0.16 kg,kg,31,,mpara-prwteinhs-me-fistikia-arapika-amygdala-kai-merikh-epikalypsh-me-geysh-almyrhs-karamelas-nature-valley-4x40g
 4100011232,"Strained yoghurt, Total, 2% fat, FAGE (500 g)",Total,Στραγγιστό,0.5 kg,kg,5.96,,giaoyrti-straggisto-total-2-lipara-fage-500-g
 4100011233,"Strained yoghurt, Total, FAGE ( 500 g)",Total,Στραγγιστό,0.5 kg,kg,5.96,,giaoyrti-straggisto-total-fage-500-g
@@ -2005,7 +2006,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100021037,"Saut? Salmon fillet, Corealis (200 g)",Βιοαγρός,Ψάρι Φιλέτο,0.25 kg,kg,48,,solomos-fileto-biologikos-katepsygmenos-bioagros-2x125g
 4100021041,Organic Greek Tomatoes (min. weight 550g),Βιοαγρός,Βιολογικά,0.55 kg,kg,3.6,,tomates-biologikes-ellhnikes-elaxisto-baros-550g-1
 4100021051,"Organic goat strained yoghurt, Veloudo (170 g)",Veloudo,Στραγγιστό,0.17 kg,kg,12.471,,biologiko-katsikisio-straggisto-giaoyrti-beloydo-170-g
-4100021052,"Organic goat's milk Kefir, Veloudo (250g)",Veloudo,Κεφίρ,0.25 lt,l,6.32,,
+4100021052,"Organic goat's milk Kefir, Veloudo (250g)",Veloudo,Κεφίρ,0.25 lt,l,6.32,,biologiko-katsikisio-kefir-beloydo-250-ml
 4100021063,Organic Greek Tomatoes (min. weight 650g),Βιοαγρός,Βιολογικά,0.65 kg,kg,3.6,,
 4100021064,Organic Greek Tomatoes (min. weight 700g),Βιοαγρός,Βιολογικά,0.7 kg,kg,3.6,,tomates-biologikes-ellhnikes-elaxisto-baros-700g-1
 4100021113,Organic Greek Kiwis (min. weight 500 g),Βιοαγρός,Ακτινίδια,0.5 kg,kg,5,,
@@ -2081,6 +2082,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100021905,Prosciutto With Pepper & Lemon 7 Slices San Michele (90 g),Raspini,Προσούτο,0.09 kg,kg,51.667,,prosciutto-piperi-lemoni-san-michele-90-g
 4100021906,Prosciutto With Basil 7 Slices San Michele (90 g),Raspini,Προσούτο,0.09 kg,kg,51.667,,prosciutto-basilikos-san-michele-90-g
 4100021907,Prosciutto With Rosemary 7 Slices San Michele (90 g),Raspini,Προσούτο,0.09 kg,kg,51.667,,
+4100021924,Frozen French Turkey with Doux Thermometer (minimum weight 4.2 Kg),Doux,Πουλερικά,4.2 kg,kg,5.99,,galopoyla-katepsygmenh-gallias-me-thermometro-doux-elaxisto-baros-42-kg
 4100021971,Kelyfoto Peanut Roasted with salt Bros KONTOPOULOU (200 g),Αφοί Κοντόπουλοι,Φυστίκια,0.2 kg,kg,30.5,,kelyfwto-fystiki-pshmeno-me-alati-afoi-kontopoyloi-200-g
 4100021972,Peanut Chewing roasted Salt Bros KONTOPOULOU (200 g),Αφοί Κοντόπουλοι,Φυστίκια,0.2 kg,kg,12.25,,fystiki-arapiko-pshmeno-me-alati-afoi-kontopoyloi-200-g
 4100021973,Almonds roasted Salt Bros KONTOPOULOU (200g),Αφοί Κοντόπουλοι,Αμύγδαλα,0.2 kg,kg,26.25,,amygdalo-pshmeno-me-alati-afoi-kontopoyloi-200g
@@ -2112,6 +2114,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100022173,"Bread Sticks with Sesame and Extra Virgin Oil, Tsanos (230 g)",Tsanos,Κριτσίνια & Κράκερς,0.12 kg,kg,16.917,,kritsinia-me-fresko-tyri-tsanos-120-g
 4100022179,"Dried rusks, Koukouvagia, Nyktari (650 g)",Ντουρουντούς,Κριτσίνια & Κράκερς,0.76 kg,kg,5.237,,biologiko-kritsini-fagopyraki-ntoyroyntoys-150-g
 4100022241,Almond Chocolate with Stevia ION (60g),ION,Υγείας,0.06 kg,kg,36.667,,sokolata-ygeias-amygdaloy-me-stevia-ion-60g
+4100022347,Bitter chocolate with Superfruits No Sugar Added (32 g),Geneva,Υγείας,0.032 kg,kg,33.438,,sokolata-bitter-me-superfruits-no-sugar-added-32-g
 4100022350,Croissants Cream praline Champion (70 g),Champion,Κρουασάν & Τσουρέκια,0.07 kg,kg,8.571,,kroyasan-krema-pralina-champion-70-g
 4100022360,Organic Coconut Flakes Raw Greenbay (150g),Green Bay,Αποξηραμένα φρούτα,0.15 kg,kg,18.6,,biologikes-nifades-karydas-raw-greenbay-150g
 4100022361,"Katiki Cheese from Domokos, P.D.O. , Domokos (200 g)",Δομοκός,Κρεμώδη & Αλειφόμενα,0.2 kg,kg,13.25,,katiki-domokoy-pop-domokosoreines-plagies-200-g
@@ -2142,6 +2145,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100022837,Almond Drink Unsweetened Alpro (1 lt),Alpro,Φυτικά ροφήματα,1 lt,l,2.99,,rofhma-amygdaloy-xwris-zaxarh-alpro-1-lt
 4100022838,Almond Drink With Dark Chocolate Alpro (1 lt),Alpro,Φυτικά ροφήματα,1 lt,l,3.45,,rofhma-amygdaloy-me-mayrh-sokolata-alpro-1-lt
 4100022842,"Brown Rice 10', 3Alfa (500 g)",3 Alpha,Καστανό Ρύζι,0.5 kg,kg,5,,ryzi-kastano-10-3alfa-500-g
+4100022844,"Cereals, Chocolate Protein Crunch, Weetabix (450 g)",Weetabix,Ενηλίκων,0.45 kg,kg,13.111,,dhmhtriaka-chocolate-protein-crunch-weetabix-450-g
 4100022847,"Sliced Cooked Ham, 6 Slices En Elladi, Creta Farms (160 g)",Creta farms,Ζαμπόν,0.2 kg,kg,21.3,,zampon-kapnisto-se-fetes-xwris-en-elladi-creta-farms-200-g
 4100022848,"Sliced Cooked Ham, En Elladi, Creta Farms (160 g)",Creta farms,Γαλοπούλα & Κοτόπουλο,0.2 kg,kg,24.6,,galopoyla-pshth-xwris-fetes-creta-200g
 4100022850,Minced Beef Prime Cuts Organic Eviotopoi (500 g),Ευβιότοποι,Κιμάς,0.5 kg,kg,26.9,,boeios-kimas-prime-cuts-biologikos-eybiotopoi-500-g
@@ -2238,12 +2242,13 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100024004,"Ice-Cream, Mint,Choco Chips, Kayak (500ml)",Kayak,Κύπελα,0.5 lt,l,16,,pagwto-menta-choco-chips-kayak-500-ml
 4100024028,"Kichi Mini, Frozen cheese pie, Alfa (800 g)",Alfa,Οικογενειακές Πίτες,0.8 kg,kg,8.287,,pita-kixi-katepsygmenh-praso-alfa-800-g
 4100024045,"Pizza, Special, frozen, Alfa (810 g)",Alfa,Οικογενειακές Πίτσες,0.81 kg,kg,13.272,,pitsa-special-katepsygmenh-alfa-810-g
-4100024155,"Vanilla wafers, Caprice (250 g)",Caprice,Γκοφρέτες,0.25 kg,kg,14.88,,
+4100024155,"Vanilla wafers, Caprice (250 g)",Caprice,Γκοφρέτες,0.25 kg,kg,14.88,,poyrakia-me-banilia-caprice-250-g
 4100024189,"Mini's Chocolates, Mars (303 g)",Mars,Σοκολατάκια,0.275 kg,kg,15.818,,sokolatakia-minis-mars-275-g
 4100024190,"Mini's Chocolates, Snickers (303 g)",Snickers,Σοκολατάκια,0.275 kg,kg,15.818,,sokolatakia-minis-snickers-275-g
 4100024191,"Mini's Chocolates, Twix (303 g)",Twix,Σοκολατάκια,0.275 kg,kg,15.818,,sokolatakia-minis-twix-275-g
 4100024192,"Mini Coconut Chocolates, Bounties (303 g)",Bounty,Σοκολατάκια,0.275 kg,kg,15.818,,sokolatakia-me-karyda-minis-bounty-275-g
 4100024196,Lima Beans Kastorias Arosis (500g),Άροσις,Φακές,0.5 kg,kg,7.4,,biologikes-fakes-psiles-grebenwn-arosis-500g
+4100024198,Parboiled Rice Thessaloniki Arosis (500g),Άροσις,Βιολογικό Ρύζι,0.5 kg,kg,5.68,,biologiko-ryzi-kitrino-mponet-thessalonikhs-arosis-500g
 4100024203,Tomato Passata Bio Farma (500 g),Bio Farma,Χυμός τομάτας,0.5 kg,kg,3.24,,biologikos-xymos-tomatas-passata-biofarma-500-g
 4100024204,"Finely sliced Tomato, Bio Farma (400 g)",Bio Farma,Ψιλοκομμένες τομάτες,0.5 kg,kg,3.7,,biologiko-tomataki-psilokommeno-bio-farma-500-g
 4100024205,"Organic soft flour, Bio Farma (1 kg)",Bio Farma,Ολικής άλεσης,1 kg,kg,3.51,,biologiko-aleyri-olikhs-aleshs-bio-farma-1-kg
@@ -2287,7 +2292,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100024637,"Honey Mustard Peanuts, Pellito (150g)",Pellito,Φυστίκια,0.15 kg,kg,9.733,,fistikia-alatismena-me-meli-moystarda-pellito-150g
 4100024638,"Barbecue Peanuts ,Pellito (150g)",Pellito,Φυστίκια,0.15 kg,kg,9.733,,fistikia-me-geysh-barbeque-pellito-150g
 4100024639,"Smoked Almonds, Pellito (140g)",Pellito,Αμύγδαλα,0.14 kg,kg,21.143,,kapnista-amygdala-pellito-140g
-4100024640,"Mixed Nuts, with Cranberries, Pellito (150g)",Pellito,Ανάμεικτοι,0.15 kg,kg,17.267,,
+4100024640,"Mixed Nuts, with Cranberries, Pellito (150g)",Pellito,Ανάμεικτοι,0.15 kg,kg,17.267,,anameiktoi-xhroi-karpoi-cranberries-pellito-150g
 4100024641,"Jamaican Mix, Exotic Fruits & Nuts, Pellito (125g)",Pellito,Ανάμεικτοι,0.125 kg,kg,16.88,,anameiktoi-xhroi-karpoi-apoxhramena-froyta-pellito-125g
 4100024642,"Nut Mix, Dry Roasted, Pelltio (140g)",Pellito,Ανάμεικτοι,0.14 kg,kg,16.429,,anameiktoi-xhroi-karpoi-pellito-140g
 4100024647,"Chewing Gums, Spearmint Flavour, Trident Senses (27g)",Trident,Μαλακές,0.027 kg,kg,51.111,,tsixles-me-geysh-dyosmo-trident-senses-27g
@@ -2384,7 +2389,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100136020,French Cacao Truffles (150g),Nature,Σοκολατάκια,0.15 kg,kg,19.733,,gallikes-troyfes-kakao-150-g
 4100136048,Frozen Risotto Hawai mix Ainos (1 Κg),Αίνος,Διάφορα,1 kg,kg,3.69,,rizoto-laxanikwn-hawai-mix-katepsygmeno-ainos-1-kg
 4100136049,Broccoli Frozen Ainos (750 g),Αίνος,Μπρόκολο,0.75 kg,kg,4.6,,mprokolo-katepsygmeno-ainos-750-g
-4100136065,"Sliced wheat bread, Plus Papadopoulou (700 g)",Plus,Ψωμί Του Τοστ,0.7 kg,kg,2.657,,
+4100136065,"Sliced wheat bread, Plus Papadopoulou (700 g)",Plus,Ψωμί Του Τοστ,0.7 kg,kg,2.657,,pswmi-gia-tost-starenio-plus-papadopoyloy-700-g
 4100136067,"Sliced bread Whole grain & Rye ""Gefsi2"", Papadopoulou (700 g)",Γεύση2,Ψωμί Του Τοστ,0.7 kg,kg,2.657,,pswmi-gia-tost-olikhs-aleshs-sikalhs-geysh2-papadopoyloy-700-g
 4100136075,Mature & Creamy Cheddar in Slices Wyke Farms (8 Slices) (160 g),Wyke Farms,Σε Φέτες,0.16 kg,kg,25.625,,tyri-cheddar-mature-creamy-wyke-farms-se-fetes-160-g
 4100136079,Prosciutto Cotto il tartufo 4 Slices Citterio (100 g),Citterio,Σαλάμι αέρος,0.1 kg,kg,45.5,,
@@ -2394,6 +2399,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100136165,"Italian Salad, Freskoulis (425 g)",Φρεσκούλης,Έτοιμες Σαλάτες,0.425 kg,kg,6.988,,salata-italikh-freskoylhs-425g
 4100136223,Chocolate with Triplo Hazelneut (50g),Triplo,Σνακς,0.05 kg,kg,19.6,,sokolata-galaktos-me-gemish-triplo-foyntoyki-50-g
 4100136284,"Smoked Wild Norwegian Salmon, Hyttels (200g)",Hyttels,Ψάρια καπνιστά,0.2 kg,kg,94.95,,kapnistos-agrios-solomos-seawell-200g
+4100136320,Frozen Turkey Doux with Thermometer (minimum weight 3 kg),Doux,Πουλερικά,3 kg,kg,5.99,,galopoyla-katepsygmenh-gallias-me-thermometro-doux-elaxisto-baros-3-kg
 4100136361,"Ceasars Salad, Freskoulis (260 g)",Φρεσκούλης,Σαλάτες - γευματα,0.26 kg,kg,16.346,,salata-geyma-ceasars-freskoylhs-260g
 4100136362,"Italian Salad, Freskoulis (220 g)",Φρεσκούλης,Σαλάτες - γευματα,0.22 kg,kg,16.273,,salata-geyma-italian-freskoylhs-220-g
 4100136363,"Caprese Salad, Freskoulis (250 g)",Φρεσκούλης,Σαλάτες - γευματα,0.25 kg,kg,15.92,,salata-geyma-caprese-freskoylhs-350-g
@@ -2518,6 +2524,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100137171,"House Blend Grande Capsules for Nescafe Dolce Gusto Coffee Maker, Starbucks (12 caps)",Starbucks,Κάψουλες,12 pcs,piece,0.498,,kapsoyles-house-blend-americano-gia-mhxanh-nescafe-dolce-gusto-starbucks-12-kapsoyles
 4100137183,"Steak Bio Evvitopoi (minimum weight 1,2kg)",Ευβιότοποι,Μοσχάρι,1.2 kg,kg,26.9,,boeia-spalomprizola-biologikh-eybiotopoi-elaxisto-baros-12-kg
 4100137193,"Vanilla Icing, Bety Crocker (400g)",Betty Crocker,Διάφορα γαρνιρίσματα,0.4 kg,kg,9.125,,glasso-me-arwma-banilia-betty-crocker-400g
+4100137194,"Tortillas, Gluten Free, Old El Paso (216g)",Old el Paso,Τορτίγες & Τάκος,0.216 kg,kg,18.333,,tortigies-xwris-gloytenh-old-el-paso-216g
 4100137201,"Semi-hard Cheese in Slices, light 10%, Yia Tostaki, Belas (9 slices) (180g)",Μπέλας,Σε Φέτες,0.18 kg,kg,17.667,,hmisklhro-tyri-se-fetes-light-10-gia-tostaki-mpelas-180g
 4100137207,Mini Greek Pitas 10 pcs Elviart (410g),Ελβιάρτ,Πίτες για σουβλάκι,0.41 kg,kg,4.537,,pitakia-10-tem-elbiart-410g
 4100137209,"Round Brioche Burger Buns, Selection, Kris Kris (360g)",Κρις Κρις,Burger,0.36 kg,kg,6.639,,pswmakia-brioche-gia-mpergker-selection-kris-kris-360g
@@ -2567,6 +2574,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100137420,"Maestyri Cheese, with Pepper, Kostarelos (min. weight 300g)",Kostarelos,"Χαλούμι, Ταλαγάνι & Παραδοσιακά Τυριά",0.3 kg,kg,24.9,,tyri-maestyri-me-piperia-tyrokomeio-kwstareloy-elaxisto-baros-300g
 4100137421,"Feta Cheese, P.D.O., from the barrel, 6 months ripening, Kostarelos (min. weight 250g)",Kostarelos,Φέτα Π.Ο.Π.,0.25 kg,kg,24.12,,tyri-feta-barelisia-pop-6mhnhs-wrimanshs-tyrokomeio-kwstareloy-elaxisto-baros-250g
 4100137422,"Feta Cheese, P.D.O., from the barrel, 6 months ripening, Kostarelos (min. weight 300g)",Kostarelos,Φέτα Π.Ο.Π.,0.3 kg,kg,24.1,,tyri-feta-barelisia-pop-6mhnhs-wrimanshs-tyrokomeio-kwstareloy-elaxisto-baros-300g
+4100137428,"Feta Cheese, P.D.O., from the barrel, Kostarelos (min. weight 250g)",Kostarelos,Φέτα Π.Ο.Π.,0.25 kg,kg,21.88,,tyri-feta-barelisia-pop-tyrokomeio-kwstareloy-elaxisto-baros-250g
 4100137429,"Feta Cheese, P.D.O., from the barrel, 12 months ripening, Kostarelos (min. weight 150g)",Kostarelos,Φέτα Π.Ο.Π.,0.15 kg,kg,25.867,,
 4100137430,"Goat’s Milk Cheese, Kostarelos (min. weight 300g)",Kostarelos,Κατσικίσια Τυριά,0.3 kg,kg,22.1,,tyri-katsikisio-tyrokomeio-kwstareloy-elaxisto-baros-300g
 4100137440,"Instant Coffee, Espresso, Jacobs (95 g)",Jacobs,"Espesso, Cappuccino & Γεύσεις",0.095 kg,kg,63.053,,kafes-stigmiaios-espresso-jacobs-95-g
@@ -2618,7 +2626,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100137848,Bananas (almost ripe) Dole (min. weight 1Κg),Dole,Μπανάνες,1 kg,kg,2.26,,mpananes-sxedon-wrimes-dole-elaxisto-baros-1kg-1
 4100137849,"Bananas (almost ripe) Dole (min. weight 1,05Κg)",Dole,Μπανάνες,1.05 kg,kg,2.257,,mpananes-sxedon-wrimes-dole-elaxisto-baros-105g
 4100137850,"Bananas (almost ripe) Dole (min. weight 1,1Κg)",Dole,Μπανάνες,1.1 kg,kg,2.264,,mpananes-sxedon-wrimes-dole-elaxisto-baros-11kg-1
-4100137851,Bananas (ripe) Dole (min. weight 800g),Dole,Μπανάνες,0.8 kg,kg,2.262,,
+4100137851,Bananas (ripe) Dole (min. weight 800g),Dole,Μπανάνες,0.8 kg,kg,2.262,,mpananes-wrimes-dole-elaxisto-baros-800g-1
 4100137852,Bananas (ripe) Dole (min. weight 850g),Dole,Μπανάνες,0.85 kg,kg,2.259,,mpananes-wrimes-dole-elaxisto-baros-850g
 4100137853,Bananas (ripe) Dole (min. weight 900g),Dole,Μπανάνες,0.9 kg,kg,2.256,,mpananes-wrimes-dole-elaxisto-baros-900g
 4100137854,Bananas (ripe) Dole (min. weight 950g),Dole,Μπανάνες,0.95 kg,kg,2.263,,mpananes-wrimes-dole-elaxisto-baros-950g
@@ -2726,9 +2734,9 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100138151,"Bananas (almost ripe) Dole (min. weight 1,3Kg)",Dole,Μπανάνες,1.3 kg,kg,2.262,,mpananes-sxedon-wrimes-dole-elaxisto-baros-13kg-1
 4100138152,"Bananas (almost ripe) Dole (min. weight 1,4Kg)",Dole,Μπανάνες,1.4 kg,kg,2.257,,mpananes-sxedon-wrimes-dole-elaxisto-baros-14kg-1
 4100138153,"Bananas (almost ripe) Dole (min. weight 1,5Kg)",Dole,Μπανάνες,1.5 kg,kg,2.26,,mpananes-sxedon-wrimes-dole-elaxisto-baros-15kg-1
-4100138154,"Bananas (almost ripe) Chiquita (min. weight 1,35Kg)",Chiquita,Μπανάνες,1.35 kg,kg,2.341,,
-4100138155,"Bananas (almost ripe) Chiquita (min. weight 1,4Kg)",Chiquita,Μπανάνες,1.4 kg,kg,2.343,,
-4100138160,Organic Bananas (almost ripe) Dole (min. weight 650g),Dole,Βιολογικά,0.65 kg,kg,2.092,,
+4100138154,"Bananas (almost ripe) Chiquita (min. weight 1,35Kg)",Chiquita,Μπανάνες,1.35 kg,kg,2.341,,mpananes-sxedon-wrimes-chiquita-elaxisto-baros-135kg
+4100138155,"Bananas (almost ripe) Chiquita (min. weight 1,4Kg)",Chiquita,Μπανάνες,1.4 kg,kg,2.343,,mpananes-sxedon-wrimes-chiquita-elaxisto-baros-14kg
+4100138160,Organic Bananas (almost ripe) Dole (min. weight 650g),Dole,Βιολογικά,0.65 kg,kg,2.092,,mpananes-biologikes-sxedon-wrimes-dole-elaxisto-baros-650g-1
 4100138161,Organic Bananas (almost ripe) Dole (min. weight 750g),Dole,Βιολογικά,0.75 kg,kg,2.093,,mpananes-biologikes-sxedon-wrimes-dole-elaxisto-baros-750g-1
 4100138162,Organic Bananas (almost ripe) Dole (min. weight 1.25Kg),Dole,Βιολογικά,1.25 kg,kg,2.088,,mpananes-biologikes-sxedon-wrimes-dole-elaxisto-baros-125kg-1
 4100138163,Organic Bananas (almost ripe) Dole (min. weight 1.4Kg),Dole,Βιολογικά,1.4 kg,kg,2.093,,mpananes-biologikes-sxedon-wrimes-dole-elaxisto-baros-14kg-1
@@ -2822,7 +2830,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100139009,"Greek Honey with Lemon & Orange Blossom, Meligyris (500g)",Meligyris,Μέλι,0.5 kg,kg,16.5,,meli-ellhniko-me-anthh-lemonias-portokalias-meligyrhs-500g
 4100139010,"Honey Pine Thyme, Meligyris (500g)",Meligyris,Μέλι,0.5 kg,kg,16.5,,meli-peykothymaro-meligyrhs-500g
 4100139035,Organic Bananas (ripe) Dole (min. weight 600g),Dole,Βιολογικά,0.6 kg,kg,2.083,,mpananes-biologikes-wrimes-dole-elaxisto-baros-600g-1
-4100139040,"Tortillas, Whole Wheat with Flaxseed, Alfra (370g)",Alfa,Τορτίγες & Τάκος,0.37 kg,kg,6.432,,
+4100139040,"Tortillas, Whole Wheat with Flaxseed, Alfra (370g)",Alfa,Τορτίγες & Τάκος,0.37 kg,kg,6.432,,pita-tortigia-olikhs-aleshs-me-linarosporo-alfa-370g
 4100139057,"Miranda Biscuits 30% Less Sugar, Papadopoulou (6x30g)",Παπαδοπούλου,Κλασικά,0.18 kg,kg,9.444,,mpiskota-miranta-30-ligoterh-zaxarh-papadopoyloy-6x30g
 4100139059,"Biscuits Petit Beurre, No Added Suger, Papadopoulou (225g)",Παπαδοπούλου,Κλασικά,0.225 kg,kg,6.356,,mpiskota-pti-mper-xwris-prosthhkh-zaxarhs-papadopoyloy-225g
 4100139060,"Biscuits with Oats, Cocoa & Dark Chocolate, No Added Sugar, Papadopoulou (115g)",Παπαδοπούλου,Cookies,0.155 kg,kg,13.29,,mpiskota-brwmhs-xwris-prosthhkh-zaxarhs-me-kakao-mayrh-sokolata-papadopoyloy-115g
@@ -2841,7 +2849,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100139160,"Bananas (ripe) Chiquita (min. weight 1,45Kg)",Chiquita,Μπανάνες,1.45 kg,kg,2.338,,mpananes-wrimes-chiquita-elaxisto-baros-145kg
 4100139161,"Bananas (ripe) Dole (min. weight 1,4Kg)",Dole,Μπανάνες,1.4 kg,kg,2.257,,mpananes-wrimes-dole-elaxisto-baros-14kg-1
 4100139176,"Bananas (ripe) Chiquita (min. weight 1,5Kg)",Chiquita,Μπανάνες,1.5 kg,kg,2.34,,mpananes-wrimes-chiquita-elaxisto-baros-15kg
-4100139224,"Capsules, Holiday Blend,Toffee Nut, Starbucks By Nespresso (10 capsules)",Starbucks,Κάψουλες,10 pcs,piece,0.498,,
+4100139224,"Capsules, Holiday Blend,Toffee Nut, Starbucks By Nespresso (10 capsules)",Starbucks,Κάψουλες,10 pcs,piece,0.498,,kapsoyles-holiday-blend-starbucks-by-nespresso-10-kapsoyles
 4100139225,"Capsules Toffee Nut Latte for Nescafe Dolce Gusto Coffee Maker, Starbucks (12 capsules)",Starbucks,Κάψουλες,6 pcs,piece,1.097,,kapsoyles-toffee-nut-latte-gia-mhxanh-nescafe-dolce-gusto-starbucks-12-kapsoyles
 4100139229,"Pot Noodles, Grilled Shrimp & Vegetables, Oriental Express (85g)",Oriental Express,Άπω Ανατολής,0.085 kg,kg,22.471,,
 4100139230,"Bean Sprouts, Oriental Express (330g)",Oriental Express,Άπω Ανατολής,0.33 kg,kg,6.667,,fytres-fasoliwn-oriental-express-330g
@@ -2957,13 +2965,14 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100140140,"Organic, Ceylon Cinnamon Sticks, Biovita (50g)",Biovita,Κανέλλα,0.05 kg,kg,62.2,,kanela-keynalhs-se-sticks-biologikh-biovita-50g
 4100140148,"Cake Mix, Red Velvet, Betty Crocker (425g)",Betty Crocker,Μείγμα για κέικ,0.425 kg,kg,9.365,,meigma-gia-keik-red-velvet-betty-crocker-425g
 4100140167,Frozen Cod Pollock Pescanova (500g n.w. 425g),Pescanova,Ψάρι Φιλέτο,0.425 kg,kg,15.859,,mpakaliaros-rollock-fileto-katepsygmenos-pescanova-500gr-kb-425g
-4100140172,"Flour, Agioritiko, Bread you Love, Allatini (1kg)",Allatini,Μαλακό,1 kg,kg,1.98,,
+4100140172,"Flour, Agioritiko, Bread you Love, Allatini (1kg)",Allatini,Μαλακό,1 kg,kg,1.98,,aleyri-typoy-agioreitiko-bread-you-love-allatinh-1kg
 4100140175,"Flour, Epirus Kneading, Bread you Love, Allatini (1kg)",Allatini,Σκληρό,1 kg,kg,1.98,,aleyri-hpeirwtika-zymwmata-bread-you-love-allatinh-1kg
 4100140179,"Greek Sweet Bread, Katselis (450g)",Κατσέλης,Τσουρέκια,0.45 kg,kg,5.044,,tsoyreki-katselhs-450g
 4100140182,Frozen Pizza with one pizza Special + 1 pizza Margarita Presto (810 g),Presto,Οικογενειακές Πίτσες,0.81 kg,kg,7.58,,pitsa-katepsygmenh-me-foyrnaki-1-pitsa-spesial-1-pitsa-margarita-presto-810-g-1
 4100140207,"Egg Noodles, Oriental Express (300g)",Oriental Express,Άπω Ανατολής,0.3 kg,kg,8.933,,noyntls-aygwn-oriental-express-300g
 4100140232,"ESL Milk, 3.5% fat,Love Milk, Mevgal (1 lt)",Μεβγάλ,Πλήρες,1 lt,l,1.74,,gala-ypshlhs-thermikhs-epexergasias-35-lipara-love-milk-mebgal-1-lt
 4100140233,"ESL Milk, 1.5% fat,Love Milk, Mevgal (1 lt)",Μεβγάλ,Ελαφρύ,1 lt,l,1.74,,gala-ypshlhs-thermikhs-epexergasias-15-lipara-love-milk-mebgal-1-lt
+4100140245,"Classic Olive Oil, Chryselia (1 lt)",Χρυσελιά,Ελαιόλαδο,1 lt,l,7.36,,elaiolado-klasiko-xryselia-1-lt
 4100140246,"Classic Olive Oil, Chryselia (4 lt)",Χρυσελιά,Ελαιόλαδο,4 lt,l,7.025,,elaiolado-klasiko-xryselia-4-lt
 4100140247,"Extra Virgin Olive Oil, Chryselia (1 lt)",Χρυσελιά,Έξτρα παρθένο ελαιόλαδο,1 lt,l,7.69,,elaiolado-extra-partheno-xryselia-1-lt
 4100140263,Italian Style Roast Capsules Starbucks By Nespresso (10 caps),Starbucks,Κάψουλες,10 pcs,piece,0.468,,kapsoyles-italian-style-roast-starbucks-by-nespresso-10-kapsoyles
@@ -3159,6 +3168,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100141524,Τυρί Κρέμα Creme De Camembert President (125g),President,Κρεμώδη & Αλειφόμενα,0.125 kg,kg,19.6,,tyri-krema-creme-de-camembert-president-125g
 4100141526,Τυρί Κρέμα Creme De Brie and Truffle President (105g),President,Κρεμώδη & Αλειφόμενα,0.105 kg,kg,23.333,,tyri-krema-creme-de-brie-kai-troyfa-president-125g
 4100141527,Cheddar Cheese President (8 Pieces) (140g),President,Μίνι & Μερίδες,0.14 kg,kg,13.929,,thgmena-tyrakia-cheddar-president-8-temaxia-140g
+4100141532,"Sliced Bread, Multigrain, Fetes Zois, Kris Kris (500 g)",Κρις Κρις,Ψωμί Του Τοστ,0.5 kg,kg,3.92,,pswmi-toy-tost-polysporo-fetes-zwhs-kris-kris-500g
 4100141533,"100% Whole Wheat Toast Bread, Fetes Zois, Kris Kris (500g)",Κρις Κρις,Ψωμί Του Τοστ,0.5 kg,kg,3.76,,pswmi-toy-tost-100-olikhs-aleshs-fetes-zwhs-kris-kris-500g
 4100141535,"Graviera Grated Cheese from Naxos, P.D.O. (200 g)",Ε.Α.Σ. Νάξου,Τριμμένα,0.2 kg,kg,19.9,,tyri-grabiera-naxoy-trimmenh-pop-200-g
 4100141537,Oat Drink Unsweetened Alpro (1 lt),Alpro,Φυτικά ροφήματα,1 lt,l,2.99,,rofhma-brwmhs-xwris-zaxarh-alpro-1-lt
@@ -3224,7 +3234,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100141975,Round Butter Cookies with Dark Chocolate Coating Marks & Spencer (200 g),Marks & Spencer,Κλασικά,0.2 kg,kg,18.45,,stroggyla-mpiskota-boytyroy-me-epikalypsh-mayrhs-sokolatas-marks-spencer-200-g
 4100141976,Kefata puff pastry cheese pies with feta Alfa Pastry (1Kg),Alfa,Mini Πιτάκια,1 kg,kg,3.96,,kefata-tyropitakia-sfoliatas-me-feta-pop-alfa-pastry-1kg
 4100141977,Kefata puff pastry sausages Alfa Pastry (950g),Alfa,Mini Πιτάκια,0.95 kg,kg,5.053,,kefata-loykanopitakia-sfoliatasalfa-pastry-950g
-4100141978,Kefata cheese pies with Naxos gruyere Alfa Pastry (800g),Alfa,Mini Πιτάκια,0.8 kg,kg,6.862,,kefata-kaseropitakia-me-grabiera-naxoy-pop-alfa-pastry-800g
+4100141978,Kefata cheese pies with Naxos gruyere Alfa Pastry (800g),Alfa,Mini Πιτάκια,0.8 kg,kg,5.15,,kefata-kaseropitakia-me-grabiera-naxoy-pop-alfa-pastry-800g
 4100141985,Soft Jelly Bubbles with Fruit Flavors & Sweet and Sour Aftertaste Marks & Spencer (170 g),Marks & Spencer,Ζελεδάκια,0.17 kg,kg,14.647,,malakes-zeledompoykitses-me-geyseis-froytwn-glykoxinh-epigeysh-marks-spencer-170-g
 4100141986,8 Butter Cookies with Peanuts and Almonds Marks & Spencer (200 g),Marks & Spencer,Κλασικά,0.2 kg,kg,18.45,,8-mpiskota-boytyroy-me-fistikia-typoy-aiginhs-kai-amygdala-marks-spencer-200-g
 4100142001,"Graviera from Crete, P.D.O., Gypas (250 g)",Γύπας,Γραβιέρα & Κεφαλοτύρι,0.25 kg,kg,21.2,,grabiera-krhths-pop-gypas-250g
@@ -3303,7 +3313,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100142279,"Croissant with Hazelnut Praline Filling, Champion (4Χ70g)",Champion,Κρουασάν & Τσουρέκια,0.28 kg,kg,7.821,,kroyasan-me-krema-pralina-champion-4x70g-2
 4100142284,Chicken Whole Fresh Arta Chickens (minimum weight 2.1kg),Arta,Ολόκληρα Κοτόπουλα & Πουλερικά,2.1 kg,kg,4.371,,
 4100142289,"Chips Sticks with Salt, Tsakiris (130g)",Tsakiris,Πατατάκια,0.1 kg,kg,19.6,,tsips-sticks-me-alati-tsakiris-130g
-4100142301,"Traditional Cheese Pie, Frozen, Saroglou (1250 g)",Σαρόγλου,Οικογενειακές Πίτες,1.25 kg,kg,9,,
+4100142301,"Traditional Cheese Pie, Frozen, Saroglou (1250 g)",Σαρόγλου,Οικογενειακές Πίτες,1.25 kg,kg,9,,tyropita-katepsygmenh-xwriatikh-sarogloy-1250-g
 4100142302,"Traditional Cheese and Spinach Pie, Frozen, Saroglou (1250 g)",Σαρόγλου,Οικογενειακές Πίτες,1.25 kg,kg,9,,spanakotyropita-katepsygmenh-xwriatikh-sarogloy-1250-g
 4100142303,"Traditional Leek Pie with Feta Cheese, Frozen, Saroglou (1250 g)",Σαρόγλου,Οικογενειακές Πίτες,1.25 kg,kg,9,,prasopita-katepsygmenh-xwriatikh-me-feta-sarogloy-1250-g
 4100142310,Artichoke Frozen Barba Stathis (750 g),Μπάρμπα Στάθης,Αγκινάρες,0.75 kg,kg,12.227,,agkinares-katepsygmenes-mparmpa-stathhs-750-g
@@ -3430,7 +3440,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100143111,"Extra Virgin Olive Oil, Xenia (1 lt)",Xenia,Έξτρα παρθένο ελαιόλαδο,1 lt,l,9.24,,exairetiko-partheno-elaiolado-xenia-1-lt
 4100143112,"Extra Virgin Olive Oil, Xenia (2 lt)",Xenia,Έξτρα παρθένο ελαιόλαδο,2 lt,l,9.02,,exairetiko-partheno-elaiolado-xenia-2-lt
 4100143134,"Organic Greek Eggplants, Flask-type, (min. weight 750g)",Bio Plus,"Πιπεριές, Μελιτζάνες, Κολοκυθάκια",0.75 kg,kg,3.707,,melitzanes-typoy-flaska-biologikes-ellhnikes-elaxisto-baros-750g-1
-4100143135,"Organic Greek Eggplants, Flask-type, (min. weight 800g)",Bio Plus,"Πιπεριές, Μελιτζάνες, Κολοκυθάκια",0.8 kg,kg,3.7,,
+4100143135,"Organic Greek Eggplants, Flask-type, (min. weight 800g)",Bio Plus,"Πιπεριές, Μελιτζάνες, Κολοκυθάκια",0.8 kg,kg,3.7,,melitzanes-typoy-flaska-biologikes-ellhnikes-elaxisto-baros-800g-1
+4100143136,"Organic Greek Eggplants, Flask-type, (min. weight 850g)",Bio Plus,"Πιπεριές, Μελιτζάνες, Κολοκυθάκια",0.85 kg,kg,3.706,,melitzanes-typoy-flaska-biologikes-ellhnikes-elaxisto-baros-850g-1
 4100143153,"Lactose-free milk, Freelact 3.5% fat, Olympos (1lt)",Freelact,Πλήρες,1 lt,l,2.82,,gala-xwris-laktozh-freelact-35-lipara-olympos-1lt
 4100143173,Dark chocolate stick with a mint flavoured centre Marks & Spencer (125 g),Marks & Spencer,Κλασικά,0.125 kg,kg,39.92,,stiks-skoyras-sokolatas-me-geysh-mentas-sto-kentro-marks-spencer-125-g
 4100143175,milk chocolate with ground hazelnuts and a milk chocolate filling Marks & Spencer (205 g),Marks & Spencer,Κλασικά,0.205 kg,kg,38.976,,troyfakia-sokolatas-galaktos-me-gemish-sokolatas-galaktos-marks-spencer-205-g
@@ -3629,13 +3640,14 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100144089,Margarine Fast Soft (220g),Fast,Μαργαρίνη,0.22 kg,kg,7.045,,margarinh-fast-soft-225g
 4100144090,"Margarine, Fast, Soft Light (220 g)",Fast,Μαργαρίνη,0.2 kg,kg,8.2,,margarinh-fast-soft-light-220-g
 4100144091,"Margarine, Fast Soft (850 g)",Fast,Μαργαρίνη,0.85 kg,kg,5.8,,margarinh-fast-soft-850-g
+4100144093,"Organic Greek Avocado, (ripe) (min. weight 600 g)",Bio Plus,"Ανανάς, Αβοκάντο, Εξωτικά φρούτα",0.6 kg,kg,7.9,,abokanto-biologika-malaka-ellhnika-elaxisto-baros-600g-2
 4100144097,"Fresh Pasta, Gnocchi, Rana (400g)",Rana,"Νιόκι, αχιβάδες κ.α.",0.4 kg,kg,6.725,,freska-zymarika-nioki-patatas-rana-400g
 4100144105,"Halva mini Vanilla and Cocoa multipack, Olympos (8x20g)",OLYMPOS,"Χαλβάς, Λουκούμια, Μαστίχες",0.16 kg,kg,13.938,,xalbas-mini-banilia-kai-kakao-polysyskeyasia-olympos-8x20gr
 4100144128,Thrapsalo in spicy sauce Flokos (160g),Flokos,Θαλασσινά & Μαλάκια,0.16 kg,kg,18.688,,thrapsala-se-pikantikh-saltsa-flokos-160g
 4100144130,Thrapsalo in oil & oregano Flokos (150g),Flokos,Θαλασσινά & Μαλάκια,0.15 kg,kg,20,,thrapsala-se-fytiko-ladi-riganh-flokos-150g
 4100144159,Beans with Onion Sauce & Tomato Sauce Paliria (200 g),Παλίρροια,Έτοιμα φαγητά,0.2 kg,kg,13.1,,fasolia-gigantes-se-saltsa-kremmydioy-tomatas-piato-palirroia-200-g
 4100144184,"White Cabbage, Organic, Greek (min. weight 900g)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.9 kg,kg,3.7,,
-4100144190,"White Cabbage, Organic, Greek (min. weight 1,15Kg)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",1.15 kg,kg,3.696,,
+4100144190,"White Cabbage, Organic, Greek (min. weight 1,15Kg)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",1.15 kg,kg,3.696,,laxano-aspro-biologiko-ellhniko-elaxisto-baros-115kg-3
 4100144191,"White Cabbage, Organic, Greek (min. weight 1,2Kg)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",1.2 kg,kg,3.7,,
 4100144207,"White Cabbage, Organic, Greek (min. weight 1,75Kg)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",1.75 kg,kg,3.703,,
 4100144235,Redfish Headless 300-500 Frozen Atlantikos (min. weight 600g),Atlantikos,Ψάρια ολόκληρα,0.6 kg,kg,7.1,,kokkinopsaro-akefalo-300-500-katepsygmeno-atlantikos-elaxisto-baros-600-g
@@ -3674,8 +3686,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100144465,Organic Greek Dry Onions (min. weight 1.55kg),Bio Plus,"Πατάτες, Κρεμμύδια, Σκόρδα",1.55 kg,kg,2.4,,kremmydia-xera-leyka-biologika-ellhnika-elaxisto-baros-155kg
 4100144466,Organic Greek Dry Onions (min. weight 1.6kg),Bio Plus,"Πατάτες, Κρεμμύδια, Σκόρδα",1.6 kg,kg,2.4,,kremmydia-xera-leyka-biologika-ellhnika-elaxisto-baros-16kg
 4100144467,"Leek, Organic, Greek (min. weight 600 g)",Bio Plus,Βιολογικά,0.6 kg,kg,3.8,,prasa-biologika-ellhnika-elaxisto-baros-600-g-2
-4100144468,"Leek, Organic, Greek (min. weight 650 g)",Bio Plus,Βιολογικά,0.65 kg,kg,3.8,,
-4100144469,"Leek, Organic, Greek (min. weight 700g)",Bio Plus,Βιολογικά,0.7 kg,kg,3.8,,
+4100144468,"Leek, Organic, Greek (min. weight 650 g)",Bio Plus,Βιολογικά,0.65 kg,kg,3.8,,prasa-biologika-ellhnika-elaxisto-baros-650g-1
+4100144469,"Leek, Organic, Greek (min. weight 700g)",Bio Plus,Βιολογικά,0.7 kg,kg,3.8,,prasa-biologika-ellhnika-elaxisto-baros-700g-1
 4100144470,"Organic Greek Tomatoes (min. weight 1,35Κg)",Bio Plus,"Αγγούρια, Τομάτες",1.35 kg,kg,3.6,,tomates-biologikes-ellhnikes-elaxisto-baros-135kg-3
 4100144473,Organic Greek Dry Onions (min. weight 1.5kg),Bio Plus,"Πατάτες, Κρεμμύδια, Σκόρδα",1.5 kg,kg,2.4,,kremmydia-xera-leyka-biologika-ellhnika-elaxisto-baros-15kg
 4100144475,"Dalicate fries, Frozen, Barba Stathis (1 kg)",Μπάρμπα Στάθης,Κατεψυγμένες Πατάτες,1 kg,kg,4.75,,patates-katepsygmenes-ntelikates-mparmpa-stathhs-1kg
@@ -3739,9 +3751,11 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100144654,"Bran Crackers with oat, Tsanos (107g)",Tsanos,Κράκερς,0.107 kg,kg,23.178,,crackers-bran-me-brwmh-tsanos-107g
 4100144656,"Kiwis, Tsechelidis, Organic Greek (min. weight 750g)",Bio Plus,Ακτινίδια,0.75 kg,kg,7.4,,
 4100144660,"Kiwis, Tsechelidis, Organic Greek (min. weight 650g)",Bio Plus,Ακτινίδια,0.65 kg,kg,7.4,,aktinidia-biologika-ellhnika-elaxisto-baros-650g-3
+4100144661,Organic Imported carrots (min. weight 950g),Bio Plus,"Καρότα, Τζίντζερ, Ραπανάκια",0.95 kg,kg,2.095,,karota-biologika-ellhnika-elaxisto-baros-950g-3
 4100144663,"Kefir Strawberry, Raspberry Koukakis Farm (4Χ200 ml)",Koukakis Farm,Κεφίρ,0.8 lt,l,4.562,,kefir-fraoyla-byssino-batomoyro-farma-koykakh-4x330-ml
 4100144674,"Lemons, Organic, Greek (min. weight 950g)",Bio Plus,Λεμόνια & Λάιμ,0.95 kg,kg,2.895,,
 4100144675,Bread with linseed Mestemacher (500 g),Mestemacher,Ψωμί ειδικού τύπου,0.5 kg,kg,7.82,,pswmi-me-linarosporo-mestemacher-500-g
+4100144680,"Kiwis, Tsechelidis, Organic Greek (min. weight 600g)",Bio Plus,Ακτινίδια,0.6 kg,kg,7.4,,aktinidia-biologika-ellhnika-elaxisto-baros-600g-3
 4100144684,Beef Pastrami Symposium (120 g),Simposion,"Σύγκλινο, Παστουρμάς, Καβουρμάς",0.12 kg,kg,45.833,,pastrami-mosxoy-symposion-120gr
 4100144690,Chips Bacon Pringles (165g),Pringles,Πατατάκια,0.165 kg,kg,20.485,,patatakia-bacon-pringles-165g-1
 4100144692,"Traditional goat yogurt, Mevgal (220g)",Μεβγάλ,Πρόβειο,0.22 kg,kg,6.5,,giaoyrti-paradosiako-katsikisio-mebgal-220g-1
@@ -3811,6 +3825,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100144910,"Celery, Organic, Greek (1 pc)",Bio Plus,Βιολογικά,1 pcs,piece,1.8,,selino-biologiko-ellhniko-1tem-5
 4100144911,Sliced Mushrooms Holco (200g),Holco,Μανιτάρια & λαχανικά,0.2 kg,kg,9.6,,manitaria-kommena-holco-200g
 4100144912,Sliced Mushrooms Holco (400g),Holco,Μανιτάρια & λαχανικά,0.4 kg,kg,6.975,,manitaria-kommena-holco-400g
+4100144914,"Risotto, with cheeses Riso Gallo (175g)",Riso Gallo,Ριζότο,0.175 kg,kg,12.514,,rizoto-me-tyria-riso-gallo-175g
 4100144915,"Risotto, with mushrooms Riso Gallo (175g)",Riso Gallo,Ριζότο,0.175 kg,kg,13.257,,rizoto-me-manitaria-riso-gallo-175g
 4100144916,Vinegar Special Kalamatas Messino (400 ml),Messino,Ξύδι,0.4 lt,l,2.125,,xydi-special-kalamatas-messino-400-ml
 4100144917,Balsamic Vinegar with Honey Messino (250 ml),Messino,Κρέμα balsamico,0.25 lt,l,13.56,,xydi-balsamiko-me-meli-messino-250-ml
@@ -3832,7 +3847,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100144938,Frizzy salad with sauce Barba Stathis (240g),Μπάρμπα Στάθης,Έτοιμες Σαλάτες,0.24 kg,kg,9.542,,salata-frizath-me-sws-mparmpa-stathhs-240g
 4100144939,Rice cakes Lentils Nutri Valley (135g),Nutri Valley,Γκοφρέτες οσπρίων,0.135 kg,kg,16.444,,afrath-gkofreta-fakhs-nutri-valley-135g
 4100144941,"Pasta Sauce, Basil and Pistacchio, Barilla (190g)",Barilla,Για ζυμαρικά,0.19 kg,kg,19.368,,saltsa-pesto-fystiki-barilla-190g
-4100144942,"Vanilla Cake with cocoa, Allatini (375g)",Allatini,Κέικ,0.375 kg,kg,9.547,,
+4100144942,"Vanilla Cake with cocoa, Allatini (375g)",Allatini,Κέικ,0.375 kg,kg,9.547,,keik-banilia-allatinh-375g
 4100144943,"Organic Greek Starking Apples, (min. weight 1kg)",Bio Plus,Μήλα,1 kg,kg,5,,mhla-starkin-biologika-ellhnika-elaxisto-baros-1kg-1
 4100144944,"Organic Greek Starking Apples, (min. weight 1.2kg)",Bio Plus,Μήλα,1.2 kg,kg,5,,
 4100144945,Organic Greek Santa Maria Pears (minimum weight 950g),Bio Plus,Βιολογικά,0.95 kg,kg,5.095,,axladia-santa-maria-ellhnika-biologika-elaxisto-baros-950g
@@ -3935,7 +3950,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145337,Kefir Strawberry Olympus (330ml),OLYMPOS,Κεφίρ,0.33 lt,l,4.091,,kefir-fraoyla-olympos-330ml
 4100145339,Bacon Burger Citterio (80g),Citterio,Μπέικον,0.08 kg,kg,46.125,,mpeikon-mpergker-citterio-80g
 4100145340,Kefir Fruit of the Forest Olympus (330ml),OLYMPOS,Κεφίρ,0.33 lt,l,4.091,,kefir-froyta-toy-dasoys-olympos-330ml
-4100145359,"Cereal Bars, Dark Chocolate ,Nature Valley (5x42g)",Nature Valley,Μπάρες δημητριακών,0.21 kg,kg,16.571,,
+4100145359,"Cereal Bars, Dark Chocolate ,Nature Valley (5x42g)",Nature Valley,Μπάρες δημητριακών,0.21 kg,kg,16.571,,rabdoi-moysli-me-mayrh-sokolata-nature-valley-5x42-g
+4100145360,"Cereal bars, Oats & Cranberries Nature Valley (5x42 g)",Nature Valley,Μπάρες δημητριακών,0.21 kg,kg,16.571,,mpares-dhmhtriakwn-oats-cranberries-nature-valley-5x42-g
 4100145362,Rice Cakes Bio Clouds Summer Fruits Organix (40g),Organix,Λοιπά σνακς,0.04 kg,kg,83.5,,ryzogkofretes-biologikes-clouds-summer-fruits-40g
 4100145371,Organic Oat Muesli with FruitS Bjorg (375g),Bjorg,Muesli,0.375 kg,kg,11.36,,moysli-brwmhs-biologiko-me-froyta-bjorg-375g
 4100145373,Whole Organic Oat Flakes (500g),Bjorg,Βρώμη,0.5 kg,kg,3.5,,nifades-brwmhs-biologikes-olikhs-500g
@@ -3965,9 +3981,9 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145431,"Penne Rigate, Golden Selection, Melissa (500 g)",Melissa,Πένες & ριγκατόνι,0.5 kg,kg,2.5,,pennes-rige-xrysh-epilogh-melissa-500g
 4100145432,"Rigatoni Golden Selection, Melissa (500 g)",Melissa,Πένες & ριγκατόνι,0.5 kg,kg,2.5,,rigkatoni-xrysh-epilogh-melissa-500g
 4100145433,"Pasta braid ,Golden Selection Melissa (500 g)",Melissa,Σπαγγέτι & άλλα Μακαρόνια,0.4 kg,kg,3.125,,plexoydes-xrysh-epilogh-melissa-500g
-4100145434,Pizza Crust Pop Bakery (400 g),Pop Bakery,Πίτσας,0.4 kg,kg,9.175,,
-4100145435,Fresh Dough for 6 Croissants Pop Bakery (240 g),Pop Bakery,Πίτσας,0.24 kg,kg,13.208,,
-4100145436,Dough for 6 Chocolate Croissants Pop Bakery (275 g),Pop Bakery,Πίτσας,0.275 kg,kg,18,,
+4100145434,Pizza Crust Pop Bakery (400 g),Pop Bakery,Πίτσας,0.4 kg,kg,9.175,,afrath-zymh-gia-pitsa-pop-bakery-400-g
+4100145435,Fresh Dough for 6 Croissants Pop Bakery (240 g),Pop Bakery,Πίτσας,0.24 kg,kg,13.208,,freskia-zymh-gia-6-kroyasan-pop-bakery-240-g
+4100145436,Dough for 6 Chocolate Croissants Pop Bakery (275 g),Pop Bakery,Πίτσας,0.275 kg,kg,18,,zymh-gia-6-kroyasan-me-sokolata-pop-bakery-275-g
 4100145457,Herbal Tea Capsules Aphrodite Natural Boost & Slim 12 GODS 10pcs,12 Gods,Κάψουλες,10 pcs,piece,0.462,,kapsoyles-tsai-botanwn-aphrodite-natural-boost-slim-12-gods-10tmx
 4100145458,Minthi Refreshing Digestive Herbal Tea Capsules 12 GODS 10pcs,12 Gods,Κάψουλες,10 pcs,piece,0.462,,kapsoyles-tsai-botanwn-minthi-refreshing-digestive-12-gods-10tmx
 4100145459,Zeus Calming Relief Herbal Tea Capsules 12 GODS 10 pcs,12 Gods,Κάψουλες,10 pcs,piece,0.462,,kapsoyles-tsai-botanwn-zeus-calming-relief-12-gods-10tmx
@@ -3993,7 +4009,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145670,Mediterranean breadsticks with sesame Elite (125 g),Elite,Κριτσίνια,0.125 kg,kg,14,,kritsinia-mesogeiaka-me-soysami-elite-125-g
 4100145671,Kritsini Mediterranean Tomato & Oregano Elite (125 g),Elite,Κριτσίνια,0.125 kg,kg,14,,kritsinia-mesogeiaka-ntomata-riganh-elite-125-g
 4100145672,"Instant Coffee Shaker, Nescafe Frappe (3 g)",Nescafe,Κλασσικός Στιγμιαίος Καφές,0.0035 kg,kg,137.143,,stigmiaios-kafes-seiker-nescafe-frappe-3-g
-4100145684,"Sliced light cheese, Leerdammer (260g)",Leerdammer,Σε Φέτες,0.26 kg,kg,20,,
+4100145684,"Sliced light cheese, Leerdammer (260g)",Leerdammer,Σε Φέτες,0.26 kg,kg,20,,tyri-se-fetes-light-leerdammer-260g
 4100145685,"Regato Cheese, Kerrygold (230g)",Kerrygold,Κασέρι & ημίσκληρα τυριά,0.23 kg,kg,14.957,,tyri-regato-kerrygold-230g
 4100145686,Sliced Gouda cheese Leader (400g),Leader,"Gouda, Edam, Emmental & Cheddar",0.4 kg,kg,9.025,,tyri-gouda-se-fetes-leader-400g
 4100145696,Whole chicken Mimikos (minimum weight 1700g) -25%,Μιμίκος,Ολόκληρα Κοτόπουλα & Πουλερικά,1.7 kg,kg,5.294,,kotopoylo-oloklhro-mimikos-elaxisto-baros-1700g-25
@@ -4054,7 +4070,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145902,"Frozen Fish Sticks, 10 pcs, Captain Iglo (280 g)",Captain Iglo,Παναρισμένα & Καβουρόψιχα,0.28 kg,kg,18,,fish-sticks-katepsygmena-10temcaptain-iglo-280-g
 4100145903,"Milko chocolate milk, Delta (3x250 ml)",Milko,Σοκολατούχο Γάλα,0.75 lt,l,2.68,,sokolatoyxo-gala-milko-delta-3x250-ml
 4100145908,"Baby Cocktail Fruit with Apple, Banana, and Apricot, Gerber (2x125 g)",Gerber,Έτοιμα Βρεφικά Γεύματα,0.25 kg,kg,10.96,,froytogeymataki-mhlo-berikoko-kai-mpanana-nestle-2x125-g-1
-4100145909,"Powdered milk NAN 4 Optipro, Nestle (800 g)",Nestle,Γάλα,0.8 kg,kg,23.8,,
+4100145909,"Powdered milk NAN 4 Optipro, Nestle (800 g)",Nestle,Γάλα,0.8 kg,kg,23.8,,gala-4hs-brefikhs-hlikias-se-skonh-nan-4-optipro-nestle-800g-1
 4100145910,"Powdered milk NAN 5 Optipro, Nestle (400 g)",Nestle,Γάλα,0.4 kg,kg,24.8,,gala-se-skonh-nan-5-optipro-nestle-400g-1
 4100145917,"Snack from peas with salt & pepper, Palse (85gr)",Palse,Superfoods,0.085 kg,kg,25.647,,snak-apo-araka-me-alati-kai-piperi-palse-85gr
 4100145918,"Snack from peas with salt & pepper, Palse (28gr)",Palse,Superfoods,0.028 kg,kg,35.357,,snak-apo-araka-me-alati-kai-piperi-palse-28gr
@@ -4065,7 +4081,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145933,"Snack caramelized chickpeas with cinnamon, cranberry & dark chocolate (28g)",Palse,Superfoods,0.028 kg,kg,35.357,,snak-apo-karamelwmena-rebithia-me-kanela-kranmperi-mayrh-sokolata-palse-28g
 4100145934,"Snack of peas, beans & corn spicy remix Palse (85g)",Palse,Superfoods,0.085 kg,kg,25.647,,snak-apo-araka-koykia-kalampoki-spicy-remix-85g
 4100145935,"Snack of peas, beans & corn spicy remix (28g)",Palse,Superfoods,0.028 kg,kg,35.357,,snak-apo-araka-koykia-kalampoki-spicy-remix-palse-28g
-4100145936,"Broccoli, Organic, Greek (min. weight 200g)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.2 kg,kg,7.9,,
+4100145936,"Broccoli, Organic, Greek (min. weight 200g)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.2 kg,kg,7.9,,mprokolo-biologiko-ellhniko-elaxisto-baros-200g-4
 4100145953,Sunflower oil Xenia (1lt),Xenia,Ηλιέλαιο,1 lt,l,2.87,,hlielaio-xenia-1lt
 4100145958,"Bean snack with sweet paprika, Palse (28g)",Palse,Κουκιά,0.028 kg,kg,35.357,,snak-apo-koykia-me-glykia-paprika-palse-28g
 4100145986,Biscuits Petit-Ber Violanda (190g),Βιολάντα,Cookies,0.19 kg,kg,7.158,,mpiskota-pti-mper-biolanta-190g
@@ -4209,12 +4225,13 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146405,Potatoes Frozen Airfryer Chips McCain (600 g),McCain,Κατεψυγμένες Πατάτες,0.6 kg,kg,5.6,,patates-katepsygmenes-airfryer-chips-mccain-600-g
 4100146407,President English Cheddar cheese slices (7 slices) (140g),President,Σε Φέτες,0.14 kg,kg,21.357,,tyri-cheddar-agglias-se-fetes-president-7-fetes-140g
 4100146408,Protein Stay Strong Chocolate Milk Drink (500g),President,Σοκολατούχο Γάλα,0.5 lt,l,5,,rofhma-galaktos-protein-stay-strong-me-geysh-sokolata-500g
+4100146410,Sweet Chili Jumbo Tortilla Chips (100g),Jumbo,Πατατάκια,0.1 kg,kg,9.9,,tsips-tortigias-sweet-chili-jumbo-100g
 4100146411,Jumbo Barbecue Tortilla Chips (100g),Jumbo,Πατατάκια,0.1 kg,kg,9.9,,tsips-tortigias-mparmpekioy-jumbo-100g
 4100146420,Tabbouleh and Quinoa Quick Deli Agrino (250g),Agrino,Κινόα,0.25 kg,kg,9.6,,tampoyle-kinoa-quick-deli-agrino-250g
 4100146421,Quick Deli Agrino gluten-free White & Red Quinoa (250g),Agrino,Κινόα,0.25 kg,kg,9.6,,kinoa-leykh-kokkinh-xwris-gloytenh-quick-deli-agrino-250g
 4100146422,Gluten-free Mexican rice Quick Deli Agrino (250g),Agrino,Parboiled,0.25 kg,kg,8.8,,ryzi-mexikaniko-xwris-gloytenh-quick-deli-agrino-250g
 4100146423,Roasted and Salted Pellito Cashews (120g),Pellito,Κάσιους,0.12 kg,kg,25.25,,
-4100146424,Pellito roasted and salted almonds (100g),Pellito,Αμύγδαλα,0.1 kg,kg,21,,
+4100146424,Pellito roasted and salted almonds (100g),Pellito,Αμύγδαλα,0.1 kg,kg,21,,amygdala-pshmena-kai-alatismena-pellito-100g
 4100146426,Smoked Pork Steak With Bone Simposion (minimum weight 400g),Simposion,Χοιρινό Κρέας,0.4 kg,kg,4.35,,mprizola-xoirinh-kapnisth-mo-symposion-elaxisto-baros-400g
 4100146429,"Ketchup, Squeezy Bottle, Hellmann's (540 ml)",Hellmann's,Κέτσαπ,0.54 lt,l,5.537,,ketsap-squeezy-mpoykali-hellmanns-540-ml
 4100146434,Cassiata T. Zagorio with Minced Alfa (650 g),Alfa,Οικογενειακές Πίτες,0.65 kg,kg,6.908,,kassiata-tzagorioy-me-kima-alfa-650-g
@@ -4244,9 +4261,9 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146483,"Carob Rusks, To Manna (270g)",Το Μάννα,Παξιμάδια,0.27 kg,kg,11.074,,paximadi-xaroypioy-to-manna-270g
 4100146484,Grated Polpa Greek Tomatoes (400g),Greka,Χυμός τομάτας,0.4 kg,kg,2.675,,tomata-trimmenh-polpa-gkreka-400g
 4100146486,Imported Dates Menelaos Fresh (200g),Menelaos Fresh,Φρούτα,0.2 kg,kg,6.6,,xoyrmades-eisagwghs-menelaos-fresh-200g
-4100146489,Greka Tomato Paste (410g),Greka,Πελτές τομάτας,0.41 kg,kg,4.78,,
+4100146489,Greka Tomato Paste (410g),Greka,Πελτές τομάτας,0.41 kg,kg,5.39,,tomatopoltos-gkreka-410g
 4100146491,Grated Greek Tomato (400g),Greka,Χυμός τομάτας,0.4 kg,kg,2.125,,trifth-tomata-gkreka-400g
-4100146492,Chopped Greek Tomatoes (400g),Greka,Ψιλοκομμένες τομάτες,0.4 kg,kg,2.275,,
+4100146492,Chopped Greek Tomatoes (400g),Greka,Ψιλοκομμένες τομάτες,0.4 kg,kg,2.775,,psilokommenes-tomates-gkreka-400g
 4100146534,"Crackers with paprika, Wasa (150g)",Wasa,Κράκερς,0.15 kg,kg,15.067,,krakers-me-paprika-wasa-150g
 4100146542,"Bio Bun with Cinnamon, Orange Juice and Sesame Bread Oven, o Fournos tou Psoma (170g)",Φούρνος του Ψωμά,Κουλούρια & Βουτήματα,0.17 kg,kg,22.588,,koyloyraki-me-kanela-xymo-portokalioy-soysami-foyrnos-toy-pswma-170g
 4100146543,"Bio Kritsini with Kalamon Olives, Thyme & Oregano, o Fournos tou Psoma (140g)",Φούρνος του Ψωμά,Κριτσίνια,0.14 kg,kg,21.857,,kritsinia-me-elia-kalamwn-thymari-riganh-140g
@@ -4261,6 +4278,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146569,Cereal Crunchy Bites Choco Granola Nature (375g),ΦΥΣΗ,Δημητριακά,0.375 kg,kg,9.307,,dhmhtriaka-crunchy-bites-choco-granola-fysh-375g
 4100146570,"Couvertoure 65% cocoa, Jotis (125g)",Γιώτης,Διάφορα γαρνιρίσματα,0.125 kg,kg,20.24,,koybertoyra-65-kakao-giwths-125g
 4100146571,"Couvertoure 54% cocoa with stevia, Jotis (125g)",Γιώτης,Διάφορα γαρνιρίσματα,0.125 kg,kg,21.12,,koybertoyra-54-kakao-me-stebia-giwths-125g
+4100146585,Organic Greek Thin Potatoes (min. weight 1.5kg),Bio Plus,Βιολογικά,1.5 kg,kg,2.293,,patates-psiles-foyrnoy-biologikes-ellhnikes-elaxisto-baros-15kg-1
 4100146586,Organic Greek Thin Potatoes (min. weight 1.55kg),Bio Plus,Βιολογικά,1.55 kg,kg,2.29,,patates-psiles-foyrnoy-biologikes-ellhnikes-elaxisto-baros-155kg-1
 4100146591,Organic Greek Granny Smith Apples (min. weight 1.2Κg),Bio Plus,Μήλα,1.2 kg,kg,5,,mhla-gkran-smith-biologika-ellhnika-elaxisto-baros-12kg-1
 4100146595,Organic Greek Dry Onions (min. weight 1.65kg),Bio Plus,"Πατάτες, Κρεμμύδια, Σκόρδα",1.65 kg,kg,2.6,,
@@ -4287,7 +4305,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146733,"Clementine Mandarines, Organic, Greek (min. weight 1.05 kg)",Bio Plus,Βιολογικά,1.05 kg,kg,3.505,,mantarinia-klhmentines-biologika-ellhnika-elaxisto-baros-105kg
 4100146742,"Organic Greek Gala Apples, (min. weight 900 g)",Bio Plus,Μήλα,0.9 kg,kg,5,,mhla-gala-biologika-ellhnika-elaxisto-baros-900-g-1
 4100146743,"Organic Greek Gala Apples, (min. weight 1Kg)",Bio Plus,Μήλα,1 kg,kg,5,,mhla-gala-biologika-ellhnika-elaxisto-baros-1kg-2
-4100146744,"Organic Greek Gala Apples, (min. weight 950 g)",Bio Plus,Μήλα,0.95 kg,kg,5,,
+4100146744,"Organic Greek Gala Apples, (min. weight 950 g)",Bio Plus,Μήλα,0.95 kg,kg,5,,mhla-gala-biologika-ellhnika-elaxisto-baros-950-g-1
 4100146748,"Organic Greek Plum tomatoes, Lobello type (min. weight 300g)",Bio Plus,"Αγγούρια, Τομάτες",0.3 kg,kg,9.5,,tomatinia-belanidi-biologika-ellhnika-elaxisto-baros-300g-2
 4100146749,"Organic Greek Plum tomatoes, Lobello type (min. weight 350g)",Bio Plus,"Αγγούρια, Τομάτες",0.35 kg,kg,9.486,,tomatinia-belanidi-biologika-ellhnika-elaxisto-baros-350g-2
 4100146754,Organic imported Sweet potatoes (min. weight 550g),Bio Plus,Βιολογικά,0.55 kg,kg,4.709,,
@@ -4297,7 +4315,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146762,"Clementine Mandarines, Organic, Greek (min. weight 1.15kg)",Bio Plus,Βιολογικά,1.15 kg,kg,3.496,,mantarinia-klhmentines-biologika-ellhnika-elaxisto-baros-115kg-1
 4100146763,"Lemons, Organic, Greek (min. weight 1.15Kg)",Bio Plus,Λεμόνια & Λάιμ,1.15 kg,kg,2.896,,
 4100146768,Organic Greek Granny Smith Apples (min. weight 1.05Κg),Bio Plus,Μήλα,1.05 kg,kg,5,,
-4100146769,"Organic Greek Gala Apples, (min. weight 1.25Kg)",Bio Plus,Μήλα,1.25 kg,kg,5,,
+4100146769,"Organic Greek Gala Apples, (min. weight 1.25Kg)",Bio Plus,Μήλα,1.25 kg,kg,5,,mhla-gala-biologika-ellhnika-elaxisto-baros-125kg-2
 4100146770,"Organic Greek Gala Apples, (min. weight 1.2Kg)",Bio Plus,Μήλα,1.2 kg,kg,5,,mhla-gala-biologika-ellhnika-elaxisto-baros-12kg-2
 4100146773,Jacobs Fine Filter Coffee (100 g),Jacobs,Κλασσικός Φίλτρου Καφές,0.1 kg,kg,27.8,,kafes-filtroy-eklektos-jacobs-100-g
 4100146780,Bacon Chutney Classic handmade Oi Goumenisses (200g),Οι Γουμένισσες,Για κρέας,0.2 kg,kg,24.75,,chutney-mpeikon-classic-xeiropoihto-oi-goymenisses-200g
@@ -4313,7 +4331,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146798,"Organic Greek Golden Apples, Zagorin (min. weight 1 Κg)",Bio Plus,Μήλα,1 kg,kg,5,,
 4100146800,"Organic Greek Golden Apples, Zagorin (min. weight 1,2Κg)",Bio Plus,Μήλα,1.2 kg,kg,5,,mhla-gkolnten-biologika-ellhnika-elaxisto-baros-12kg
 4100146803,"Yoghurt and egg white with strawberry flavour, Je L'egg, Golden Eggs (150g)",Χρυσά αυγά,Με Γεύσεις,0.15 kg,kg,15.267,,giaoyrti-kai-aspradi-aygoy-me-geysh-fraoyla-je-legg-xrysa-ayga-150g
-4100146814,"Organic Greek Golden Apples, Zagorin (min. weight 1.15 Kg)",Bio Plus,Μήλα,1.15 kg,kg,5,,
+4100146814,"Organic Greek Golden Apples, Zagorin (min. weight 1.15 Kg)",Bio Plus,Μήλα,1.15 kg,kg,5,,mhla-gkolnten-biologika-ellhnika-elaxisto-baros-115kg-1
 4100146815,"Organic Greek Gala Apples, (min. weight 1.05Kg)",Bio Plus,Μήλα,1.05 kg,kg,5,,
 4100146819,"Organic Greek Golden Apples, Zagorin (min. weight 950g)",Bio Plus,Μήλα,0.95 kg,kg,5,,
 4100146822,Τυρί ελαφρύ Ήπειρος (180g),Ήπειρος,Λευκά Τυριά,0.18 kg,kg,20.889,,tyri-elafry-hpeiros-180g
@@ -4427,7 +4445,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147149,Vitamins for gastrointestinal care for pets GASTROPET (60 pcs),Amhes Pet,Pet shop,60 pcs,piece,0.208,,bitamines-gia-frontida-gastrenterikoy-gia-katoikidia-gastropet-60-tmx
 4100147150,Hair strengthening vitamins for pets HAIRPET (60 pcs),Amhes Pet,Pet shop,60 pcs,piece,0.208,,bitamines-gia-enisxysh-trixwmatos-gia-katoikidia-hairpet-60-tmx
 4100147151,Multivitamin for pets MULTIPET (60 pcs),Amhes Pet,Pet shop,60 pcs,piece,0.208,,polybitaminh-gia-katoikidia-multipet-60-tmx
-4100147152,Seskoula Biological Greek (minimum weight 300gr),Bio Plus,Βιολογικά,0.3 kg,kg,3.5,,
+4100147152,Seskoula Biological Greek (minimum weight 300gr),Bio Plus,Βιολογικά,0.3 kg,kg,3.5,,seskoyla-biologika-ellhnika-elaxisto-baros-300g-1
 4100147153,Seskoula Biological Greek (minimum weight 350gr),Bio Plus,Βιολογικά,0.35 kg,kg,3.486,,
 4100147158,Πουτίγκα Βανίλια Protein Super Spoon Κρι Κρι (200g),Κρι Κρι,Φυτικά επιδόρπια,0.2 kg,kg,9.9,,poytigka-banilia-protein-super-spoon-kri-kri-200g
 4100147159,Πουτίγκα Σοκολάτα Protein Super Spoon Κρι Κρι (200g),Κρι Κρι,Φυτικά επιδόρπια,0.2 kg,kg,9.9,,poytigka-sokolata-protein-super-spoon-kri-kri-200g
@@ -4443,7 +4461,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147199,"Ice-cream,Caramel Secrets , Scandal (850 ml)",Scandal,Οικογενειακά,0.85 lt,l,14,,pagwto-oikogeneiako-caramel-secrets-scandal-850-ml
 4100147201,"Ice-cream,Parfait Lovers, Scandal (850 ml)",Scandal,Οικογενειακά,0.85 lt,l,14,,pagwto-oikogeneiako-parfait-lovers-scandal-850-ml
 4100147204,Cauliflower Organic Imported (min. weight 800g),Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.8 kg,kg,4.1,,
-4100147205,"Broccoli, Organic, Greek (min. weight 150g)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.15 kg,kg,7.933,,
+4100147205,"Broccoli, Organic, Greek (min. weight 150g)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.15 kg,kg,7.933,,mprokolo-biologiko-ellhniko-elaxisto-baros-150g-4
 4100147206,"Organic Greek Avocado, (almost ripe) (min. weight 350 g)",Βιοαγρός,Βιολογικά,0.35 kg,kg,7.486,,
 4100147224,Ben & Jerry's Non-Diary Chocolate Fudge Brownie Ice Cream (465ml),Ben&Jerry's,Κύπελα,0.465 lt,l,19.484,,pagwto-no-diary-chocolate-fudge-brownie-ben-jerrys-465ml
 4100147236,"Espresso capsules Lungo Intenso, Illy compatible with Nespresso machines (10 caps)",Illy,Κάψουλες,10 pcs,piece,0.592,,kapsoyles-espresso-lungo-intenso-illy-10-tem
@@ -4456,6 +4474,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147261,Επιδόρπιο Γιαουρτιού Αχλάδι Βερίκοκο Advance Δέλτα (2x140g),Advance,Παιδικό,0.28 kg,kg,8,,epidorpio-giaoyrtioy-axladi-berikoko-advance-delta-2x140g
 4100147262,Επιδόρπιο Γιαουρτιού Μήλο Ροδάκινο & Βρώμη Advance Δέλτα (2x140g),Advance,Παιδικό,0.28 kg,kg,8,,epidorpio-giaoyrtioy-mhlo-rodakino-brwmh-advance-delta-2x140g
 4100147263,Επιδόρπιο Γιαουρτιού Advance Με 5 αλεσμένα δημητριακά Δέλτα (2x140g),Advance,Παιδικό,0.28 kg,kg,8,,epidorpio-giaoyrtioy-advance-me-5-alesmena-dhmhtriaka-delta-2x140g
+4100147265,Επιδόρπιο Γιαουρτιού Φαριν Λακτέ Advance Δέλτα (2x140g),Advance,Παιδικό,0.28 kg,kg,7.393,,epidorpio-giaoyrtioy-farin-lakte-advance-delta-2x140g
 4100147266,Pophouse Cheddar Flavored Popcorn (65g),Pophouse,Ποπ κορν,0.065 kg,kg,35.538,,pop-korn-me-geysh-tsentar-pophouse-65g
 4100147267,Βιολογικό Βρεφικό Γιαούρτι Advance Bio Δέλτα (2x140g),Advance,Παιδικό,0.28 kg,kg,7.679,,biologiko-brefiko-giaoyrti-advance-bio-delta-2x140g-1
 4100147268,Popcorn Sweet Colorful Pophouse (130g),Pophouse,Ποπ κορν,0.13 kg,kg,18.923,,
@@ -4491,7 +4510,10 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147366,"1.7% Strained Yogurt with Strawberry, Gooseberry, Cereal and Flaxseed NΟUNOU PowerBowl (2x175g)",ΝΟΥΝΟΥ,Με φρούτα,0.35 kg,kg,7.086,,epidorpio-straggistoy-giaoyrtioy-powerbowl-17-me-fraoyla-fragkostafylo-dhmhtriaka-kai-linarosporo-noynoy-2x175g
 4100147371,Zeas Caramelgos Sliced Bread (500g),Καραμολέγκος,Επιλεγμένα - Pemium,0.5 kg,kg,3.76,,pswmi-se-fetes-karamolegkos-zeas-500g
 4100147373,Sliced Bread High Protein Caramel (500g),Καραμολέγκος,Επιλεγμένα - Pemium,0.5 kg,kg,3.12,,pswmi-se-fetes-high-protein-karamolegkos-340g
+4100147391,Cauliflower Organic Imported (min. weight 350g),Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",0.35 kg,kg,4.086,,koynoypidi-biologiko-ellhniko-elaxisto-baros-350g-2
 4100147396,Halvas Olympos Dark Chocolate and Salted Caramel Olympos (300g),OLYMPOS,"Χαλβάς, Λουκούμια, Μαστίχες",0.3 kg,kg,18.6,,xalbas-mayrh-sokolata-kai-almyrh-karamela-olympos-300g
+4100147399,Γάλα Του Τόπου Μας Ελαφρύ λιπαρά Δέλτα (500ml),Δέλτα,Γάλα και Φυτικά Ροφήματα,0.5 lt,l,2.52,,gala-toy-topoy-mas-elafry-delta-500ml
+4100147400,Γάλα Του Τόπου Μας Πλήρες Δέλτα (500ml),Δέλτα,Γάλα και Φυτικά Ροφήματα,0.5 lt,l,2.52,,gala-toy-topoy-mas-plhres-delta-500ml
 4100147401,Spread Product Super Spread Biscuit & Tahini Olympus (350g),OLYMPOS,Διάφορα είδη επάλειψης,0.35 kg,kg,9.714,,proion-epaleipshs-super-spread-mpiskoto-taxini-olympos-350g
 4100147402,Olympos Super Spread Peanut Butter (350g),OLYMPOS,Φυστικοβούτυρο,0.35 kg,kg,7.8,,proion-epaleipshs-super-spread-fystikoboytyro-olympos-350g
 4100147403,Hazelnut Praline with Stevia Super Spread Olympus (350g),OLYMPOS,Πραλίνες,0.35 kg,kg,9.686,,
@@ -4530,6 +4552,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147488,"Spinach, Organic, Greek (min. weight 750g)",Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.75 kg,kg,2.547,,spanaki-biologiko-ellhniko-elaxisto-baros-750g
 4100147489,"Spinach, Organic, Greek (min. weight 800g)",Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.8 kg,kg,2.55,,spanaki-biologiko-ellhniko-elaxisto-baros-800g
 4100147492,"Spinach, Organic, Greek (min. weight 950g)",Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.95 kg,kg,2.547,,
+4100147495,"Spinach, Organic, Greek (min. weight 550g)",Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.55 kg,kg,2.545,,spanaki-biologiko-ellhniko-elaxisto-baros-550g-1
+4100147496,"Spinach, Organic, Greek (min. weight 650g)",Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.65 kg,kg,2.554,,spanaki-biologiko-ellhniko-elaxisto-baros-650g-1
 4100147511,Mevgal High Protein Cocoa milk drink (330ml),Μεβγάλ,Σοκολατούχο Γάλα,0.33 lt,l,7.212,,rofhma-galaktos-kakao-high-protein-mebgal-330ml
 4100147512,Milk drink Strawberry High Protein Mevgal (330ml),Μεβγάλ,Σοκολατούχο Γάλα,0.33 lt,l,7.212,,rofhma-galaktos-fraoyla-high-protein-mebgal-330ml
 4100147533,Eat Real Quinoa Snack with Sun-Dried Tomato and Garlic Flavor (90g),Eat Real,Πατατάκια,0.09 kg,kg,33.222,,
@@ -4562,8 +4586,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147622,Pre-boiled Imported beets (500g),Menelaos Fresh,"Χόρτα, Παντζάρια, Σπανάκι",0.5 kg,kg,2.2,,pantzaria-probrasmena-lithoyanias-500g
 4100147629,Greek Organic Carrots (700g),Menelaos Fresh,"Καρότα, Τζίντζερ, Ραπανάκια",0.7 kg,kg,2.686,,karota-ellhnika-biologika-700g
 4100147640,Golden Crete Thyme Honey (900g),Golden Crete,Μέλι,0.9 kg,kg,14.756,,meli-thymarisio-xrysh-krhth-900g
-4100147641,Synergasia Cretan Honey (900g),Συνεργασία,Μέλι,0.9 kg,kg,13.944,,
-4100147642,Mountain Tea Collaboration (30g),Συνεργασία,Διάφορα είδη,0.03 kg,kg,84.667,,
+4100147641,Synergasia Cretan Honey (900g),Συνεργασία,Μέλι,0.9 kg,kg,13.944,,meli-krhths-synergasia-900g
+4100147642,Mountain Tea Collaboration (30g),Συνεργασία,Διάφορα είδη,0.03 kg,kg,84.667,,tsai-toy-boynoy-synergasia-30g
 4100147643,Chamomile Collaboration (30g),Συνεργασία,Χαμομήλι,0.03 kg,kg,83.333,,xamomhli-synergasia-30g
 4100147644,Diktamo Collaboration (30g),Συνεργασία,Διάφορα,0.03 kg,kg,76,,diktamo-synergasia-30g
 4100147646,Raisin Black Corinthian Collaboration (200g),Συνεργασία,Αποξηραμένα φρούτα,0.2 kg,kg,12.9,,stafida-mayrh-korinthiakh-synergasia-200g
@@ -4691,7 +4715,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100148094,Chicken burger with oats and roasted sweet potato Tenacious Greek (390g),Tenacious Greek,Μαγειρευτά,0.39 kg,kg,17.179,,mpifteki-kotopoyloy-me-brwmh-kai-pshth-glykopatata-tenacious-greek-390g
 4100148095,Cannelloni with Beef Mince Bechamel & Naxos Gruyere Tenacious Greek (350g),Tenacious Greek,Μαγειρευτά,0.39 kg,kg,16.667,,kanelonia-me-mosxarisio-kima-mpesamel-grabiera-naxoy-tenacious-greek-350g
 4100148096,Moussaka Tenacious Greek (350g),Tenacious Greek,Μαγειρευτά,0.35 kg,kg,19.429,,moysakas-me-mosxaraki-ragoy-tenacious-greek-350g
-4100148097,Beef Minced Meat Burgers with Crispy Potato and Tenacious Greek Salt Blossom (400g),Tenacious Greek,Μαγειρευτά,0.4 kg,kg,16.75,,
+4100148097,Beef Minced Meat Burgers with Crispy Potato and Tenacious Greek Salt Blossom (400g),Tenacious Greek,Μαγειρευτά,0.4 kg,kg,16.75,,mpiftekia-apo-mosxarisio-kima-me-tsakisth-patata-kai-antho-alatioy-tenacious-greek400g
 4100148111,Crackers with Tomato & Basil Elgen (130g),Elgen,Φρυγανιές,0.13 kg,kg,16.154,,kraker-me-ntomata-basiliko-danvita-130g
 4100148117,Cake with Chocolate & Cream Gecchele Elgen (400g),Elgen,Κέικ,0.4 kg,kg,10.5,,keik-me-sokolata-krema-ciambella-400g
 4100148121,Lasagna with Pesto Spinach and Rocket with Authentic Bechamel Tenacious Greek(360g),Tenacious Greek,Μαγειρευτά,0.36 kg,kg,18.056,,lazania-me-pesto-spanaki-kai-roka-me-aythentikh-mpesamel-tenacious-greek360g
@@ -4745,8 +4769,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100148376,Granita Ice Cream Strawberry Sun Lolly (8x60ml),Sun Lolly,Πολυσυσκευασίες,0.48 lt,l,6.146,,pagwto-granita-fraoyla-sun-lolly-8x60ml
 4100148379,Cream jelly Strawberry Dimitriou (180 gr),Δημητρίου,Κρέμες,0.18 kg,kg,6.833,,kremozele-fraoyla-dhmhtrioy-180-gr
 4100148393,Oat Bars with Honey Nature Valley Family Pack (10x42),Nature Valley,Μπάρες δημητριακών,0.42 kg,kg,13.238,,mpares-brwmhs-me-meli-oikogeneiako-paketo-nature-valley-10x42g
-4100148394,Oat Cookies Wholemeal Salted Caramel Nature Valley (160g),Nature Valley,Κλασικά,0.16 kg,kg,24.625,,
-4100148395,Nature Valley Wholemeal Oat Cookies with Chocolate (160g),Nature Valley,Κλασικά,0.16 kg,kg,24.625,,
+4100148394,Oat Cookies Wholemeal Salted Caramel Nature Valley (160g),Nature Valley,Κλασικά,0.16 kg,kg,24.625,,mpiskota-brwmhs-olikhs-aleshs-me-alatismenh-karamela-nature-valley-160g
+4100148395,Nature Valley Wholemeal Oat Cookies with Chocolate (160g),Nature Valley,Κλασικά,0.16 kg,kg,24.625,,mpiskota-brwmhs-olikhs-aleshs-me-sokolata-nature-valley-160g
 4100148409,Cereal Bars Digestive Red Fruit & Milk Chocolate Papadopoulou (5x28g),Παπαδοπούλου,Μπάρες δημητριακών,0.14 kg,kg,21.071,,mpares-dhmhtriakwn-digestive-kokkina-froyta-sokolata-galaktos-papadopoyloy-5x28g
 4100148429,Strawberry and Banana Yoghurt Dessert Bluey Maniacs Mevgal (3 x140 g),Μεβγάλ,Παιδικό,0.42 kg,kg,6.548,,epidorpio-giaoyrtioy-fraoyla-mpanana-bluey-maniacs-mebgal-3-x140-g
 4100148430,"Yoghurt Dessert Pear, Apple, Banana Bluey Maniacs Mevgal (3 x140g)",Μεβγάλ,Παιδικό,0.42 kg,kg,6.548,,epidorpio-giaoyrtioy-axladi-mhlo-mpanana-bluey-maniacs-mebgal-3-x140g
@@ -4849,6 +4873,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100148958,"Chocolate Milk, Rodopaki Protein, Rodopi (3x250 ml)",RODOPI,Σοκολατούχο Γάλα,0.75 lt,l,4.653,,gala-me-kakao-rodopaki-protein-rodoph-3x250-ml
 4100148963,"Red Cabbage, Organic, Greek (min. weight 850g)",Bio Plus,Βιολογικά,0.85 kg,kg,2.165,,
 4100148967,Jellies Sour Mix Las Vegas Gum On! (80g),Gum On!,Ζελεδάκια,0.08 kg,kg,14.125,,zelinia-sour-mix-las-vegas-gum-on-80g
+4100148968,Jellies Sour Watermelons Gum On! (80g),Gum On!,Ζελεδάκια,0.08 kg,kg,14.125,,zelinia-sour-karpoyzakia-gum-on-80g
 4100148970,"Organic Greek Pomegranate (min. weight 1,4kg)",Bio Plus,"Ρόδια, Κυδώνια, Κουμκουάτ",1.35 kg,kg,5,,
 4100148971,Chips Sticks Cup with Salt Tsakiris (105g),Tsakiris,Πατατάκια,0.105 kg,kg,19.905,,tsips-sticks-cup-me-alati-tsakiris-105g
 4100148972,Chips Sticks Cup with Salt Tsakiris (60g),Tsakiris,Πατατάκια,0.06 kg,kg,24.167,,tsips-sticks-cup-me-alati-tsakiris-60g
@@ -4867,13 +4892,13 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149002,KitKat Mini Chocolates Advent Calendar (85 g),ΚΙΤΚΑΤ,Γάλακτος,0.085 kg,kg,52.824,,sokolatakia-advent-calendar-kitkat-85-g
 4100149003,"Milk chocolate Icon Santa, Smarties (50g)",Smarties,Κουφετάκια,0.05 kg,kg,30,,sokolata-galaktos-agios-basilhs-smarties-50g
 4100149004,Imported Organic Ginger (250 gr),Bio Plus,"Καρότα, Τζίντζερ, Ραπανάκια",0.25 kg,kg,9.6,,
-4100149008,"Organic Greek Pomegranate (min. weight 1,3kg)",Bio Plus,"Ρόδια, Κυδώνια, Κουμκουάτ",1.3 kg,kg,5,,
+4100149008,"Organic Greek Pomegranate (min. weight 1,3kg)",Bio Plus,"Ρόδια, Κυδώνια, Κουμκουάτ",1.3 kg,kg,5,,rodi-biologiko-ellhniko-elaxisto-baros-13kg
 4100149012,Chicken Flavored Noodles Knorr (70g),Knorr,Διάφορα,0.07 kg,kg,9.143,,
 4100149014,"Organic Greek Pomegranate (min. weight 1,1kg)",Bio Plus,"Ρόδια, Κυδώνια, Κουμκουάτ",1.1 kg,kg,5,,rodi-biologiko-ellhniko-elaxisto-baros-11kg-1
 4100149023,Black Tea Cinnamon Chai Lipton (20 pyramids x 1.7 g),Lipton,Με γεύσεις,0.034 kg,kg,93.824,,tsai-mayro-kanela-chai-lipton-20-pyramides-x-17-g-1
 4100149027,Organic Greek Firiki Apples (min. weight 950g),Bio Plus,Βιολογικά,0.95 kg,kg,5,,mhla-firikia-biologika-ellhnika-elaxisto-baros-950g
 4100149028,Jalapeno Burger Frozen Vegetable Origin Beyond Meat (2X100g),Beyond Meat,Μοσχάρι,0.2 kg,kg,32.2,,jalapeno-burger-katepsygmena-fytikhs-proeleyshs-beyond-meat-2x100g
-4100149030,Espresso capsules Banoffee Coffee Island (10 caps),Coffee Island,Κάψουλες,10 pcs,piece,0.45,,
+4100149030,Espresso capsules Banoffee Coffee Island (10 caps),Coffee Island,Κάψουλες,10 pcs,piece,0.45,,kapsoyles-espresso-banoffee-coffee-island-10-tem
 4100149041,Whole Milled Oat Flakes Nutri Valley (500g),Nutri Valley,Βρώμη,0.5 kg,kg,3.36,,nifades-brwmhs-olikhs-aleshs-nutri-valley-500g
 4100149042,"Mini wafers with milk chocolate, KitKat (140g)",ΚΙΤΚΑΤ,Mini's,0.14 kg,kg,24.786,,gkofretakia-me-sokolata-galaktos-kitkat-140g
 4100149043,Whole Milled Oat Flakes with Dark Chocolate Pieces Nutri Valley (500g),Nutri Valley,Βρώμη,0.5 kg,kg,3.86,,nifades-brwmhs-olikhs-aleshs-me-kommatia-mayrhs-sokolatas-nutri-valley-500g
@@ -4934,6 +4959,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149194,Mushroom Pies Frozen Zumi Psaxnon (750 g),Ζύμη Ψαχνών,Mini Πιτάκια,0.75 kg,kg,9.32,,manitaropitakia-katepsygmena-zymh-psaxnwn-750-g
 4100149195,Frozen Dough Praline Cakes Zymi Psaxnon (750 g),Ζύμη Ψαχνών,Mini Πιτάκια,0.75 kg,kg,8.133,,pralinopitakia-katepsygmena-zymh-psaxnwn-750-g
 4100149198,"Clementine Mandarines, Organic, Greek (min. weight 900g)",Bio Plus,"Πορτοκάλια, Μανταρίνια, Γκρέιπ Φρούτ",0.9 kg,kg,3.5,,mantarinia-klhmentines-biologika-ellhnika-elaxisto-baros-900g
+4100149200,Frozen Turkey Doux with Thermometer (minimum weight 3.200g),Doux,Πουλερικά,3.2 kg,kg,5.991,,galopoyla-katepsygmenh-gallias-me-thermometro-doux-elaxisto-baros-3200g
 4100149204,Lipton Black Lemon Tea (20 pyramids x 1.7 g),Lipton,Με γεύσεις,0.034 kg,kg,93.824,,tsai-mayro-lemoni-lipton-20-pyramides-x-17-g-1
 4100149206,"Coffee, Instant, Night&Day Select Decaf, Jacobs (100 g)",Jacobs,Κλασσικός Στιγμιαίος Καφές,0.1 kg,kg,69.7,,kafes-stigmiaios-eklektos-nightday-decaf-jacobs-100-g
 4100149208,Extra Virgin Olive Oil Platinum 0.3 Terra Creta 500ml,Terra Creta,Έξτρα παρθένο ελαιόλαδο,0.5 lt,l,24.16,,exairetiko-elaiolado-partheno-platinum-03-terra-creta-500ml
@@ -4949,6 +4975,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149218,Sugarfree Fresh Mints Compass Lemon Flavored Candies (14g),Compass,Διάφορες γεύσεις,0.014 kg,kg,105.714,,karameles-me-geysh-lemoni-sugarfree-fresh-mints-compass-14g
 4100149219,Mango & Passion Fruit Flavored Candies Sugarfree Fresh Mints Compass (14g),Compass,Διάφορες γεύσεις,0.014 kg,kg,105.714,,karameles-me-geysh-mangko-froyta-toy-pathoys-sugarfree-fresh-mints-compass-14g
 4100149220,Sugarfree Fresh Mints Compass Mint Flavored Candies (14g),Compass,Διάφορες γεύσεις,0.014 kg,kg,105.714,,karameles-me-geysh-dyosmo-sugarfree-fresh-mints-compass-14g
+4100149229,"Cauliflower Organic Imported (min. weight 1,25 Kg)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",1.25 kg,kg,4.096,,koynoypidi-biologiko-ellhniko-elaxisto-baros-125kg
 4100149234,Oreo Big Time Lacta Milk Chocolate (300g),Lacta,Γάλακτος,0.3 kg,kg,17.933,,sokolata-galaktos-oreo-big-time-lacta-300g
 4100149245,Rio Mare Spicy Tuna in Olive Oil (2x120g),Rio Mare,Τόνος & τονοσαλάτα,0.24 kg,kg,23.375,,tonos-se-elaiolado-pikantikos-rio-mare-2x120g
 4100149246,Insalatissime Tuna Salad with Tuna Sicily Edition RIO mare (160g),Rio Mare,Τόνος & τονοσαλάτα,0.16 kg,kg,19.562,,tonosalata-insalatissime-me-tono-sicily-edition-rio-mare-160g
@@ -4961,7 +4988,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149259,"Barbecue Sauce, Heinz (400 ml)",Heinz,Για κρέας,0.4 lt,l,10.325,,saltsa-barbecue-heinz-400ml
 4100149288,Grilled Chicken Burger Chicken Chicken Arta (500 g),Arta,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.5 kg,kg,14.9,,mpifteki-kotopoylo-pshmmeno-kotopoyla-artas-500-g-1
 4100149291,"Organic Greek Crystallia Pears (minimum weight 1,25Κg)",Bio Plus,Αχλάδια,1.25 kg,kg,6.2,,
-4100149292,"LOV Peanuts, Caramel & Chocolate Protein Oatmeal Bites (70g)",Lov,Μπάρες δημητριακών,0.07 kg,kg,25.714,,
+4100149292,"LOV Peanuts, Caramel & Chocolate Protein Oatmeal Bites (70g)",Lov,Μπάρες δημητριακών,0.07 kg,kg,25.714,,mpoykitses-brwmhs-me-prwteinh-peanuts-karamela-sokolata-lov-70g
 4100149293,Strawberry and Chocolate Almonds Oatmeal Bites LOV (70g),Lov,Μπάρες δημητριακών,0.07 kg,kg,23.714,,mpoykitses-brwmhs-me-fraoyla-kai-sokolata-lov-70g
 4100149294,Roasted Cashews with Truffle Pellito 120g,Pellito,Κάσιους,0.12 kg,kg,26.25,,kasioys-pshmeno-me-troyfa-pellito-120g
 4100149302,Fluffy Raisin Stragali Pellito (250g),Pellito,Ανάμεικτοι,0.25 kg,kg,10,,stafida-stragali-afrato-pellito-250g
@@ -5017,6 +5044,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149508,Kefir Blueberry Mevgal (330 ml),Μεβγάλ,Κεφίρ,0.33 lt,l,3.515,,kefir-myrtilo-mebgal-330-ml-1
 4100149509,"Milk drink, kefir culture & peach flavor, Mevgal (330ml)",Μεβγάλ,Κεφίρ,0.33 lt,l,3.515,,kefir-xwris-laktozh-me-geysh-rodakino-mebgal-330ml
 4100149517,Feta cheese P.O.P. Soft Cheese Cheese Factory Kostarelos (minimum wage 300gr),Kostarelos,Φέτα Π.Ο.Π.,0.3 kg,kg,21.7,,tyri-feta-pop-malakh-tyrokomeio-kwstareloy-elaxisto-baros-300gr
+4100149518,Feta cheese P.O.P. Soft Cheese Cheese Factory Kostarelos (minimum wage 350gr),Kostarelos,Φέτα Π.Ο.Π.,0.35 kg,kg,21.686,,tyri-feta-pop-malakh-tyrokomeio-kwstareloy-elaxisto-baros-350gr
 4100149519,Feta cheese P.O.P. Soft Cheese Cheese Factory Kostarelos (minimum wage 450gr),Kostarelos,Φέτα Π.Ο.Π.,0.45 kg,kg,21.711,,tyri-feta-pop-malakh-tyrokomeio-kwstareloy-elaxisto-baros-450gr
 4100149520,Feta cheese P.O.P. Soft Cheese Cheese Factory Kostarelos (minimum wage 500gr),Kostarelos,Φέτα Π.Ο.Π.,0.5 kg,kg,21.7,,tyri-feta-pop-malakh-tyrokomeio-kwstareloy-elaxisto-baros-500gr
 4100149521,Feta cheese P.O.P. Soft Cheese Cheese Factory Kostarelos (minimum wage 550gr),Kostarelos,Φέτα Π.Ο.Π.,0.55 kg,kg,21.709,,tyri-feta-pop-malakh-tyrokomeio-kwstareloy-elaxisto-baros-550gr
@@ -5033,7 +5061,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149549,Ruffles Salty Crisps (140 g),Ruffles,Πατατάκια,0.14 kg,kg,13.929,,kymatista-patatakia-alati-ruffles-140-g
 4100149550,"Milko chocolate milk, Delta (500ml)",Milko,Σοκολατούχο Γάλα,0.5 lt,l,2.52,,sokolatoyxo-gala-milko-delta-500ml-1
 4100149551,Ruffles Oregano Chips (140g),Ruffles,Πατατάκια,0.15 kg,kg,13,,kymatista-patatakia-riganh-ruffles-140g
-4100149553,"Yoghurt Dessert, Complet , Delta (1 kg)",Complet,Στραγγιστό,1 kg,kg,4.1,,
+4100149553,"Yoghurt Dessert, Complet , Delta (1 kg)",Complet,Στραγγιστό,1 kg,kg,4.1,,epidorpio-giaoyrtioy-complet-delta-1-kg
 4100149554,Ruffles BBQ Chips (120g),Ruffles,Πατατάκια,0.13 kg,kg,15,,kymatista-patatakia-mparmpekioy-ruffles-120g
 4100149555,"Smart Yoghurt Dessert, Banana, 2+1 Extra, Delta (3 x140g)",Smart,Παιδικό,0.43 kg,kg,7.419,,epidorpio-giaoyrtioy-smart-mpanana-delta-3-x140-g
 4100149556,"Smart Yoghurt Dessert, Biscuit, 2+1 Extra, Delta (3 x140g)",Smart,Παιδικό,0.42 kg,kg,7.595,,epidorpio-giaoyrtioy-smart-mpiskoto-delta-3-x140g
@@ -5065,7 +5093,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149594,Yogurt Dessert 2% fat Spitiko Kri Kri (1 kg),Κρι Κρι,Λευκά,1 kg,kg,3.4,,epidorpio-giaoyrtioy-spitiko-2-lipara-kri-kri-1-kg
 4100149595,"Dark cookies, Allatini (2x175g)",Allatini,Cookies,0.35 kg,kg,8.114,,mpiskota-cookie-dark-allatinh-2x175g
 4100149596,"Biscuits Petit-Beurre, Classic Sugar Free, Allatini (3x225g)",Allatini,Κλασικά,0.675 kg,kg,5.57,,mpiskota-pti-mper-klasiko-allatinh-3x225g
-4100149597,"Goody, Butter cookies, Allatini (3x175g)",Allatini,Κλασικά,0.525 kg,kg,9.124,,
+4100149597,"Goody, Butter cookies, Allatini (3x175g)",Allatini,Κλασικά,0.525 kg,kg,9.124,,mpiskota-goody-boytyroy-allatinh-3x175g
 4100149598,Μεσογειακά Crackers Φυσική Γεύση Elite (3X105g),Elite,Κράκερς,0.315 kg,kg,11.905,,mesogeiaka-crackers-fysikh-geysh-elite-3x105g
 4100149599,Μεσογειακά Crackers με Ντομάτα και Βασιλικό Elite (3x105g),Elite,Κράκερς,0.315 kg,kg,11.905,,mesogeiaka-crackers-me-ntomata-kai-basiliko-elite-3x105g
 4100149600,Μεσογειακά Crackers με Φέτα και Ρίγανη Elite (3X105g),Elite,Κράκερς,0.315 kg,kg,11.905,,mesogeiaka-crackers-me-feta-kai-riganh-elite-3x105g
@@ -5146,12 +5174,12 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149756,"Strained yoghurt dessert 1% fat, Harmony, Strawberry Mevgal (2x170 g)",Harmony,Με φρούτα,0.34 kg,kg,5.353,,epidorpio-giaoyrtioy-harmony-1-lipara-fraoyla-mebgal-2x170g
 4100149757,"Strained yoghurt dessert Harmony1% fat, Forest Fruits, Mevgal (2x170 g)",Harmony,Με φρούτα,0.34 kg,kg,5.353,,epidorpio-giaoyrtioy-harmony-1-lipara-froyta-toy-dasoys-mebgal-2x170-g
 4100149758,"Strained yoghurt dessert Harmony Stracciatella, Mevgal (2x170 g)",Harmony,Με Γεύσεις,0.34 kg,kg,5.353,,epidorpio-giaoyrtioy-harmony-stracciatella-mebgal-2x170g
-4100149771,Bar with Almond Butter and Dark Chocolate Healthy Habits (4x35g),Healthy Habits,Μπάρες δημητριακών,0.14 kg,kg,26.714,,
-4100149773,"Granola with almondbutter, Healthy Habits (350g)",Healthy Habits,Muesli,0.35 kg,kg,9.2,,
+4100149771,Bar with Almond Butter and Dark Chocolate Healthy Habits (4x35g),Healthy Habits,Μπάρες δημητριακών,0.14 kg,kg,35.571,,mpara-me-amygdaloboytyro-kai-mayrh-sokolata-4x35g
+4100149773,"Granola with almondbutter, Healthy Habits (350g)",Healthy Habits,Muesli,0.35 kg,kg,12.257,,granola-me-amygdaloboytyro-healthy-habits-350g
 4100149774,"Granola with hazelnut butter and black chocolate, Healthy Habits (350g)",Healthy Habits,Muesli,0.35 kg,kg,12.829,,granola-me-foyntoykoboytyro-kai-mayrh-sokolata-healthy-habits-350g
 4100149775,"Granola with peanutbutter and black chocolate, Healthy Habits (350g)",Healthy Habits,Muesli,0.35 kg,kg,12.714,,granola-me-fystikoboytyro-kai-mayrh-sokolata-healthy-habits-350g
-4100149783,Bar with Peanut Butter and Dark Chocolate Healthy Habits (4x35),Healthy Habits,Μπάρες δημητριακών,0.14 kg,kg,25.071,,
-4100149784,Bar with Peanut Butter Healthy Habits (4x35),Healthy Habits,Μπάρες δημητριακών,0.14 kg,kg,25.071,,
+4100149783,Bar with Peanut Butter and Dark Chocolate Healthy Habits (4x35),Healthy Habits,Μπάρες δημητριακών,0.14 kg,kg,33.429,,mpara-me-fystikoboytyro-kai-mayrh-sokolata-healthy-habits-4x35
+4100149784,Bar with Peanut Butter Healthy Habits (4x35),Healthy Habits,Μπάρες δημητριακών,0.14 kg,kg,33.429,,mpara-me-fystikoboytyro-healthy-habits-4x35
 4100149787,"Tortillas Classic 20cm, Alfra (320g)",Alfa,Τορτίγες & Τάκος,0.32 kg,kg,6.625,,pita-tortigia-klasikh-20cm-alfa-320g
 4100149790,"Tortillas whole grain 20cm, Alfra (320g)",Alfa,Τορτίγες & Τάκος,0.32 kg,kg,7.781,,pita-tortigia-olikhs-20cm-alfa-320g
 4100149791,"Chocolate Milk, Rodopaki , Rodopi (3x250ml)",RODOPI,Σοκολατούχο Γάλα,0.75 lt,l,2.72,,gala-me-kakao-rodopaki-rodoph-3x250ml
@@ -5171,7 +5199,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149820,Cook & Bake Vitam Soft Margarine (225g),Vitam,Μαργαρίνη,0.225 kg,kg,11.867,,margarinh-cook-bake-bitam-soft-225g
 4100149821,Cook & Bake Vitam Soft Margarine (250g),Vitam,Μαργαρίνη,0.25 kg,kg,12,,margarinh-cook-bake-bitam-soft-250g
 4100149822,Bar with Panna Cotta and Strawberry Go On Nutrition (50g),Go On,Μπάρες δημητριακών,0.05 kg,kg,28.8,,mpara-me-panakota-kai-fraoyla-go-on-nutrition-50g
-4100149824,"Traditional Sheep-Milk Yoghurt, Mevgal (240g)",Μεβγάλ,Πρόβειο,0.24 kg,kg,7.083,,
+4100149824,"Traditional Sheep-Milk Yoghurt, Mevgal (240g)",Μεβγάλ,Πρόβειο,0.24 kg,kg,7.083,,giaoyrti-paradosiako-probeio-mebgal-240g
 4100149825,High Protein Mevgal Vanilla Pudding (200g),Μεβγάλ,Με Γεύσεις,0.2 kg,kg,9.75,,poytigka-banilia-high-protein-mebgal-200g
 4100149826,High Protein Mevgal Chocolate Pudding (200g),Μεβγάλ,Με Γεύσεις,0.2 kg,kg,9.75,,poytigka-sokolata-high-protein-mebgal-200g
 4100149827,High Protein Mevgal Caramel Pudding (200g),Μεβγάλ,Με Γεύσεις,0.2 kg,kg,9.75,,poytigka-karamela-high-protein-mebgal-200g
@@ -5322,6 +5350,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150111,Frozen Chocolate Donuts Alibinisis (2X75g),Alimpinisis,Οικογενειακές Πίτες,0.15 kg,kg,15,,katepsygmena-donuts-sokolatas-alimpinishs-2x75g
 4100150112,Frozen Donuts Sugar Alibinisis (2X40g),Alimpinisis,Οικογενειακές Πίτες,0.08 kg,kg,24.875,,katepsygmena-donuts-zaxarhs-alimpinishs-2x40g
 4100150113,Milk Brioche Buns La Boulangere (8X35g),La Boulangere,Κρουασάν & Τσουρέκια,0.28 kg,kg,10.964,,pswmakia-mprios-galaktos-la-boulangere-8x35g
+4100150114,Brioche Buns with Chocolate Drops La Boulangere (8X35g),La Boulangere,Κρουασάν & Τσουρέκια,0.28 kg,kg,14.036,,pswmakia-mprios-me-stagones-sokolatas-la-boulangere-8x35g
 4100150115,"Feta Cheese, P.D.O. Olympos (500g)",OLYMPOS,Φέτα Π.Ο.Π.,0.4 kg,kg,18.725,,tyri-feta-pop-olympos-500g
 4100150116,"Broth Extra Chicken Flavor, Knorr (80g)",Knorr,Κότας,0.08 kg,kg,34.125,,zwmos-extra-geysh-kotas-knorr-80g
 4100150117,"Broth Extra, Vegetable Flavor, Knorr (130g)",Knorr,Λαχανικών,0.13 kg,kg,21.154,,zwmos-extra-geysh-laxanikwn-knorr-130g
@@ -5331,7 +5360,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150121,Bliss Coffee Island Espresso Capsules (10 pcs),Coffee Island,Κάψουλες,10 pcs,piece,0.41,,kapsoyles-espresso-bliss-coffee-island-10-tem-1
 4100150122,"Almond drink, no sugar, Delta (1lt)",Δέλτα,Φυτικά ροφήματα,1 lt,l,2.95,,rofhma-amygdaloy-xwris-zaxarh-delta-1-lt
 4100150123,"Unprocessed brown sugar, Fytro (500g)",Fytro,Ακατέργαστη,0.5 kg,kg,3.76,,zaxarh-kastanh-akatergasth-fytro-500g
-4100150125,"Cauliflower Organic Imported (min. weight 1,15Κg)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",1.15 kg,kg,4.096,,
+4100150125,"Cauliflower Organic Imported (min. weight 1,15Κg)",Bio Plus,"Λάχανο, Μπρόκολο, Κουνουπίδι",1.15 kg,kg,4.096,,koynoypidi-biologiko-ellhniko-elaxisto-baros-115kg-3
 4100150126,"Almond drink, no sugar, Delta (1.5 lt)",Δέλτα,Φυτικά ροφήματα,1.5 lt,l,2.667,,rofhma-amygdaloy-xwris-zaxarh-delta-15-lt-1
 4100150128,Smart Milk Cake with Fresh Milk and Delta Milk Chocolate (4x30 g),Smart,Γλυκίσματα ψυγείου,0.12 kg,kg,19.75,,galaktofetes-me-fresko-gala-kai-sokolata-galaktos-smart-delta4x30g
 4100150131,Greek Coffee Single Variety Loumidis Papagalos (96gr),Λουμίδης Παπαγάλος,Ελληνικός,0.096 kg,kg,31.042,,ellhnikos-kafes-monopoikiliakos-ekastos-loymidhs-papagalos-96gr
@@ -5371,7 +5400,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150265,Plant based balls with potatoes from Naxos Mparmpa Stathis (420g),Μπάρμπα Στάθης,Με κρέας,0.42 kg,kg,14.167,,fytika-keftedakia-me-patates-naxoy-xwriatikes-mparmpa-stathhs-15x420g
 4100150266,Plant based balls with sweet potatoes Mparmpa Stathis (420g),Μπάρμπα Στάθης,Με κρέας,0.42 kg,kg,14.19,,fytika-keftedakia-me-glykopatates-mparmpa-stathhs-15x420g
 4100150267,Creme Fraiche 30% Fat President (200ml),President,Κρεμώδη & Αλειφόμενα,0.2 lt,l,16,,krema-fraiche-galaktos-30-lipara-president-200ml
-4100150270,"Potato Puree, Mousline (125 g)",Mousline,Πουρές,0.125 kg,kg,12.4,,
+4100150270,"Potato Puree, Mousline (125 g)",Mousline,Πουρές,0.125 kg,kg,11.2,,poyres-patatas-mousline-125-g
 4100150271,Super Choco Nesquik Milk Cake (4x28gr),Nesquik,Γλυκίσματα ψυγείου,0.112 kg,kg,21.25,,galaktofetes-super-choco-nesquik-4x28gr
 4100150272,"Potato Puree, Mousline (250 g)",Mousline,Πουρές,0.25 kg,kg,11.44,,poyres-patatas-mousline-250-g
 4100150281,Grana Padano cheese piece 16 months matured Trentin (200 g),Trentin,Παρμεζάνα & Grana Padano,0.2 kg,kg,30.15,,tyri-grana-padano-kommati-16-mhnwn-wrimanshs-trentin-200-g
@@ -5379,7 +5408,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150308,Plant based meat patties with country potatoes Mparmpa Stathis (420g),Μπάρμπα Στάθης,Με κρέας,0.42 kg,kg,14.19,,fytika-mpiftekia-me-patates-country-mparmpa-stathhs-420g
 4100150312,"Steamed beetroot, Agrokipos Halvatzi (500g)",Αγρόκηπος Χαλβατζή,Βιολογικά,0.5 kg,kg,6.1,,pantzaria-biologika-ston-atmo-agrokhpos-xalbatzh-500g
 4100150314,Vanilla and Hazelnut flavoured Protein Food to Go Arla (500ml),Arla,Πρωτεϊνικά Προϊόντα,0.5 lt,l,6.54,,rofhma-me-geysh-banilia-kai-foyntoyki-protein-food-to-go-arla-500ml
-4100150315,Ρόφημα με γεύση Σοκολάτα και Καραμέλα Protein Food to Go Arla (500ml),Arla,Πρωτεϊνικά Προϊόντα,0.5 lt,l,6.54,,
+4100150315,Ρόφημα με γεύση Σοκολάτα και Καραμέλα Protein Food to Go Arla (500ml),Arla,Πρωτεϊνικά Προϊόντα,0.5 lt,l,6.54,,rofhma-me-geysh-sokolata-kai-karamela-protein-food-to-go-arla-500ml
 4100150325,"Traditional Cheese, Olympos (500 g)",OLYMPOS,Λευκά Τυριά,0.5 kg,kg,14.1,,tyri-leyko-agelados-xwriatiko-olympos-500g
 4100150368,Pork Steak M/O Fresh EU Nitsiakos (700 g),Nitsiakos Meat,Χοιρινό Κρέας,0.7 kg,kg,8.286,,mprizola-xoirinh-mo-nwph-ee-nitsiakos-700-g
 4100150369,Pork Neck Steak M/O Fresh E.E. Nitsiakos (700 g),Nitsiakos Meat,Χοιρινό Κρέας,0.7 kg,kg,8.286,,mprizola-laimoy-xoirinh-mo-nwph-ee-nitsiakos-700-g-1
@@ -5432,6 +5461,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150462,Arla Protein Salted Caramel Flavour Pudding (200 g),Arla,Φυτικά επιδόρπια,0.2 kg,kg,7.9,,arla-protein-poytigka-alatismenh-karamela-200-g-2
 4100150463,Arla Protein Chocolate Flavour Pudding (200 g),Arla,Φυτικά επιδόρπια,0.2 kg,kg,7.9,,arla-protein-poytigka-sokolata-200-g-2
 4100150469,"Parsley, Helios (50g)",Ήλιος,Τρόφιμα,0.05 kg,kg,75.4,,maintanos-50gr
+4100150484,Pop Corn Classic Pop-O-Tops (35g),Jumbo,Ποπ κορν,0.085 kg,kg,5.765,,pop-corn-classic-pop-o-tops-35g
 4100150503,Cottage Cheese 4.5% Fat Alpiland (200g),Alpiland,Κρεμώδη & Αλειφόμενα,0.2 kg,kg,10.9,,tyri-cottage-20-lipara-alpiland-200g
 4100150504,Cottage Cheese Protein 0.1% Fat Alpiland (200g),Alpiland,Κρεμώδη & Αλειφόμενα,0.2 kg,kg,13.4,,tyri-cottage-protein-01-lipara-alpiland-200g
 4100150505,"Multigrain Bagels, New York Bakery Bagels (300g)",NEW YORK BAKERY,Ψωμί Του Τοστ,0.3 kg,kg,9.967,,pswmakia-bagel-polysporo-new-york-bakery-bagels-300g
@@ -5462,7 +5492,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150571,"Cereals, Nesquik, Nestle (330g)",Nesquik,Παιδικά,0.33 kg,kg,11.879,,dhmhtriaka-nesquik-nestle-330g
 4100150572,"Chocolate with wafer double chocolate, KitKat (99g)",ΚΙΤΚΑΤ,Σνακς,0.099 kg,kg,23.737,,sokolata-diplh-sokolata-kitkat-99g
 4100150573,"Chocolate with wafer and salted caramel, KitKat (99g)",ΚΙΤΚΑΤ,Σνακς,0.099 kg,kg,23.737,,sokolata-me-gkofreta-kai-alatismenh-karamela-kitkat-99g
-4100150574,"Chocolate with wafer and hazelnut, KitKat (99g)",ΚΙΤΚΑΤ,Σνακς,0.099 kg,kg,23.737,,
+4100150574,"Chocolate with wafer and hazelnut, KitKat (99g)",ΚΙΤΚΑΤ,Σνακς,0.099 kg,kg,23.737,,sokolata-me-gkofreta-kai-foyntoyki-kitkat-99g
 4100150575,"Cereals, Nesquik, Nestle (500g)",Nesquik,Παιδικά,0.5 kg,kg,9.06,,dhmhtriaka-nesquik-nestle-500g
 4100150582,Hot Sauce Original Cholula (150ml),Cholula,Για κρέας,0.15 lt,l,34.6,,
 4100150583,Cholula Chili and Garlic Hot Sauce (150ml),Cholula,Για κρέας,0.15 lt,l,34.6,,
@@ -5662,7 +5692,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100150996,"Cinammon Spread, Olympos (200g)",OLYMPOS,Διάφορα είδη επάλειψης,0.35 kg,kg,6.343,,proion-epaleipshs-me-kanela-olympos-200g
 4100150997,"Tomatoes and peppers stuffed with rice, ZANAE (280 g)",Zanae,Έτοιμα φαγητά,0.28 kg,kg,11.929,,gemista-me-ryzi-zanae-280-g
 4100151000,Cake with Lemon Flavor Gecchele Elgen (400g),Elgen,Κέικ,0.4 kg,kg,10.5,,
-4100151008,"Organic Greek Plum tomatoes, Lobello type (min. weight 400g)",Bio Plus,"Αγγούρια, Τομάτες",0.4 kg,kg,9.5,,
+4100151008,"Organic Greek Plum tomatoes, Lobello type (min. weight 400g)",Bio Plus,"Αγγούρια, Τομάτες",0.4 kg,kg,9.5,,tomatinia-belanidi-biologika-ellhnika-elaxisto-baros-400g-3
 4100151014,"Vanilla Halva in Vacuum, Macedonian Halva (400g)",Μακεδονικός,"Χαλβάς, Λουκούμια, Μαστίχες",0.4 kg,kg,13.5,,xalbas-banilia-se-vacuum-makedonikos-400g
 4100151015,"Cocoa Halva in Vacuum, Macedonian Halva (400g)",Μακεδονικός,"Χαλβάς, Λουκούμια, Μαστίχες",0.4 kg,kg,13.5,,xalbas-kakao-se-vacuum-makedonikos-400g
 4100151016,"Halva in Vacuum, Macedonian Halva (400g)",Μακεδονικός,"Χαλβάς, Λουκούμια, Μαστίχες",0.4 kg,kg,15.5,,xalbas-amygdalo-se-vacuum-makedonikos-400g
@@ -5789,7 +5819,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100151288,Angelakis Whole Olive Chicken (minimum weight 1950 g) -15%,Αγγελάκης,Κοτόπουλα & Άλλα Πουλερικά,1.95 kg,kg,6.118,,kotopoylo-oloklhro-elaiopoylaki-aggelakhs-elaxisto-baros-1950-g-15-1
 4100151295,"Sliced Gouda cheese, Alpiland (500 g)",Alpiland,Σε Φέτες,0.5 kg,kg,12.3,,tyri-gouda-se-fetes-alpiland-500-g
 4100151296,Piroski Sausage Alibinisis (2x140g),Alimpinisis,"Πίτσες, Πεϊνιρλί & Aρτοποιήματα",0.28 kg,kg,10.679,,piroski-loykaniko-alimpinishs-2x140g
-4100151297,Pizza Parallelogram Special Alibinissis (40cm x 30xm) (1 Kg),Alimpinisis,Οικογενειακές Πίτσες,1 kg,kg,8.36,,
+4100151297,Pizza Parallelogram Special Alibinissis (40cm x 30xm) (1 Kg),Alimpinisis,Οικογενειακές Πίτσες,1 kg,kg,8.36,,pitsa-parallhlogrammh-special-alimpinisshs-40cm-x-30xm-1-kg
 4100151303,"Carrot Cake , Alfa (500g)",Alfa,Κέικ,0.5 kg,kg,10.78,,keik-karotoy-alfa-500g
 4100151304,"Chocolate Cake , Alfa (500g)",Alfa,Κέικ,0.5 kg,kg,10.4,,keik-sokolatas-alfa-500g
 4100151305,Vanilla Cake with Orange Zest Alfa (500g),Alfa,Κέικ,0.5 kg,kg,10.06,,keik-banilia-me-xysma-portokalioy-alfa-500g
@@ -5797,9 +5827,9 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100151321,Tuna Salad Mexicana Salad Pocket (150g),Trata,Τόνος & τονοσαλάτα,0.15 kg,kg,24.333,,tonosalata-mexicana-salad-pocket-trata-150g
 4100151322,Herring Fillet in Tomato SauceTrata (150g),Trata,Ψάρια,0.15 kg,kg,22.533,,regga-fileto-tomtas-trata-150g
 4100151323,Herring Fillet in Mustard Sauce Trata (150g),Trata,Ψάρια,0.15 kg,kg,22.533,,regga-fileto-moystrdas-trata-150g
-4100151324,Corned Beef Dakor (200g),Dakor,Κρεατικά & λουκάνικα,0.2 kg,kg,27.5,,
+4100151324,Corned Beef Dakor (200g),Dakor,Κρεατικά & λουκάνικα,0.2 kg,kg,27.5,,corned-beef-dakor-200g
 4100151326,Sliced Mushrooms Baron (3x185g),Baron,Μανιτάρια & λαχανικά,0.555 kg,kg,8.991,,manitria-temaxismena-baron-3x185-g
-4100151327,Corn in Natural Juice Baron (3x170g),Baron,Μανιτάρια & λαχανικά,0.34 kg,kg,10.265,,
+4100151327,Corn in Natural Juice Baron (3x170g),Baron,Μανιτάρια & λαχανικά,0.34 kg,kg,10.265,,kalampoki-se-fysiko-xymo-baron-3x170g
 4100151330,"Plum Jam, Spin Span (380g)",Spin Span,Διάφορες γεύσεις,0.38 kg,kg,10.263,,marmelada-damaskhno-spin-span-380g
 4100151331,Boiled Dutch Beets (500g),Beetz,"Χόρτα, Παντζάρια, Σπανάκι",0.5 kg,kg,6.5,,pantzaria-brasmena-ollandias-500g
 4100151335,"Steamed Basmati Rice, Quick Deli, Agrino (250g)",Agrino,Ρύζι & Ριζότο,0.25 kg,kg,8.8,,ryzi-basmati-ston-atmo-quick-deli-agrino-250g
@@ -5995,7 +6025,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100151764,Bacon Fried in Slices Luncheon Meat Evrou (300g),Θράκης Γεύσεις,Μπέικον,0.3 kg,kg,9.467,,mpeikon-kpanisto-se-fetes-thrakhs-geyseis-300g
 4100151765,Organic Greek Granny Smith Apples (minimum weight 700g),Βιοαγρός,Μήλα,0.7 kg,kg,4.8,,mhla-gkranny-smith-biologika-ellhnika-elaxisto-baros-700g
 4100151767,Organic Greek Granny Smith Apples (minimum weight 800g),Βιοαγρός,Μήλα,0.8 kg,kg,4.8,,mhla-gkranny-smith-biologika-ellhnika-elaxisto-baros-800g
-4100151769,Coffee Espresso Classico Cofee Island (250gr),Coffee Island,Espresso Αλεσμένος,0.25 kg,kg,23.2,,
+4100151769,Coffee Espresso Classico Cofee Island (250gr),Coffee Island,Espresso Αλεσμένος,0.25 kg,kg,23.2,,kafes-espresso-classico-cofee-island-250gr
 4100151770,"Aeros Evrytanias Salami Spicy Handmade Whole ,Stremmenos (200g)",Αλλαντοποιείο Στρεμμένου,Σαλάμι αέρος,0.07 kg,kg,136.0,,salami-aeros-eyrytanias-pikantiko-xeiropoihto-oloklhro-allantopoieio-stremmenoy-200g
 4100151771,Oddkin Peanut Butter Flavored Date Bar (50g),Nutree,Ωμές μπάρες,0.5 kg,kg,2.88,,mpara-xoyrma-me-geysh-peanut-butter-oddkin-50g
 4100151772,"Evrytania Air Salami with Leek ""Handmade"" (300g)",Αλλαντοποιείο Στρεμμένου,Premium Αλλαντικά,0.3 kg,kg,19.067,,salami-aeros-eyrytanias-me-praso-xeiropoihto-300g
@@ -6174,6 +6204,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100152075,Coconut Petit Fours Tria Lamda (350 g),tria lamda,Γλυκά,0.35 kg,kg,11.857,,pti-foyr-me-karyda-tria-lamda-350-g
 4100152076,Almond Petit Fours Tria Lambda (350 g),tria lamda,Γλυκά,0.35 kg,kg,11.857,,pti-foyr-me-amygdala-tria-lamda-350-g
 4100152078,Bioagros Frozen Individual Spiral Pie with Myzithra & Feta (200 g),Βιοαγρός,Mini Πιτάκια,0.2 kg,kg,15.75,,katepsygmenh-strifth-atomikh-pita-me-mhlo-kanela-vegan-bioagros-200-g
+4100152080,Stuffed Melomakarona Tria Lambda (500 g),tria lamda,Γλυκά,0.5 kg,kg,14.36,,melomakarona-gemista-tria-lamda-500-g
+4100152081,Melomakarona with Coating Tria Lambda (500 g),tria lamda,Γλυκά,0.5 kg,kg,14.36,,melomakarona-me-epikalypsh-tria-lamda-500-g
 4100152082,Bioagros Frozen Individual Spiral Pie with Spinach & Cheese (200 g),Βιοαγρός,Mini Πιτάκια,0.2 kg,kg,16.75,,katepsygmenh-strifth-atomikh-pita-me-spanaki-tyri-bioagros-200-g
 4100152088,Serenata Milk Chocolate 4 Stick Wafer (60 g),Serenata,Γκοφρέτες,0.06 kg,kg,18.167,,gkofreta-4-sticks-me-sokolata-galaktos-serenata-60-g
 4100152090,Mini Double Serenata Waffles (180 g),Serenata,Γκοφρέτες,0.18 kg,kg,17.722,,mini-gkofretinia-double-serenata-180-g
@@ -6309,7 +6341,10 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100152333,Organic Greek Fuji Apples (minimum weight 1.05Kg),Bio Plus,Μήλα,1.05 kg,kg,5.505,,
 4100152334,Ακτινίδια Κίτρινα Ελληνικά Zespri (500g),Zespri,Ακτινίδια,1 pcs,piece,4.15,,aktinidia-kitrina-ellhnika-zespri-500g
 4100152336,Oddkin Date Bar with Melomakarono Flavour (50g),Nutree,Μπάρες δημητριακών,0.05 kg,kg,36,,mpara-xoyrma-me-geysh-melomakarono-oddkin-50g
+4100152337,Oven Baked Chips With Black Pepper & Salt Gluten Free Jumbo (100 g),Jumbo,Πατατάκια,0.1 kg,kg,15,,tsips-foyrnoy-me-piperi-jumbo-100-g
+4100152339,Oven-Baked Cheese and Cereal Puffs Gold Jumbo (25 g),Jumbo,Γαριδάκια,0.025 kg,kg,12.4,,garidakia-pshmena-ston-foyrno-me-tyri-kai-dhmhtriaka-gold-jumbo-25-g
 4100152340,Misko Pasta Sauce with Basil (350 g),Misko,Για ζυμαρικά,0.35 kg,kg,7.943,,saltsa-zymarikwn-me-basiliko-misko-350-g
+4100152341,Oven-Baked Puffs with Cereals & Peanut Paste Gold Jumbo (25 g),Jumbo,Γαριδάκια,0.025 kg,kg,12.4,,garidakia-pshmena-ston-foyrno-me-dhmhtriaka-pasta-fystikioy-gold-jumbo-25-g
 4100152342,Misko Pasta Sauce with Feta (350 g),Misko,Για ζυμαρικά,0.35 kg,kg,8.514,,saltsa-zymarikwn-me-feta-misko-350-g
 4100152352,Organic Greek Fuji Apples (minimum weight 800g),Bio Plus,Μήλα,0.8 kg,kg,5.5,,mhla-fuji-biologika-ellhnika-elaxisto-baros-800g
 4100152354,Organic Greek Fuji Apples (minimum weight 850g),Bio Plus,Μήλα,0.85 kg,kg,5.494,,mhla-fuji-biologika-ellhnika-elaxisto-baros-850g
@@ -6317,8 +6352,26 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100152357,"Kallimanis Frozen Anchovies, Cleaned & Dusted with Flour (500g)",Καλλιμάνης,Τόνος & τονοσαλάτα,0.5 kg,kg,13.6,,gayros-katharismenos-aleyrwmenos-katepsygmenos-kallimanhs-500g
 4100152358,Sardine Fillets in Tomato Sauce Frozen Kallimanis (300g),Καλλιμάνης,Τόνος & τονοσαλάτα,0.5 kg,kg,13.8,,sardeles-fileto-me-saltsa-tomatas-katepsygmenes-kallimanhs-300g
 4100152359,Frozen Mac & Cheese Bites with Shrimp Frozen Kallimanis (270g),Καλλιμάνης,Τόνος & τονοσαλάτα,0.27 kg,kg,25.556,,mpoykies-mac-cheese-me-garida-katepsygmenes-kallimanhs-270g
+4100152363,Milko Delta Chocolate Milk (1 lt),Milko,Σοκολατούχο Γάλα,1 lt,l,2.78,,sokolatoyxo-gala-milko-delta-1-lt
+4100152364,Delta Complet Yogurt Dessert (500 g),Complet,Στραγγιστό,0.5 kg,kg,4.76,,epidorpio-giaoyrtioy-complet-delta-500-g
+4100152365,Delta Complet 2% Yogurt Dessert (500 g),Complet,Στραγγιστό,0.5 kg,kg,4.76,,epidorpio-giaoyrtioy-complet-2-delta-500-g
+4100152366,Delta Double Choco Vitaline Flavored Milk Dessert (200 g),Vitaline,Με φρούτα,0.2 kg,kg,10.8,,epidorpio-galaktos-me-geysh-double-choco-vitaline-delta-200-g
+4100152368,Delta Vitaline Double White Choco Flavored Milk Dessert (200 g),Vitaline,Με φρούτα,0.2 kg,kg,10.8,,epidorpio-galaktos-me-geysh-double-white-choco-vitaline-delta-200-g
+4100152369,Imported Organic Zucchini (minimum weight 900 g),Bio Plus,"Πιπεριές, Μελιτζάνες, Κολοκυθάκια",0.9 kg,kg,6.8,,kolokythakia-biologika-eisagwghs-elaxisto-baros-900g-1
+4100152373,"Traditional Cream Gluten-Free, Yotis (160 g)",Γιώτης,Κρέμες,0.16 kg,kg,7.187,,paradosiakh-krema-xwris-gloytenh-giwths-160g
+4100152386,"Leek, Organic, Greek (min. weight 950g)",Bio Plus,Βιολογικά,0.95 kg,kg,3.8,,prasa-biologika-ellhnika-elaxisto-baros-950g-2
+4100152387,"Leek, Organic, Greek (min. weight 1.1Kg)",Bio Plus,Βιολογικά,1.1 kg,kg,3.8,,prasa-biologika-ellhnika-elaxisto-baros-11kg-1
+4100152388,Organic Greek Persimmons (minimum weight 1.2kg),Bio Plus,"Ανανάς, Αβοκάντο, Εξωτικά φρούτα",1.2 kg,kg,3.4,,lwtoi-biologikoi-ellhnikoi-elaxisto-baros-12kg
+4100152389,Imported Organic Zucchini (minimum weight 800 g),Bio Plus,"Πιπεριές, Μελιτζάνες, Κολοκυθάκια",0.8 kg,kg,6.8,,kolokythakia-biologika-eisagwghs-elaxisto-baros-800g-2
+4100152390,Organic Greek Strawberry Grapes (700g),Bio Plus,Σταφύλια,0.7 kg,kg,5.5,,stafylia-fraoyla-biologika-ellhnika-700g
 4100152396,Organic Greek Corn (2 pcs),Bio Plus,"Καλαμπόκι, Αγγινάρες, Σπαράγγια",1 pcs,piece,3.6,,kalampoki-biologiko-ellhniko-2-tem
 4100152397,Organic Greek Bananas (minimum weight 350g),Bio Plus,Μπανάνες,0.35 kg,kg,6.429,,mpananes-biologikes-ellhnikes-elaxisto-baros-350g
+4100152398,Organic Greek Sow Thistle Greens (minimum weight 650g),Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.65 kg,kg,3.6,,xorta-zwxoi-biologika-ellhnika-elaxisto-baros-650g-1
+4100152399,Organic Greek Sow Thistle Greens (minimum weight 700g),Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.7 kg,kg,3.6,,xorta-zwxoi-biologika-ellhnika-elaxisto-baros-700g
+4100152400,Organic Greek Wild Greens (minimum weight 350g),Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.35 kg,kg,2.6,,xorta-goylia-biologika-ellhnika-elaxisto-baros-350g
+4100152401,Organic Greek Tomatoes (min. weight 1.7Κg),Bio Plus,"Αγγούρια, Τομάτες",1.7 kg,kg,3.6,,tomates-biologikes-ellhnikes-elaxisto-baros-17kg-2
+4100152402,Imported Organic Zucchini (minimum weight 1.45 kg),Bio Plus,"Πιπεριές, Μελιτζάνες, Κολοκυθάκια",1.45 kg,kg,6.8,,kolokythakia-biologika-eisagwghs-elaxisto-baros-145kg
+4100152424,"Organic Greek Pomegranate (min. weight 1,25kg)",Bio Plus,"Ρόδια, Κυδώνια, Κουμκουάτ",1.25 kg,kg,5,,rodi-biologiko-ellhniko-elaxisto-baros-125kg
 4110000328,"Venus Spa Breeze Replacement Blades, Gillette, 2 packs -4 (2Χ4 pcs)",Gillette,Ξυραφάκια,8 pcs,piece,3.172,,antallaktika-xyrafakia-venus-spa-breeze-gillette-2-sysk-4-2x4tem
 4110000329,"Venus Replacement Blades, Gillette, 2 packs -4 (2Χ4 pcs)",Gillette,Ξυραφάκια,8 pcs,piece,2.623,,antallaktika-xyrafakia-venus-gillette-2sysk-42x4tem
 4110000431,"Napolitana Sauce, Barilla (2x400g) 2pcs -0,70€",Barilla,Για ζυμαρικά,0.8 kg,kg,6.6,,saltsa-napolitana-barilla-2-tem-070-2x400-g
@@ -6330,6 +6383,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4110000752,"Liquid dish soap, Ultra Lemon Fairy, 2 pieces at -40% (2x900 ml)",Fairy,Μεσαία (μέχρι 1lt),1.8 lt,l,3.322,,ygro-piatwn-ultra-lemoni-fairy-ta-2-temaxia-40-2x900ml
 4110000753,"Liquid dish soap, Clean & Fresh Fresh, Red Berries, Fairy, 2 pieces at -40% (2x900 ml)",Fairy,Μεσαία (μέχρι 1lt),1.8 lt,l,3.322,,ygro-piatwn-clean-fresh-me-arwma-loyloydiwn-fairy-ta-2-temaxia-40-2x900ml
 4110000755,"Liquid dish soap, Clean & Fresh, Apple, Fairy, 2 pieces at -40% (2x900 ml)",Fairy,Μεσαία (μέχρι 1lt),1.8 lt,l,3.322,,ygro-piatwn-clean-fresh-me-arwma-mhloy-fairy-ta-2-temaxia-40-2x900ml
+4110001163,"Cat food, Fillets with Chicken+Salmon, Gourmet Perle (3x85g)",Gourmet,Υγρή Τροφή,0.255 kg,kg,10.471,,syskeyasia-filetakia-me-kotopoylo-filet-koynel-solomo-gourmet-perle3x85g
 4110001330,ALWAYS ULTRA PLATINUM LONG 12 pics 1+1 extra,Always,Σερβιέτες,28 pcs,piece,0.196,,serbietes-platinum-ultra-long-plus-me-ftera-always-megethos-2-2x14tem-duo-pack-11-dwro
 4110002083,"Stain remover, powder, Pink Vanish (500 g)",Vanish,Σκόνη,1.5 kg,kg,9.98,,enisxytikh-skonh-plyshs-pink-vanish-3x500-g-set-3-tem
 4110003407,AVA Chamomile (650 ml) 1+1,Ava,Μεσαία (μέχρι 1lt),1.3 lt,l,2.769,,
@@ -6484,9 +6538,10 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200000535,"Mineral Water, Contrex (6x1 lt)",Contrex,Μεταλλικά & Επιτραπέζια Νερά,6 lt,l,0.99,,nero-fysiko-metalliko-contrex-6x1-lt
 4200000536,"Mineral Water, Panna (750 ml)",Panna,Μεταλλικά & Επιτραπέζια Νερά,0.75 lt,l,2.333,,nero-fysiko-metalliko-panna-750-ml
 4200000537,"Mineral Water, Carbonated, San Pellegrino (750 ml)",San Pellegrino,Χωρίς γεύση,0.75 lt,l,2.08,,nero-fysiko-metalliko-anthrakoyxo-san-pellegrino-750-ml
+4200000538,"Mineral Water, Carbonated, San Pellegrino (6x250 ml)",San Pellegrino,Χωρίς γεύση,1.5 lt,l,4.4,,nero-fysiko-metalliko-anthrakoyxo-san-pellegrino-6x250-ml
 4200000540,Water Natural Mineral Carbonated San Pellegrino (500 ml),San Pellegrino,Χωρίς γεύση,0.5 lt,l,1.9,,nero-fysiko-metalliko-anthrakoyxo-san-pellegrino-500-ml-1
 4200000541,"Mineral Water, Korpi (1.5 lt)",Κορπή,Μεταλλικά & Επιτραπέζια Νερά,1.5 lt,l,0.207,,nero-fysiko-metalliko-korph-15-lt
-4200000544,"Mineral Water, Korpi (500 ml)",Κορπή,Μεταλλικά & Επιτραπέζια Νερά,0.5 lt,l,0.58,,
+4200000544,"Mineral Water, Korpi (500 ml)",Κορπή,Μεταλλικά & Επιτραπέζια Νερά,0.5 lt,l,0.58,,nero-fysiko-metalliko-korph-500-ml
 4200000545,"Mineral Water, Mania Korpi (6x500 ml)",Κορπή,Μεταλλικά & Επιτραπέζια Νερά,3 lt,l,0.79,,nero-fysiko-metalliko-mania-korph-6x500-ml
 4200000547,"Mineral Water, Sport Max Korpi (750 ml)",Κορπή,Μεταλλικά & Επιτραπέζια Νερά,0.75 lt,l,0.827,,nero-fysiko-metalliko-sport-max-korph-750-ml
 4200000549,"Mineral Water, Carbonated, Korpi (1 lt)",Κορπή,Χωρίς γεύση,1 lt,l,1.2,,nero-fysiko-metalliko-anthrakoyxo-korph-1-lt
@@ -6669,11 +6724,11 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200001509,"Whiskey, Chivas Regal 12 years old (700 ml)",Chivas Regal,Fine Drinking,0.7 lt,l,48.429,,oyiski-chivas-regal-12-etwn-700-ml
 4200001510,"Whiskey, Ballantine's Finest (700 ml)",Ballantines,Ουίσκι,0.7 lt,l,26.929,,oyiski-ballantines-finest-700-ml
 4200001511,"Whiskey, Four Roses (700 ml)",Four Roses,Ουίσκι,0.7 lt,l,34.486,,oyiski-four-roses-700-ml
-4200001512,"Whiskey, Jameson (700 ml)",Jameson,Ουίσκι,0.7 lt,l,30.714,,oyiski-jameson-700-ml
+4200001512,"Whiskey, Jameson (700 ml)",Jameson,Ουίσκι,0.7 lt,l,31.143,,oyiski-jameson-700-ml
 4200001513,"Liqueur, Kahlua (700 ml)",Kahlua,Λικέρ,0.7 lt,l,26.286,,liker-kahlua-700-ml
 4200001514,"Sambuca, Ramazzotti (700 ml)",Ramazzotti,Λικέρ,0.7 lt,l,25.857,,sampoyka-ramazzotti-700-ml
 4200001517,"Vodka, Absolut (700ml)",Absolut,"Βότκα, Τζιν & Ρούμι",0.7 lt,l,26,,botka-absolut-700ml
-4200001519,"Vodka, Wyborowa (700 ml)",Wyborowa,"Βότκα, Τζιν & Ρούμι",0.7 lt,l,20.714,,botka-wyborowa-700-ml
+4200001519,"Vodka, Wyborowa (700 ml)",Wyborowa,"Βότκα, Τζιν & Ρούμι",0.7 lt,l,21.143,,botka-wyborowa-700-ml
 4200001520,"Gin, Beefeater (700 ml)",Beefeater,"Βότκα, Τζιν & Ρούμι",0.7 lt,l,29.286,,tzin-beefeater-700-ml
 4200001521,"Tequila, Olmeca Silver (700 ml)",Olmeca,Τεκίλα,0.7 lt,l,33.071,,tekila-olmeca-blanco-700-ml
 4200001522,"Tequila, Olmeca Reposado (700 ml)",Olmeca,Τεκίλα,0.7 lt,l,34.571,,tekila-olmeca-reposado-700-ml
@@ -6681,7 +6736,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200001525,"Rum, Malibu (700 ml)",Malibu,"Βότκα, Τζιν & Ρούμι",0.7 lt,l,23.571,,roymi-malibu-700-ml
 4200001528,"Ouzo, Mini (700ml)",Μίνι,Ούζο,0.7 lt,l,15.571,,oyzo-mini-700ml
 4200001600,"Whiskey, Bushmills (700 ml)",Bushmills,Ουίσκι,0.7 lt,l,31,,oyiski-bushmills-700-ml
-4200001603,"Mineral Water, Evian (1 lt)",Evian,Μεταλλικά & Επιτραπέζια Νερά,1 lt,l,1.96,,
+4200001603,"Mineral Water, Evian (1 lt)",Evian,Μεταλλικά & Επιτραπέζια Νερά,1 lt,l,1.96,,nero-fysiko-metalliko-evian-1-lt
 4200001604,"Mineral Water, Evian Sport (6x1 lt)",Evian,Μεταλλικά & Επιτραπέζια Νερά,6 lt,l,1.95,,nero-fysiko-metalliko-evian-6x1-lt
 4200001605,"Mineral Water, Evian (6x500 ml)",Evian,Μεταλλικά & Επιτραπέζια Νερά,3 lt,l,2.18,,nero-fysiko-metalliko-evian-6x500-ml
 4200001607,"Mineral Water, Vikos (1.5lt lt)",Βίκος,Μεταλλικά & Επιτραπέζια Νερά,1.5 lt,l,0.2,,
@@ -6883,6 +6938,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200014898,"Natural Mineral Water, Carbonated, Avra Carbo (330 ml)",Αύρα,Ανθρακούχα Νερά,0.33 lt,l,2.636,,nero-fysiko-metalliko-anthrakoyxo-ayra-carbo-330-ml
 4200014899,"Natural Mineral Water, Carbonated, Avra Carbo (750 ml)",Αύρα,Ανθρακούχα Νερά,0.75 lt,l,1.893,,nero-fysiko-metalliko-anthrakoyxo-ayra-carbo-750-ml
 4200014908,"Fruit Drink, Lemonade Low Calories, Kampos Chiou (1 Lt)",Κάμπος Χίου,Εκτός ψυγείου,1 lt,l,2.5,,froytopoto-lemonada-low-calories-kampos-xioy-1-lt
+4200014909,"Fruit Drink, Mandarin Low Calories, Kampos Chiou (1 Lt)",Κάμπος Χίου,Εκτός ψυγείου,1 lt,l,2.5,,froytopoto-mantarini-low-calories-kampos-xioy-1-lt
 4200014910,"Fruit Drink, Pink Lemonade, Kampos Chiou (1 Lt)",Κάμπος Χίου,Εκτός ψυγείου,1 lt,l,2.5,,froytopoto-roz-lemonada-kampos-xioy-1-lt
 4200014935,"Iced Coffee Drink, Frappuccino Starbucks (250ml)",Starbucks,Παγωμένοι καφέδες,0.25 lt,l,9.76,,kryo-rofhma-kafe-frappuccino-starbucks-250ml-1
 4200014936,"Iced Coffee Drink, Frappuccino Caramel Starbucks (250ml)",Starbucks,Παγωμένοι καφέδες,0.25 lt,l,9.76,,kryo-rofhma-kafe-frappuccino-caramel-starbucks-250ml-1
@@ -6898,7 +6954,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200015033,"Alcohol free beer can, Amstel Free Lemon (4x330 ml)",ΑΜΣΤΕΛ,Μπύρες Χωρίς Αλκοόλ,1.32 lt,l,2.939,,mpyra-koyti-amstel-free-lemon-4x330-ml
 4200015034,"Natural Mineral Water, Theoni (6x1,5 Lt)",Theoni,Μεταλλικά & Επιτραπέζια Νερά,9 lt,l,0.228,,nero-fysiko-metalliko-theonh-6x15-lt
 4200015035,"Natural Mineral Water, Theoni (12x500 ml)",Theoni,Μεταλλικά & Επιτραπέζια Νερά,6 lt,l,0.432,,nero-fysiko-metalliko-theonh-12x500-ml
-4200015037,"Natural Mineral Water, glass bottle, Theoni (1 Lt)",Theoni,Μεταλλικά & Επιτραπέζια Νερά,1 lt,l,1.42,,
+4200015037,"Natural Mineral Water, glass bottle, Theoni (1 Lt)",Theoni,Μεταλλικά & Επιτραπέζια Νερά,1 lt,l,1.42,,nero-fysiko-metalliko-theonh-1-lt
 4200015038,"Natural Mineral Carbonated Water, Theoni (1 Lt)",Theoni,Ανθρακούχα Νερά,1 kg,kg,1.93,,nero-fysiko-metalliko-anthrakoyxo-theonh-1-lt
 4200015043,Whiskey Smokey Black Famous Grouse (700 ml),Famous Grouse,Ουίσκι,0.7 lt,l,36.929,,oyiski-smokey-black-famous-grouse-700-ml
 4200015066,"Sparkling Water, Mastic Flavor, MastiH2O (330 ml)",MastiH2O,Με γεύση φρούτων,0.33 lt,l,4.576,,anthrakoyxo-nero-me-geysh-mastixas-mastih2o-330-ml
@@ -6977,7 +7033,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200015357,"Pineapple-lime & spearmint mixer, Tuborg (4x330 ml)",Tuborg,Με ζάχαρη,1.32 lt,l,2.015,,anapsyktiko-ananas-lime-dyosmos-tuborg-4x330-ml
 4200015363,"Beer bottle, lager, Voreia (330 ml)",Voreia,Μπύρες Lager,0.33 lt,l,6.364,,mpyra-fialh-voreia-lager-330-ml
 4200015374,"Cider with mango & lime flavour, Somersby (330 ml)",Somersby,Μηλίτης,0.33 lt,l,4.545,,mhliths-me-geysh-mangko-lime-somersby-330-ml
-4200015398,"Caffeine-free cola drink, Green Cola (4x330 ml)",Green Cola,Με γλυκαντικές ουσίες,1.32 lt,l,1.818,,
+4200015398,"Caffeine-free cola drink, Green Cola (4x330 ml)",Green Cola,Με γλυκαντικές ουσίες,1.32 lt,l,1.818,,anapsyktiko-xwris-kafeinh-koyti-green-cola-4x330-ml
 4200015402,"Mineral sparkling water with lemon, Mitsikeli, Vikos (6x500 ml)",Βίκος,Με γεύση φρούτων,3 lt,l,0.927,,nero-fysiko-metalliko-anthrakoyxo-me-lemoni-mitsikeli-bikos-6x500-ml
 4200015403,"Mineral sparkling water with lemon, Mitsikeli, Vikos (500 ml)",Βίκος,Με γεύση φρούτων,0.5 lt,l,0.92,,nero-fysiko-metalliko-anthrakoyxo-me-lemoni-mitsikeli-bikos-500-ml
 4200015406,"Cola Zero, Vikos (330 ml)",Βίκος,Με γλυκαντικές ουσίες,0.33 lt,l,1.818,,cola-zero-bikos-330-ml
@@ -9711,7 +9767,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4400004472,Concentrated Fabric Softener Dream Refill GoodMood Endless (1lt),Endless,Συμπυκνωμένο υγρό,45 μεζ,wash,0.068,,sympyknwmeno-malaktiko-royxwn-dream-refill-goodmood-endless-45mez1lt
 4400004474,General cleaning liquid Fruity GoodMood Endless (1lt),Endless,Υγρό,1 lt,l,1.94,,ygro-genikoy-katharismoy-fruity-goodmood-endless-45mez1lt
 4400004475,General cleaning liquid Wave GoodMood Endless (1lt),Endless,Υγρό,1 lt,l,1.94,,ygro-genikoy-katharismoy-wave-goodmood-endless-45mez1lt
-4400004476,General cleaning liquid Fruity Refill GoodMood Endless (1lt),Endless,Υγρό,1 lt,l,1.85,,
+4400004476,General cleaning liquid Fruity Refill GoodMood Endless (1lt),Endless,Υγρό,1 lt,l,1.85,,ygro-genikoy-katharismoy-fruity-refill-goodmood-endless-1lt
 4400004477,General cleaning liquid Wave Refill GoodMood Endless (1lt),Endless,Υγρό,1 lt,l,1.85,,ygro-genikoy-katharismoy-wave-refill-goodmood-endless-1lt
 4400004478,Loofah Kitchen Sponge for all utensils 100% Bio Classic LifoPlus Home (1pc),LifoPlus Home,Σφουγγαράκια,1 pcs,piece,2.48,,sfoyggari-koyzinas-apo-loyfa-gia-ola-ta-skeyh-100-bio-classic-lifoplus-1tem
 4400004479,Loofah Kitchen Sponge for Pots and Pans 100% Bio Very Strong LifoPlus Home (1pc),LifoPlus Home,Σφουγγαράκια,1 pcs,piece,2.95,,sfoyggari-koyzinas-apo-loyfa-gia-katsaroles-kai-tapsia-100-bio-extra-strong-lifoplus-home-1tem
@@ -9780,7 +9836,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4400004626,Concentrated Softener Aroma Coconut Soupline (78caps/1638ml),Soupline,Συμπυκνωμένο υγρό,1.7 lt,l,2.8,,sympyknwmeno-malaktiko-royxwn-aroma-karyda-kai-leyka-anthh-soupline-78mez1638ml
 4400004628,"Liquid Laundry Detergent, Pure Fusion, Planet (45caps/ 2.07lt)",Planet,Απορρυπαντικά Πλυντηρίου σε Υγρό,45 μεζ,wash,0.176,,ygro-plynthrioy-royxwn-pure-fusion-planet-45mez-207lt
 4400004629,"Laundry Powder White Fusion, Planet (54caps)",Planet,Σκόνη,54 μεζ,wash,0.151,,skonh-plynthrioy-white-fusion-planet-54mez
-4400004633,Liquid detergent Extra Clean Ariel (50m.c.),Ariel,Απορρυπαντικά Πλυντηρίου σε Υγρό,44 μεζ,wash,0.235,,
+4400004633,Liquid detergent Extra Clean Ariel (50m.c.),Ariel,Απορρυπαντικά Πλυντηρίου σε Υγρό,44 μεζ,wash,0.235,,ygro-aporrypantiko-royxwn-extra-clean-ariel-50mez
 4400004634,Liquid detergent Extra Clean Ariel (70 m.c.),Ariel,Απορρυπαντικά Πλυντηρίου σε Υγρό,70 μεζ,wash,0.232,,ygro-aporrypantiko-royxwn-extra-clean-ariel-70-mez
 4400004636,Liquid detergent Touch Of Lenor Ariel (25 m.c.),Ariel,Απορρυπαντικά Πλυντηρίου σε Υγρό,25 μεζ,wash,0.544,,ygro-aporrypantiko-royxwn-touch-of-lenor-ariel-25-mez
 4400004637,Liquid detergent Touch Of Lenor Ariel (50 m.c.),Ariel,Απορρυπαντικά Πλυντηρίου σε Υγρό,44 μεζ,wash,0.313,,ygro-aporrypantiko-royxwn-touch-of-lenor-ariel-50-mez
@@ -9910,7 +9966,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4400004832,Ava Perle Chamomile Dishwashing Liquid (900 ml),Ava,Μεσαία (μέχρι 1lt),0.9 lt,l,2.478,,
 4400004834,Ava Perle Chamomile Dishwashing Liquid (430 ml),Ava,Μεσαία (μέχρι 1lt),0.43 lt,l,2.837,,ygro-piatwn-xamomhli-ava-perle-430-ml-1
 4400004836,Ava Salt & Citrus Dishwashing Liquid (430 ml),Ava,Μικρά (μέχρι 500ml),0.43 lt,l,2.837,,ygro-piatwn-alati-esperidoeidh-ava-430-ml-1
-4400004837,"Dishwasher tablets, Quantum All in 1 Lemon Finish (120 pcs)",Finish,Ταμπλέτες - Κάψουλες,120 pcs,piece,0.167,,tampletes-plynthrioy-piatwn-quantum-all-in-1-lemoni-finish-120-tem
+4400004837,"Dishwasher tablets, Quantum All in 1 Lemon Finish (120 pcs)",Finish,Ταμπλέτες - Κάψουλες,120 pcs,piece,0.146,,tampletes-plynthrioy-piatwn-quantum-all-in-1-lemoni-finish-120-tem
 4400004838,"Dishwasher tablets, Quantum All in 1 Lemon Finish (90 pcs)",Finish,Ταμπλέτες - Κάψουλες,90 pcs,piece,0.204,,tampletes-plynthrioy-piatwn-quantum-all-in-1-lemoni-finish-90-tem
 4400004839,Soap Sensitive Dettol (85 g),Dettol,Πλάκα σαπουνιού,0.1 kg,kg,9,,sapoyni-sensitive-dettol-85-g
 4400004840,Dishwasher Tablets Lemon Power All in 1 Finish (56 pcs),Finish,Ταμπλέτες - Κάψουλες,40 pcs,piece,0.306,,tampletes-plynthrioy-piatwn-power-lemoni-all-in-1-finish-56-tem
@@ -10007,7 +10063,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4400004947,Dishwasher Capsules Platinum Plus Miracle Lemon Fairy (31pcs),Fairy,Ταμπλέτες - Κάψουλες,31 pcs,piece,0.629,,kapsoyles-plynthrioy-piatwn-platinum-plus-miracle-lemoni-fairy-31tem
 4400004948,Dishwasher Capsules Platinum Plus Miracle Lemon Fairy (45pcs),Fairy,Ταμπλέτες - Κάψουλες,45 pcs,piece,0.333,,kapsoyles-plynthrioy-piatwn-platinum-plus-miracle-lemoni-fairy-45tem
 4400004949,Dishwasher Capsules Platinum Plus Miracle Lemon Fairy (74pcs),Fairy,Ταμπλέτες - Κάψουλες,74 pcs,piece,0.267,,kapsoyles-plynthrioy-piatwn-platinum-plus-miracle-lemoni-fairy-74tem
-4400004951,Concentrated Fabric Softener Dream Refill GoodMood Endless (2lt),Endless,Συμπυκνωμένο υγρό,2 lt,l,2.735,,
+4400004951,Concentrated Fabric Softener Dream Refill GoodMood Endless (2lt),Endless,Συμπυκνωμένο υγρό,2 lt,l,2.735,,sympyknwmeno-malaktiko-royxwn-dream-refill-goodmood-endless-2lt
 4400004952,Big One Alpine Ariel Laundry Capsules (21pcs),Ariel,Ταμπλέτες Ρούχων,21 pcs,piece,0.478,,kapsoyles-plynthrioy-royxwn-big-one-alpine-ariel-21tem
 4400004953,Big One Color Ariel Laundry Capsules (21pcs),Ariel,Ταμπλέτες Ρούχων,21 pcs,piece,0.478,,kapsoyles-plynthrioy-royxwn-big-one-color-ariel-21tem
 4400004954,Big One Alpine Ariel Laundry Capsules (29pcs),Ariel,Ταμπλέτες Ρούχων,29 pcs,piece,0.427,,kapsoyles-plynthrioy-royxwn-big-one-alpine-ariel-29tem
@@ -10088,6 +10144,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4400005039,Harpic Pine Toilet Cleaner (750 ml),Harpic,Καθαριστικά λεκάνης,750 lt,l,0.003,,ygro-katharistiko-lekanhs-peyko-harpic-750-ml-2
 4500000041,"Almiron Milk, Growing Up 2+ Nutricia (1 lt)",Nutricia,Γάλα,1 lt,l,2.18,,
 4500000042,"Almiron Milk, Growing Up 1+ Nutricia (1 lt)",Nutricia,Γάλα,1 lt,l,2.13,,
+4500000051,"Biscuits, Biskotti Nutricia (180 g)",Nutricia,Βρεφικά Σνακ,0.18 kg,kg,13.222,,mpiskota-biskotti-nutricia-180-g
 4500000182,"Diapers, Babylino Newborn No 3 (4-9 kg) (56 pcs)",Babylino,Ανοιχτές,56 pcs,piece,0.206,,panes-babylino-no-3-4-9-kg-56-tem
 4500000184,"Diapers, Babylino No 4+ (10-15 kg) (46 pcs)",Babylino,Ανοιχτές,46 pcs,piece,0.25,,panes-babylino-no-4-9-20-kg-46-tem
 4500000185,"Diapers, Babylino No 5 (11-16 kg) (44 pcs)",Babylino,Ανοιχτές,44 pcs,piece,0.262,,panes-babylino-no-5-11-25-kg-44-tem
@@ -10129,13 +10186,16 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500001309,Disks Breast Nursing Silicone Small / Medium Chicco (2 pcs),Chicco,Επιθέματα Στήθους & Μαντηλάκια Καθαρισμού,2 pcs,piece,4.945,,diskoi-sththoys-thhlasmoy-silikonhs-smallmedium-chicco-2-tem
 4500001310,Disks Breast Nursing Silicone Medium / Large Chicco (2 pcs),Chicco,Επιθέματα Στήθους & Μαντηλάκια Καθαρισμού,2 pcs,piece,4.945,,diskoi-sththoys-thhlasmoy-silikonhs-medium-large-chicco-2-tem
 4500001315,"Red Silicone Spoon, Soft 6+ months Chicco (1 pc)",Chicco,"Πιατάκια, Κουταλάκια & Ποτηράκια Για Μωρά",1 pcs,piece,5.39,,koytali-prasino-silikonhs-soft-6-mhnwn-chicco-1-tem
+4500001418,"Biscuits, Biskotti Nutricia (180 g)",Nutricia,Βρεφικά Σνακ,0.18 kg,kg,14.278,,mpiskota-zwakia-biskotti-nutricia-180-g
 4500001419,"Biscuits, Biskotti Nutricia (180 g)",Nutricia,Βρεφικά Σνακ,0.18 kg,kg,14.278,,mpiskota-kakao-biskotti-nutricia-180-g
+4500001434,Bowl with lid and 2 spoons (4+ months) Munchkin (4 pc),Munchkin,Φαγητοδοχεία,4 pcs,piece,2.875,,mpol-me-kapakia-kai-2-koytalia-4-mhnwn-munchkin-4-tem
 4500001438,Multi Coloured Forks and Spoons (12+ months) Munchkin (6 pc),Munchkin,Φαγητοδοχεία,6 pcs,piece,1.25,,set-3-piroynia-kai-3-koytalia-12mhnwn-munchkin-6-tem
 4500001446,Deluxe Drying Rack Munchkin (1 pc),Munchkin,"Πιατάκια, Κουταλάκια & Ποτηράκια Για Μωρά",1 pcs,piece,12.99,,bash-stegnwmatos-munchkin-1tem
 4500001447,"Diapers, Pampers Splashers, Size 3-4 (6-11 kg), (12pcs)",Pampers,Πάνες μαγιό,12 pcs,piece,0.399,,panes-magio-pampers-splashers-megethos-3-4-6-11-kg-12-tem
 4500001448,"Diapers, Pampers Splashers, Size 4-5 (9-15 kg), (11pcs)",Pampers,Πάνες μαγιό,11 pcs,piece,0.435,,panes-magio-pampers-splashers-megethos-4-5-9-15-kg-11-tem
 4500001449,"Diapers, Pampers Splashers, Size 5-6 (14+ kg) (10 pcs)",Pampers,Πάνες μαγιό,10 pcs,piece,0.479,,panes-magio-pampers-splashers-megethos-5-6-14-kg-10tem
 4500001559,"Baby Cotton, Johnson's Baby ( 50 pcs)",Johnson&Johnson,Δίσκοι Βαμβακιού,50 pcs,piece,0.043,,bambaki-paidiko-johnson-baby-50tem
+4500001563,"Powdered milk , 1st Age, Almiron 1, Nutricia (800g)",Nutricia,Γάλα,0.8 kg,kg,31.375,,gala-1hs-brefikhs-hlikias-se-skonh-almiron-1-nutricia-800g
 4500001564,"Powdered milk , 2nd Age, Almiron 2 , Nutricia (800g)",Nutricia,Γάλα,0.8 kg,kg,25,,gala-2hs-brefikhs-hlikias-se-skonh-almiron-2-nutricia-800g
 4500001565,"Powdered milk , 3rd Age , Almiron 3, Nutricia (800g)",Nutricia,Γάλα,0.8 kg,kg,26.463,,gala-3hs-brefikhs-hlikias-se-skonh-almiron-3-nutricia-800g-1
 4500001566,"Powdered milk 2-3 years old, Almiron 4, Nutricia (800g)",Nutricia,Γάλα,0.8 kg,kg,26.375,,nhpiako-rofhma-galaktos-se-skonh-2-3-etwn-almiron-4-nutricia-800g
@@ -10186,7 +10246,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500002316,"Ampoules of Physiological Solution, for Cleaning The Nose, Otrisalin (18pcs/ 5ml)",Otrisalin,Συσκευές Αναρρόφησης Μύτης,18 pcs,piece,0.248,,fysiologiko-dialyma-gia-ton-katharismo-ths-myths-otrisalin-18tem-5ml
 4500002322,"Second age milk, Condensed, Noulac NOYNOY (6x400g)",ΝΟΥΝΟΥ,Παιδικό,2.4 kg,kg,3.417,,gala-2hs-brefikhs-hlikias-sympyknwmeno-noulac-noynoy-6x400g-1
 4500002331,"Ready Baby Food with Vegetables and Veal, Gerber (190g)",Gerber,Έτοιμα Βρεφικά Γεύματα,0.19 kg,kg,13.158,,etoimo-brefiko-geyma-laxanika-me-mosxari-nestle-190g
-4500002333,Ready Baby Food with Chicken and Vegetables Gerber (190g),Gerber,Έτοιμα Βρεφικά Γεύματα,0.19 kg,kg,13.158,,
+4500002333,Ready Baby Food with Chicken and Vegetables Gerber (190g),Gerber,Έτοιμα Βρεφικά Γεύματα,0.19 kg,kg,13.158,,etoimo-brefiko-geyma-kotopoylo-me-laxanika-nestle-190g
 4500002349,"Baby Diapers, No4 (7-18kg), Agnotis (44pcs)",Agnotis,Ανοιχτές,44 pcs,piece,0.238,,brefikes-panes-no4-7-18kg-agnotis-44tem-33
 4500002350,"Baby Diapers, No4+ (9-20kg), Agnotis (40pcs)",Agnotis,Ανοιχτές,40 pcs,piece,0.262,,brefikes-panes-no4-9-20kg-agnotis-40tem-33
 4500002351,"Baby Diapers, No5 (11-25kg), Agnotis (40pcs)",Agnotis,Ανοιχτές,40 pcs,piece,0.28,,brefikes-panes-no5-11-25kg-agnotis-40tem-38
@@ -10195,6 +10255,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500002392,"Bar Oat, Aplle, Peach Hipp (20g)",Hipp,Βρεφικά Σνακ,0.02 kg,kg,70,,mpara-brwmh-mhlo-rodakino-hipp-20g
 4500002403,Shampoo with Chamomile Johnson's Baby (750 ml),Johnson baby,Με αντλία,0.75 lt,l,4.067,,sampoyan-me-xamomhli-johnsons-baby-750-ml-1
 4500002405,Shampoo with Pump Johnson's Baby (750 ml),Johnson baby,Με αντλία,0.75 lt,l,3.827,,sampoyan-johnsons-baby-750-ml-1
+4500002414,"Powdered milk , 1st Age, Almiron 1, Nutricia (600g)",Nutricia,Γάλα,0.6 kg,kg,29.65,,gala-1hs-brefikhs-hlikias-se-skonh-almiron-1-nutricia-600g
 4500002415,"Powdered milk , 2nd Age, Almiron 2 , Nutricia (600g)",Nutricia,Γάλα,0.6 kg,kg,23.817,,gala-2hs-brefikhs-hlikias-se-skonh-almiron-2-nutricia-600g
 4500002416,"Powdered milk , 3rd Age , Almiron 3, Nutricia (600g)",Nutricia,Γάλα,0.6 kg,kg,23.15,,gala-3hs-brefikhs-hlikias-se-skonh-almiron-3-nutricia-600g
 4500002419,"Diapers, Size 4 (9-14kg), Pampers Active Baby (180pcs)",Pampers,Ανοιχτές,180 pcs,piece,0.208,,panes-megethos-4-9-14kg-pampers-active-baby-180tem
@@ -10238,6 +10299,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500002543,Shampoo Baby Moments Chicco (500ml),Chicco,Με αντλία,0.5 lt,l,14.98,,sampoyan-new-baby-moments-chicco-500ml
 4500002564,Cream with Biscuit and Apple from the 6th Month Hipp (250gr),Hipp,Βρεφικές Κρέμες,0.25 kg,kg,22.8,,krema-mpiskoto-mhloy-apo-ton-6o-mhna-hipp-250gr
 4500002566,Milk Collection Shells Breast Chicco (2pcs),Chicco,Επιθέματα Στήθους & Μαντηλάκια Καθαρισμού,2 pcs,piece,7.495,,koxylia-sylloghs-mhtrikoy-galaktos-chicco-2tem
+4500002567,"1st age milk for babies, powder, Aptamil 1, Milupa (400 g)",Milupa,Γάλα,0.4 kg,kg,26.35,,gala-1hs-brefikhs-hlikias-se-skonh-aptamil-1-milupa-400-g
 4500002569,Milk third infancy Powder Aptamil 3 Milupa (400 g),Milupa,Γάλα,0.4 kg,kg,22.1,,gala-3hs-brefikhs-hlikias-se-skonh-aptamil-3-milupa-400-g
 4500002573,"Diapers, Size 3 (6-11kg), Pampers Pants (204pcs)",Pampers,Πάνες βρακάκι,204 pcs,piece,0.221,,panes-brakaki-megethos-3-6-11kg-pampers-pants-204tem
 4500002574,"Diapers, Size 8 (19kg+), Pampers Pants (32pcs)",Pampers,Πάνες βρακάκι,32 pcs,piece,0.45,,panes-brakaki-megethos-8-19kg-pampers-pants-32tem
@@ -10250,7 +10312,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500002600,Diapers Sensitive No1 (2-5kg) Babylino (26pcs),Babylino,Ανοιχτές,26 pcs,piece,0.293,,anoixtes-panes-sensitive-no1-2-5kg-babylino-26tem
 4500002601,Diapers Sensitive No6 (13-18kg) Babylino (38pcs),Babylino,Ανοιχτές,38 pcs,piece,0.288,,anoixtes-panes-sensitive-no6-13-18kg-babylino-38tem
 4500002602,Diapers Sensitive No7 (15+kg) Babylino (36pcs),Babylino,Ανοιχτές,36 pcs,piece,0.303,,anoixtes-panes-sensitive-no7-15kg-babylino-36tem
-4500002607,"Baby Wipes, Aloe, Calm n' Care Baby, Monthly Pack, Septona (12x60pcs)",Septona,Μωρομάντηλα,720 pcs,piece,0.03,,mwromanthla-gia-brefh-me-aloh-calm-n-care-baby-monthly-pack-septona-12x60tem
+4500002607,"Baby Wipes, Aloe, Calm n' Care Baby, Monthly Pack, Septona (12x60pcs)",Septona,Μωρομάντηλα,720 pcs,piece,0.011,,mwromanthla-gia-brefh-me-aloh-calm-n-care-baby-monthly-pack-septona-12x60tem
 4500002608,Organic Cereal with Wheat and Oats and Biscuit flavor Gerber Organic (200 g),Gerber,Βρεφικές Κρέμες,0.2 kg,kg,25,,biologika-dhmhtriaka-me-sitari-kai-brwmh-kai-geysh-mpiskoto-gerber-nestle-200-g
 4500002609,Organic Cereal with Wheat and Oats and Vanilla flavor Gerber Organic (200 g),Gerber,Βρεφικές Κρέμες,0.2 kg,kg,25,,biologika-dhmhtriaka-me-sitari-kai-brwmh-kai-geysh-banilia-gerber-nestle-200-g
 4500002610,"Ready Organic Baby Meal Vegetables with calf, Gerber Organic (190g)",Gerber,Έτοιμα Βρεφικά Γεύματα,0.19 kg,kg,20.789,,etoimo-biologiko-brefiko-geyma-laxanika-me-mosxaraki-gerber-nestle-190g
@@ -10266,6 +10328,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500002638,Children's Educational Cup Without Mouth Pink Munchkin (1 pc),Munchkin,"Πιατάκια, Κουταλάκια & Ποτηράκια Για Μωρά",1 pcs,piece,10.99,,paidiko-ekpaideytiko-pothri-xwris-stomio-roz-munchkin-1-tem
 4500002640,Cup with Lid that closes automatically Pink Munchkin (1 pc),Munchkin,"Πιατάκια, Κουταλάκια & Ποτηράκια Για Μωρά",1 pcs,piece,10.99,,kypello-me-kapaki-poy-kleinei-aytomata-roz-1-tem
 4500002641,Colorful Anti-Slip Bathroom Rug Munchkin (1pc),Munchkin,Είδη για το Μπάνιο του Μωρού,1 pcs,piece,19.99,,polyxrwmo-antiolisthhtiko-tapeto-mpanioy-munchkin-1-tem
+4500002642,Bottle and Nipple Brush Munchkin (1pc),Munchkin,Μπιμπερό & Αξεσουάρ,1 pcs,piece,5.5,,boyrtsa-mpoykaliwn-kai-thhliwn-munchkin-1-tem
 4500002647,"Baby Shampoo, Chamomile , Johnson's (500ml)",Johnson's,Χωρίς αντλία,0.5 lt,l,4.82,,sampoyan-me-xamomhli-baby-shampoo-johnsons-500ml
 4500002653,Kids Bubble Bath Johnson's (750ml),Johnson's,Παιδική Φροντίδα Σώματος,0.75 lt,l,4.107,,afroloytro-kids-bubble-bath-johnsons-750ml
 4500002662,"Baby Wipes, with Chamomile Super Value Box Babycare (16x72pcs)",Babycare,Μωρομάντηλα,1152 pcs,piece,0.01,,mwromanthla-me-xamomhli-super-value-box-babycare-16x72tem
@@ -10360,7 +10423,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500002812,Bioconte Organic Baby Shower Gel and Shampoo with Berry Infusion (500ml),Bioconte,Με αντλία,0.5 lt,l,16.4,,biologiko-afroloytro-kai-sampoyan-mwroy-me-egxyma-moyrwn-bioconte-500ml
 4500002813,Nappy Change Cream Bioconte (100ml),Bioconte,Κρέμες Συγκάματος,0.1 lt,l,59.5,,krema-allaghs-panas-mwroy-bioconte-100ml
 4500002814,Bioconte Baby Moisturizing Cream for Face and Body (100ml),Bioconte,Ενυδάτωσης,0.1 lt,l,59.5,,enydatikh-krema-mwroy-gia-proswpo-kai-swma-bioconte-100ml
-4500002815,"Baby Wipes, Chamomile, Calm n' Care Baby, Septona (18x80pcs)",Septona,Μωρομάντηλα,1440 pcs,piece,0.031,,mwromanthla-gia-brefh-me-xamomhli-calm-n-care-baby-septona-80tem
+4500002815,"Baby Wipes, Chamomile, Calm n' Care Baby, Septona (18x80pcs)",Septona,Μωρομάντηλα,1440 pcs,piece,0.011,,mwromanthla-gia-brefh-me-xamomhli-calm-n-care-baby-septona-80tem
 4500002817,Diapers Sensitive Monthly Pack No1 (2-5kg) Babylino (68pcs),Babylino,Ανοιχτές,68 pcs,piece,0.136,,anoixtes-panes-sensitive-mhniaio-paketo-no1-2-5kg-babylino-68tem
 4500002818,"Diapers, Babylino Newborn No 2 (3-6 kg) (64 pcs)",Babylino,Ανοιχτές,64 pcs,piece,0.145,,panes-babylino-sensitive-super-pack-no-2-3-6-kg-3-pack-64-tem
 4500002819,Diapers Sensitive Super Pack No1 (2-5kg) Babylino (2Χ68pcs),Babylino,Ανοιχτές,156 pcs,piece,0.108,,anoixtes-panes-sensitive-super-pack-no1-2-5kg-babylino-136tem
@@ -10406,8 +10469,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4500002869,Ready Organic Baby Meal Sweet Potato with Vegetables and Chicken Gerber Organic (190g),Gerber,Έτοιμα Βρεφικά Γεύματα,0.19 kg,kg,20.789,,etoimo-biologiko-brefiko-geyma-glykopatata-me-laxanika-kai-kotopoylo-gerber-organic-190g
 4500002870,Plastic-Free Baby Wipes Bio On The Go WaterWipes (10pcs),WaterWipes,Vegan Περιποίηση Σώματος,48 pcs,piece,0.033,,
 4500002871,Sunscreen Face-Body Spray for Babies and Children SPF 50 Naif (100ml),Naif,Παιδικά Αντιηλιακά,0.1 lt,l,199.9,,antihliako-sprei-proswpoy-swmatos-gia-brefh-kai-paidia-spf-50-naif-100ml
-4500002872,Baby Wipes for Babies Chamomile Calm n' Care Baby Septona (18x80pcs),Septona,Μωρομάντηλα,1440 pcs,piece,0.031,,mwromanthla-gia-brefh-xamomhli-calm-n-care-baby-septona-18x80tem
-4500002873,Dermasoft Max Septona Baby Wipes Large (15x60pcs),Septona,Μωρομάντηλα,900 pcs,piece,0.043,,mwromanthla-megala-dermasoft-max-septona-15x60tem
+4500002872,Baby Wipes for Babies Chamomile Calm n' Care Baby Septona (18x80pcs),Septona,Μωρομάντηλα,1440 pcs,piece,0.012,,mwromanthla-gia-brefh-xamomhli-calm-n-care-baby-septona-18x80tem
+4500002873,Dermasoft Max Septona Baby Wipes Large (15x60pcs),Septona,Μωρομάντηλα,900 pcs,piece,0.015,,mwromanthla-megala-dermasoft-max-septona-15x60tem
 4500002875,Johnson's Baby Top to Toe Wash 2 in 1 500ml,Johnson's,Με αντλία,0.5 lt,l,5.48,,afroloytro-sampoyan-johnsons-baby-top-to-toe-wash-2-se-1-500ml
 4500002876,Shampoo & shower gel 2 σε 1 Calendula LE PETIT MARSEILLAIS 700ML,Johnson's,Παιδική Φροντίδα Σώματος,0.75 lt,l,6.453,,sampoyan-afroloytro-2-se-1-me-kalentoyla-le-petit-marseillais-700ml
 4500002878,"Kids Bubble Bath Soft, Johnson's (750ml)",Johnson's,Παιδική Φροντίδα Σώματος,0.75 lt,l,4.107,,afroloytro-paidiko-soft-johnsons-750ml
@@ -10433,7 +10496,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4600000467,"Dog snack, Dentastix Medium dog Pedigree (77 g)",Pedigree,Οδοντικά σνακ,0.077 kg,kg,23.247,,snak-gia-mesaioys-skyloys-dentastix-pedigree-77g
 4600000489,"Dry cat food with Veal, Adult, Whiskas (1.9kg)",Whiskas,Ξηρά Τροφή,1.9 kg,kg,6.226,,
 4600000490,"Dry cat food with Beef Chicken Liver, Friskies (400 g)",Friskies,Ξηρά Τροφή,0.4 kg,kg,6.475,,xhra-trofh-gia-gates-bodino-kotopoylo-sykwti-friskies-400-g
-4600000491,"Dry cat food with Beef Chicken Vegetables, Friskies (2 kg)",Friskies,Ξηρά Τροφή,2 kg,kg,4.9,,
+4600000491,"Dry cat food with Beef Chicken Vegetables, Friskies (2 kg)",Friskies,Ξηρά Τροφή,2 kg,kg,4.9,,xhra-trofh-gia-gates-bodino-kotopoylo-laxanika-friskies-2-kg
 4600000493,"Dry cat food with Rabbit Chicken and Vegetables, Friskies (400 g)",Friskies,Ξηρά Τροφή,0.4 kg,kg,6.2,,xhra-trofh-gia-gates-koyneli-kotopoylo-kai-laxanika-friskies-400-g
 4600000494,"Dry cat food with Rabbit Chicken and Vegetables, Friskies (2 kg)",Friskies,Ξηρά Τροφή,2 kg,kg,4.9,,xhra-trofh-gia-gates-koyneli-kotopoylo-kai-laxanika-friskies-2-kg
 4600000498,"Dry cat food chicken, turkey and Olives Friskies (2 kg)",Friskies,Ξηρά Τροφή,2 kg,kg,4.9,,xhra-trofh-gia-gates-kotopoylo-galopoyla-kai-elies-friskies-2-kg
@@ -10446,6 +10509,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4600000528,"Mousse cat food with Chicken, Gourmet Gold (85g)",Gourmet,Υγρή Τροφή,0.085 kg,kg,10.471,,trofh-moys-gia-gates-me-kotopoylo-gourmet-gold-85g
 4600000530,"Cat food, Beef and Chicken, Double Pleasure Gourmet Gold (85g)",Gourmet,Υγρή Τροφή,0.085 kg,kg,10.471,,trofh-gia-gates-bodino-kotopoylo-double-pleasure-gourmet-gold-85g
 4600000532,Food for cats Beef & Chicken in Sauce Gourmet Gold (85g),Gourmet,Υγρή Τροφή,0.085 kg,kg,10.471,,trofh-gia-gates-bodino-kotopoylo-casserole-se-saltsa-gourmet-gold-85g
+4600000535,"Cat food, Fillets with Chicken, Gourmet Perle (85g)",Gourmet,Υγρή Τροφή,0.085 kg,kg,10.588,,trofh-gia-gates-filetakia-me-kotopoylo-gourmet-perle85g
+4600000536,"Cat food, Fillets with Rabbit, Gourmet Perle (85g)",Gourmet,Υγρή Τροφή,0.085 kg,kg,10.471,,trofh-gia-gates-filetakia-me-koyneli-gourmet-perle-85g
 4600000537,"Cat food, Fillets with Salmon, Gourmet Perle (85g)",Gourmet,Υγρή Τροφή,0.085 kg,kg,10.471,,trofh-gia-gates-filetakia-me-solomo-gourmet-perle-85g
 4600000538,"Cat food, Fillets with Ocean Fish and Shrimps, Gourmet Perle (85g)",Gourmet,Υγρή Τροφή,0.085 kg,kg,10.588,,trofh-gia-gates-filetakia-me-psaria-toy-wkeanoy-kai-garides-gourmet-perle-85g
 4600000553,"Dry food with Beef, Friskies Active (1.5 kg)",Friskies,Ξηρά Τροφή,1.5 kg,kg,4,,xhra-trofh-me-bodino-friskies-active-15-kg
@@ -10524,7 +10589,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4600001078,Cat food with Rabbit in Felix Agail Jelly (85g),Felix,Υγρή Τροφή,0.085 kg,kg,8.471,,trofh-gia-gates-me-koyneli-se-zele-felix-agail-85g
 4600001079,Cat food with Salmon and Tuna in Felix Agail Jelly (4x85g),Felix,Υγρή Τροφή,3.4 kg,kg,0.797,,trofh-gia-gates-me-solomo-tono-se-zele-felix-agail-4x85g
 4600001080,Cat food Beef with Carrots and Chicken with Tomato Felix Agail (4x85g),Felix,Υγρή Τροφή,3.4 kg,kg,0.803,,trofh-gia-gates-me-bodino-me-karota-kotopoylo-me-ntomata-felix-agail-4x85g
-4600001082,Cat Food with Beef Sensations Jellies Felix (4x85g),Felix,Υγρή Τροφή,3.4 kg,kg,0.803,,
+4600001082,Cat Food with Beef Sensations Jellies Felix (4x85g),Felix,Υγρή Τροφή,3.4 kg,kg,0.803,,trofh-gia-gates-me-bodino-sensations-jellies-felix-4x85g
 4600001083,Cat Food with Salmon & Sardine Sensations Sauces Felix (4x85g),Felix,Υγρή Τροφή,3.4 kg,kg,0.803,,trofh-gia-gates-me-solomo-sardela-sensations-sauces-felix-4x85g
 4600001084,"Cat food Beef, Chicken & Tuna Soups Felix (6x48g)",Felix,Υγρή Τροφή,0.288 kg,kg,9.34,,trofh-gia-gates-me-bodino-kotopoylo-tono-soups-felix-6x48g
 4600001085,"Cat Food Beef, Chicken & Lamb Soups Felix (6x48g)",Felix,Υγρή Τροφή,0.288 kg,kg,9.34,,trofh-gia-gates-me-bodino-kotopoylo-arni-soups-felix-6x48g
@@ -10607,7 +10672,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4600001206,PrimaDog Beef and Rice Sausage for Dogs (800g),PrimaDog,Υγρή Τροφή,0.8 kg,kg,6.612,,loykaniko-gia-skyloys-bodino-kai-ryzi-primadog-800g
 4600001210,"Τροφή για μικρόσωμους Σκύλους Πολυσυσκευασία - 12 φακελάκια με 3 γεύσεις (Αρνί, Ελάφι και Ψάρι) Prima Dog (12x85g)",PrimaDog,Υγρή Τροφή,1.02 kg,kg,19.01,,trofh-gia-mikroswmoys-skyloys-polysyskeyasia-12-fakelakia-me-4-geyseis-arni-elafi-kai-psari-prima-dog-12x85g
 4600001212,"Baby Wipes, Chamomile, Calm n' Care Baby, Septona (2x20pcs) Multipack",Septona,Μωρομάντηλα,40 pcs,piece,0.043,,mwromanthla-gia-brefh-me-xamomhli-calm-n-care-baby-septona-2x20tem-multipack
-4600001213,Liquid Cat Food with Turkey in My Love Sauce (85gr),My Love,Υγρή Τροφή,0.085 kg,kg,7.059,,
+4600001213,Liquid Cat Food with Turkey in My Love Sauce (85gr),My Love,Υγρή Τροφή,0.085 kg,kg,7.059,,my-love-gia-enhlikes-gates-me-galopoyla-se-saltsa-85gr
 4600001214,Liquid Cat Food with Rabbit in My Love Sauce (85gr),My Love,Υγρή Τροφή,0.085 kg,kg,7.059,,ygrh-trofh-gia-gates-me-koyneli-se-saltsa-my-love-85gr
 4600001215,Liquid Cat Food with Chicken in My Love Sauce (85gr),My Love,Υγρή Τροφή,0.085 kg,kg,7.059,,ygrh-trofh-gia-gates-me-kotopoylo-se-saltsa-my-love-85gr
 4600001216,Liquid Cat Food with Liver in My Love Sauce (85gr),My Love,Υγρή Τροφή,0.085 kg,kg,7.059,,ygrh-trofh-gia-gates-me-sykwti-se-saltsa-my-love-85gr
@@ -11048,15 +11113,16 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4700005686,Waste Bags Medium 80 pcs Sanitas (50x55 cm),Sanitas,Σακούλες Απορριμμάτων Μεγάλες,80 pcs,piece,0.058,,
 4700005696,Hand Mixer Inox Eurolamp (1 pc),Eurolamp,Συσκευές Μαγειρικής,1 pcs,piece,35.99,,mixer-xeiros-inox-eurolamp-400w
 4700005698,The Original Lunchbag Kids - Unicorn The LunchBags (1 pc),Lunchbag,Τσάντες φαγητού,1 pcs,piece,35.9,,lunchbag-me-sxedio-unicorn-munchkin-1-tem
+4700005699,The Original Lunchbag Plus - Olive The LunchBags (1 pc),Lunchbag,Τσάντες φαγητού,1 pcs,piece,20.9,,lunchbag-se-xaki-xrwma-munchkin-1-tem
 4700005700,The Original Lunchbag Plus - Black - The LunchBag (1 pc),Lunchbag,Τσάντες φαγητού,1 pcs,piece,20.9,,
 4700005701,Bottle All Black Chillys (500 ml),Chillys,Παγούρια & θερμός,1 pcs,piece,29,,thermos-mayro-munchkin-500-ml
 4700005702,Small Snack Bag Urban Birds Bumkins (2 pcs),Bumkins,Εξωτερικοί χώροι & bbq,2 pcs,piece,4.995,,mikro-tsantaki-snak-munchkin-2-tem
 4700005708,"Paper napkins, Plus ""Olive"" Endless 30x30",Endless,Χαρτοπετσέτες,0.157 kg,kg,5.287,,xartopetsetes-plus-elia-endless-30x30
 4700005720,Oki Doki White Plastic Cup 240ml (50pcs),Oki Doki,"Ποτήρια, πιάτα πλαστικά",50 pcs,piece,0.03,,pothri-plastiko-leyko-oki-doki-240ml-50tem
-4700005721,Garbage Bags Medium 52x60cm 35lt Thrace (10pcs),Thrace,Σακούλες Απορριμμάτων Μεσαίες,10 pcs,piece,0.139,,
+4700005721,Garbage Bags Medium 52x60cm 35lt Thrace (10pcs),Thrace,Σακούλες Απορριμμάτων Μεσαίες,10 pcs,piece,0.139,,sakoyles-aporrimatwn-mesaies-52x60cm-35lt-thrace-10tem
 4700005722,Garbage bags Large 52x75cm 45lt Thrace (10pcs),Thrace,Σακούλες Απορριμμάτων Μεγάλες,10 pcs,piece,0.174,,sakoyles-aporrimmatwn-megales-52x75cm-45lt-thrace-10tem
 4700005723,Giant Garbage Bags 70x95cm 100 lt Thrace (8pcs),Thrace,Γίγας,8 pcs,piece,0.292,,sakoyles-aporrimmatwn-gigas-70x95cm-100-lt-thrace-8tem
-4700005724,Extra Giant Garbage Bags 80x110cm 140 lt Thrace (8pcs),Thrace,Γίγας,8 pcs,piece,0.405,,
+4700005724,Extra Giant Garbage Bags 80x110cm 140 lt Thrace (8pcs),Thrace,Γίγας,8 pcs,piece,0.405,,sakoyles-aporrimmatwn-extra-gigas-80x110cm-140-lt-thrace-8tem
 4700005725,AROXOL CARE & PROTECT 100ML,Aroxol,Εντομοκτόνα,0.1 lt,l,64.3,,aroxol-care-protect-100ml
 4700005752,Tights 40DEN Black Small Vivant Bic Touch (1 pc),Bic,"Καλσόν, Κάλτσες & Καλτσάκια",1 pcs,piece,3.99,,kalson-40den-mayro-small-vivant-touch-bic-1-tem
 4700005754,Tights 50DEN Grey Small Velvet Bic Touch (1 pc),Bic,"Καλσόν, Κάλτσες & Καλτσάκια",1 pcs,piece,4.99,,kalson-50den-gkri-small-velvet-touch-bic-1-tem
@@ -11080,6 +11146,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4700005968,Pencils Graphite HB Doodle Bic Evolution (3pcs),Bic,Γραφική ύλη,3 pcs,piece,1.24,,molybia-grafith-doodle-bic-evolution-3tem
 4700005969,"Children's, Baby's Book (1+ years old) Learning Animals Fisher Price (1τεμ)",Mr. Men-Little Miss,Βιβλία μικροί ήρωες,1 pcs,piece,6.89,,paidiko-biblio-1-etwn-mathainw-zwakia-fisher-price-1tem
 4700006006,Φαράσι με Λάστιχο Madona,Madona,"Κουβάδες, Σφουγγαρίστρες, Κοντάρια",1 pcs,piece,1.29,,farasi-me-lastixo-madona
+4700006008,Non-drip food container with fork and spoon for toddlers and children green/blue Lunch BentoBox Munchkin (1pc),Munchkin,Φαγητοδοχεία,1 pcs,piece,34.99,,faghtodoxeio-poy-den-stazei-gia-nhpia-kai-paidia-prasinomple-lunch-bento-box-1tem
 4700006009,Non-drip food container with fork and spoon for toddlers and children pink/yellow Lunch BentoBox Munchkin (1pc),Munchkin,Φαγητοδοχεία,1 pcs,piece,34.99,,faghtodoxeio-me-koytalopiroyna-poy-den-stazei-gia-nhpia-kai-paidia-rozkitrino-lunch-bento-box-1tem
 4700006011,Children's stainless steel bottle with Flip top lid Mr Lion Trixie (350ml),Trixie,Παγούρια & θερμός,1 pcs,piece,20.99,,paidiko-pagoyri-apo-anoxeidwto-atsali-me-flip-top-kapaki-mr-lion-trixie-350ml
 4700006012,Children's stainless steel bottle with Flip top lid Mrs Elephant Trixie (350ml),Trixie,Παγούρια & θερμός,1 pcs,piece,20.99,,paidiko-pagoyri-apo-anoxeidwto-atsali-me-flip-top-kapaki-mrs-elephant-trixie-350ml
