@@ -202,3 +202,28 @@ def test_matches_best_hit_and_each_store_code_once():
         {"product_id": "kritikos-2", "store": "ab", "code": "9", "method": "ean", "score": found[0]["score"]},
         {"product_id": "kritikos-2", "store": "kritikos", "code": "2", "method": "ean", "score": ""},
     ]
+
+
+def test_catalog_results_are_hits_for_each_ean():
+    products = {
+        "5203149004488": {
+            "code": "5203149004488",
+            "name": "ΡΟΔΟΠΗ ΚΡΕΜΑ ΚΑΡΑΜΕΛΕ 160g",
+            "brand": "",
+            "category": "Κρέμες",
+            "size": "",
+            "unit": "kg",
+            "unit_price": "8.12",
+            "ean": "5203149004488",
+        },
+        "2101209000000": {"code": "2101209000000", "name": "x", "brand": "", "category": "", "size": "", "unit": "", "unit_price": "", "ean": ""},
+    }
+
+    (hit,) = match.catalog_results("galaxias", products)
+
+    assert (hit["store"], hit["ean"], hit["code"], hit["name"]) == (
+        "galaxias",
+        "5203149004488",
+        "5203149004488",
+        "ΡΟΔΟΠΗ ΚΡΕΜΑ ΚΑΡΑΜΕΛΕ 160g",
+    )

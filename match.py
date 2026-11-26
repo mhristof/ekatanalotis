@@ -1,11 +1,13 @@
-"""Match products across stores by EAN: only kritikos lists barcodes, and
-the ab and mymarket site searches find a product by its EAN.
+"""Match products across stores by EAN: kritikos and galaxias list
+barcodes, and the ab and mymarket site searches find a product by its
+EAN.
 
 `search` looks up the EANs of kritikos products not searched before and
 appends every result, "not found" included, to matches/ean_search.csv, so
 it can be stopped and resumed. `accept` is offline: it checks every hit
 against the kritikos product (same size and brand; the price is no check,
-as promotions differ) and writes matches/ean_matches.csv and, for review,
+as promotions differ), along with the galaxias products whose barcode is a
+kritikos EAN, and writes matches/ean_matches.csv and, for review,
 matches/ean_candidates.csv. fuzzy.py adds the matches by name and writes
 matches/matches.csv."""
 
@@ -26,6 +28,8 @@ import mymarket
 
 # stores whose site search finds an EAN
 SEARCH = {"ab": ab.search, "mymarket": mymarket.search}
+# stores whose catalog has each product's EAN, matched to kritikos offline
+CATALOG_EAN = ["galaxias"]
 # seconds between searches, per store
 DELAY = 1.5
 
@@ -445,10 +449,25 @@ def matches(candidates):
     return rows
 
 
+def catalog_results(store, products):
+    """Search result rows for a store whose catalog lists EANs: each of
+    its products is the hit for each of its EANs."""
+    return [
+        {"store": store, "ean": ean, "searched": "", **{f: p[f] for f in catalog.FIELDS[:-1]}}
+        for p in products.values()
+        for ean in product_eans(p)
+    ]
+
+
 def accept():
     products = catalog.read(catalog.path("kritikos"))
-    catalogs = {store: catalog.read(catalog.path(store)) for store in SEARCH}
-    found = candidates(products, read_csv(SEARCH_PATH), catalogs)
+    catalogs = {store: catalog.read(catalog.path(store)) for store in [*SEARCH, *CATALOG_EAN]}
+    results = read_csv(SEARCH_PATH)
+
+    for store in CATALOG_EAN:
+        results += catalog_results(store, catalogs[store])
+
+    found = candidates(products, results, catalogs)
 
     # by kritikos code, for review
     write_csv(
@@ -466,7 +485,7 @@ def accept():
 
     print(f"candidates: {len(found)} {verdicts}")
 
-    for store in SEARCH:
+    for store in [*SEARCH, *CATALOG_EAN]:
         print(f"{store}: {sum(r['store'] == store for r in rows)} matched")
 
 

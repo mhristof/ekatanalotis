@@ -9,8 +9,9 @@ Product details for matching products across stores are kept in
 rows: one per product code ever seen, updated in place by every run.
 `unit` is `kg`, `l`, `piece`, `wash` or `m`, the unit `unit_price` is
 per. Stores may add their own fields after these (efresh's `slug`). Only
-kritikos lists barcodes (`ean`, `;` separated, old and multipack ones
-included); ab and mymarket find products by EAN in their site search.
+kritikos and galaxias list barcodes (`ean`, `;` separated, old and
+multipack ones included); ab and mymarket find products by EAN in their
+site search.
 
 ## Layout
 
@@ -19,7 +20,9 @@ included); ab and mymarket find products by EAN in their site search.
   summary. Exits non-zero if any store failed.
 - `<store>.py` - one module per store: `SECTIONS`, `fetch_page(section, page)`
   and `parse()`. masoutis' api takes POSTs with an anonymous visitor's
-  credentials (`GetCred`) and the site's fixed `PassKey`.
+  credentials (`GetCred`) and the site's fixed `PassKey`. galaxias is
+  Magento: its public GraphQL api (`/api/graphql`), and its product
+  codes (skus) are the barcodes.
 - `slow.py` - stores whose bot protection only allows a trickle of
   requests (xalkiadakis). `.github/workflows/slow.yml` runs hourly and
   scrapes the next 2 sections into `pending/` on a `data/<store>-<day>`
@@ -29,7 +32,8 @@ included); ab and mymarket find products by EAN in their site search.
 - `catalog.py` - reads, merges and writes `catalog/`; fetchers return
   `[code, name, price, details]` rows and the price csv uses the first
   three.
-- `match.py` - matches kritikos products to ab and mymarket by EAN.
+- `match.py` - matches kritikos products to ab and mymarket by EAN, and
+  to galaxias by the barcodes in its catalog (offline, `CATALOG_EAN`).
   `python match.py search [--limit N]` searches the store sites for EANs
   not searched before (live, one search per 1.5 s per store) and appends
   the results to `matches/ean_search.csv`; `python match.py accept`
@@ -56,8 +60,8 @@ included); ab and mymarket find products by EAN in their site search.
 - `packs.py` - cheaper pack sizes of the same product in the same store
   (same name once sizes are taken out, unit price from price and pack
   size), published by `publish.py build` as `packs/<store>.json`.
-- `extension/` - Chrome extension (Manifest V3). On a sklavenitis, ab or
-  masoutis product page it shows a panel with the product's latest price
+- `extension/` - Chrome extension (Manifest V3). On a sklavenitis, ab,
+  masoutis or galaxias product page it shows a panel with the product's latest price
   in every store it is matched in, the store's cheaper pack sizes of it,
   and on request its price history graph, read from the GitHub Pages
   files. The panel is in Greek or English (Greek by default); the language

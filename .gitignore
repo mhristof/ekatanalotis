@@ -4,3 +4,4 @@ __pycache__/
 PLAN.md
 site/
 dist/
+.DS_Store

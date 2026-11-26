@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_name__",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "__MSG_description__",
   "default_locale": "el",
   "icons": {
@@ -24,7 +24,8 @@
       "matches": [
         "https://www.sklavenitis.gr/*",
         "https://www.ab.gr/*",
-        "https://www.masoutis.gr/*"
+        "https://www.masoutis.gr/*",
+        "https://galaxias.shop/*"
       ],
       "js": [
         "content.js"

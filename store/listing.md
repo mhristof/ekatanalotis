@@ -14,7 +14,7 @@ the default language, English the other).
 
 Don't list the supermarkets' names in the description: review rejected
 1.0.0 for "excessive keywords" over the list of all 8 (violation "Yellow
-Argon"). Naming the 3 sites the extension runs on is fine.
+Argon"). Naming the sites the extension runs on is fine.
 
 - **Category:** Shopping
 - **Language:** Greek (add English as a second language for the
@@ -26,10 +26,10 @@ Argon"). Naming the 3 sites the extension runs on is fine.
 
 Δείτε αμέσως αν ένα προϊόν κοστίζει λιγότερο σε άλλο σούπερ μάρκετ.
 
-Στη σελίδα ενός προϊόντος στο Σκλαβενίτης, στο ΑΒ ή στο Μασούτης, το
-ekatanalotis δείχνει ένα μικρό πλαίσιο με:
+Στη σελίδα ενός προϊόντος στο Σκλαβενίτης, στο ΑΒ, στο Μασούτης ή στο
+Γαλαξία, το ekatanalotis δείχνει ένα μικρό πλαίσιο με:
 
-- την τιμή του ίδιου προϊόντος σε 8 ελληνικά σούπερ μάρκετ, με πράσινο
+- την τιμή του ίδιου προϊόντος σε 9 ελληνικά σούπερ μάρκετ, με πράσινο
   τη φθηνότερη και κόκκινο την ακριβότερη
 - την τιμή ανά κιλό ή λίτρο
 - φθηνότερες συσκευασίες του ίδιου προϊόντος στο ίδιο κατάστημα
@@ -43,10 +43,10 @@ barcode ή με το όνομα, οπότε ελέγξτε το μέγεθος �
 
 See at a glance whether a product costs less in another supermarket.
 
-On a product's page at Sklavenitis, AB or Masoutis, ekatanalotis shows a
-small panel with:
+On a product's page at Sklavenitis, AB, Masoutis or Galaxias,
+ekatanalotis shows a small panel with:
 
-- the same product's price in 8 Greek supermarkets, the cheapest in
+- the same product's price in 9 Greek supermarkets, the cheapest in
   green and the dearest in red
 - the price per kg or litre
 - cheaper pack sizes of the same product in the same store
@@ -72,7 +72,7 @@ in other Greek supermarkets.
   public daily price files the panel shows, published by this project on
   GitHub Pages.
 - **Content scripts on `www.sklavenitis.gr`, `www.ab.gr`,
-  `www.masoutis.gr`:** reads the product code of the product page the
+  `www.masoutis.gr`, `galaxias.shop`:** reads the product code of the product page the
   user is on and shows the price panel on that page. Nothing on the page
   is changed or sent anywhere.
 

@@ -14,6 +14,9 @@
     marketin: { name: "Market In", light: "#008300", dark: "#008300" },
     efresh: { name: "e-Fresh", light: "#6250d6", dark: "#9085e9" },
     masoutis: { name: "Masoutis", light: "#e34948", dark: "#e66767" },
+    // the palette has 8 hues: the 9th store reuses the green of the store it
+    // shares the fewest products with, told apart by a dashed line
+    galaxias: { name: "Galaxias", light: "#008300", dark: "#008300", dash: true },
   };
   // [label key, days]
   const RANGES = [
@@ -33,6 +36,7 @@
         marketin: "Market In",
         efresh: "e-Fresh",
         masoutis: "Μασούτης",
+        galaxias: "Γαλαξίας",
       },
       units: { kg: "κιλό", l: "λίτρο", piece: "τεμ.", wash: "πλύση", m: "μέτρο" },
       months3: "3Μ",
@@ -101,6 +105,7 @@
     ab: (code) => `https://www.ab.gr/search?q=${code}`,
     // the page finds the product by the code alone, the name is not checked
     masoutis: (code) => `https://www.masoutis.gr/categories/item/x?${code}`,
+    galaxias: (code) => `https://galaxias.shop/product/${code}`,
   };
   const DAY = 24 * 60 * 60 * 1000;
   const SVG = "http://www.w3.org/2000/svg";
@@ -134,6 +139,13 @@
       return location.pathname.startsWith("/categories/item/") && m
         ? { store: "masoutis", code: m[1] }
         : null;
+    }
+
+    if (host === "galaxias.shop" || host.endsWith(".galaxias.shop")) {
+      // /product/<sku>, the sku being the barcode
+      const m = location.pathname.match(/^\/product\/(\d+)\/?$/);
+
+      return m ? { store: "galaxias", code: m[1] } : null;
     }
 
     return null;
@@ -292,7 +304,7 @@
     .tip .row { display: flex; align-items: center; gap: 6px; }
     .tip b { min-width: 52px; text-align: right; }
     .tip span { color: var(--text-2); }
-    .key { display: inline-block; width: 12px; height: 0; border-top: 2px solid; vertical-align: middle; }
+    .key { display: inline-block; width: 14px; height: 0; border-top: 2px solid; vertical-align: middle; }
     .legend { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 6px 0 8px; color: var(--text-2); font-size: 12px; }
     table { width: 100%; border-collapse: collapse; font-size: 12px; }
     th { text-align: left; color: var(--muted); font-weight: 500; padding: 2px 4px; border-bottom: 1px solid var(--grid); }
@@ -401,6 +413,15 @@
     return STORES[store][dark() ? "dark" : "light"];
   }
 
+  // the store's line sample, as in the graph
+  function key(store) {
+    const k = el("i", { class: "key" });
+    k.style.borderColor = color(store);
+    k.style.borderTopStyle = STORES[store].dash ? "dashed" : "solid";
+
+    return k;
+  }
+
   function chart(all, here) {
     const W = 396;
     const H = 180;
@@ -464,6 +485,7 @@
           fill: "none",
           stroke: color(s.store),
           "stroke-width": s.store === here ? 3 : 2,
+          ...(STORES[s.store].dash ? { "stroke-dasharray": "5 3" } : {}),
           "stroke-linejoin": "round",
           "stroke-linecap": "round",
         }),
@@ -494,9 +516,7 @@
         dots.append(
           el("svg:circle", { cx: x(at), cy: y(p), r: 4, fill: color(s.store), stroke: "var(--surface)", "stroke-width": 2 }),
         );
-        const key = el("i", { class: "key" });
-        key.style.borderColor = color(s.store);
-        tip.append(el("div", { class: "row" }, key, el("b", {}, euro(p)), el("span", {}, storeName(s.store))));
+        tip.append(el("div", { class: "row" }, key(s.store), el("b", {}, euro(p)), el("span", {}, storeName(s.store))));
       }
 
       tip.style.display = rows.length ? "block" : "none";
@@ -560,8 +580,6 @@
     const body = el("tbody");
 
     for (const [store, s] of rows) {
-      const key = el("i", { class: "key" });
-      key.style.borderColor = color(store);
       // the sign of the rounded difference, so 3,71 € against 3,70 € is "0%"
       const pct = Math.round(((s.price - herePrice) / herePrice) * 100);
       const diff = s.price != null && herePrice != null && store !== here ? `${pct > 0 ? "+" : ""}${pct}%` : "";
@@ -573,7 +591,7 @@
         el(
           "tr",
           { class: store === here ? "here" : "" },
-          el("td", {}, key, " ", storeName(store)),
+          el("td", {}, key(store), " ", storeName(store)),
           price,
           el("td", { class: "num" }, diff),
           el("td", { class: "num" }, unit),
@@ -718,9 +736,7 @@
     const legend = el("div", { class: "legend" });
 
     for (const s of all) {
-      const key = el("i", { class: "key" });
-      key.style.borderColor = color(s.store);
-      legend.append(el("span", {}, key, " ", storeName(s.store)));
+      legend.append(el("span", {}, key(s.store), " ", storeName(s.store)));
     }
 
     if (settings.history) {

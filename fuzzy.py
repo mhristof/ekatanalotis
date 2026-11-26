@@ -20,7 +20,10 @@ from itertools import count
 import catalog
 import match
 
-STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh", "masoutis"]
+STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh", "masoutis", "galaxias"]
+# stores with no brand field: their products are found by the other
+# stores' brands in their names
+NO_BRAND = {"galaxias"}
 WEIGHTS_PATH = "matches/fuzzy_weights.json"
 MATCHES_PATH = "matches/matches.csv"
 # about 98% precision on the EAN matches, a lower bound as some of those
@@ -113,7 +116,7 @@ def brand_keys(brand):
 
 def load(stores=STORES, directory="catalog"):
     """{(store, code): product}, with what matching needs, for products
-    with a size and a brand."""
+    with a size and a brand (or of a NO_BRAND store)."""
     out = {}
 
     for store in stores:
@@ -121,7 +124,7 @@ def load(stores=STORES, directory="catalog"):
             sizes = match.product_sizes(p)
             brands = brand_keys(p["brand"])
 
-            if sizes and brands:
+            if sizes and (brands or store in NO_BRAND):
                 out[(store, code)] = {
                     **p,
                     "sizes": sizes,

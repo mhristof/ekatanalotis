@@ -3,7 +3,7 @@
 // tests that run it in a page.
 
 const DATA_URL = "https://mhristof.github.io/ekatanalotis/";
-const STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh", "masoutis"];
+const STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh", "masoutis", "galaxias"];
 // index.json is checked for a new build after this long
 const MAX_AGE = 60 * 60 * 1000;
 // every file is kept in the Cache Storage named after its build, so it is

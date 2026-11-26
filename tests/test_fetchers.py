@@ -11,6 +11,7 @@ from mymarket import mymarket
 from sklavenitis import sklavenitis
 from marketin import marketin
 from masoutis import masoutis
+from galaxias import galaxias
 from xalkiadakis import xalkiadakis
 
 # store -> (fetcher, one section)
@@ -20,6 +21,7 @@ STORES = {
     "kritikos": (kritikos, ["900"]),
     "marketin": (marketin, ["kava"]),
     "masoutis": (masoutis, ["568,011410"]),
+    "galaxias": (galaxias, ["69"]),
     "mymarket": (mymarket, ["trofima"]),
     "sklavenitis": (sklavenitis, ["kava"]),
     "xalkiadakis": (xalkiadakis, ["moro"]),
@@ -28,7 +30,10 @@ STORES = {
 # catalog fields every store fills for most products; kritikos is the
 # only one with barcodes
 FIELDS = ["brand", "category", "unit", "unit_price"]
-STORE_FIELDS = {"ab": ["size"], "efresh": ["size"], "kritikos": ["size", "ean"]}
+STORE_FIELDS = {"ab": ["size"], "efresh": ["size"], "kritikos": ["size", "ean"], "galaxias": ["ean"]}
+# fields a store doesn't give: galaxias has no brand, and a unit price for
+# ~60% of its products
+STORE_SKIP = {"galaxias": ["brand", "unit", "unit_price"]}
 
 # stores whose bot protection blocks some IPs (GitHub runners, or any IP
 # after too many requests); reported as XPASS when they do work
@@ -56,7 +61,7 @@ def test_fetcher(store, request):
 
     products = catalog.products(rows).values()
 
-    for field in FIELDS + STORE_FIELDS.get(store, []):
+    for field in [f for f in FIELDS if f not in STORE_SKIP.get(store, [])] + STORE_FIELDS.get(store, []):
         filled = sum(1 for p in products if p[field])
         assert filled >= 0.8 * len(products), f"{store}: {field} in {filled}/{len(products)}"
 
