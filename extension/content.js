@@ -22,6 +22,8 @@
   const SEARCH = {
     sklavenitis: (code) => `https://www.sklavenitis.gr/apotelesmata-anazitisis/?Query=${code}`,
     ab: (code) => `https://www.ab.gr/search?q=${code}`,
+    // the page finds the product by the code alone, the name is not checked
+    masoutis: (code) => `https://www.masoutis.gr/categories/item/x?${code}`,
   };
   const DAY = 24 * 60 * 60 * 1000;
   const SVG = "http://www.w3.org/2000/svg";
@@ -46,6 +48,15 @@
       const m = location.pathname.match(/\/p\/(\d+)\/?$/);
 
       return m ? { store: "ab", code: m[1] } : null;
+    }
+
+    if (host.endsWith("masoutis.gr")) {
+      // /categories/item/<name>?<code>, which the site rewrites to ?<code>=
+      const m = location.search.match(/^\?(\d+)=?$/);
+
+      return location.pathname.startsWith("/categories/item/") && m
+        ? { store: "masoutis", code: m[1] }
+        : null;
     }
 
     return null;

@@ -9,7 +9,7 @@
   "host_permissions": ["https://mhristof.github.io/*"],
   "content_scripts": [
     {
-      "matches": ["https://www.sklavenitis.gr/*", "https://www.ab.gr/*"],
+      "matches": ["https://www.sklavenitis.gr/*", "https://www.ab.gr/*", "https://www.masoutis.gr/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
