@@ -15,7 +15,8 @@ USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
 
 
 
-def make_session(cookies=True):
+def make_session(cookies=True, methods=("GET",)):
+    """methods: the ones retried; POST only for sites whose reads are POSTs."""
     s = requests.Session()
     s.headers["User-Agent"] = USER_AGENT
 
@@ -30,7 +31,7 @@ def make_session(cookies=True):
             total=3,
             backoff_factor=2,
             status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=["GET"],
+            allowed_methods=list(methods),
         ),
     )
     s.mount("http://", adapter)
@@ -44,6 +45,13 @@ session = make_session()
 
 def get(url, session=session, **kwargs):
     response = session.get(url, timeout=TIMEOUT, **kwargs)
+    response.raise_for_status()
+
+    return response
+
+
+def post(url, session=session, **kwargs):
+    response = session.post(url, timeout=TIMEOUT, **kwargs)
     response.raise_for_status()
 
     return response
@@ -102,8 +110,10 @@ def crawl(
     max_pages=None,
     page_workers=PAGE_WORKERS,
     section_workers=SECTION_WORKERS,
+    label=str,
 ):
-    """Paginate every section; fetch_page(section, page) returns rows."""
+    """Paginate every section; fetch_page(section, page) returns rows.
+    label(section) names it in the log."""
 
     def one(section):
         try:
@@ -112,11 +122,11 @@ def crawl(
             )
         except Exception as e:
             # keep the other sections; a big drop fails sm.validate()
-            print(f"[{name}] {section}: error {e!r}")
+            print(f"[{name}] {label(section)}: error {e!r}")
 
             return []
 
-        print(f"[{name}] {section}: {len(this)} items")
+        print(f"[{name}] {label(section)}: {len(this)} items")
 
         return this
 

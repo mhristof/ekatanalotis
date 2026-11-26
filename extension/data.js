@@ -3,7 +3,7 @@
 // tests that run it in a page.
 
 const DATA_URL = "https://mhristof.github.io/ekatanalotis/";
-const STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh"];
+const STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh", "masoutis"];
 // products.json and the latest prices are re-read after this long
 const MAX_AGE = 60 * 60 * 1000;
 

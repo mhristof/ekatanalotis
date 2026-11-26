@@ -10,6 +10,7 @@ from kritikos import kritikos
 from mymarket import mymarket
 from sklavenitis import sklavenitis
 from marketin import marketin
+from masoutis import masoutis
 from xalkiadakis import xalkiadakis
 
 # store -> (fetcher, one section)
@@ -18,6 +19,7 @@ STORES = {
     "efresh": (efresh, ["groceries"]),
     "kritikos": (kritikos, ["900"]),
     "marketin": (marketin, ["kava"]),
+    "masoutis": (masoutis, ["568,011410"]),
     "mymarket": (mymarket, ["trofima"]),
     "sklavenitis": (sklavenitis, ["kava"]),
     "xalkiadakis": (xalkiadakis, ["moro"]),

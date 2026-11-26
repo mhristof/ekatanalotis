@@ -11,6 +11,7 @@
     xalkiadakis: { name: "Xalkiadakis", light: "#e87ba4", dark: "#d55181" },
     marketin: { name: "Market In", light: "#008300", dark: "#008300" },
     efresh: { name: "e-Fresh", light: "#6250d6", dark: "#9085e9" },
+    masoutis: { name: "Masoutis", light: "#e34948", dark: "#e66767" },
   };
   const RANGES = [
     ["3M", 91],

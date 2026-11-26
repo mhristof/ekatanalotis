@@ -20,7 +20,7 @@ from itertools import count
 import catalog
 import match
 
-STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh"]
+STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh", "masoutis"]
 WEIGHTS_PATH = "matches/fuzzy_weights.json"
 MATCHES_PATH = "matches/matches.csv"
 # about 98% precision on the EAN matches, a lower bound as some of those

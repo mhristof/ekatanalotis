@@ -23,8 +23,9 @@ from sklavenitis import sklavenitis
 from ab import ab
 from kritikos import kritikos
 from marketin import marketin
+from masoutis import masoutis
 
-# masoyti, galaxias, egnatia, bazaar, lidl, discount_markt are not scraped yet;
+# galaxias, egnatia, bazaar, lidl, discount_markt are not scraped yet;
 # xalkiadakis is scraped a few sections per hour, see slow.py
 STORES = {
     "marketin": marketin,
@@ -33,6 +34,7 @@ STORES = {
     "efresh": efresh,
     "sklavenitis": sklavenitis,
     "ab": ab,
+    "masoutis": masoutis,
 }
 
 

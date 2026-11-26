@@ -43,7 +43,7 @@ HISTORY_DIRECTORY = "history"
 PRICE_FILE = re.compile(r"(?:.*/)?([a-z_]+)-(\d{4}-\d{2}-\d{2})\.csv")
 # the store whose name is shown for a product: these have the brand in the
 # name, ab's names don't and kritikos' are abbreviated capitals
-NAME_ORDER = ["mymarket", "sklavenitis", "marketin", "xalkiadakis", "ab", "kritikos", "efresh"]
+NAME_ORDER = ["mymarket", "sklavenitis", "masoutis", "marketin", "xalkiadakis", "ab", "kritikos", "efresh"]
 
 
 def price_files(names):

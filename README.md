@@ -18,7 +18,8 @@ included); ab and mymarket find products by EAN in their site search.
   or under half of the previous run), writes the csv files and prints a
   summary. Exits non-zero if any store failed.
 - `<store>.py` - one module per store: `SECTIONS`, `fetch_page(section, page)`
-  and `parse()`.
+  and `parse()`. masoutis' api takes POSTs with an anonymous visitor's
+  credentials (`GetCred`) and the site's fixed `PassKey`.
 - `slow.py` - stores whose bot protection only allows a trickle of
   requests (xalkiadakis). `.github/workflows/slow.yml` runs hourly and
   scrapes the next 2 sections into `pending/` on a `data/<store>-<day>`
