@@ -44,6 +44,7 @@
       unit: "Ανά μονάδα",
       date: "Ημερομηνία",
       notListed: "δεν υπάρχει",
+      ago: (days) => (days <= 0 ? "σήμερα" : days === 1 ? "χθες" : `πριν από ${days} ημέρες`),
       collapse: "Σύμπτυξη",
       language: "Switch to English",
       cheaperHere: (unit) => `Φθηνότερο ανά ${unit} εδώ`,
@@ -55,8 +56,8 @@
       cheaperPack: "Φθηνότερη συσκευασία σε αυτό το κατάστημα",
       listed: (n, total) => `Σε ${n} από ${total} καταστήματα`,
       noHistory: "Δεν υπάρχει ιστορικό τιμών ακόμα",
-      showHistory: "Εμφάνιση ιστορικού τιμών ▾",
-      hideHistory: "Απόκρυψη ιστορικού τιμών ▴",
+      showHistory: "Εμφάνιση ιστορικού τιμών ▴",
+      hideHistory: "Απόκρυψη ιστορικού τιμών ▾",
       matched: "Αντιστοίχιση με barcode ή όνομα· ελέγξτε το μέγεθος πριν αλλάξετε κατάστημα.",
       error: (message) => `Δεν φορτώθηκαν οι τιμές: ${message}`,
     },
@@ -73,6 +74,7 @@
       unit: "Unit",
       date: "Date",
       notListed: "not listed",
+      ago: (days) => (days <= 0 ? "today" : days === 1 ? "yesterday" : `${days} days ago`),
       collapse: "Collapse",
       language: "Αλλαγή σε ελληνικά",
       cheaperHere: (unit) => `Cheaper per ${unit} here`,
@@ -83,8 +85,8 @@
       cheaperPack: "A cheaper pack size in this store",
       listed: (n, total) => `${n} of ${total} stores list it`,
       noHistory: "No price history yet",
-      showHistory: "Show price history ▾",
-      hideHistory: "Hide price history ▴",
+      showHistory: "Show price history ▴",
+      hideHistory: "Hide price history ▾",
       matched: "Matched by barcode or name; check the size before you switch.",
       error: (message) => `Could not load prices: ${message}`,
     },
@@ -149,6 +151,8 @@
 
   const day = (iso) => Date.parse(iso + "T00:00:00Z");
   const iso = (t) => new Date(t).toISOString().slice(0, 10);
+  // days since an ISO date, by the local calendar
+  const daysAgo = (date) => Math.round((day(new Date().toLocaleDateString("sv")) - day(date)) / DAY);
   const euro = (p) => (p == null ? "–" : p.toFixed(2).replace(".", ",") + " €");
 
   function el(tag, attrs = {}, ...children) {
@@ -253,12 +257,16 @@
     header .name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     header .sub { color: var(--text-2); font-size: 12px; }
     header button { all: unset; cursor: pointer; color: var(--text-2); padding: 2px 6px; font-size: 16px; }
-    header button.lang { font-size: 11px; font-weight: 600; border: 1px solid var(--border); border-radius: 6px; padding: 1px 6px; }
+    .footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+    button.lang {
+      all: unset; cursor: pointer; color: var(--text-2); font-size: 11px; font-weight: 600;
+      border: 1px solid var(--border); border-radius: 6px; padding: 1px 6px;
+    }
     .body { padding: 0 12px 12px; }
     .collapsed .body { display: none; }
-    .ranges { display: flex; gap: 4px; margin-bottom: 6px; }
+    .ranges { display: flex; gap: 4px; margin: 8px 0 6px; }
     .toggle {
-      all: unset; cursor: pointer; display: block; margin: 8px 0 6px;
+      all: unset; cursor: pointer; display: block;
       color: var(--accent); font-size: 12px; font-weight: 600;
     }
     .ranges button {
@@ -519,7 +527,9 @@
           price,
           el("td", { class: "num" }, diff),
           el("td", { class: "num" }, unit),
-          el("td", { class: "num" }, s.date || t().notListed),
+          s.date
+            ? el("td", { class: "num", title: s.date }, t().ago(daysAgo(s.date)))
+            : el("td", { class: "num" }, t().notListed),
         ),
       );
     }
@@ -561,19 +571,7 @@
 
   function header(p, name, sub) {
     const toggle = el("button", { "aria-label": t().collapse }, state.collapsed ? "▴" : "▾");
-    // shows the language it switches to
-    const language = el("button", { class: "lang", "aria-label": t().language, title: t().language }, settings.lang === "el" ? "EN" : "ΕΛ");
-    language.addEventListener("click", (event) => {
-      event.stopPropagation();
-      set("lang", settings.lang === "el" ? "en" : "el");
-    });
-    const h = el(
-      "header",
-      {},
-      el("div", { class: "title" }, el("div", { class: "name" }, name), el("div", { class: "sub" }, sub)),
-      language,
-      toggle,
-    );
+    const h = el("header", {}, el("div", { class: "title" }, el("div", { class: "name" }, name), el("div", { class: "sub" }, sub)), toggle);
     h.addEventListener("click", () => {
       state.collapsed = !state.collapsed;
       save();
@@ -581,6 +579,16 @@
       toggle.textContent = state.collapsed ? "▴" : "▾";
     });
     p.append(h);
+  }
+
+  // the last row of the panel: the panel is pinned to the bottom of the
+  // window, so its buttons stay under the pointer whatever opens above them
+  // or however long the text gets in the other language
+  function footer(body, ...left) {
+    // shows the language it switches to
+    const language = el("button", { class: "lang", "aria-label": t().language, title: t().language }, settings.lang === "el" ? "EN" : "ΕΛ");
+    language.addEventListener("click", () => set("lang", settings.lang === "el" ? "en" : "el"));
+    body.append(el("div", { class: "footer" }, el("div", {}, ...left), language));
   }
 
   // the store's cheaper pack sizes of the product, per unit
@@ -625,7 +633,9 @@
     if (!result.product) {
       const p = panel();
       header(p, result.pack.name, t().cheaperPack);
-      p.append(el("div", { class: "body" }, packs(result.pack, here)));
+      const body = el("div", { class: "body" }, packs(result.pack, here));
+      footer(body);
+      p.append(body);
       return;
     }
 
@@ -676,19 +686,28 @@
       { class: "toggle", "aria-expanded": String(settings.history) },
       settings.history ? t().hideHistory : t().showHistory,
     );
-    showHistory.addEventListener("click", () => set("history", !settings.history));
-    body.append(table(result, here), el("div", { class: "note" }, t().matched), showHistory);
+    showHistory.addEventListener("click", () => {
+      set("history", !settings.history);
+      // a panel taller than the window scrolls: keep the button in view
+      host.shadowRoot.querySelector(".panel").scrollTop = 1e9;
+    });
+    body.append(table(result, here), el("div", { class: "note" }, t().matched));
 
+    // the graph opens above the button
     if (settings.history) {
       body.append(ranges, holder, legend);
     }
+
+    footer(body, showHistory);
   }
 
   function message(text) {
     shown = null;
     const p = panel();
     header(p, "ekatanalotis", "");
-    p.append(el("div", { class: "message body" }, text));
+    const body = el("div", { class: "message body" }, text);
+    footer(body);
+    p.append(body);
   }
 
   let current = null;
