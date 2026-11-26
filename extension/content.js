@@ -236,6 +236,7 @@
     .panel {
       --surface: #fcfcfb; --text: #0b0b0b; --text-2: #52514e; --muted: #8a8984;
       --grid: #e6e5e1; --border: #d9d8d3; --accent: #2a78d6;
+      --cheap: #1a7f37; --dear: #cf222e;
       color-scheme: light;
       position: fixed; right: 16px; bottom: 16px; z-index: 2147483647;
       width: 420px; max-width: calc(100vw - 32px); box-sizing: border-box;
@@ -249,6 +250,7 @@
       .panel {
         --surface: #1a1a19; --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86;
         --grid: #2e2e2c; --border: #3a3a37; --accent: #3987e5;
+        --cheap: #3fb950; --dear: #f85149;
         color-scheme: dark;
       }
     }
@@ -293,7 +295,9 @@
     td { padding: 3px 4px; border-bottom: 1px solid var(--grid); }
     td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
     tr.here td { font-weight: 600; }
-    .cheapest { color: var(--accent); font-weight: 600; }
+    /* the page's store's row is bold, so these are colour only */
+    .cheapest { color: var(--cheap); }
+    .dearest { color: var(--dear); }
     .note { color: var(--muted); font-size: 11px; margin-top: 6px; }
     .message { color: var(--text-2); padding: 0 12px 12px; }
     .packs { border: 1px solid var(--accent); border-radius: 8px; padding: 6px 8px; margin-bottom: 10px; }
@@ -506,7 +510,9 @@
       .filter((s) => result.stores[s])
       .map((s) => [s, result.stores[s]])
       .sort((a, b) => (a[1].price ?? Infinity) - (b[1].price ?? Infinity));
-    const cheapest = rows[0]?.[1].price;
+    const prices = rows.map(([, s]) => s.price).filter((p) => p != null);
+    const cheapest = Math.min(...prices);
+    const dearest = Math.max(...prices);
     const herePrice = result.stores[here]?.price;
     const body = el("tbody");
 
@@ -517,7 +523,9 @@
         s.price != null && herePrice != null && store !== here
           ? `${s.price > herePrice ? "+" : ""}${Math.round(((s.price - herePrice) / herePrice) * 100)}%`
           : "";
-      const price = el("td", { class: "num" + (s.price != null && s.price === cheapest ? " cheapest" : "") }, euro(s.price));
+      // green the cheapest, red the dearest, nothing when they all cost the same
+      const rank = s.price == null || cheapest === dearest ? "" : s.price === cheapest ? " cheapest" : s.price === dearest ? " dearest" : "";
+      const price = el("td", { class: "num" + rank }, euro(s.price));
       const unit = s.unitPrice != null ? `${euro(s.unitPrice)}/${unitName(s.unit)}` : "";
       body.append(
         el(

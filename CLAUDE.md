@@ -24,6 +24,10 @@ These come from the user; keep them when changing the panel.
   must not have to pick them again on another site or after a restart.
 - **Latest prices first.** The panel opens with the current prices table;
   the price history graph is behind a toggle, closed by default.
+- **Price colours:** in the prices table the cheapest price is green, the
+  dearest red (neither when all are the same), and the page's own store's
+  row is bold. The colours are text colours with at least 4.5:1 contrast
+  on the light and dark panel.
 - **Dates are relative** in the panel ("σήμερα", "χθες", "πριν από 3
   ημέρες"), with the ISO date on hover, not the same date on every row.
 - **Cache in the browser.** Data files are kept in Cache Storage per build
