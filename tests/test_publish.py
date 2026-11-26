@@ -111,3 +111,17 @@ def test_build(tmp_path, monkeypatch):
     }
     assert json.loads((site / "packs" / "ab.json").read_text()) == {}
     assert json.loads((site / "index.json").read_text())["stores"] == {"ab": "2026-11-18"}
+
+
+def test_prices_flags_a_corrected_unit(tmp_path):
+    path = tmp_path / "ab-2026-11-26.csv"
+    path.write_text("2026-11-26,1,Doritos Nacho 90g,1.54\n2026-11-26,2,Γάλα 1lt,1.98\n")
+    products = {
+        "1": {"unit_price": "17.11", "unit": "kg", "unit_fixed": "piece"},
+        "2": {"unit_price": "1.98", "unit": "l", "unit_fixed": ""},
+    }
+
+    assert publish.prices(str(path), products) == {
+        "1": [1.54, 17.11, "kg", "piece"],
+        "2": [1.98, 1.98, "l"],
+    }

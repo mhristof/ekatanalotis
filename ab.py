@@ -1,4 +1,5 @@
 import json
+import re
 
 import catalog
 import net
@@ -27,19 +28,47 @@ SEARCH_QUERY = (
 )
 
 
+# ab lists some products as a fraction of a piece ("0,09 τεμ", "17,11 €/
+# τεμ") when it means kg or l: the name has the real size ("... 90g")
+FRACTION_OF_A_PIECE = re.compile(r"^0[.,]\d+\s*τεμ")
+NAME_SIZE = re.compile(r"\d+(?:[.,]\d+)?\s*(kg|κιλ|g|gr|γρ|ml|lt|l|λιτ)\b", re.IGNORECASE)
+
+
+def fix_unit(name, details):
+    """kg or l for a unit price ab gives per piece of a fractional piece,
+    from the size in the name; keeps ab's unit in unit_fixed."""
+    m = NAME_SIZE.search(name or "")
+
+    if details.get("unit") != "piece" or not FRACTION_OF_A_PIECE.match(details.get("size") or "") or not m:
+        return details
+
+    unit = "kg" if m.group(1).lower() in ("kg", "κιλ", "g", "gr", "γρ") else "l"
+    amount = (details["size"] or "").split()[0]
+
+    return {
+        **details,
+        "unit": unit,
+        "size": f"{amount} {'κιλ' if unit == 'kg' else 'λιτ'}",
+        "unit_fixed": "piece",
+    }
+
+
 def details(p):
     # "1,46 €/ κιλ" and the pack size "500 γρ", or "~1 κιλ" for weighed ones
     unit_price = p["price"].get("supplementaryPriceLabel1") or ""
     categories = p.get("categories") or [{}]
 
-    return {
-        # the name has no brand, "-" when there is none
-        "brand": (p.get("manufacturerName") or "").strip("- "),
-        "category": categories[-1].get("name"),
-        "size": p["price"].get("supplementaryPriceLabel2"),
-        "unit": catalog.unit(unit_price.rpartition("/")[2]) if unit_price else None,
-        "unit_price": catalog.price(unit_price),
-    }
+    return fix_unit(
+        p.get("name"),
+        {
+            # the name has no brand, "-" when there is none
+            "brand": (p.get("manufacturerName") or "").strip("- "),
+            "category": categories[-1].get("name"),
+            "size": p["price"].get("supplementaryPriceLabel2"),
+            "unit": catalog.unit(unit_price.rpartition("/")[2]) if unit_price else None,
+            "unit_price": catalog.price(unit_price),
+        },
+    )
 
 
 def parse(data, field="categoryProductSearch"):

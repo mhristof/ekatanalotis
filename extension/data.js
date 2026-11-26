@@ -123,8 +123,8 @@ function data() {
   return loading;
 }
 
-// {productId, product, stores: {store: {code, price, unitPrice, unit, date,
-// history}}, pack}: product and stores when the code is matched to another
+// {productId, product, stores: {store: {code, price, unitPrice, unit,
+// unitFixed, date, history}}, pack}: product and stores when the code is matched to another
 // store, pack ({name, unit, unit_price, multipack, cheaper}) when the store
 // has a cheaper pack size of it; null when neither
 async function lookup(store, code) {
@@ -142,12 +142,14 @@ async function lookup(store, code) {
 
   for (const [s, c] of Object.entries(product.codes)) {
     const latest = d.latest[s];
-    const [price, unitPrice, unit] = latest?.prices[c] || [];
+    const [price, unitPrice, unit, unitFixed] = latest?.prices[c] || [];
     stores[s] = {
       code: c,
       price: price ?? null,
       unitPrice: unitPrice ?? null,
       unit: unit ?? null,
+      // the store's own unit when we corrected it (ab's "per piece" of 0,09 pieces)
+      unitFixed: unitFixed ?? null,
       // the price date, null when the latest scrape didn't list it
       date: price == null ? null : latest.date,
       history: history[s] || [],

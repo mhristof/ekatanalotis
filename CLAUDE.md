@@ -33,6 +33,10 @@ These come from the user; keep them when changing the panel.
   dearest red (neither when all are the same), and the page's own store's
   row is bold. The colours are text colours with at least 4.5:1 contrast
   on the light and dark panel.
+- **Say when we correct a store's data.** A value we fix ourselves (ab's
+  per piece unit prices of "0,09 τεμ", `ab.fix_unit()`) is marked `*` in
+  the table with a note under it, so the user knows it differs from the
+  store's site.
 - **Dates are relative** in the panel ("σήμερα", "χθες", "πριν από 3
   ημέρες"), with the ISO date on hover, not the same date on every row.
 - **Cache in the browser.** Data files are kept in Cache Storage per build

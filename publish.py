@@ -152,13 +152,17 @@ def number(text):
 
 def prices(path, products):
     """{code: [price, unit_price, unit]}; the unit price is the catalog's,
-    updated by the same run."""
+    updated by the same run. A 4th item is the store's own unit when the
+    unit was corrected (ab.fix_unit())."""
     out = {}
 
     with open(path, newline="", encoding="utf-8") as f:
         for _, code, _, price in csv.reader(f):
             p = products.get(code, {})
             out[code] = [number(price), number(p.get("unit_price", "")), p.get("unit") or None]
+
+            if p.get("unit_fixed"):
+                out[code].append(p["unit_fixed"])
 
     return out
 

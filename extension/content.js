@@ -60,6 +60,8 @@
       showHistory: "Εμφάνιση ιστορικού τιμών ▴",
       hideHistory: "Απόκρυψη ιστορικού τιμών ▾",
       matched: "Αντιστοίχιση με barcode ή όνομα· ελέγξτε το μέγεθος πριν αλλάξετε κατάστημα.",
+      // ab.fix_unit(): the store gives a kg or l price per piece
+      unitFixed: (stores) => `* Διορθώσαμε τη μονάδα: ${stores} τη δείχνει ανά τεμάχιο.`,
       error: (message) => `Δεν φορτώθηκαν οι τιμές: ${message}`,
     },
     en: {
@@ -89,6 +91,7 @@
       showHistory: "Show price history ▴",
       hideHistory: "Hide price history ▾",
       matched: "Matched by barcode or name; check the size before you switch.",
+      unitFixed: (stores) => `* We corrected the unit: ${stores} shows it per piece.`,
       error: (message) => `Could not load prices: ${message}`,
     },
   };
@@ -559,14 +562,13 @@
     for (const [store, s] of rows) {
       const key = el("i", { class: "key" });
       key.style.borderColor = color(store);
-      const diff =
-        s.price != null && herePrice != null && store !== here
-          ? `${s.price > herePrice ? "+" : ""}${Math.round(((s.price - herePrice) / herePrice) * 100)}%`
-          : "";
+      // the sign of the rounded difference, so 3,71 € against 3,70 € is "0%"
+      const pct = Math.round(((s.price - herePrice) / herePrice) * 100);
+      const diff = s.price != null && herePrice != null && store !== here ? `${pct > 0 ? "+" : ""}${pct}%` : "";
       // green the cheapest, red the dearest, nothing when they all cost the same
       const rank = s.price == null || cheapest === dearest ? "" : s.price === cheapest ? " cheapest" : s.price === dearest ? " dearest" : "";
       const price = el("td", { class: "num" + rank }, euro(s.price));
-      const unit = s.unitPrice != null ? `${euro(s.unitPrice)}/${unitName(s.unit)}` : "";
+      const unit = s.unitPrice != null ? `${euro(s.unitPrice)}/${unitName(s.unit)}${s.unitFixed ? " *" : ""}` : "";
       body.append(
         el(
           "tr",
@@ -740,6 +742,13 @@
       host.shadowRoot.querySelector(".panel").scrollTop = 1e9;
     });
     body.append(table(result, here), el("div", { class: "note" }, t().matched));
+    // the stores whose unit price we corrected, marked * in the table
+    const fixed = Object.entries(result.stores).filter(([, s]) => s.unitFixed && s.unitPrice != null);
+
+    if (fixed.length) {
+      const names = fixed.map(([store]) => storeName(store)).join(", ");
+      body.append(el("div", { class: "note" }, t().unitFixed(names)));
+    }
 
     // the graph opens above the button
     if (settings.history) {

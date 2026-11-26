@@ -39,6 +39,7 @@ jobs:
             catalog
             history
             matches
+            pages
             scripts
           sparse-checkout-cone-mode: true
 
@@ -77,7 +78,10 @@ jobs:
           bash scripts/commit_push.sh "Update price history" history/
 
       - name: Build
-        run: python -u publish.py build
+        run: |
+          python -u publish.py build
+          # static pages, e.g. the extension's privacy policy
+          cp -R pages/. site/
 
       - uses: actions/upload-pages-artifact@v3
         with:
