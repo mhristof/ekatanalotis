@@ -86,8 +86,9 @@ site search.
   (https://mhristof.github.io/ekatanalotis/).
 - `test.yml`: tests on branches and pull requests, github runners only.
 - `release.yml`: a version tag (`1.0.0`, the same as
-  `extension/manifest.json`'s `version`) makes a GitHub release with the
-  Chrome Web Store zip (`make extension-zip`) attached.
+  `extension/manifest.json`'s `version`) makes a GitHub release with what
+  a Chrome Web Store upload needs attached: the zip (`make extension-zip`),
+  `store/screenshot-*.png`, the 128px icon and `store/listing.md`.
 
 Both scrape jobs commit `smdata/` and `catalog/` through
 `scripts/commit_push.sh`.
