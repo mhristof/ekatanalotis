@@ -197,6 +197,30 @@ def write_json(path, data):
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
 
+# the first date a store's prices can be trusted from; the published
+# history starts there, history/ keeps everything. efresh's scraper took
+# the next product's price for prices with one decimal until cf0544f.
+HISTORY_FROM = {"efresh": "2026-11-11"}
+
+
+def trusted(store, points):
+    """points from HISTORY_FROM[store] on; the price in effect then (the
+    last change before it, which the first good scrape didn't change) is
+    kept, dated HISTORY_FROM."""
+    start = HISTORY_FROM.get(store)
+
+    if not start or not points or points[0][0] >= start:
+        return points
+
+    before = [p for p in points if p[0] < start]
+    after = [p for p in points if p[0] >= start]
+
+    if after and after[0][0] == start:
+        return after
+
+    return [[start, before[-1][1]], *after]
+
+
 def product_history(products, histories):
     """{product_id: {store: [[date, price], ...]}} of the matched codes
     with a history."""
@@ -204,7 +228,7 @@ def product_history(products, histories):
 
     for product_id, p in products.items():
         found = {
-            store: histories[store][code]
+            store: trusted(store, histories[store][code])
             for store, code in p["codes"].items()
             if histories.get(store, {}).get(code)
         }

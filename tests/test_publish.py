@@ -125,3 +125,23 @@ def test_prices_flags_a_corrected_unit(tmp_path):
         "1": [1.54, 17.11, "kg", "piece"],
         "2": [1.98, 1.98, "l"],
     }
+
+
+def test_trusted_starts_efresh_history_at_the_fix():
+    points = [["2026-10-01", 0.08], ["2026-11-07", 1.65], ["2026-11-20", 3.72]]
+
+    # the price on 2026-11-11 is the one in effect then
+    assert publish.trusted("efresh", points) == [["2026-11-11", 1.65], ["2026-11-20", 3.72]]
+
+
+def test_trusted_keeps_a_change_on_the_day():
+    points = [["2026-11-07", 1.65], ["2026-11-11", 3.72]]
+
+    assert publish.trusted("efresh", points) == [["2026-11-11", 3.72]]
+
+
+def test_trusted_keeps_other_stores_and_new_products():
+    points = [["2025-01-01", 1.0], ["2026-11-20", 2.0]]
+
+    assert publish.trusted("ab", points) == points
+    assert publish.trusted("efresh", [["2026-11-20", 2.0]]) == [["2026-11-20", 2.0]]
