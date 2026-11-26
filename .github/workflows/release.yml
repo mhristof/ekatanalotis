@@ -1,0 +1,40 @@
+name: Release
+
+# a version tag (1.0.0) makes a GitHub release with the extension's Chrome
+# Web Store zip (make extension-zip) attached
+on:
+  push:
+    tags: ['[0-9]+.[0-9]+.[0-9]+']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # smdata/ is ~3GB; only the extension is needed
+          filter: blob:none
+          sparse-checkout: |
+            extension
+          sparse-checkout-cone-mode: true
+
+      - name: Check the tag is the manifest's version
+        run: |
+          version=$(python3 -c 'import json; print(json.load(open("extension/manifest.json"))["version"])')
+          if [ "$version" != "$GITHUB_REF_NAME" ]; then
+            echo "tag $GITHUB_REF_NAME but extension/manifest.json has version $version"
+            exit 1
+          fi
+
+      - name: Build the zip
+        run: make extension-zip
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" "dist/ekatanalotis-$GITHUB_REF_NAME.zip" --title "$GITHUB_REF_NAME" --generate-notes

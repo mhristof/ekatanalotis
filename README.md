@@ -81,6 +81,9 @@ included); ab and mymarket find products by EAN in their site search.
   `publish.py build`'s files on GitHub Pages
   (https://mhristof.github.io/ekatanalotis/).
 - `test.yml`: tests on branches and pull requests, github runners only.
+- `release.yml`: a version tag (`1.0.0`, the same as
+  `extension/manifest.json`'s `version`) makes a GitHub release with the
+  Chrome Web Store zip (`make extension-zip`) attached.
 
 Both scrape jobs commit `smdata/` and `catalog/` through
 `scripts/commit_push.sh`.

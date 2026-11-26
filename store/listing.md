@@ -3,7 +3,9 @@
 What to paste into the Developer Dashboard
 (https://chrome.google.com/webstore/devconsole). The package is
 `make extension-zip` (`dist/ekatanalotis-<version>.zip`); raise `version`
-in `extension/manifest.json` before every upload.
+in `extension/manifest.json` before every upload. Pushing a tag of that
+version (`git tag 1.0.1 && git push origin 1.0.1`) also attaches the zip
+to a GitHub release.
 
 The name and short description come from `extension/_locales/` (Greek is
 the default language, English the other).
