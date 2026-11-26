@@ -3,7 +3,8 @@
 // the latest prices, and the price history graph when the user opens it.
 
 (() => {
-  // in a fixed order, so a store keeps its color on every product
+  // in a fixed order, so a store keeps its color and its place in the table,
+  // tooltip and legend on every product
   const STORES = {
     kritikos: { name: "Kritikos", light: "#2a78d6", dark: "#3987e5" },
     ab: { name: "AB", light: "#eb6834", dark: "#d95926" },
@@ -294,6 +295,11 @@
     th { text-align: left; color: var(--muted); font-weight: 500; padding: 2px 4px; border-bottom: 1px solid var(--grid); }
     td { padding: 3px 4px; border-bottom: 1px solid var(--grid); }
     td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+    th button.sort { all: unset; cursor: pointer; color: inherit; font-weight: inherit; white-space: nowrap; }
+    th button.sort:hover, th button.sort.active { color: var(--text-2); }
+    /* fixed width, so the label doesn't move when the arrow changes */
+    th .arrow { display: inline-block; width: 1em; margin-left: 2px; text-align: center; font-size: 10px; opacity: .45; }
+    th .active .arrow { opacity: 1; }
     tr.here td { font-weight: 600; }
     /* the page's store's row is bold, so these are colour only */
     .cheapest { color: var(--cheap); }
@@ -318,8 +324,14 @@
   // in chrome.storage, not the site's localStorage, so one choice covers
   // every store's site: the language, and whether the price history graph
   // is shown (only the latest prices by default)
-  const settings = { lang: "el", history: false };
-  const VALID = { lang: (v) => v in TEXT, history: (v) => typeof v === "boolean" };
+  // sort: the prices table's column and direction, "-" for descending
+  const settings = { lang: "el", history: false, sort: "store" };
+  const SORTS = ["store", "-store", "price", "-price"];
+  const VALID = {
+    lang: (v) => v in TEXT,
+    history: (v) => typeof v === "boolean",
+    sort: (v) => SORTS.includes(v),
+  };
   const t = () => TEXT[settings.lang];
   const storeName = (store) => t().stores[store];
   const unitName = (unit) => t().units[unit] || unit;
@@ -473,10 +485,7 @@
       hair.setAttribute("visibility", "visible");
       dots.replaceChildren();
       tip.replaceChildren(el("div", { class: "date" }, iso(at)));
-      const rows = visible
-        .map((s) => [s, priceAt(s, at)])
-        .filter(([, p]) => p != null)
-        .sort((a, b) => a[1] - b[1]);
+      const rows = visible.map((s) => [s, priceAt(s, at)]).filter(([, p]) => p != null);
 
       for (const [s, p] of rows) {
         dots.append(
@@ -505,11 +514,42 @@
     return box;
   }
 
+  // a column header that sorts by it, and reverses on the next click
+  function sortButton(column, label) {
+    const active = settings.sort.replace("-", "") === column;
+    const descending = settings.sort.startsWith("-");
+    const b = el(
+      "button",
+      { class: "sort" + (active ? " active" : ""), "aria-sort": active ? (descending ? "descending" : "ascending") : "none" },
+      label,
+      el("span", { class: "arrow" }, active ? (descending ? "▼" : "▲") : "↕"),
+    );
+    b.addEventListener("click", () => set("sort", active && !descending ? `-${column}` : column));
+
+    return b;
+  }
+
   function table(result, here) {
     const rows = Object.keys(STORES)
       .filter((s) => result.stores[s])
-      .map((s) => [s, result.stores[s]])
-      .sort((a, b) => (a[1].price ?? Infinity) - (b[1].price ?? Infinity));
+      .map((s) => [s, result.stores[s]]);
+    const column = settings.sort.replace("-", "");
+    const descending = settings.sort.startsWith("-");
+
+    if (column === "price") {
+      // stores without a price last either way; ties keep the store order
+      rows.sort((a, b) => {
+        const [pa, pb] = [a[1].price, b[1].price];
+
+        if (pa == null || pb == null) {
+          return (pa == null) - (pb == null);
+        }
+
+        return descending ? pb - pa : pa - pb;
+      });
+    } else if (descending) {
+      rows.reverse();
+    }
     const prices = rows.map(([, s]) => s.price).filter((p) => p != null);
     const cheapest = Math.min(...prices);
     const dearest = Math.max(...prices);
@@ -551,8 +591,8 @@
         el(
           "tr",
           {},
-          el("th", {}, t().store),
-          el("th", { class: "num" }, t().price),
+          el("th", {}, sortButton("store", t().store)),
+          el("th", { class: "num" }, sortButton("price", t().price)),
           el("th", { class: "num" }, t().vsHere),
           el("th", { class: "num" }, t().unit),
           el("th", { class: "num" }, t().date),

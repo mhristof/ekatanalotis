@@ -24,6 +24,11 @@ These come from the user; keep them when changing the panel.
   must not have to pick them again on another site or after a restart.
 - **Latest prices first.** The panel opens with the current prices table;
   the price history graph is behind a toggle, closed by default.
+- **Stores in a fixed order**, `STORES` in `content.js`, in the table, the
+  graph's tooltip and the legend: never sorted by price or by the
+  (language dependent) name, so a store is always in the same place.
+  The user can sort the prices table by store or price with the header
+  arrows (remembered like the other settings); the default is this order.
 - **Price colours:** in the prices table the cheapest price is green, the
   dearest red (neither when all are the same), and the page's own store's
   row is bold. The colours are text colours with at least 4.5:1 contrast
