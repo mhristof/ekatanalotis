@@ -10,6 +10,10 @@ the default language, English the other).
 
 ## Store listing
 
+Don't list the supermarkets' names in the description: review rejected
+1.0.0 for "excessive keywords" over the list of all 8 (violation "Yellow
+Argon"). Naming the 3 sites the extension runs on is fine.
+
 - **Category:** Shopping
 - **Language:** Greek (add English as a second language for the
   description below)
@@ -23,9 +27,8 @@ the default language, English the other).
 Στη σελίδα ενός προϊόντος στο Σκλαβενίτης, στο ΑΒ ή στο Μασούτης, το
 ekatanalotis δείχνει ένα μικρό πλαίσιο με:
 
-- την τιμή του ίδιου προϊόντος σε 8 σούπερ μάρκετ (Κρητικός, ΑΒ, My
-  Market, Σκλαβενίτης, Χαλκιαδάκης, Market In, e-Fresh, Μασούτης), με
-  πράσινο τη φθηνότερη και κόκκινο την ακριβότερη
+- την τιμή του ίδιου προϊόντος σε 8 ελληνικά σούπερ μάρκετ, με πράσινο
+  τη φθηνότερη και κόκκινο την ακριβότερη
 - την τιμή ανά κιλό ή λίτρο
 - φθηνότερες συσκευασίες του ίδιου προϊόντος στο ίδιο κατάστημα
 - το ιστορικό τιμών σε γράφημα, αν το ανοίξετε
@@ -41,9 +44,8 @@ See at a glance whether a product costs less in another supermarket.
 On a product's page at Sklavenitis, AB or Masoutis, ekatanalotis shows a
 small panel with:
 
-- the same product's price in 8 Greek supermarkets (Kritikos, AB, My
-  Market, Sklavenitis, Xalkiadakis, Market In, e-Fresh, Masoutis), the
-  cheapest in green and the dearest in red
+- the same product's price in 8 Greek supermarkets, the cheapest in
+  green and the dearest in red
 - the price per kg or litre
 - cheaper pack sizes of the same product in the same store
 - the price history graph, when you open it
