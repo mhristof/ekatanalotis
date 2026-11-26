@@ -1,5 +1,6 @@
 // On a store's product page, shows the product's price history in every
-// store that sells it, in a panel at the bottom right.
+// store that sells it, in a panel at the bottom right, in Greek or English:
+// the latest prices, and the price history graph when the user opens it.
 
 (() => {
   // in a fixed order, so a store keeps its color on every product
@@ -13,11 +14,81 @@
     efresh: { name: "e-Fresh", light: "#6250d6", dark: "#9085e9" },
     masoutis: { name: "Masoutis", light: "#e34948", dark: "#e66767" },
   };
+  // [label key, days]
   const RANGES = [
-    ["3M", 91],
-    ["1Y", 365],
-    ["All", null],
+    ["months3", 91],
+    ["year", 365],
+    ["all", null],
   ];
+  // the panel's text; Greek unless the user picks English
+  const TEXT = {
+    el: {
+      stores: {
+        kritikos: "Κρητικός",
+        ab: "ΑΒ",
+        mymarket: "My Market",
+        sklavenitis: "Σκλαβενίτης",
+        xalkiadakis: "Χαλκιαδάκης",
+        marketin: "Market In",
+        efresh: "e-Fresh",
+        masoutis: "Μασούτης",
+      },
+      units: { kg: "κιλό", l: "λίτρο", piece: "τεμ.", wash: "πλύση", m: "μέτρο" },
+      months3: "3Μ",
+      year: "1Ε",
+      all: "Όλα",
+      chart: "Ιστορικό τιμών ανά κατάστημα",
+      store: "Κατάστημα",
+      price: "Τιμή",
+      vsHere: "Διαφορά",
+      unit: "Ανά μονάδα",
+      date: "Ημερομηνία",
+      notListed: "δεν υπάρχει",
+      collapse: "Σύμπτυξη",
+      language: "Switch to English",
+      cheaperHere: (unit) => `Φθηνότερο ανά ${unit} εδώ`,
+      thePack: (price) => `${price} η συσκευασία`,
+      multipack: "πολυσυσκευασία",
+      singlePack: "μονή συσκευασία",
+      thisOne: (unitPrice) =>
+        `Αυτό: ${unitPrice}. Οι τιμές μονάδας βγαίνουν από το μέγεθος της συσκευασίας· οι προσφορές τις αλλάζουν.`,
+      cheaperPack: "Φθηνότερη συσκευασία σε αυτό το κατάστημα",
+      listed: (n, total) => `Σε ${n} από ${total} καταστήματα`,
+      noHistory: "Δεν υπάρχει ιστορικό τιμών ακόμα",
+      showHistory: "Εμφάνιση ιστορικού τιμών ▾",
+      hideHistory: "Απόκρυψη ιστορικού τιμών ▴",
+      matched: "Αντιστοίχιση με barcode ή όνομα· ελέγξτε το μέγεθος πριν αλλάξετε κατάστημα.",
+      error: (message) => `Δεν φορτώθηκαν οι τιμές: ${message}`,
+    },
+    en: {
+      stores: Object.fromEntries(Object.entries(STORES).map(([s, v]) => [s, v.name])),
+      units: {},
+      months3: "3M",
+      year: "1Y",
+      all: "All",
+      chart: "Price history per store",
+      store: "Store",
+      price: "Price",
+      vsHere: "vs here",
+      unit: "Unit",
+      date: "Date",
+      notListed: "not listed",
+      collapse: "Collapse",
+      language: "Αλλαγή σε ελληνικά",
+      cheaperHere: (unit) => `Cheaper per ${unit} here`,
+      thePack: (price) => `${price} the pack`,
+      multipack: "multipack",
+      singlePack: "single pack",
+      thisOne: (unitPrice) => `This one: ${unitPrice}. Unit prices from the pack sizes; offers change them.`,
+      cheaperPack: "A cheaper pack size in this store",
+      listed: (n, total) => `${n} of ${total} stores list it`,
+      noHistory: "No price history yet",
+      showHistory: "Show price history ▾",
+      hideHistory: "Hide price history ▴",
+      matched: "Matched by barcode or name; check the size before you switch.",
+      error: (message) => `Could not load prices: ${message}`,
+    },
+  };
   // a store's search page that finds a product by its code
   const SEARCH = {
     sklavenitis: (code) => `https://www.sklavenitis.gr/apotelesmata-anazitisis/?Query=${code}`,
@@ -182,9 +253,14 @@
     header .name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     header .sub { color: var(--text-2); font-size: 12px; }
     header button { all: unset; cursor: pointer; color: var(--text-2); padding: 2px 6px; font-size: 16px; }
+    header button.lang { font-size: 11px; font-weight: 600; border: 1px solid var(--border); border-radius: 6px; padding: 1px 6px; }
     .body { padding: 0 12px 12px; }
     .collapsed .body { display: none; }
     .ranges { display: flex; gap: 4px; margin-bottom: 6px; }
+    .toggle {
+      all: unset; cursor: pointer; display: block; margin: 8px 0 6px;
+      color: var(--accent); font-size: 12px; font-weight: 600;
+    }
     .ranges button {
       all: unset; cursor: pointer; padding: 2px 8px; border-radius: 6px;
       color: var(--text-2); border: 1px solid var(--border); font-size: 12px;
@@ -227,6 +303,54 @@
 
   let host = null;
   let state = { collapsed: false, range: 365 };
+  // in chrome.storage, not the site's localStorage, so one choice covers
+  // every store's site: the language, and whether the price history graph
+  // is shown (only the latest prices by default)
+  const settings = { lang: "el", history: false };
+  const VALID = { lang: (v) => v in TEXT, history: (v) => typeof v === "boolean" };
+  const t = () => TEXT[settings.lang];
+  const storeName = (store) => t().stores[store];
+  const unitName = (unit) => t().units[unit] || unit;
+  // what the panel shows, to draw it again in the other language
+  let shown = null;
+
+  const settingsLoaded = new Promise((resolve) => {
+    try {
+      chrome.storage.local.get(Object.keys(settings), (items) => {
+        for (const [k, v] of Object.entries(items || {})) {
+          if (VALID[k]?.(v)) {
+            settings[k] = v;
+          }
+        }
+
+        resolve();
+      });
+    } catch {
+      resolve();
+    }
+  });
+
+  // a choice made in another tab applies here too
+  chrome.storage.onChanged.addListener((changes, area) => {
+    let changed = false;
+
+    for (const [k, { newValue }] of Object.entries(area === "local" ? changes : {})) {
+      if (VALID[k]?.(newValue) && settings[k] !== newValue) {
+        settings[k] = newValue;
+        changed = true;
+      }
+    }
+
+    if (changed) {
+      shown?.();
+    }
+  });
+
+  function set(key, value) {
+    settings[key] = value;
+    chrome.storage.local.set({ [key]: value });
+    shown?.();
+  }
 
   try {
     Object.assign(state, JSON.parse(localStorage.getItem("ekatanalotis") || "{}"));
@@ -272,7 +396,7 @@
     hi += pad;
     const x = (t) => left + ((t - from) / (to - from)) * (W - left - right);
     const y = (p) => top + (1 - (p - lo) / (hi - lo)) * (H - top - bottom);
-    const svg = el("svg:svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Price history per store" });
+    const svg = el("svg:svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": t().chart });
 
     for (const v of ticks(lo, hi, 4)) {
       svg.append(el("svg:line", { x1: left, x2: W - right, y1: y(v), y2: y(v), stroke: "var(--grid)" }));
@@ -348,7 +472,7 @@
         );
         const key = el("i", { class: "key" });
         key.style.borderColor = color(s.store);
-        tip.append(el("div", { class: "row" }, key, el("b", {}, euro(p)), el("span", {}, STORES[s.store].name)));
+        tip.append(el("div", { class: "row" }, key, el("b", {}, euro(p)), el("span", {}, storeName(s.store))));
       }
 
       tip.style.display = rows.length ? "block" : "none";
@@ -386,16 +510,16 @@
           ? `${s.price > herePrice ? "+" : ""}${Math.round(((s.price - herePrice) / herePrice) * 100)}%`
           : "";
       const price = el("td", { class: "num" + (s.price != null && s.price === cheapest ? " cheapest" : "") }, euro(s.price));
-      const unit = s.unitPrice != null ? `${euro(s.unitPrice)}/${s.unit}` : "";
+      const unit = s.unitPrice != null ? `${euro(s.unitPrice)}/${unitName(s.unit)}` : "";
       body.append(
         el(
           "tr",
           { class: store === here ? "here" : "" },
-          el("td", {}, key, " ", STORES[store].name),
+          el("td", {}, key, " ", storeName(store)),
           price,
           el("td", { class: "num" }, diff),
           el("td", { class: "num" }, unit),
-          el("td", { class: "num" }, s.date || "not listed"),
+          el("td", { class: "num" }, s.date || t().notListed),
         ),
       );
     }
@@ -409,11 +533,11 @@
         el(
           "tr",
           {},
-          el("th", {}, "Store"),
-          el("th", { class: "num" }, "Price"),
-          el("th", { class: "num" }, "vs here"),
-          el("th", { class: "num" }, "Unit"),
-          el("th", { class: "num" }, "Date"),
+          el("th", {}, t().store),
+          el("th", { class: "num" }, t().price),
+          el("th", { class: "num" }, t().vsHere),
+          el("th", { class: "num" }, t().unit),
+          el("th", { class: "num" }, t().date),
         ),
       ),
       body,
@@ -436,8 +560,20 @@
   }
 
   function header(p, name, sub) {
-    const toggle = el("button", { "aria-label": "Collapse" }, state.collapsed ? "▴" : "▾");
-    const h = el("header", {}, el("div", { class: "title" }, el("div", { class: "name" }, name), el("div", { class: "sub" }, sub)), toggle);
+    const toggle = el("button", { "aria-label": t().collapse }, state.collapsed ? "▴" : "▾");
+    // shows the language it switches to
+    const language = el("button", { class: "lang", "aria-label": t().language, title: t().language }, settings.lang === "el" ? "EN" : "ΕΛ");
+    language.addEventListener("click", (event) => {
+      event.stopPropagation();
+      set("lang", settings.lang === "el" ? "en" : "el");
+    });
+    const h = el(
+      "header",
+      {},
+      el("div", { class: "title" }, el("div", { class: "name" }, name), el("div", { class: "sub" }, sub)),
+      language,
+      toggle,
+    );
     h.addEventListener("click", () => {
       state.collapsed = !state.collapsed;
       save();
@@ -449,7 +585,8 @@
 
   // the store's cheaper pack sizes of the product, per unit
   function packs(pack, here) {
-    const box = el("div", { class: "packs" }, el("div", { class: "head" }, `Cheaper per ${pack.unit} here`));
+    const unit = unitName(pack.unit);
+    const box = el("div", { class: "packs" }, el("div", { class: "head" }, t().cheaperHere(unit)));
 
     for (const [code, name, price, unitPrice, multipack] of pack.cheaper) {
       const saving = Math.round(((unitPrice - pack.unit_price) / pack.unit_price) * 100);
@@ -457,7 +594,7 @@
         ? el("a", { href: SEARCH[here](code), target: "_blank", rel: "noopener" }, name)
         : el("span", { class: "what" }, name);
       // cans for a big bottle, or the other way round, may not suit
-      const format = multipack === pack.multipack ? "" : multipack ? "multipack" : "single pack";
+      const format = multipack === pack.multipack ? "" : multipack ? t().multipack : t().singlePack;
       box.append(
         el(
           "div",
@@ -466,9 +603,9 @@
           el(
             "div",
             { class: "meta" },
-            el("span", { class: "unit" }, `${euro(unitPrice)}/${pack.unit}`),
+            el("span", { class: "unit" }, `${euro(unitPrice)}/${unit}`),
             el("span", { class: "save" }, `${saving}%`),
-            el("span", { class: "price" }, `${euro(price)} the pack`),
+            el("span", { class: "price" }, t().thePack(euro(price))),
             ...(format ? [el("span", { class: "tag" }, format)] : []),
           ),
         ),
@@ -476,16 +613,18 @@
     }
 
     box.append(
-      el("div", { class: "note" }, `This one: ${euro(pack.unit_price)}/${pack.unit}. Unit prices from the pack sizes; offers change them.`),
+      el("div", { class: "note" }, t().thisOne(`${euro(pack.unit_price)}/${unit}`)),
     );
 
     return box;
   }
 
   function render(result, here) {
+    shown = () => render(result, here);
+
     if (!result.product) {
       const p = panel();
-      header(p, result.pack.name, "A cheaper pack size in this store");
+      header(p, result.pack.name, t().cheaperPack);
       p.append(el("div", { class: "body" }, packs(result.pack, here)));
       return;
     }
@@ -494,7 +633,7 @@
     const all = series(result);
     const listed = Object.values(result.stores).filter((s) => s.price != null).length;
     const name = [result.product.name, result.product.size].filter(Boolean).join(" · ");
-    header(p, name, `${listed} of ${Object.keys(result.stores).length} stores list it`);
+    header(p, name, t().listed(listed, Object.keys(result.stores).length));
     const body = el("div", { class: "body" });
     p.append(body);
 
@@ -502,11 +641,11 @@
     const holder = el("div");
 
     function draw() {
-      holder.replaceChildren(all.length ? chart(all, here) : el("div", { class: "note" }, "No price history yet"));
+      holder.replaceChildren(all.length ? chart(all, here) : el("div", { class: "note" }, t().noHistory));
     }
 
     for (const [label, days] of RANGES) {
-      const b = el("button", { "aria-pressed": String(state.range === days) }, label);
+      const b = el("button", { "aria-pressed": String(state.range === days) }, t()[label]);
       b.addEventListener("click", () => {
         state.range = days;
         save();
@@ -521,25 +660,32 @@
     for (const s of all) {
       const key = el("i", { class: "key" });
       key.style.borderColor = color(s.store);
-      legend.append(el("span", {}, key, " ", STORES[s.store].name));
+      legend.append(el("span", {}, key, " ", storeName(s.store)));
     }
 
-    draw();
+    if (settings.history) {
+      draw();
+    }
 
     if (result.pack) {
       body.append(packs(result.pack, here));
     }
 
-    body.append(
-      ranges,
-      holder,
-      legend,
-      table(result, here),
-      el("div", { class: "note" }, "Matched by barcode or name; check the size before you switch."),
+    const showHistory = el(
+      "button",
+      { class: "toggle", "aria-expanded": String(settings.history) },
+      settings.history ? t().hideHistory : t().showHistory,
     );
+    showHistory.addEventListener("click", () => set("history", !settings.history));
+    body.append(table(result, here), el("div", { class: "note" }, t().matched), showHistory);
+
+    if (settings.history) {
+      body.append(ranges, holder, legend);
+    }
   }
 
   function message(text) {
+    shown = null;
     const p = panel();
     header(p, "ekatanalotis", "");
     p.append(el("div", { class: "message body" }, text));
@@ -560,10 +706,12 @@
     if (!found) {
       host?.remove();
       host = null;
+      shown = null;
       return;
     }
 
     try {
+      await settingsLoaded;
       const result = await lookup(found.store, found.code);
 
       if (current !== key) {
@@ -578,7 +726,7 @@
       }
     } catch (error) {
       if (current === key) {
-        message(`Could not load prices: ${error.message}`);
+        message(t().error(error.message));
       }
     }
   }

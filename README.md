@@ -57,11 +57,16 @@ included); ab and mymarket find products by EAN in their site search.
   (same name once sizes are taken out, unit price from price and pack
   size), published by `publish.py build` as `packs/<store>.json`.
 - `extension/` - Chrome extension (Manifest V3). On a sklavenitis, ab or
-  masoutis product page it shows a panel with the product's price history and
-  latest price in every store it is matched in, and the store's cheaper
-  pack sizes of it, read from the GitHub
-  Pages files. Install with chrome://extensions, Developer mode, "Load
-  unpacked", and pick `extension/`.
+  masoutis product page it shows a panel with the product's latest price
+  in every store it is matched in, the store's cheaper pack sizes of it,
+  and on request its price history graph, read from the GitHub Pages
+  files. The panel is in Greek or English (Greek by default); the language
+  and whether the graph is open are kept in `chrome.storage`, so they
+  apply on every store's site. The files are kept in the browser's Cache
+  Storage per build (`index.json`'s `updated`), so they are downloaded
+  once a build, and the newest build there is is used offline. Install
+  with chrome://extensions, Developer mode, "Load unpacked", and pick
+  `extension/`.
 - `net.py` - shared HTTP session (retries, timeouts, user agent) and the
   `paginate`/`crawl` helpers that fetch pages and sections concurrently.
 

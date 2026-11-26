@@ -4,18 +4,71 @@
 
 const DATA_URL = "https://mhristof.github.io/ekatanalotis/";
 const STORES = ["kritikos", "ab", "mymarket", "sklavenitis", "xalkiadakis", "marketin", "efresh", "masoutis"];
-// products.json and the latest prices are re-read after this long
+// index.json is checked for a new build after this long
 const MAX_AGE = 60 * 60 * 1000;
+// every file is kept in the Cache Storage named after its build, so it is
+// downloaded once a build, not every time the service worker starts
+const CACHE_PREFIX = "ekatanalotis-";
 
 let loading = null;
+// {id: index.json's build time, checked: when}
+let build = null;
+// the check in flight, shared by the files loaded at once
+let checking = null;
 
-async function getJSON(path) {
+async function fetchJSON(path) {
   // revalidate: Pages lets browsers keep files for 10 minutes, so a new
   // build could otherwise be missed
   const response = await fetch(DATA_URL + path, { cache: "no-cache" });
 
   if (!response.ok) {
     throw new Error(`${path}: HTTP ${response.status}`);
+  }
+
+  return response;
+}
+
+function currentBuild() {
+  if (build && Date.now() - build.checked < MAX_AGE) {
+    return Promise.resolve(build.id);
+  }
+
+  checking ||= checkBuild().finally(() => (checking = null));
+
+  return checking;
+}
+
+async function checkBuild() {
+  const cached = (await caches.keys()).filter((n) => n.startsWith(CACHE_PREFIX)).sort();
+
+  try {
+    const index = await (await fetchJSON("index.json")).json();
+    build = { id: index.updated, checked: Date.now() };
+  } catch (error) {
+    // offline: answer from the newest build there is
+    if (!cached.length) {
+      throw error;
+    }
+
+    build = { id: cached[cached.length - 1].slice(CACHE_PREFIX.length), checked: Date.now() };
+  }
+
+  for (const name of cached) {
+    if (name !== CACHE_PREFIX + build.id) {
+      await caches.delete(name);
+    }
+  }
+
+  return build.id;
+}
+
+async function getJSON(path) {
+  const cache = await caches.open(CACHE_PREFIX + (await currentBuild()));
+  let response = await cache.match(DATA_URL + path);
+
+  if (!response) {
+    response = await fetchJSON(path);
+    await cache.put(DATA_URL + path, response.clone());
   }
 
   return response.json();
@@ -54,10 +107,15 @@ function data() {
       throw error;
     });
   } else {
-    // refresh in the background, keep answering from the old data
+    // refresh in the background when there is a new build, keep answering
+    // from the old data
     loading.then((d) => {
       if (Date.now() - d.loaded > MAX_AGE) {
-        loadData().then((fresh) => (loading = Promise.resolve(fresh)), () => {});
+        d.loaded = Date.now();
+        const old = build?.id;
+        currentBuild()
+          .then((id) => (id !== old ? loadData() : null))
+          .then((fresh) => fresh && (loading = Promise.resolve(fresh)), () => {});
       }
     });
   }
