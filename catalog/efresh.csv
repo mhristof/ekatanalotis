@@ -990,7 +990,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100003943,"Tortellini Stuffed with 5 Cheeses, Melissa (250 g)",Melissa,Γεμιστά,0.25 kg,kg,8.84,,tortelini-gemisto-me-5-tyria-melissa-250-g
 4100003973,"Mediterranean Pie, Frozen, Saroglou (1250 g)",Σαρόγλου,Οικογενειακές Πίτες,1.25 kg,kg,9.72,,pita-katepsygmenh-mesogeiakh-sarogloy-1200-g
 4100003975,"Traditional Bougatsa, Frozen, Saroglou (1300 g)",Σαρόγλου,Οικογενειακές Πίτες,1.3 kg,kg,8.962,,mpoygatsa-xwriatikh-katepsygmenh-sarogloy-1300-g
-4100003977,"Chicken fillet nuggets, Mimikos (480 g)",Μιμίκος,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.48 kg,kg,14.729,,nuggets-apo-fileto-kotopoyloy-mimikos-480-g
+4100003977,"Chicken fillet nuggets, Mimikos (480 g)",Μιμίκος,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.48 kg,kg,15.521,,nuggets-apo-fileto-kotopoyloy-mimikos-480-g
 4100003978,"Chicken leg fillet, Mimikos (650 g)",Μιμίκος,Φιλέτο Μπούτι,0.65 kg,kg,19.154,,fileto-kotopoylo-apo-mpoyti-mimikos-650-g
 4100003994,"Luncheon Meat, Chicken, Freshly (200 g)",Freshly,Κρεατικά & λουκάνικα,0.2 kg,kg,8.9,,luncheon-meat-kotopoylo-freshly-200-g
 4100003995,"Tomato passata (22-24%), Omospondia (410 g)",Ομοσπονδία,Χυμός τομάτας,0.41 kg,kg,4.341,,tomatopoltos-22-24-omospondia-410-g
@@ -1437,7 +1437,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100006456,"Fresh Goat Milk, Full-fat, 4% fat, Stamou (1 lt)",Στάμου,Κατσικίσιο,1 lt,l,2.98,,gala-fresko-katsikisio-plhres-4-lipara-stamoy-1-lt
 4100006463,"Condensed milk, Full fat, Multipack, NOYNOY (6x400g)",ΝΟΥΝΟΥ,Εβαπορέ,2.4 lt,l,3.15,,gala-sympyknwmeno-plhres-multipack-noynoy-6x400g
 4100006464,"Condensed milk, Light, Multipack, NOYNOY (6x400)",ΝΟΥΝΟΥ,Εβαπορέ,2.4 lt,l,3.15,,gala-sympyknwmeno-light-multipack-noynoy-6x400g
-4100006465,"Condensed Milk Drink, Full fat, Multipack, Kid, NOYNOY (6x400g)",ΝΟΥΝΟΥ,Παιδικό,2.4 kg,kg,3.075,,rofhma-galaktos-sympyknwmeno-multipack-noynoy-kid-6x400g
+4100006465,"Condensed Milk Drink, Full fat, Multipack, Kid, NOYNOY (6x400g)",ΝΟΥΝΟΥ,Παιδικό,2.4 kg,kg,3.417,,rofhma-galaktos-sympyknwmeno-multipack-noynoy-kid-6x400g
 4100006490,"Whole Rye Bread, Vollkorn-Brot Mestemacher (500 g)",Mestemacher,Ψωμί ειδικού τύπου,0.5 kg,kg,7.54,,pswmi-apo-plhrh-sikalh-vollkorn-brot-mestemacher-500-g
 4100006491,"Whole Rye Bread with Oat, Mestemacher (500 g)",Mestemacher,Ψωμί ειδικού τύπου,0.5 kg,kg,7.48,,pswmi-plhroys-sikalhs-me-brwmh-mestemacher-500-g
 4100006492,"Rye Bread fortified with proteins, Mestemacher (250 g)",Mestemacher,Ψωμί ειδικού τύπου,0.25 kg,kg,17.6,,pswmi-sikalhs-employtismeno-me-prwteines-mestemacher-250-g
@@ -1947,7 +1947,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100020254,"Olive oil dried rusks from Kythera, To Manna (500 g)",Χατζής,Παξιμάδια,0.3 kg,kg,9.3,,paximadaki-sikalhs-krhths-xatzhs-300-g
 4100020286,"Sweet Corn, EDEM(340 g)",EDEM,Μανιτάρια & λαχανικά,0.34 kg,kg,6.382,,glyko-kalampoki-edem-340-g
 4100020287,"Olives filled with Pepper in Brine, EDEM(355 g)",EDEM,Ελιές,0.34 kg,kg,11.353,,elies-gemistes-me-piperia-se-almh-edem-340-g
-4100020292,"Margarine with Yoghurt, Vitam Soft (225 g)",Vitam,Μαργαρίνη,0.225 kg,kg,8.178,,margarinh-me-giaoyrti-bitam-soft-225-g
+4100020292,"Margarine with Yoghurt, Vitam Soft (225 g)",Vitam,Μαργαρίνη,0.225 kg,kg,8.622,,margarinh-me-giaoyrti-bitam-soft-225-g
 4100020293,"Koroneiki Variety Olive Oil, Horio (4 lt)",Χωριό,Έξτρα παρθένο ελαιόλαδο,4 lt,l,9.75,,elaiolado-korwneikh-poikilia-xwrio-4-lt-1
 4100020431,"Traditional Cheese Pie, Frozen, Kanaki (850 g)",Kanaki,Mini Πιτάκια,0.8 kg,kg,5.525,,tyropitakia-me-myzhthra-feta-kai-manoyri-katepsygmena-kanaki-800-g
 4100020432,"Traditional Cheese Pie, Frozen, Kanaki (850 g)",Kanaki,Mini Πιτάκια,0.8 kg,kg,7.4,,kaseropitakia-koyroy-me-gkoynta-kaseri-kai-metsobone-katepsygmena-kanaki-800-g
@@ -2205,6 +2205,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100023565,"Whole Chicken, Elaiopoulaki, Aggelakis (min. weight 1550 g) -15%",Αγγελάκης,Κοτόπουλα & Άλλα Πουλερικά,1.55 kg,kg,6.123,,
 4100023566,"Whole Chicken, Elaiopoulaki, Aggelakis (min. weight 1650 g) -15%",Αγγελάκης,Κοτόπουλα & Άλλα Πουλερικά,1.65 kg,kg,6.121,,kotopoylo-oloklhro-elaiopoylaki-aggelakhs-elaxisto-baros-1650-g-15
 4100023568,"Whole Chicken, Elaiopoulaki, Aggelakis (min. weight 1800 g) -15%",Αγγελάκης,Κοτόπουλα & Άλλα Πουλερικά,1.8 kg,kg,6.122,,kotopoylo-oloklhro-elaiopoylaki-aggelakhs-elaxisto-baros-1800-g-15
+4100023569,"Whole Chicken Elaiopoulaki,Aggelakis (min.weight 1850 g) -15%",Αγγελάκης,Κοτόπουλα & Άλλα Πουλερικά,1.85 kg,kg,6.119,,kotopoylo-oloklhro-elaiopoylaki-aggelakhs-elaxisto-baros-1850-g-15
 4100023571,"Whole Chicken, Elaiopoulaki,Aggelakis (min.weight 1900 g) -15%",Αγγελάκης,Κοτόπουλα & Άλλα Πουλερικά,1.9 kg,kg,6.121,,kotopoylo-oloklhro-elaiopoylaki-aggelakhs-elaxisto-baros-1900-g-15
 4100023572,"Whole Chicken, Eleopoulaki, Aggelakis (min. weight 2000 g) -15%",Αγγελάκης,Κοτόπουλα & Άλλα Πουλερικά,2 kg,kg,6.12,,kotopoylo-oloklhro-elaiopoylaki-aggelakhs-elaxisto-baros-2000-g-15
 4100023593,"Peas, frozen, Eklekti Sodia (1Kg)",Εκλεκτή Σοδεία,Αρακάς,1 kg,kg,2.36,,arakas-katepsygmenos-eklekth-sodeia-1kg
@@ -2570,7 +2571,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100137370,"Vegetable Frumenty, Vegan, Vlacha (500g)",Βλάχα,Παραδοσιακά Ζυμαρικά,0.5 kg,kg,5.1,,traxanas-laxanikwn-vegan-blaxa-500g
 4100137371,"Mayonnaise, Heinz (400ml)",Heinz,Μαγιονέζα,0.4 kg,kg,7.8,,magioneza-seriously-good-top-down-heinz-400ml
 4100137372,"Mayonnaise, Seriously Good Light, Top Down, Heinz (400ml)",Heinz,Μαγιονέζα,0.4 kg,kg,9.15,,magioneza-seriously-good-light-top-down-heinz-400ml
-4100137375,Frozen Cod Pescanova (480g),Pescanova,Ψάρι φιλέτο,0.48 kg,kg,10.604,,mpakaliaros-rolo-fileto-pescanova-480gr
+4100137375,Frozen Cod Pescanova (480g),Pescanova,Ψάρι φιλέτο,0.48 kg,kg,17.667,,mpakaliaros-rolo-fileto-pescanova-480gr
 4100137408,"Feta Cheese, P.D.O., from the barrel, 12 months ripening, Kostarelos (min. weight 250g)",Kostarelos,Φέτα Π.Ο.Π.,0.25 kg,kg,25.88,,tyri-feta-barelisia-pop-12mhnhs-wrimanshs-tyrokomeio-kwstareloy-elaxisto-baros-250g
 4100137409,"Gruyere Cheese, Kostarelos (min. weight 250g)",Kostarelos,Γραβιέρα & Κεφαλοτύρι,0.25 kg,kg,22.88,,tyri-grabiera-tyrokomeio-kwstareloy-elaxisto-baros-250g
 4100137410,"Gruyere Cheese, Kostarelos (min. weight 400g)",Kostarelos,Γραβιέρα & Κεφαλοτύρι,0.4 kg,kg,22.9,,tyri-grabiera-tyrokomeio-kwstareloy-elaxisto-baros-400g
@@ -2756,7 +2757,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100138175,Bananas (almost ripe) Chiquita (min. weight 750g),Chiquita,Μπανάνες,0.75 kg,kg,2.333,,
 4100138176,"Bananas (almost ripe) Chiquita (min. weight 1,25Kg)",Chiquita,Μπανάνες,1.25 kg,kg,2.336,,mpananes-sxedon-wrimes-chiquita-elaxisto-baros-125kg-1
 4100138178,Bananas (ripe) Chiquita (min. weight 600g),Chiquita,Μπανάνες,0.6 kg,kg,2.333,,
-4100138187,Argentine Shrimp Pescanova (400gr),Pescanova,Γαρίδες & Όστρακα,0.4 kg,kg,15.725,,gamparh-argentinhs-pescanova-450gr
+4100138187,Argentine Shrimp Pescanova (400gr),Pescanova,Γαρίδες & Όστρακα,0.4 kg,kg,26.2,,gamparh-argentinhs-pescanova-450gr
 4100138191,Organic Bananas (almost ripe) Dole (min. weight 600g),Dole,Βιολογικά,0.6 kg,kg,2.083,,
 4100138192,"Organic Bananas (almost ripe) Dole (min. weight 1,55Kg)",Dole,Βιολογικά,1.55 kg,kg,2.09,,
 4100138196,"Frozen Pizza,Plant Based, Esti (440g)",Esti,Οικογενειακές Πίτσες,0.44 kg,kg,12.659,,pitsa-katepsygmenh-me-fytika-proionta-esti-440g
@@ -2874,7 +2875,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100139364,Mashed Potatoes with Bacon & Onion Snack Pot Knorr (51g),Knorr,Πουρές,0.051 kg,kg,39.02,,poyres-me-mpeikon-kremmydi-snack-pot-knorr-51g
 4100139367,Melt sheep-milk butter Kostarelos (250g),Kostarelos,Γάλακτος,0.25 kg,kg,24.6,,boytyro-galaktos-liwmeno-tyrokomeio-kwstareloy-250g
 4100139381,"Goat's youghurt, Stamou (240 g)",Στάμου,Κατσικίσιο,0.24 kg,kg,6.875,,giaoyrti-katsikisio-h-katsikoyla-mas-stamoy-240-g
-4100139388,"Bovine rib Organic Evviotopoi (minimum weight of 1,1 kg)",Ευβιότοποι,Μοσχάρι,1.1 kg,kg,26.9,,
+4100139388,"Bovine rib Organic Evviotopoi (minimum weight of 1,1 kg)",Ευβιότοποι,Μοσχάρι,1.1 kg,kg,26.9,,boeia-spalomprizola-biologikh-eybiotopoi-elaxisto-baros-11-kg
 4100139440,"English Crisps, Mature Cheddar & Chive, Tyrrell's (150g)",Tyrrell's,Πατατάκια,0.15 kg,kg,24,,patatakia-me-tyri-cheddar-kai-sxoinopraso-tyrrells-150g
 4100139458,Organic Spare Ribs Evviotopoi (minimum weight 1 kg),Ευβιότοποι,Χοιρινό Κρέας,1 kg,kg,11.5,,biologika-spare-ribs-eybiotopoi-elaxisto-baros-1-kg
 4100139468,"Organic Spare Ribs Evviotopoi (minimum weight 1,1 kg)",Ευβιότοποι,Χοιρινό Κρέας,1.1 kg,kg,11.5,,
@@ -2893,8 +2894,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100139506,"Green Split Peas, 3alfa (500 g)",3 Alpha,Φάβα,0.5 kg,kg,3.14,,prasinh-faba-mpizeli-kommeno-3alfa-500-g
 4100139507,"Large Chick Peas, 3alfa (500 g)",3 Alpha,Ρεβύθια,0.5 kg,kg,6.28,,rebythia-xondra-od-3alfa-500-g
 4100139513,Organic Bananas (almost ripe) Dole (min. weight 1.6Kg),Dole,Βιολογικά,1.6 kg,kg,2.087,,
-4100139518,Large Shrimp Pescanova (415gr),Pescanova,Γαρίδες & Όστρακα,0.35 kg,kg,13.686,,garides-indo-eirhnikoy-xwris-kelyfos-megales-pescanova-415gr
-4100139535,Giant Shrimp Pescanova (415g),Pescanova,Γαρίδες & Όστρακα,0.35 kg,kg,17.114,,garides-indo-eirhnikoy-xwris-kelyfos-me-oyra-gigas-pescanova-415gr
+4100139518,Large Shrimp Pescanova (415gr),Pescanova,Γαρίδες & Όστρακα,0.35 kg,kg,22.8,,garides-indo-eirhnikoy-xwris-kelyfos-megales-pescanova-415gr
+4100139535,Giant Shrimp Pescanova (415g),Pescanova,Γαρίδες & Όστρακα,0.35 kg,kg,28.514,,garides-indo-eirhnikoy-xwris-kelyfos-me-oyra-gigas-pescanova-415gr
 4100139547,"Couverture Caramel, Nestle Dessert (170g)",Nestle Dessert,Κουβερτούρα,0.17 kg,kg,20.235,,koybertoyra-karamela-nestle-dessert-170g
 4100139564,"Dark Brown Sugar, Fytro (500g)",Fytro,Ακατέργαστη,0.5 kg,kg,4.84,,zaxarh-mayrh-fytro-500g
 4100139583,Slightly Concentrated Tomato Juice Chorio (500g),Χωριό,Χυμός τομάτας,0.5 kg,kg,2.1,,elafra-sympyknwmenos-xymos-tomatas-xwrio-500g
@@ -2903,7 +2904,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100139591,"Digestive Biscuits, 0% Sugar, Violanta (220g)",Βιολάντα,Μπισκότα Digestive,0.22 kg,kg,8.364,,mpiskota-digestive-me-0-zaxarh-biolanta-220g
 4100139592,"Digestive Biscuits with Cocoa, Violanta (220g)",Βιολάντα,Μπισκότα Digestive,0.22 kg,kg,7.455,,mpiskota-digestive-me-kakao-biolanta-220g
 4100139593,"Bianca Biscuits, Double Filled with Hazelnut Cocoa Cream, Violanta (225g)",Βιολάντα,Γεμιστά,0.225 kg,kg,8.844,,mpiskota-bianca-diplogemista-me-krema-kakao-foyntoykioy-biolanta-225g
-4100139601,Surimi Sticks With Crab Flavour Pescanova (250gr),Pescanova,Γαρίδες & Όστρακα,0.25 kg,kg,8.12,,surimi-sticks-me-geysh-kaboyrioy-pescanova-250gr
+4100139601,Surimi Sticks With Crab Flavour Pescanova (250gr),Pescanova,Γαρίδες & Όστρακα,0.25 kg,kg,13.52,,surimi-sticks-me-geysh-kaboyrioy-pescanova-250gr
 4100139604,"Beans, Mauromatika, frozen, Barba Stathis (450 g)",Μπάρμπα Στάθης,Φασολάκια,0.25 kg,kg,11.56,,fasolakia-mayromatika-katepsygmena-mparmpa-stathhs-250-g
 4100139605,Sliced Ham Niκas Gluten-Free (160g),Νίκας,Ζαμπόν,0.16 kg,kg,18.75,,zampon-se-fetes-nikas-xwris-gloytenh-160g
 4100139624,Oval Roast Chicken Gluten-Free (200g) Νίκας- Νιτσιάκος,Νίκας,Γαλοπούλα & Κοτόπουλο,0.2 kg,kg,18.45,,kotopoylo-pshto-obal-xwris-gloytenh-200g-nikas-nitsiakos
@@ -2922,7 +2923,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100139721,"Condensed milk, light, NOYNOY (4x170g)",ΝΟΥΝΟΥ,Εβαπορέ,0.68 kg,kg,4.809,,
 4100139904,"Flat Beans, frozen, Barba Stathis (1 kg)",Μπάρμπα Στάθης,Φασολάκια,1 kg,kg,4.27,,fasolakia-platia-katepsygmena-mparmpa-stathhs-1-kg
 4100139916,"Biscuits Full & Crunchy, Gianduja Chocolate Tales, Allatini (230g)",Allatini,Γεμιστά,0.23 kg,kg,7.043,,mpiskota-gemata-tragana-gianduja-chocolate-tales-allatinh-230g
-4100139923,Thrapsalo Pacific Washers Pescanova (470gr - n.w.400gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.4 kg,kg,11.975,,thrapsalo-eirhnikoy-rodeles-pescanova-470gr-kb400gr
+4100139923,Thrapsalo Pacific Washers Pescanova (470gr - n.w.400gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.4 kg,kg,19.95,,thrapsalo-eirhnikoy-rodeles-pescanova-470gr-kb400gr
 4100139929,"Organic Oatmeal Bites with No Added Sugar, Ntourountous (200g)",Ντουρουντούς,Γλυκά,0.2 kg,kg,19.85,,biologikes-mpoykitses-brwmhs-xwris-prosthhkh-zaxarhs-ntoyroyntoys-200g
 4100139930,"Organic Almond Bites, Ntourountous (200g)",Ντουρουντούς,Γλυκά,0.2 kg,kg,21,,biologikes-amygdalompoykitses-ntoyroyntoys-200g
 4100139931,"Organic Sfakian Oat Rusks with No Added Salt, Ntourountous (600g)",Ντουρουντούς,Παξιμάδια,0.6 kg,kg,10.483,,biologiko-paximadi-brwmhs-xwris-prostheto-alati-ntoyroyntoys-600g
@@ -2940,7 +2941,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100140019,Chicken Fillets Pane Nitsiakos (400g),Νιτσιάκος,"Ρολά, μπιφτέκια & άλλα έτοιμα γεύματα",0.4 kg,kg,12.25,,filetinia-kotopoylo-pane-nitsiakos-400g
 4100140020,Chicken Fillets Breaded with Corn Flakes Nitsiakos (400g),Νιτσιάκος,"Ρολά, μπιφτέκια & άλλα έτοιμα γεύματα",0.4 kg,kg,12.75,,filetinia-kotopoylo-panarismena-me-nifades-kalampoikioy-nitsiakos-400g
 4100140021,Chicken Fillet Nuggets Nitsiakos (400 g),Νιτσιάκος,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.4 kg,kg,14.0,,kotompoykies-panarismenes-atofio-fileto-kotopoylo-nitsiakos-400-g
-4100140031,Frozen Octopus Tentacles Pescanova (700gr - n.w.600gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.6 kg,kg,19.567,,xtapodi-indo-eirhnikoy-katepsygmeno-pescanova-700gr-kb600gr
+4100140031,Frozen Octopus Tentacles Pescanova (700gr - n.w.600gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.6 kg,kg,32.617,,xtapodi-indo-eirhnikoy-katepsygmeno-pescanova-700gr-kb600gr
 4100140040,"Orzo, Large, Helios (500 g)",Ήλιος,Κριθαράκι,0.5 kg,kg,2.2,,kritharaki-xondro-hlios-500-g
 4100140041,"Vegetable Fusilli Pasta, Helios (500 g)",Ήλιος,Βίδες & φιογκάκια,0.5 kg,kg,3.2,,tribeli-laxanikwn-hlios-500-g
 4100140042,"Vegetable Penne Rigate, Helios (500 g)",Ήλιος,Πένες & ριγκατόνι,0.5 kg,kg,3.2,,pennaki-rige-laxanikwn-hlios-500-g
@@ -2977,7 +2978,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100140138,"Organic, Raw Cacao Powder, Biovita (130g)",Biovita,Κακάο & σοκολάτες,0.13 kg,kg,36.462,,kakao-se-skonh-biologiko-biovita-130g
 4100140140,"Organic, Ceylon Cinnamon Sticks, Biovita (50g)",Biovita,Κανέλλα,0.05 kg,kg,62.2,,kanela-keynalhs-se-sticks-biologikh-biovita-50g
 4100140148,"Cake Mix, Red Velvet, Betty Crocker (425g)",Betty Crocker,Μείγμα για κέικ,0.425 kg,kg,9.365,,meigma-gia-keik-red-velvet-betty-crocker-425g
-4100140167,Frozen Cod Pollock Pescanova (500g n.w. 425g),Pescanova,Ψάρι Φιλέτο,0.425 kg,kg,9.506,,mpakaliaros-rollock-fileto-katepsygmenos-pescanova-500gr-kb-425g
+4100140167,Frozen Cod Pollock Pescanova (500g n.w. 425g),Pescanova,Ψάρι Φιλέτο,0.425 kg,kg,15.859,,mpakaliaros-rollock-fileto-katepsygmenos-pescanova-500gr-kb-425g
 4100140172,"Flour, Agioritiko, Bread you Love, Allatini (1kg)",Allatini,Μαλακό,1 kg,kg,1.98,,aleyri-typoy-agioreitiko-bread-you-love-allatinh-1kg
 4100140175,"Flour, Epirus Kneading, Bread you Love, Allatini (1kg)",Allatini,Σκληρό,1 kg,kg,1.98,,aleyri-hpeirwtika-zymwmata-bread-you-love-allatinh-1kg
 4100140179,"Greek Sweet Bread, Katselis (450g)",Κατσέλης,Τσουρέκια,0.45 kg,kg,5.044,,tsoyreki-katselhs-450g
@@ -3073,7 +3074,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100140991,"Margarine with yoghurt, Fast Soft (225g)",Fast,Μαργαρίνη,0.225 kg,kg,7.778,,margarinh-me-giaoyrti-fast-soft-225g
 4100141018,"Cheese bites, 5 portions, Light Mini Babybel (5x20 g)",Babybel,Μίνι & Μερίδες,0.1 kg,kg,29.0,,tyrakia-5-merides-light-mini-babybel-5x20-g
 4100141037,"Cheese bites, 5 portions, Mini Babybel (5x20 g)",Babybel,Μίνι & Μερίδες,0.1 kg,kg,29.0,,tyrakia-5-merides-mini-babybel-5x20-g
-4100141049,Shrimps Pane Deep frozen Pescanova (240 gr),Pescanova,Γαρίδες & Όστρακα,0.24 kg,kg,16.208,,garides-pane-katepsygmenes-pescanova-240-gr
+4100141049,Shrimps Pane Deep frozen Pescanova (240 gr),Pescanova,Γαρίδες & Όστρακα,0.24 kg,kg,24.917,,garides-pane-katepsygmenes-pescanova-240-gr
 4100141051,"Gouda Smoked Sliced Cheese, Alpiland (10 Slices) (200g)",Alpiland,"Gouda, Edam, Emmental & Cheddar",0.2 kg,kg,16.2,,tyri-gouda-kapnisth-se-fetes-alpiland-10-fetes-200g
 4100141053,Cake Chocolate Almond Rodoula (800gr),Rodoula,Κατεψυγμένα Γλυκά,0.88 kg,kg,10.75,,toyrta-sokolatina-amygdaloy-rodoyla-800gr
 4100141055,Frozen Apple pie (1Kg),Rodoula,Κατεψυγμένα Γλυκά,1 kg,kg,10.29,,mhlopita-katepsygmenh-rodoyla-1kg
@@ -3228,6 +3229,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100141772,Sliced Pork Apaki Simposion (200g),Simposion,"Σύγκλινο, Παστουρμάς, Καβουρμάς",0.2 kg,kg,24.2,,xoirino-apaki-se-fetes-symposion-200g
 4100141773,Chicken apaki in slices Simposion (200g),Simposion,"Σύγκλινο, Παστουρμάς, Καβουρμάς",0.2 kg,kg,26.5,,apaki-kotopoyloy-se-fetes-symposion-200g
 4100141778,Smoked Pork Steak With Bone Simposion (minimum weight 350g),Simposion,Χοιρινό Κρέας,0.35 kg,kg,19.886,,mprizola-xoirinh-kapnisth-mo-symposion-elaxisto-baros-350g
+4100141802,Roe with Candle in a Box Trikalinos (min. weight 230g),Trikalinos,Gourmet,0.23 kg,kg,120,,aygotaraxo-me-keri-se-koyti-trikalinos-elaxisto-baros-230g
 4100141815,Smoked Pork Steak With Bone Simposion (minimum weight 200g),Simposion,Χοιρινό Κρέας,0.2 kg,kg,19.9,,mprizola-xoirinh-kapnisth-mo-symposion-elaxisto-baros-200g
 4100141816,Smoked Pork Steak With Bone Simposion (minimum weight 250g),Simposion,Χοιρινό Κρέας,0.25 kg,kg,19.88,,mprizola-xoirinh-kapnisth-mo-symposion-elaxisto-baros-250g
 4100141824,Chicken soup with vermicelli Knorr (69g),Knorr,Σούπες,0.069 kg,kg,34.058,,kotosoypa-me-fide-knorr-69g
@@ -3299,7 +3301,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100142099,Dark Chocolate Truffles with Chocolate Filling Marks & Spencer (100g),Marks & Spencer,Σοκολατοειδή,0.1 kg,kg,65.9,,troyfes-apo-skoyra-sokolata-me-gemish-sokolatas-marks-spencer-100g
 4100142100,Frozen Potatoes Quinces Ainos (1 kg),Αίνος,Κατεψυγμένες Πατάτες,1 kg,kg,3.95,,patates-kydwnates-katepsygmenes-ainos-1-kg
 4100142101,Potatoes Forno Express McCain (500 g),McCain,Κατεψυγμένες Πατάτες,0.5 kg,kg,7.3,,patates-forno-express-mccain-500-g
-4100142113,Giant Shrimp Pescanova (415g),Pescanova,Γαρίδες & Όστρακα,0.35 kg,kg,14.886,,arides-indo-eirhnikoy-xwris-kelyfos-gigas-pescanova-415gr-kb350gr
+4100142113,Giant Shrimp Pescanova (415g),Pescanova,Γαρίδες & Όστρακα,0.35 kg,kg,24.8,,arides-indo-eirhnikoy-xwris-kelyfos-gigas-pescanova-415gr-kb350gr
 4100142129,"Parboiled 10 minute Rice, Ben's Original (500 g)",BEN’S original,Parboiled,0.5 kg,kg,5.94,,ryzi-parboiled-10lepto-bens-original-500-g
 4100142130,"Parboiled 10 minute Rice with cooking bag, BEN'S original (500 g)",BEN’S original,Parboiled,0.5 kg,kg,6.76,,ryzi-parboiled-10lepto-me-mageiriko-sakoylaki-bens-original-500-g
 4100142131,"Basmati Rice, Aromatic, BEN’S original (500 g)",BEN’S original,Basmati,0.5 kg,kg,7.66,,ryzi-basmati-arwmatiko-bens-original-500-g
@@ -3333,7 +3335,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100142260,"Milk Fresh, Low fat, Daily Delta (1 lt)",Δέλτα,Ελαφρύ,1 lt,l,1.79,,gala-fresko-elafry-kathhmerina-delta-1-lt
 4100142276,Cocoa Cream Wafffer Amaretti -0.20 (3Χ68 g),Amaretti,Γκοφρέτες,0.204 kg,kg,8.873,,gkofreta-me-krema-kakao-amaretti-3x68-g-1
 4100142279,"Croissant with Hazelnut Praline Filling, Champion (4Χ70g)",Champion,Κρουασάν & Τσουρέκια,0.28 kg,kg,7.821,,kroyasan-me-krema-pralina-champion-4x70g-2
-4100142284,Chicken Whole Fresh Arta Chickens (minimum weight 2.1kg),Arta,Ολόκληρα Κοτόπουλα & Πουλερικά,2.1 kg,kg,4.371,,
+4100142284,Chicken Whole Fresh Arta Chickens (minimum weight 2.1kg),Arta,Ολόκληρα Κοτόπουλα & Πουλερικά,2.1 kg,kg,4.371,,kotopoylo-oloklhro-nwpo-kotopoyla-artas-elaxisto-baros-21kg
 4100142289,"Chips Sticks with Salt, Tsakiris (130g)",Tsakiris,Πατατάκια,0.1 kg,kg,19.6,,tsips-sticks-me-alati-tsakiris-130g
 4100142301,"Traditional Cheese Pie, Frozen, Saroglou (1250 g)",Σαρόγλου,Οικογενειακές Πίτες,1.25 kg,kg,9,,tyropita-katepsygmenh-xwriatikh-sarogloy-1250-g
 4100142302,"Traditional Cheese and Spinach Pie, Frozen, Saroglou (1250 g)",Σαρόγλου,Οικογενειακές Πίτες,1.25 kg,kg,9,,spanakotyropita-katepsygmenh-xwriatikh-sarogloy-1250-g
@@ -3446,7 +3448,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100143024,Millefeuille pastry cream Samouri (170 g),Σαμούρη,Μείγμα για Βουτυρόκρεμα,0.18 kg,kg,9.333,,etoimo-meigma-kremas-zaxaroplastikhs-milfeig-samoyrh-180-g
 4100143026,Vanilla Madagascar pastry cream Samouri (120 g),Σαμούρη,Μείγμα για Βουτυρόκρεμα,0.18 kg,kg,8.333,,etoimo-meigma-kremas-zaxaroplastikhs-banilia-madagaskarhs-samoyrh-180-g
 4100143043,"Okra, frozen, Alexandrines, Barba Stathis (750g)",Μπάρμπα Στάθης,Μπάμιες,0.75 kg,kg,8.493,,mpamies-katepsygmenes-alexandrinh-mparmpa-stathhs-750g
-4100143048,"Margarine, Light Vitam Soft (225 g)",Vitam,Μαργαρίνη,0.225 kg,kg,5.333,,margarinh-light-bitam-soft-225-g
+4100143048,"Margarine, Light Vitam Soft (225 g)",Vitam,Μαργαρίνη,0.225 kg,kg,7.733,,margarinh-light-bitam-soft-225-g
 4100143063,Whole Grain Screws with mushrooms and basil Frozen Barbastathis (750g),Μπάρμπα Στάθης,Με λαχανικά,0.75 kg,kg,5.96,,penes-olikhs-aleshs-me-manitaria-kai-basiliko-katepsygmenes-mparmpa-stathhs-750g
 4100143067,Barley with mushrooms Frozen Barbastathis (750g),Μπάρμπα Στάθης,Με λαχανικά,0.75 kg,kg,5.96,,kritharaki-me-manitaria-katepsygmena-mparmpa-stathhs-750g
 4100143085,Organic Greek Gherkins (min. weight 800g),Bio Plus,"Αγγούρια, Τομάτες",0.8 kg,kg,6.9,,aggoyrakia-mini-biologika-ellhnika-elaxisto-baros-850g-3
@@ -3524,7 +3526,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100143444,"Salted Chips, Jumbo (150g)",Jumbo,Πατατάκια,0.15 kg,kg,10.6,,chips-me-alati-jumbo-150g
 4100143445,"Wavy chips without salt and Gluten free, Jumbo (140 g)",Jumbo,Πατατάκια,0.14 kg,kg,11.357,,tsips-xwris-alati-gloytenh-jumbo-140-g
 4100143451,"Fresh Cheese Cream, Arla (300g)",Arla,Κρεμώδη & Αλειφόμενα,0.3 kg,kg,10.733,,tyri-krema-fresko-arla-300g
-4100143452,"Fresh Cheese Cream, Arla (200g)",Arla,Κρεμώδη & Αλειφόμενα,0.2 kg,kg,11.3,,tyri-krema-fresko-arla-200g
+4100143452,"Fresh Cheese Cream, Arla (200g)",Arla,Κρεμώδη & Αλειφόμενα,0.2 kg,kg,12.0,,tyri-krema-fresko-arla-200g
 4100143453,"Fresh Cheese Cream with herbs, Arla (200g)",Arla,Κρεμώδη & Αλειφόμενα,0.2 kg,kg,12.3,,tyri-krema-fresko-me-myrwdika-arla-200g
 4100143454,Fresh Cream Cheese Light Arla (200g),Arla,Κρεμώδη & Αλειφόμενα,0.2 kg,kg,10.65,,tyri-krema-fresko-light-arla-200g
 4100143465,Egg White with Jelly Texture & Orange Flavor Je L' Egg Golden Eggs (150gr),Χρυσά αυγά,Βιολογικά,0.15 kg,kg,15.267,,aspradi-aygoy-me-yfh-zele-kai-geysh-portokali-je-l-egg-xrysa-ayga-150gr
@@ -3575,7 +3577,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100143609,"Sliced bread Whole grain & Rye ""Gefsi2"", Papadopoulou (325 g)",Γεύση2,Ψωμί Του Τοστ,0.325 kg,kg,3.938,,pswmi-gia-tost-olikhs-aleshs-sikalhs-geysh2-papadopoyloy-325-g
 4100143612,Cacao Truffles with HAZELNUT (150g),Nature,Σοκολατάκια,0.15 kg,kg,19.733,,troyfes-kakao-me-foyntoyki-150-g
 4100143635,Beans OEP 3alfa (500 g),3 Alpha,Φασόλια,0.5 kg,kg,15.88,,fasolia-gigantes-oep-3alfa-500-g
-4100143647,Froen Yellowfin Sole Lemanda Pescanova (425 g),Pescanova,Ψάρι Φιλέτο,0.425 kg,kg,13.812,,glwssa-fileto-limanta-katepsygmenh-pescanova-425gr
+4100143647,Froen Yellowfin Sole Lemanda Pescanova (425 g),Pescanova,Ψάρι Φιλέτο,0.425 kg,kg,23.035,,glwssa-fileto-limanta-katepsygmenh-pescanova-425gr
 4100143657,Briam Frozen Ainos (1 Κg),Αίνος,Με λαχανικά,1 kg,kg,5.19,,mpriam-katepsygmeno-ainos-1-kg
 4100143665,"Peas from Pella, Frozen, Alterra (900g)",Alterra,Αρακάς,0.9 kg,kg,3.456,,arakas-pellas-katepsygmenos-alterra-900g
 4100143666,"Frozen Vegetable Mix, Alterra (750g)",Alterra,Ανάμικτα λαχανικά,0.75 kg,kg,3.707,,migma-laxanikwn-katepsygmena-alterra-750g
@@ -3598,6 +3600,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100143763,"Cracker Cheese, Elgen (130g)",Elgen,Φρυγανιές,0.13 kg,kg,16.077,,kritsinia-tyri-danvita-130g
 4100143770,Corn Wafers with Ham Flavor Crisp Corn Elgen (130g),Elgen,Γκοφρέτες καλαμποκιού,0.13 kg,kg,18.462,,ryzogkofretes-me-geysh-zampon-crisp-corn-130g
 4100143774,Spiced Arta Chicken Wing (minimum weight 750g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.75 kg,kg,4.707,,
+4100143777,Artas Fresh Chicken Legs (minimum weight 650g),Arta,Φιλέτο Μπούτι,0.65 kg,kg,4.262,,mpoyti-nwpo-kotopoyla-artas-elaxisto-baros-650g
 4100143778,Artas Fresh Chicken Legs (minimum weight 750g),Arta,Φιλέτο Μπούτι,0.75 kg,kg,4.253,,mpoyti-nwpo-kotopoyla-artas-elaxisto-baros-750g
 4100143779,Artas Fresh Chicken Legs (minimum weight 850g),Arta,Φιλέτο Μπούτι,0.85 kg,kg,4.259,,mpoyti-nwpo-kotopoyla-artas-elaxisto-baros-850g
 4100143780,Fried Chicken Arta's Chicken (minimum weight 650g),Arta BBQ,Έτοιμες Λύσεις σε Κοτόπουλα & Πουλερικά,0.65 kg,kg,6.477,,thgania-mpaxarwmenh-kotopoyla-artas-elaxisto-baros-650g
@@ -4074,7 +4077,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145753,"Corn snack star shaped spicy, Extra (80g)",Extra,Γαριδάκια,0.085 kg,kg,11.294,,snak-kalampokioy-asteraki-pikantiko-extra-85g
 4100145773,Tostaki Boiled Turkey Fillet Creta Farms (160 g),Tostaki,Γαλοπούλα & Κοτόπουλο,0.16 kg,kg,18.5,,fileto-galopoylas-brasto-tostaki-creta-farms-160-g
 4100145779,"Fresh Small Organic Onions, Greek (1 pc)",Bio Plus,"Πατάτες, Κρεμμύδια, Σκόρδα",1 pcs,piece,2.41,,kremmydakia-freska-biologika-ellhnika-1-tem-3
-4100145796,Cod fillet with crispy Pescanova bread (250gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.25 kg,kg,11.48,,fileto-mpakaliaroy-me-tragano-panarisma-pescanova-250gr
+4100145796,Cod fillet with crispy Pescanova bread (250gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.25 kg,kg,17.68,,fileto-mpakaliaroy-me-tragano-panarisma-pescanova-250gr
 4100145807,Greek Organic lettuce (1 pc),Bio Plus,"Μαρούλια, Σαλάτες, Ρόκα",1 pcs,piece,2.3,,maroyli-ellhniko-biologiko-1tem
 4100145809,"Valencia oranges for recipes, Greek (min. weight 1,6kg)",Δάμα,"Πορτοκάλια, Μανταρίνια, Γκρέιπ Φρούτ",1.6 kg,kg,2.6,,
 4100145811,"Gums, Cinnamon Flavor, Dentyne Ice (81,2g)",Dentyne,Κουφέτα,0.081 kg,kg,36.79,,tsixles-me-geysh-kanela-dentyne-fire-812g
@@ -4115,7 +4118,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100145902,"Frozen Fish Sticks, 10 pcs, Captain Iglo (280 g)",Captain Iglo,Παναρισμένα & Καβουρόψιχα,0.28 kg,kg,18,,fish-sticks-katepsygmena-10temcaptain-iglo-280-g
 4100145903,"Milko chocolate milk, Delta (3x250 ml)",Milko,Σοκολατούχο Γάλα,0.75 lt,l,2.68,,sokolatoyxo-gala-milko-delta-3x250-ml
 4100145908,"Baby Cocktail Fruit with Apple, Banana, and Apricot, Gerber (2x125 g)",Gerber,Έτοιμα Βρεφικά Γεύματα,0.25 kg,kg,10.96,,froytogeymataki-mhlo-berikoko-kai-mpanana-nestle-2x125-g-1
-4100145909,"Powdered milk NAN 4 Optipro, Nestle (800 g)",Nestle,Γάλα,0.8 kg,kg,23.8,,gala-4hs-brefikhs-hlikias-se-skonh-nan-4-optipro-nestle-800g-1
+4100145909,"Powdered milk NAN 4 Optipro, Nestle (800 g)",Nestle,Γάλα,0.8 kg,kg,25.05,,gala-4hs-brefikhs-hlikias-se-skonh-nan-4-optipro-nestle-800g-1
 4100145910,"Powdered milk NAN 5 Optipro, Nestle (400 g)",Nestle,Γάλα,0.4 kg,kg,24.8,,gala-se-skonh-nan-5-optipro-nestle-400g-1
 4100145917,"Snack from peas with salt & pepper, Palse (85gr)",Palse,Superfoods,0.085 kg,kg,25.647,,snak-apo-araka-me-alati-kai-piperi-palse-85gr
 4100145918,"Snack from peas with salt & pepper, Palse (28gr)",Palse,Superfoods,0.028 kg,kg,35.357,,snak-apo-araka-me-alati-kai-piperi-palse-28gr
@@ -4285,7 +4288,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146434,Cassiata T. Zagorio with Minced Alfa (650 g),Alfa,Οικογενειακές Πίτες,0.65 kg,kg,6.908,,kassiata-tzagorioy-me-kima-alfa-650-g
 4100146441,Octopus Whole Indo-Pacific Frozen Pescanova (750gr - 600gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.6 kg,kg,31.133,,xtapodi-oloklhro-indo-eirhnikoy-katepsygmeno-pescanova-750gr-kb600gr
 4100146442,Mama's Cookie Grab N GO Protein Bars! MOOVEAT (3x40g),Mooveat,Μπάρες δημητριακών,0.12 kg,kg,29.083,,mpares-prwteinhs-mamas-cookie-grab-n-go-mooveat-3x40g
-4100146443,Beef Argentinian Pescanova (500gr),Pescanova,Γαρίδες & Όστρακα,0.5 kg,kg,16.42,,gamparh-argentinhs-pescanova-500gr
+4100146443,Beef Argentinian Pescanova (500gr),Pescanova,Γαρίδες & Όστρακα,0.5 kg,kg,27.36,,gamparh-argentinhs-pescanova-500gr
 4100146445,Atlantic Salmon Fillet Frozen Pescanova (2X125g),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.25 kg,kg,43.92,,solomos-fileto-atlantikoy-katepsygmenos-pescanova-250g
 4100146447,Single Portion Filter Coffees Morning Blend Coffeeway (10 pcs),Coffeeway,Κλασσικός Φίλτρου Καφές,10 pcs,piece,0.39,,kafes-filtroy-atomikes-merides-morning-blend-coffeeway-10-tem
 4100146448,Single Portion Filter Coffee Decaf Coffeeway (10 pcs),Coffeeway,Κλασσικός Φίλτρου Καφές,10 pcs,piece,0.44,,kafes-filtroy-atomikes-merides-decaf-coffeeway-10-tem
@@ -4457,7 +4460,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100146984,BDL Organic Sugar Free Crispy Corn Flakes (250g),BDL,Corn Flakes,0.25 kg,kg,9.2,,traganes-nifades-kalampokioy-xwris-zaxarh-bdl-organic-250g
 4100146985,BDL Organics Criollo Cocoa (125g),BDL,Κακάο & σοκολάτες,0.125 kg,kg,28,,kakao-criollo-bdl-organics-125g
 4100146988,Almond Drink with Cocoa OLYMPOS(1 lt),OLYMPOS,Φυτικά ροφήματα,1 lt,l,3.15,,rofhma-amygdaloy-me-kakao-olympos-1-lt
-4100146993,Squid Cut & cleaned Deep frozen (625gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.53 kg,kg,9.604,,kalamari-kommeno-katharismeno-pescanova-625gr-kb530gr
+4100146993,Squid Cut & cleaned Deep frozen (625gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.53 kg,kg,16,,kalamari-kommeno-katharismeno-pescanova-625gr-kb530gr
 4100147002,German Type Multigrain Bread with Rye & Oats in Katseli Slices (500g),Κατσέλης,Ψωμί σε φέτες,0.5 kg,kg,5.4,,pswmi-germanikoy-typoy-polysporo-me-sikalh-brwmh-se-fetes-katselhs-500g
 4100147004,Tortellini with Omicron Cheese (250g),Όμικρον,Γεμιστά,0.25 kg,kg,7,,tortelini-me-tyri-omikron-250g
 4100147005,Ravioli With Omicron Cheese (250g),Όμικρον,Γεμιστά,0.25 kg,kg,7.12,,rabioli-me-tyri-omikron-250g
@@ -4632,6 +4635,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100147573,Flokos Tuna in Sunflower Oil (160g),Flokos,Τόνος & τονοσαλάτα,0.16 kg,kg,14.688,,tonos-se-hlielaio-flokos-160g
 4100147574,Flokos Tuna in Water (160g),Flokos,Τόνος & τονοσαλάτα,0.16 kg,kg,14.688,,tonos-se-nero-flokos-160g
 4100147575,Tuna salad with Flokos legumes (150g),Flokos,Τόνος & τονοσαλάτα,0.15 kg,kg,15.667,,tonosalata-me-ospria-flokos-150g
+4100147579,Chicken wing fresh Arta Chickens (minimum weight 0.850 kg),Arta,Μπούτι Κοτόπουλου & Άλλων Πουλερικών,0.85 kg,kg,3.165,,fteroyga-nwph-kotopoyla-artas-elaxisto-baros-0850-kg
 4100147581,"Spinach, Organic, Greek (min. weight 850g)",Bio Plus,"Χόρτα, Παντζάρια, Σπανάκι",0.85 kg,kg,2.553,,spanaki-biologiko-ellhniko-elaxisto-baros-850g
 4100147584,Minestrone Soup with Vegetables & Beans Ready Homemade 3alpha (300g),3 Alpha,Έτοιμα φαγητά,0.3 kg,kg,10.5,,soypa-minestrone-me-laxanika-fasolia-etoima-spitika-3alfa-300g
 4100147585,Legume Soup with Cereals & Vegetables Homemade 3alpha (300g),3 Alpha,Φασόλια,0.3 kg,kg,10.5,,soypa-ospriwn-me-dhmhtriaka-laxanika-etoima-spitika-3alfa-300g
@@ -4864,7 +4868,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100148643,Cream Crackers with Carob Papadopoulou (190 g),Παπαδοπούλου,Κράκερς,0.195 kg,kg,8.564,,cream-crackers-me-xaroypi-papadopoyloy-190-g
 4100148677,Instant Coffee Gold Jacobs (200 g),Jacobs,Κλασσικός Στιγμιαίος Καφές,0.2 kg,kg,62.85,,kafes-stigmiaios-gold-jacobs-200-g
 4100148685,Δημητριακά Weetabix (430g),Weetabix,Ενηλίκων,0.43 kg,kg,16.233,,dhmhtriaka-weetabix-430g
-4100148697,Caprichos A La Romana Pescanova (400gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.4 kg,kg,8.9,,rodeles-thrapsaloy-pane-pescanova-400gr
+4100148697,Caprichos A La Romana Pescanova (400gr),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.4 kg,kg,13.7,,rodeles-thrapsaloy-pane-pescanova-400gr
 4100148698,"Kefir Banana, Oats and Honey Kefir Kookaki Farm (330 ml)",Koukakis Farm,Κεφίρ,0.33 lt,l,4.242,,kefir-mpanana-brwmh-kai-meli-farma-koykakh-330-ml
 4100148701,Goat's cheese Kookakis Farm (400g),Koukakis Farm,Κατσικίσια Τυριά,0.4 kg,kg,20.05,,tyri-katsikisio-farma-koykakh-400g
 4100148705,Traditional Goat Yoghurt Koukakis Farm (220g),Koukakis Farm,Πρόβειο,0.22 kg,kg,7.727,,giaoyrti-katsikisio-paradosiako-farma-koykakh-220g
@@ -5096,10 +5100,10 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149414,Frozen Kanaki Sausages (800 g),Kanaki,Mini Πιτάκια,0.8 kg,kg,6.912,,loykanikopitakia-katepsygmena-kanaki-800-g
 4100149416,Fresh Kourou Kanaki Dough (600gr),Kanaki,Σφολιάτα,0.7 kg,kg,6.886,,freskia-zymh-koyroy-kanaki-600gr
 4100149473,"Egg and Lemon Risotto, Greek Gourmet, Agrino (200g)",Agrino,Καστανό Ρύζι,0.2 kg,kg,14.65,,rizoto-aygolemono-greek-gourmet-agrino-200g
-4100149486,Cod fillet schnitzel Pescanova (400gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.4 kg,kg,9.225,,snitsel-fileto-mpakaliaroy-pescanova-400gr
-4100149487,10 Fish Sticks From Hake Fillet Pescanova (300gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.3 kg,kg,10.367,,fish-sticks-apo-fileto-mpakaliaroy-xwris-gloytenh-pescanova-300gr-1
-4100149488,Fish Sticks Free Pescanova (450gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.45 kg,kg,9.311,,fish-sticks-apo-fileto-mpakaliaroy-pescanova-450gr-1
-4100149489,Pescitos cod Pescanova (320gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.32 kg,kg,9.312,,pescitos-mpakaliaroy-pescanova-320gr
+4100149486,Cod fillet schnitzel Pescanova (400gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.4 kg,kg,14.2,,snitsel-fileto-mpakaliaroy-pescanova-400gr
+4100149487,10 Fish Sticks From Hake Fillet Pescanova (300gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.3 kg,kg,15.967,,fish-sticks-apo-fileto-mpakaliaroy-xwris-gloytenh-pescanova-300gr-1
+4100149488,Fish Sticks Free Pescanova (450gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.45 kg,kg,14.333,,fish-sticks-apo-fileto-mpakaliaroy-pescanova-450gr-1
+4100149489,Pescitos cod Pescanova (320gr),Pescanova,Παναρισμένα & Καβουρόψιχα,0.32 kg,kg,14.312,,pescitos-mpakaliaroy-pescanova-320gr
 4100149492,Feta Feta P.O.P. Soft Cheese Cheese Factory Kostarelou (minimum wage 400gr),Kostarelos,Φέτα Π.Ο.Π.,0.4 kg,kg,17.95,,tyri-feta-pop-malakh-tyrokomeio-kwstareloy-elaxisto-baros-400gr
 4100149493,Graviera with Garlic from Kostarelos Cheese Factory (250gr),Kostarelos,Γραβιέρα & Κεφαλοτύρι,0.25 kg,kg,27.92,,tyri-grabiera-me-skordo-tyrokomeio-kwstareloy-250gr
 4100149494,Aged Graviera cheese from Kostarelos Cheese Factory (250gr),Kostarelos,Γραβιέρα & Κεφαλοτύρι,0.25 kg,kg,27.92,,tyri-grabiera-palaiwmenh-tyrokomeio-kwstareloy-250gr
@@ -5201,7 +5205,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100149695,"Milk Cream, 35% fat NOYNOY (3x200 ml)",ΝΟΥΝΟΥ,Κρέμες γάλακτος,0.6 lt,l,9.367,,krema-galaktos-35-lipara-noynoy-3x200-ml
 4100149696,"Milk Cream, Telia 3% fat NOYNOY (3x200 ml)",ΝΟΥΝΟΥ,Κρέμες γάλακτος,0.6 lt,l,5.367,,krema-galaktos-telia-3-lipara-noynoy-3x200-ml
 4100149697,"Milk Cream, Light NOYNOY (3x200 ml)",ΝΟΥΝΟΥ,Κρέμες γάλακτος,0.6 lt,l,5.383,,krema-galaktos-light-noynoy-3x200-ml
-4100149698,Atlantic Salmon Fillet Frozen Pescanova (250g),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.25 kg,kg,26.88,,solomos-fileto-atlantikoy-me-derma-katepsygmenos-pescanova-250g
+4100149698,Atlantic Salmon Fillet Frozen Pescanova (250g),Pescanova,"Χταπόδια, Καλαμάρια, Σουπιές",0.25 kg,kg,44.8,,solomos-fileto-atlantikoy-me-derma-katepsygmenos-pescanova-250g
 4100149699,Croissant Millefeuille Mini 7 Days (300 g),7 days,Κρουασάν,0.103 kg,kg,36.796,,kroyasan-milfeig-mini-7-days-300-g
 4100149700,Lays Potato Chips 50% Less Salt (120g),Lay's,Πατατάκια,0.12 kg,kg,16.25,,patatakia-50-ligotero-alati-lays-120g
 4100149701,Lays 0% Salt Added Potato Chips (120g),Lay's,Πατατάκια,0.12 kg,kg,16.25,,patatakia-0-prosthhkh-alatioy-lays-120g
@@ -6025,7 +6029,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100151601,"Macedonian Twist with Spinach, Mizithra & Feta PDO Golden Dough (800g)",Χρυσή ζύμη,Οικογενειακές Πίτες,0.8 kg,kg,7.987,,makedonitiko-striftari-me-spanaki-myzhthra-feta-pop-xrysh-zymh-800g
 4100151604,Organic Greek Granny Smith Apples (minimum weight 900g),Βιοαγρός,Μήλα,0.9 kg,kg,4.8,,mhla-gkranny-smith-biologika-ellhnika-elaxisto-baros-900g
 4100151605,Organic Greek Granny Smith Apples (minimum weight 1Kg),Βιοαγρός,Μήλα,1 kg,kg,4.8,,
-4100151635,Lightly Breaded Yellowfin sole Fillet Pescanova (250g),Pescanova,Παναρισμένα & Καβουρόψιχα,0.25 kg,kg,17.84,,fileto-glwssas-elafrws-panarismeno-pescanova-250g
+4100151635,Lightly Breaded Yellowfin sole Fillet Pescanova (250g),Pescanova,Παναρισμένα & Καβουρόψιχα,0.25 kg,kg,27.44,,fileto-glwssas-elafrws-panarismeno-pescanova-250g
 4100151641,Organic Greek Granny Smith Apples (minimum weight 850g),Βιοαγρός,Μήλα,0.85 kg,kg,4.8,,mhla-gkranny-smith-biologika-ellhnika-elaxisto-baros-850g
 4100151642,Organic Greek Granny Smith Apples (minimum weight 950g),Βιοαγρός,Μήλα,0.95 kg,kg,4.8,,mhla-gkranny-smith-biologika-ellhnika-elaxisto-baros-950g
 4100151650,Fresh Nitsiakos Chicken drumsticks Chicken (650g) -50%,Νιτσιάκος,Κοτόπουλα & Άλλα Πουλερικά,0.65 kg,kg,5.231,,kotopoylo-kopanaki-nwpo-nitsiakos-650g-50
@@ -6080,7 +6084,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4100151728,Seafood mix 7 Thalasses (400g),7 Thalasses,Έτοιμα Γεύματα Ψαριών & Θαλασσινών,0.4 kg,kg,11.25,,meigma-thalassinwn-7-thalasses-400g
 4100151729,"Yoghurt dessert Frutomaniacs with Banana, Mevgal (2x140g)",Μεβγάλ,Παιδικό,0.28 kg,kg,7.929,,epidorpio-giaoyrtioy-mpanana-frutomaniacs-mebgal-2x140g
 4100151732,"Yoghurt dessert Frutomaniacs with Strawberry, Mevgal (2x140g)",Μεβγάλ,Παιδικό,0.28 kg,kg,7.929,,epidorpio-giaoyrtioy-fraoyla-frutomaniacs-mebgal-2x140g
-4100151736,"FGrozen Asian Seabass (Barramundi) Fillet Skin on, Pescanova (450g)",Pescanova,Ψάρι φιλέτο,0.45 kg,kg,13.978,,perka-barramundi-fileto-me-derma-pescanova-450g
+4100151736,"FGrozen Asian Seabass (Barramundi) Fillet Skin on, Pescanova (450g)",Pescanova,Ψάρι φιλέτο,0.45 kg,kg,23.289,,perka-barramundi-fileto-me-derma-pescanova-450g
 4100151739,Tzatziki Ambrosia (250g),Αμβροσία,Σαλάτες & Αλοιφές,0.25 kg,kg,6.6,,tzatziki-ambrosia-250g
 4100151740,Russian Salad Ambrosia (250 g),Αμβροσία,Σαλάτες & Αλοιφές,0.25 kg,kg,6.6,,salata-rwsikh-ambrosia-250-g
 4100151744,Frozen Plant- Based Chicken Ovegan 269 (300g),OVEGAN269,Κατεψυγμένα Υποκατάστατα Κρέατος,0.3 kg,kg,15.1,,fytopoylo-katepsygmeno-ovegan-269-300g
@@ -7150,7 +7154,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4200015318,"Aloe drink with pomegranate, Premium Aloe (500 ml)",Premium Aloe,Ροφήματα Αλόης,0.5 lt,l,3.08,,rofhma-alohs-me-rodi-premium-aloe-500-ml
 4200015321,"Refreshment with pommegranate taste, can, Schweppes (6x330 ml)",Schweppes,Με ζάχαρη,1.32 lt,l,4.129,,anapsytkiko-me-geysh-rodi-schweppes-6x330-ml
 4200015323,Brandy Metaxa 3* (350 ml),Metaxa,Κονιάκ & Μπράντυ,0.35 lt,l,20.543,,brandy-metaxa-3-350-ml
-4200015339,"Natural juice, orange, apple, carrot, OLYMPOS (1,5 lt)",OLYMPOS,Χυμοί Ψυγείου,1.5 lt,l,2.573,,xymos-portokali-mhlo-karoto-olympos-15-lt
+4200015339,"Natural juice, orange, apple, carrot, OLYMPOS (1,5 lt)",OLYMPOS,Χυμοί Ψυγείου,1.5 lt,l,2.86,,xymos-portokali-mhlo-karoto-olympos-15-lt
 4200015343,"Beer can, lager, Nymfi (4x500 ml)",Nymfi,Μπύρες Lager,2 lt,l,3.4,,mpyra-lager-koyti-nymfh-4x500-ml
 4200015356,"Pink grapefruit & blood orange mixer, Tuborg (6x330 ml)",Tuborg,Με ζάχαρη,1.98 lt,l,2.015,,anapsyktiko-pink-grapefruit-sagkoyini-tuborg-6x330-ml
 4200015357,"Pineapple-lime & spearmint mixer, Tuborg (4x330 ml)",Tuborg,Με ζάχαρη,1.32 lt,l,2.015,,anapsyktiko-ananas-lime-dyosmos-tuborg-4x330-ml
@@ -7669,7 +7673,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300000334,"Classic petroleum jelly, Vaseline (100 ml)",Vaseline,Κρέμες σώματος,0.1 lt,l,37.9,,bazelinh-klasikh-vaseline-100-ml
 4300000401,"Hair Colour, Excellence Creme, No 1 Black, L'Οreal (48 ml)",Excellence,Μαύρο,0.048 lt,l,149.792,,bafh-malliwn-excellence-creme-no1-mayro-loreal-48-ml
 4300000402,"Hair Colour, Excellence Creme, No 4 Brown, L'Οreal (48 ml)",Excellence,Καστανό,0.048 lt,l,149.792,,bafh-malliwn-excellence-creme-no-4-kastano-loreal-48-ml
-4300000410,"Hair Colour, Excellence Creme No 6 Light Brown, L'Οreal (48 ml)",Excellence,Ξανθό,0.048 lt,l,249.583,,
+4300000410,"Hair Colour, Excellence Creme No 6 Light Brown, L'Οreal (48 ml)",Excellence,Ξανθό,0.048 lt,l,149.792,,bafh-malliwn-excellence-creme-no-6-xantho-skoyro-loreal-48-ml
 4300000413,"Hair Colour, Excellence Creme, No 6.7 Chocolate Brown, L'Οreal (48 ml)",Excellence,Καστανό,0.048 lt,l,149.792,,bafh-malliwn-excellence-creme-no-67-sokolati-loreal-48-ml
 4300000414,"Hair Colour, Excellence Creme No 7 Dark Blonde, L'Οreal (48 ml)",Excellence,Ξανθό,0.048 lt,l,149.792,,bafh-malliwn-excellence-creme-no-7-xantho-loreal-48-ml
 4300000415,"Hair Colour, Excellence Creme, No 7.1 Ash Blonde, L'Οreal (48 ml)",Excellence,Ξανθό,0.048 lt,l,149.792,,bafh-malliwn-excellence-creme-no-71-xantho-santre-loreal-48-ml
@@ -7768,50 +7772,50 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300001765,"Condoms, Real Fee Durex (12 pcs)",Durex,Προφυλακτικά & Άλλα,12 pcs,piece,1.124,,profylaktika-xwris-latex-real-feel-durex-12-temaxia
 4300001766,"Gel and Lubricant with Aloe, Durex Play (200 ml)",Durex,Προφυλακτικά & Άλλα,0.2 lt,l,49.45,,lipantiko-tzel-gia-masaz-aloe-vera-durex-200ml
 4300001779,"Gel cushions, GelActiv Ultra Slim Party Feet Scholl (1 pair)",Scholl,Φροντίδα ποδιών,1 pcs,piece,7.89,,patakia-papoytsiwn-party-feet-scholl-1-zeygari
-4300001800,"Night cream, Cellular Anti-Age Nivea (50 ml)",Nivea,Κρέμες Προσώπου,0.05 lt,l,439.8,,krema-nyxtas-cellular-anti-age-nivea-50-ml
+4300001800,"Night cream, Cellular Anti-Age Nivea (50 ml)",Nivea,Κρέμες Προσώπου,0.05 lt,l,241.8,,krema-nyxtas-cellular-anti-age-nivea-50-ml
 4300001836,"Oil for Coloured Hair, Extraordinary Oil Elvive L'Oreal (100 ml)",Elvive,Μάσκες & Serum Μαλλιών,0.1 lt,l,72.4,,ladi-gia-bammena-mallia-extraordinary-oil-elvive-loreal-100-ml
 4300001837,"Hair oil, Extraordinary Oil Universal Elvive L'Οreal (100 ml)",Elvive,Μάσκες & Serum Μαλλιών,0.1 lt,l,72.4,,ladi-malliwn-extraordinary-oil-universal-elvive-loreal-100-ml
 4300001838,Shampoo Color Vive Elvive L' oreal (400 ml),Elvive,Σαμπουάν,0.4 lt,l,9.95,,sampoyan-color-vive-elvive-l-oreal-400-ml
-4300001839,Shampoo Color Vive Elvive L'Οreal (700 ml),Elvive,Σαμπουάν,0.7 lt,l,10.971,,
+4300001839,Shampoo Color Vive Elvive L'Οreal (700 ml),Elvive,Σαμπουάν,0.7 lt,l,7.686,,sampoyan-color-vive-elvive-loreal-700-ml
 4300001841,Hair Mask Color Vive Elvive L'Οreal (300 ml),Elvive,Μάσκες & Serum Μαλλιών,0.3 lt,l,23.0,,maska-malliwn-color-vive-elvive-loreal-300-ml
 4300001843,Full Restore Shampoo 5 Elvive L'Οreal (400 ml),Elvive,Σαμπουάν,0.4 lt,l,9.95,,sampoyan-olikh-anadomhsh-5-elvive-loreal-400-ml
 4300001844,Full Restore Shampoo 5 Elvive L'Οreal (700 ml),Elvive,Σαμπουάν,0.7 lt,l,7.686,,sampoyan-olikh-anadomhsh-5-elvive-loreal-700-ml
 4300001845,Full Restore Hair Mask 5 Elvive L'Οreal (300 ml),Elvive,Μάσκες & Serum Μαλλιών,0.3 lt,l,23.0,,maska-malliwn-olikh-anadomhsh-5-elvive-loreal-300-ml
 4300001848,"Shampoo, Reinforcing, Full Resist, Elvive L'Oreal (400ml)",Elvive,Σαμπουάν,0.4 lt,l,9.95,,sampoyan-me-drash-argininhs-elvive-loreal-400-ml
 4300001888,"Childrens Strips,Septona (15 pcs)",Septona,Επιθέματα & Επίδεσμοι,15 pcs,piece,0.088,,epithemata-paidika-septona-15-tem
-4300001896,"Deodorant, Roll on Deo Dry Impact Nivea Men (50 ml)",Nivea,Roll on,0.05 lt,l,98.2,,aposmhtiko-roll-on-deo-dry-impact-nivea-men-50-ml
-4300001897,"Deodorant, Roll on Black & White Power Invisible Nivea Men (50 ml)",Nivea,Roll on,0.05 lt,l,108.4,,aposmhtiko-roll-on-black-white-power-invisible-nivea-men-50-ml
-4300001904,"Deodorant, Spray Black & White Power Invisible Nivea Men (150 ml)",Nivea,Spray,0.15 lt,l,39.733,,aposmhtiko-spray-black-white-power-invisible-nivea-men-150-ml
-4300001914,"Shaving Foam, Sensitive Nivea for Men (250 ml)",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.25 lt,l,19.84,,afros-xyrismatos-sensitive-nivea-for-men-250-ml
-4300001918,"Shaving Gel, Sensitive Nivea Men (200 ml)",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.2 lt,l,31.5,,gel-xyrismatos-sensitive-nivea-men-200-ml
-4300001923,"Shaving Cream, Originals Nivea Men (100 ml)",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.1 lt,l,29.8,,krema-xyrismatos-originals-nivea-men-100-ml
-4300001924,After Shave Balsam Originals Nivea Men (100 ml),Nivea,After shave,0.1 lt,l,99.8,,after-shave-balsam-originals-nivea-men-100-ml
-4300001932,After Shave Lotion Sensitive Cooling Nivea Men (100 ml),Nivea,After shave,0.1 lt,l,100.9,,after-shave-lotion-sensitive-cooling-nivea-men-100-ml
-4300001935,"Moisturising Cream for Men, Nivea Men (75 ml)",Nivea,Κρέμες ενυδάτωσης,0.075 lt,l,57.6,,krema-enydatwshs-gia-andres-creme-nivea-men-75-ml
-4300001939,"Deep Cleaning Gel, Nivea Men (100 ml)",Nivea,Κρέμες ενυδάτωσης,0.1 lt,l,68.7,,gel-katharismoy-proswpoy-deep-cleaning-nivea-men-100-ml
-4300001944,Cream Bath Creme Smooth Nivea (750 ml),Nivea,Αφρόλουτρα & Αφροντούς,0.75 lt,l,7.04,,afroloytro-creme-smooth-nivea-750-ml
-4300001955,"Shower Gel for Men, Gel Energy Nivea Men (500 ml)",Nivea,Ανδρικά Αφρόλουτρα & Αφροντούς,0.5 lt,l,9.1,,shower-gel-gia-andres-energy-nivea-men-500-ml
+4300001896,"Deodorant, Roll on Deo Dry Impact Nivea Men (50 ml)",Nivea,Roll on,0.05 lt,l,54,,aposmhtiko-roll-on-deo-dry-impact-nivea-men-50-ml
+4300001897,"Deodorant, Roll on Black & White Power Invisible Nivea Men (50 ml)",Nivea,Roll on,0.05 lt,l,59.6,,aposmhtiko-roll-on-black-white-power-invisible-nivea-men-50-ml
+4300001904,"Deodorant, Spray Black & White Power Invisible Nivea Men (150 ml)",Nivea,Spray,0.15 lt,l,21.867,,aposmhtiko-spray-black-white-power-invisible-nivea-men-150-ml
+4300001914,"Shaving Foam, Sensitive Nivea for Men (250 ml)",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.25 lt,l,11.92,,afros-xyrismatos-sensitive-nivea-for-men-250-ml
+4300001918,"Shaving Gel, Sensitive Nivea Men (200 ml)",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.2 lt,l,18.9,,gel-xyrismatos-sensitive-nivea-men-200-ml
+4300001923,"Shaving Cream, Originals Nivea Men (100 ml)",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.1 lt,l,17.9,,krema-xyrismatos-originals-nivea-men-100-ml
+4300001924,After Shave Balsam Originals Nivea Men (100 ml),Nivea,After shave,0.1 lt,l,59.9,,after-shave-balsam-originals-nivea-men-100-ml
+4300001932,After Shave Lotion Sensitive Cooling Nivea Men (100 ml),Nivea,After shave,0.1 lt,l,60.5,,after-shave-lotion-sensitive-cooling-nivea-men-100-ml
+4300001935,"Moisturising Cream for Men, Nivea Men (75 ml)",Nivea,Κρέμες ενυδάτωσης,0.075 lt,l,34.533,,krema-enydatwshs-gia-andres-creme-nivea-men-75-ml
+4300001939,"Deep Cleaning Gel, Nivea Men (100 ml)",Nivea,Κρέμες ενυδάτωσης,0.1 lt,l,41.2,,gel-katharismoy-proswpoy-deep-cleaning-nivea-men-100-ml
+4300001944,Cream Bath Creme Smooth Nivea (750 ml),Nivea,Αφρόλουτρα & Αφροντούς,0.75 lt,l,4.227,,afroloytro-creme-smooth-nivea-750-ml
+4300001955,"Shower Gel for Men, Gel Energy Nivea Men (500 ml)",Nivea,Ανδρικά Αφρόλουτρα & Αφροντούς,0.5 lt,l,5.46,,shower-gel-gia-andres-energy-nivea-men-500-ml
 4300001969,"Original Care Lip balm, Liposan (4,8 g)",Liposan,Μακιγιάζ,1 pcs,piece,3.26,,enydatiko-xeiliwn-original-care-liposan-48-g
 4300001973,"Cherry Lip balm, Liposan (4.8 g)",Liposan,Μακιγιάζ,1 pcs,piece,3.26,,enydatiko-xeiliwn-kerasi-liposan-48-g
 4300001974,"Strawberry Lip balm, Liposan (4.8 g)",Liposan,Μακιγιάζ,1 pcs,piece,3.26,,enydatiko-xeiliwn-fraoyla-liposan-48-g
 4300001975,"Hydro Care Lip balm, Liposan (4.8 g)",Liposan,Μακιγιάζ,1 pcs,piece,3.2,,enydatiko-xeiliwn-hydro-care-liposan-48-g
-4300002007,Cleansing Milk Nivea (200 ml),Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.2 lt,l,36.7,,galaktwma-katharismoy-proswpoy-nivea-200ml
-4300002012,"Refreshing Wash Gel, Nivea (150 ml)",Nivea,Scrub & Gel Καθαρισμού,0.15 lt,l,46.533,,drosistiko-gel-katharismoy-nivea-150-ml
-4300002020,"Clear-Up Strips, Nivea (4 pcs)",Nivea,Βαμβάκια & μαντηλάκια,6 pcs,piece,1.215,,tainies-afaireshs-smhgmatos-nivea-6-tem-4xstrips-gia-thn-myth2-x-strips-gia-to-pigoyni
-4300002024,"Nourishing Honey Mask, Nivea (2x7.5 ml)",Nivea,Κρέμες Προσώπου,0.015 lt,l,154.667,,maska-peripoihshs-me-meli-nivea-2x75-ml
-4300002028,"Nourishing Body Milk, Nivea (250 ml)",Nivea,Κρέμες σώματος,0.25 lt,l,27.72,,threptiko-galaktwma-swmatos-nivea-250-ml
+4300002007,Cleansing Milk Nivea (200 ml),Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.2 lt,l,20.2,,galaktwma-katharismoy-proswpoy-nivea-200ml
+4300002012,"Refreshing Wash Gel, Nivea (150 ml)",Nivea,Scrub & Gel Καθαρισμού,0.15 lt,l,25.6,,drosistiko-gel-katharismoy-nivea-150-ml
+4300002020,"Clear-Up Strips, Nivea (4 pcs)",Nivea,Βαμβάκια & μαντηλάκια,6 pcs,piece,0.668,,tainies-afaireshs-smhgmatos-nivea-6-tem-4xstrips-gia-thn-myth2-x-strips-gia-to-pigoyni
+4300002024,"Nourishing Honey Mask, Nivea (2x7.5 ml)",Nivea,Κρέμες Προσώπου,0.015 lt,l,85.333,,maska-peripoihshs-me-meli-nivea-2x75-ml
+4300002028,"Nourishing Body Milk, Nivea (250 ml)",Nivea,Κρέμες σώματος,0.25 lt,l,16.64,,threptiko-galaktwma-swmatos-nivea-250-ml
 4300002029,Nutritional Lotion Nivea (400 ml),Nivea,Κρέμες σώματος,0.4 lt,l,23.5,,threptiko-galaktwma-swmatos-nivea-400-ml
-4300002031,"Body Milk, Smooth Sensation Nivea (250 ml)",Nivea,Κρέμες σώματος,0.25 lt,l,26.8,,galaktwma-swmatos-smooth-sensation-nivea-250-ml
-4300002045,"Body Firming Lotion, Q10 plus, Nivea (250ml)",Nivea,Περιποίηση σώματος,0.25 lt,l,38.8,,losion-sysfixhs-q10-plus-nivea-body-250-ml
-4300002053,Nivea Cream (150 ml),Nivea,Κρέμες σώματος,0.15 lt,l,31.667,,krema-nivea-150-ml
-4300002054,Nivea Cream (250 ml),Nivea,Κρέμες σώματος,0.25 lt,l,28.24,,krema-nivea-250-ml
-4300002056,Nivea Soft Cream (200 ml),Nivea,Κρέμες σώματος,0.2 lt,l,34.9,,krema-nivea-soft-200-ml
-4300002064,"Deodorant, Roll On Dry Comfort Nivea Deo (50 ml)",Nivea,Roll on,0.05 lt,l,98.2,,aposmhtiko-roll-on-dry-comfort-nivea-deo-50-ml
-4300002067,"Deodorant, Roll On Black & White Clear Invisible Nivea Deo (50 ml)",Nivea,Roll on,0.05 lt,l,108.4,,aposmhtiko-roll-on-black-white-clear-invisible-nivea-deo-50-ml
-4300002069,"Deodorant, Roll OnTalc Sensation Nivea Deo (50 ml)",Nivea,Roll on,0.05 lt,l,108.4,,aposmhtiko-roll-on-talc-sensation-nivea-deo-50-ml
-4300002072,"Deodorant, Roll On Pearl & Beauty Nivea Deo (150 ml)",Nivea,Roll on,0.15 lt,l,36.133,,aposmhtiko-roll-on-pearl-beauty-nivea-deo-50-ml
-4300002078,"Deodorant, Spray Black & White Clear Invisible Nivea Deo (150 ml)",Nivea,Spray,0.15 lt,l,39.733,,aposmhtiko-spray-black-white-clear-invisible-nivea-deo-150-ml
-4300002080,"Deodorant, Spray Talc Sensation Nivea Deo (150 ml)",Nivea,Spray,0.15 lt,l,39.733,,aposmhtiko-spray-talc-sensation-nivea-deo-150-ml
+4300002031,"Body Milk, Smooth Sensation Nivea (250 ml)",Nivea,Κρέμες σώματος,0.25 lt,l,16.08,,galaktwma-swmatos-smooth-sensation-nivea-250-ml
+4300002045,"Body Firming Lotion, Q10 plus, Nivea (250ml)",Nivea,Περιποίηση σώματος,0.25 lt,l,23.28,,losion-sysfixhs-q10-plus-nivea-body-250-ml
+4300002053,Nivea Cream (150 ml),Nivea,Κρέμες σώματος,0.15 lt,l,19,,krema-nivea-150-ml
+4300002054,Nivea Cream (250 ml),Nivea,Κρέμες σώματος,0.25 lt,l,16.96,,krema-nivea-250-ml
+4300002056,Nivea Soft Cream (200 ml),Nivea,Κρέμες σώματος,0.2 lt,l,20.95,,krema-nivea-soft-200-ml
+4300002064,"Deodorant, Roll On Dry Comfort Nivea Deo (50 ml)",Nivea,Roll on,0.05 lt,l,54,,aposmhtiko-roll-on-dry-comfort-nivea-deo-50-ml
+4300002067,"Deodorant, Roll On Black & White Clear Invisible Nivea Deo (50 ml)",Nivea,Roll on,0.05 lt,l,59.6,,aposmhtiko-roll-on-black-white-clear-invisible-nivea-deo-50-ml
+4300002069,"Deodorant, Roll OnTalc Sensation Nivea Deo (50 ml)",Nivea,Roll on,0.05 lt,l,59.6,,aposmhtiko-roll-on-talc-sensation-nivea-deo-50-ml
+4300002072,"Deodorant, Roll On Pearl & Beauty Nivea Deo (150 ml)",Nivea,Roll on,0.15 lt,l,19.867,,aposmhtiko-roll-on-pearl-beauty-nivea-deo-50-ml
+4300002078,"Deodorant, Spray Black & White Clear Invisible Nivea Deo (150 ml)",Nivea,Spray,0.15 lt,l,21.867,,aposmhtiko-spray-black-white-clear-invisible-nivea-deo-150-ml
+4300002080,"Deodorant, Spray Talc Sensation Nivea Deo (150 ml)",Nivea,Spray,0.15 lt,l,21.867,,aposmhtiko-spray-talc-sensation-nivea-deo-150-ml
 4300002115,Deodorant Spray Powder Fresh Neutro Roberts (150 ml),Neutro roberts,Spray,0.15 lt,l,19.333,,aposmhtiko-spray-powder-fresh-11-dwro-neutro-roberts-2x150-ml
 4300002118,Deodorant Roll-On Powder Fresh Neutro Roberts (50 ml),Neutro roberts,Roll on,0.05 lt,l,58.0,,aposmhtiko-roll-on-powder-fresh-11-dwro-neutro-roberts-2x50-ml
 4300002129,"Waxing strips Expert cold wax for normal skin, Veet (40 strips)",Veet,Αποτριχωτικά,40 pcs,piece,0.367,,apotrixwtikes-tainies-me-kryo-keri-gia-kanonikes-epidermides-veet-40-tainies
@@ -7963,11 +7967,12 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300003713,"Moisturising Liquid Soap with Dispenser, Aloe Vera, Dettol (250 ml)",Dettol,Υγρό κρεμοσάπουνο,0.25 lt,l,8.96,,ygro-enydatiko-kremosapoyno-me-antlia-aloe-vera-dettol-250-ml
 4300003718,"Automated Liquid Soap Dispenser, No-Touch with Aloe Vera Dettol (250 ml)",Dettol,Υγρό κρεμοσάπουνο,0.25 lt,l,26.92,,aytomath-syskeyh-kremosapoynoy-no-touch-me-aloe-vera-dettol-250-ml
 4300003724,"Condoms, Comfort XL Durex (12 pcs)",Durex,Προφυλακτικά & Άλλα,12 pcs,piece,1.083,,profylaktika-comfort-extra-large-durex-12-temaxia
-4300003785,"Face and Body Nurishing Cream, Care Nivea (200 ml)",Nivea,Κρέμες Προσώπου,0.2 lt,l,30.95,,krema-swmatos-kai-proswpoy-threptikh-care-nivea-200-ml
+4300003785,"Face and Body Nurishing Cream, Care Nivea (200 ml)",Nivea,Κρέμες Προσώπου,0.2 lt,l,18.55,,krema-swmatos-kai-proswpoy-threptikh-care-nivea-200-ml
 4300003790,"Shampoo, Botanic Therapy Honey Treasures Garnier (400 ml)",Botanic Therapy,Σαμπουάν,0.4 lt,l,8.15,,sampoyan-botanic-therapy-honey-treasures-garnier-400-ml
 4300003792,"Conditioner, Botanic Therapy, Honey Treasures Garnier (200 ml)",Botanic Therapy,Κρέμες Μαλλιών & Conditioner,0.2 lt,l,12.55,,krema-malliwn-epanorthwshs-botanic-therapy-honey-treasures-garnier-200-ml
 4300003804,"Hair Conditioner, Botanic Therapy Oat Milk Delicacy Garnier (200 ml)",Botanic Therapy,Σαμπουάν,0.2 lt,l,12.55,,krema-malliwn-botanic-therapy-oat-milk-delicacy-garnier-200-ml
 4300003949,"Make-up Remover Pads, Expert Oval Demak Up (50 pcs)",Demak Up,Βαμβάκια & μαντηλάκια,50 pcs,piece,0.055,,diskoi-ntemakigiaz-expert-oval-demak-up-50-tem
+4300003951,"Deep moisturising mask, Moisture Bomb Garnier (1 pc)",Garnier,Κρέμες Προσώπου,1 pcs,piece,1.65,,maska-bathias-enydatwshs-moisture-bomb-garnier-1-tem
 4300003952,"Cleansing water, 3 in 1 Micellaire Garnier (400 ml)",Garnier,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.4 lt,l,11.925,,nero-ntemakigiaz-micellaire-garnier-400-ml
 4300003960,"Panty Liners, Extra Long Libresse (22 pcs)",Libresse,Σερβιετάκια,22 pcs,piece,0.076,,serbietakia-extra-long-libresse-22tem
 4300003997,"Antibacterial wipes, Thick Wet Hankies (72 pcs)",Wet Hankies,Αντισηπτικά & Υγρά μαντηλάκια,72 pcs,piece,0.029,,antibakthridiaka-manthlia-wet-hankies-antibacterial-72tem
@@ -8074,8 +8079,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300005063,Buffer Polishing Nail 4 aspect (1 pc) Zan Sot,Zan Sot,"Ψαλιδάκια, Λίμες, Νυχοκόπτες & Ελαφρόπετρες",1 pcs,piece,1.4,,buffer-gyalismatos-nyxiwn-4-opsewn-1-tem-zan-sot
 4300005068,"Root Retoucher spray, Black, Schwarzkopf (100 ml)",Schwarzkopf,Βαφές Μαλλιών,0.12 lt,l,86.667,,spray-proswrinhs-kalypshs-root-retoucher-mayro-kastano-mayro-schwarzkopf-120ml
 4300005076,"Electric Toothbrush, SMART 4000 BOX Braun, Oral B (1 pc)",Oral B,Ηλεκτρικές Οδοντόβουρτσες,1 pcs,piece,99.99,,hlektrikh-odontoboyrtsa-smart-4-4000-apo-thn-braun-oral-b-1-tem
-4300005080,"Deodorant, Spray DEEP Nivea Men (150 ml)",Nivea,Spray,0.15 lt,l,39.733,,aposmhtiko-spray-deo-deep-nivea-men-150-ml
-4300005081,"Deodorant,DEEP Nivea Men (50 ml)",Nivea,Roll on,0.05 lt,l,108.4,,aposmhtiko-roll-on-deep-nivea-men-50-ml
+4300005080,"Deodorant, Spray DEEP Nivea Men (150 ml)",Nivea,Spray,0.15 lt,l,21.867,,aposmhtiko-spray-deo-deep-nivea-men-150-ml
+4300005081,"Deodorant,DEEP Nivea Men (50 ml)",Nivea,Roll on,0.05 lt,l,59.6,,aposmhtiko-roll-on-deep-nivea-men-50-ml
 4300005083,"ROUND GLOVE WITH EGYPTIAN LOOFAH, Zan Sot (1 pc)",Zan Sot,Σφουγγάρια Μπάνιου,1 pcs,piece,2.15,,ganti-stroggylo-me-loyfa-aigiptoy-zan-sot-1tem
 4300005093,"Bedpads, 60x90 cm, Medi Care Septona (15 pcs)",Septona,Υποσέντονα,15 pcs,piece,0.243,,yposentona-dry-plus-septona-60x90-cm-15-tem
 4300005094,Toothbrush Vacuum Rechargeable PRO 600 Oral B (1pc) & Toothbrush Vacuum Vitality Kids Frozen -40%,Oral B,Σετ Δώρων: Αρώματα & Προϊόντα Περιποίησης,2 pcs,piece,19.995,,odontoboyrtsa-hlektrikh-epanafortizomenh-pro-600-oral-b-1tem-odontoboyrtsa-hlektrikh-vitality-kids-frozen-40
@@ -8097,10 +8102,10 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300005353,Manual Gillette Razor ProGlide power+ 1 blade,Gillette,Ξυριστικές μηχανές & ανταλλακτικά,1 pcs,piece,16.71,,andrikh-xyristikh-mhxanh-fusion5-proglide-power-gillette-1-tmx-1-antallaktiko
 4300005371,"Hair Rubber Bands, Waterproof, Spiral, Black, Zan Sot (2 pcs)",Zan Sot,"Βούρτσες, Κλάμερ & Άλλα",1 pcs,piece,1.65,,lastixakia-malliwn-adiabroxa-spiral-mayra-mwb-zan-sot-2-tem
 4300005374,"Hair Gel for Men, Power Hold Extreme Syoss (250ml)",Got2b,Gel & κρέμες,0.15 lt,l,36.733,,gel-malliwn-gia-andres-spiking-glued-schwarzkopf-150ml
-4300005382,"Cleansing Wipes, Creme Care Nivea (20 pcs) 1+1 extra",Nivea,Περιποίηση σώματος,0.25 lt,l,27.2,,body-aloe-hydration-lotion-nivea-250-ml
-4300005384,Shower Gel Deep Nivea Men (500 ml),Nivea,Ανδρικά Αφρόλουτρα & Αφροντούς,0.5 lt,l,9.1,,ntoys-gel-deep-nivea-men-500-ml
-4300005398,"Cleansing Wipes, Creme Care Nivea (20 pcs) 1+1 extra",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.2 lt,l,22.5,,afros-xyrismatos-deep-nivea-men-200-ml
-4300005399,After Shave Lotion Deep Nivea Men (100 ml),Nivea,After shave,0.1 lt,l,100.9,,after-shave-lotion-deep-nivea-men-100-ml
+4300005382,"Cleansing Wipes, Creme Care Nivea (20 pcs) 1+1 extra",Nivea,Περιποίηση σώματος,0.25 lt,l,16.32,,body-aloe-hydration-lotion-nivea-250-ml
+4300005384,Shower Gel Deep Nivea Men (500 ml),Nivea,Ανδρικά Αφρόλουτρα & Αφροντούς,0.5 lt,l,5.46,,ntoys-gel-deep-nivea-men-500-ml
+4300005398,"Cleansing Wipes, Creme Care Nivea (20 pcs) 1+1 extra",Nivea,Αφροί Ξυρίσματος & Κρέμες Αποτρίχωσης,0.2 lt,l,13.5,,afros-xyrismatos-deep-nivea-men-200-ml
+4300005399,After Shave Lotion Deep Nivea Men (100 ml),Nivea,After shave,0.1 lt,l,60.5,,after-shave-lotion-deep-nivea-men-100-ml
 4300005421,"Paper tissue box, Kleenex (180 g)",Kleenex,Χαρτομάντηλα,0.169 kg,kg,15.562,,xartomanthla-epitrapezia-balsam-kleenex-72f-169-g
 4300005439,Body Wash Black Axe (400 ml),Axe,Ανδρικά Αφρόλουτρα & Αφροντούς,0.4 lt,l,6.275,,afroloytro-black-axe-400-ml-1
 4300005444,"Fish puff bath sponge, Madona",Madona,Σφουγγάρια,1 pcs,piece,2.11,,sfoyggari-mpanioy-psari-kokkino-puff-madona
@@ -8120,16 +8125,16 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300005571,Shower Gel Original Old Spice (400ml),Old Spice,Ανδρικά Αφρόλουτρα & Αφροντούς,0.4 lt,l,6.975,,shower-gel-original-old-spice-400ml
 4300005572,Deodorant Stick Wolfthorn Old Spice (50ml),Old Spice,Stick,0.05 lt,l,60,,aposmhtiko-stick-wolfthorn-old-spice-50ml
 4300005573,Αποσμητικό Roll on Cool Kick Nivea Men (50 ml),Old Spice,Stick,0.05 lt,l,60,,stick-original-old-spice-50ml
-4300005575,Hair Conditioner Grow Strong Fructis Garnier (250 ml),Elvive,Μάσκες & Serum Μαλλιών,0.3 lt,l,32.867,,
+4300005575,Hair Conditioner Grow Strong Fructis Garnier (250 ml),Elvive,Μάσκες & Serum Μαλλιών,0.3 lt,l,23.0,,maska-malliwn-dream-long-elvive-loreal-300ml
 4300005576,Αποσμητικό Roll on Cool Kick Nivea Men (50 ml),Old Spice,Spray,0.15 lt,l,20,,deodorant-body-spray-wolfthorn-old-spice-150ml
 4300005581,ELVIVE EXTRAORDINARY OIL LOW SHAMPOO (400 ml),Elvive,Σαμπουάν,0.2 lt,l,19.9,,sampoyan-color-vive-purple-elvive-l-oreal-200-ml
 4300005582,ELVIVE EXTRAORDINARY OIL LOW SHAMPOO (400 ml),Elvive,Μάσκες & Serum Μαλλιών,0.2 lt,l,32.05,,maska-color-vive-purple-elvive-l-oreal-150-ml
 4300005594,"Temporary White Hair Coverage Spray, Cold Brown, Magic Retouch, L'Oreal (75 ml)",Magic Retouch,Καστανό,0.075 lt,l,139.733,,spray-proswrinhs-kalypshs-leykwn-cold-brown-7-magic-retouch-loreal-70-ml
 4300005595,"Temporary White Hair Coverage Spray, Golden Brown, Magic Retouch, L'Oreal (75 ml)",Magic Retouch,Βαφές Μαλλιών,0.075 lt,l,139.733,,spray-proswrinhs-kalypshs-leykwn-golden-brown-10-magic-retouch-loreal-70-ml
 4300005638,Incontinence pads for men Level 3 Tena (16 pcs),Tena,Επιθέματα Ελαφράς Ακράτειας,8 pcs,piece,0.424,,epithemata-akrateias-gia-andres-super-level-3-tena-8-tem
-4300005642,"Body otion in a Pump, Aloe Hydration, Nivea (400 ml)",Nivea,Κρέμες σώματος,0.4 lt,l,23.5,,losion-swmatos-me-antlia-body-aloe-hydration-nivea-400-ml
+4300005642,"Body otion in a Pump, Aloe Hydration, Nivea (400 ml)",Nivea,Κρέμες σώματος,0.4 lt,l,14.1,,losion-swmatos-me-antlia-body-aloe-hydration-nivea-400-ml
 4300005653,Hydration Creme Soft Nivea (300 ml),Nivea,Κρέμες Προσώπου,0.3 lt,l,16.533,,krema-enydatwshs-soft-nivea-300-ml
-4300005654,Creme for Face & Body Care Nourishing Nivea (400 ml),Nivea,Κρέμες Προσώπου,0.4 lt,l,23.475,,krema-swmatos-kai-proswpoy-care-nourishing-creme-nivea-400-ml
+4300005654,Creme for Face & Body Care Nourishing Nivea (400 ml),Nivea,Κρέμες Προσώπου,0.4 lt,l,14.075,,krema-swmatos-kai-proswpoy-care-nourishing-creme-nivea-400-ml
 4300005669,"24 Hour Moisturising Face and Eye cream, Daily Essentials Johnson's (50 ml)",Johnson&Johnson,Κρέμες σώματος,0.3 lt,l,9.933,,ladi-swmatos-aloe-vera-johnsons-300-ml
 4300005674,"Baby Oil, Johnson's (300ml)",Johnson&Johnson,Κρέμες σώματος,0.3 lt,l,9.8,,ladi-swmatos-paidiko-johnsons-300-ml
 4300005721,"Hair Gel, Invisi Fix Mineral 6, Studio Line, L'Oreal (150 ml)",Studio Line,Gel & κρέμες,0.15 lt,l,47.933,,gel-malliwn-gia-poly-dynato-krathma-invisi-fix-studio-line-loreal-150-ml
@@ -8138,8 +8143,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300005747,ALWAYS ULTRA PLATINUM NORMAL 8 pics,Always,Σερβιετάκια,20 pcs,piece,0.083,,serbietakia-normal-fresh-singles-to-go-always-20-tem
 4300005750,"Elastic incontinence underwear, Sani Sensitive Pants, Extra large, No. 2 (24 pcs)",Sani,Εσώρουχα Ακράτειας,24 pcs,piece,0.445,,elastiko-eswroyxo-akrateias-sani-sensitive-pants-medium-no2-24tem
 4300005751,"Elastic incontinence underwear, Sani Sensitive Pants, Extra large, No. 4 (20 pcs)",Sani,Εσώρουχα Ακράτειας,24 pcs,piece,0.53,,elastiko-eswroyxo-akrateias-sani-sensitive-pants-large-no3-24tem
-4300005760,"Deodorant Spray, Deo Stress Protect Nivea Men (150 ml)",Nivea,Roll on,0.05 lt,l,108.4,,aposmhtiko-roll-on-invisible-black-white-invisible-silky-nivea-50-ml
-4300005762,"Deodorant Spray, Black & White Invisible Silky Smooth Nivea (150 ml)",Nivea,Spray,0.15 lt,l,39.733,,aposmhtiko-spray-invisible-black-white-invisible-silky-nivea-150-ml
+4300005760,"Deodorant Spray, Deo Stress Protect Nivea Men (150 ml)",Nivea,Roll on,0.05 lt,l,59.6,,aposmhtiko-roll-on-invisible-black-white-invisible-silky-nivea-50-ml
+4300005762,"Deodorant Spray, Black & White Invisible Silky Smooth Nivea (150 ml)",Nivea,Spray,0.15 lt,l,21.867,,aposmhtiko-spray-invisible-black-white-invisible-silky-nivea-150-ml
 4300005789,"Tissue Mask ,Pure Charcoal , Skin Active, Garnier (28gr)",Garnier,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.028 kg,kg,58.929,,maska-proswpoy-pure-charcoal-skin-active-garnier-28-gr
 4300005790,"Eye Tissue Mask,Moisture Bomb, Skin Active, Garnier (6gr)",Garnier,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.006 kg,kg,268.333,,maska-matiwn-moisture-bomb-skin-active-garnier-6-gr
 4300005792,"Cleansing water, Bi-Phase All in 1, Micellaire Garnier (100 ml)",Garnier,Scrub & Gel Καθαρισμού,0.1 lt,l,17.7,,nero-ntemakigiaz-difasiko-ola-se-1-micellaire-garnier-100-ml
@@ -8216,7 +8221,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300006522,"Shirt Protect Roll-on, 48h Anti-marks Non Stop Protection, L'Oreal Men Expert (50ml)",L'Oreal Men Expert,Roll on,0.05 lt,l,66.4,,mex-shirt-protect-roll-on-150ml
 4300006524,"Invincible Roll-On, 96h Anti-odour Non Stop Extreme Protection, L'Oreal Men Expert (50ml)",L'Oreal Men Expert,Roll on,0.05 lt,l,66.4,,mex-invisible-roll-on-50ml
 4300006550,"Waxing Strips for Body and Legs with Hypoallergenic Composition, Veet (16 pcs)",Veet,Αποτριχωτικά,16 pcs,piece,0.562,,tainies-apotrixwshs-kerioy-gia-swma-kai-podia-me-ypoallergikh-synthesh-veet-16-tem
-4300006558,"Eye Make-up Remover Water, Biphase, Nivea (125ml)",Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.125 lt,l,45.68,,nero-ntemakigiaz-difasiko-matiwn-nivea-125ml
+4300006558,"Eye Make-up Remover Water, Biphase, Nivea (125ml)",Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.125 lt,l,25.12,,nero-ntemakigiaz-difasiko-matiwn-nivea-125ml
 4300006559,"Waxing Strips for Face with Hypoallergenic Composition, Veet (16 pcs)",Veet,Αποτριχωτικά,16 pcs,piece,0.437,,tainies-apotrixwshs-kerioy-gia-proswpo-me-ypoallergikh-synthesh-veet-16tem
 4300006579,"Cotton Incontinence Pads, Extra Νο4, Sani Lady Sensitive (16pcs)",Sani,Επιθέματα Ελαφράς Ακράτειας,16 pcs,piece,0.256,,serbietes-eidikwn-xrhsewn-me-bambaki-extra-no4-sani-lady-sensitive-16tem
 4300006580,"Cotton Incontinence Pads, Super Νο5, Sani Lady Sensitive (10pcs)",Sani,Επιθέματα Ελαφράς Ακράτειας,10 pcs,piece,0.281,,serbietes-eidikwn-xrhsewn-me-bambaki-super-no5-sani-lady-sensitive-10tem
@@ -8300,9 +8305,9 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300007054,"Mild Mouth Solution, Advanced White, Listerine (250ml)",Listerine,Στοματικά Διαλύματα,0.25 lt,l,10.36,,stomatiko-dialyma-me-hpia-geysh-advanced-white-listerine-250ml
 4300007057,"Children's Plasters, Mickey & Friends, Hansaplast (20pcs)",Hansaplast,Επιθέματα & Επίδεσμοι,20 pcs,piece,0.168,,paidika-epithemata-mickey-friends-hansaplast-20tem
 4300007058,"Children's Plasters, Avengers, Hansaplast (20pcs)",Hansaplast,Επιθέματα & Επίδεσμοι,20 pcs,piece,0.17,,paidika-epithemata-avengers-hansaplast-20tem
-4300007060,"Make-up Remover with Rose Water, MicellAIR Skin Breathe, Nivea (400ml)",Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.4 lt,l,19.975,,nero-ntemakigiaz-proswpoy-me-rodonero-2-fasewn-micellair-skin-breathe-nivea-400ml
-4300007063,"Concentrated Serum Anti Dark Spot, Cellular Luminous630, Nivea (30ml)",Nivea,Serum & Οροί Προσώπου,0.03 lt,l,933,,sympyknwmenos-oros-kata-twn-khlidwn-cellular-luminous630-nivea-30ml
-4300007065,"Sheet Mask, Energy Replenishment, Q10 Energy, Nivea (1pc)",Nivea,Κρέμες Προσώπου,1 pcs,piece,3.27,,yfasmatinh-maska-anaplhrwshs-energeias-q10-energy-nivea-1tem
+4300007060,"Make-up Remover with Rose Water, MicellAIR Skin Breathe, Nivea (400ml)",Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.4 lt,l,10.975,,nero-ntemakigiaz-proswpoy-me-rodonero-2-fasewn-micellair-skin-breathe-nivea-400ml
+4300007063,"Concentrated Serum Anti Dark Spot, Cellular Luminous630, Nivea (30ml)",Nivea,Serum & Οροί Προσώπου,0.03 lt,l,513,,sympyknwmenos-oros-kata-twn-khlidwn-cellular-luminous630-nivea-30ml
+4300007065,"Sheet Mask, Energy Replenishment, Q10 Energy, Nivea (1pc)",Nivea,Κρέμες Προσώπου,1 pcs,piece,1.8,,yfasmatinh-maska-anaplhrwshs-energeias-q10-energy-nivea-1tem
 4300007069,Body Wash Naturals Honey & Milk Palmolive (650ml),Palmolive,Αφρόλουτρα & Αφροντούς,0.65 lt,l,4.415,,afroloytro-meli-gala-naturals-palmolive-650ml
 4300007075,"Mouthwash, Teeth & Gum Defence, Listerine (500ml)",Listerine,Στοματικά Διαλύματα,0.5 lt,l,15.6,,stomatiko-dialyma-teeth-gum-defence-listerine-500ml
 4300007087,"Liquid Hand Soap with Pump, Almond Blossoms, Clean & Protect 3, Johnson’s (500ml)",Johnson's,Υγρό κρεμοσάπουνο,0.5 lt,l,5.38,,kremosapoyno-me-antlia-me-anthh-amygdalias-clean-protect-3-johnsons-500ml
@@ -8324,7 +8329,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300007244,Elastic Strips Hansaplast (20pcs),Hansaplast,Επιθέματα & Επίδεσμοι,20 pcs,piece,0.151,,epithemata-elastika-hansaplast-20tem
 4300007247,"Lip Oil, Sweet Nude, Liposan (5,5ml)",Liposan,Μακιγιάζ,1 pcs,piece,7.33,,elaio-xeiliwn-sweet-nude-liposan-55ml
 4300007249,"Cryotherapy Face Mask for Restoration of Elasticity, Hyaluron Cellular Filler Nivea (1pc)",Nivea,Κρέμες Προσώπου,1 pcs,piece,1.96,,
-4300007257,"Men's Deodorant Roll-On, Cool Kick Fresh, Nivea Men (50ml)",Nivea,Roll on,0.05 lt,l,108.4,,andriko-aposmhtiko-roll-on-cool-kick-fresh-nivea-men-50ml
+4300007257,"Men's Deodorant Roll-On, Cool Kick Fresh, Nivea Men (50ml)",Nivea,Roll on,0.05 lt,l,59.6,,andriko-aposmhtiko-roll-on-cool-kick-fresh-nivea-men-50ml
 4300007268,Kid's Mouthwash Minion Colgate (250ml),Colgate,Παιδική Στοματική Υγιεινή,0.25 lt,l,9,,paidiko-stomatiko-dialyma-minion-colgate-250ml
 4300007273,"Antibacterial Hand Wipes with Green Fragrance, Septona (60pcs)",Septona,Χαρτομάντηλα & Υγρά Μαντηλάκια,60 pcs,piece,0.018,,antibakthriaka-manthlakia-xeriwn-me-arwma-prasino-mhlo-septona-60tem
 4300007274,"Antibacterial Hand Wipes with Lemon Fragrance, Septona (60pcs)",Septona,Χαρτομάντηλα & Υγρά Μαντηλάκια,60 pcs,piece,0.019,,antibakthriaka-manthlakia-xeriwn-me-arwma-lemoni-septona-60tem
@@ -8384,9 +8389,9 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300007518,"Toothpaste, Herbal Fresh, Parodontax (75ml)",Parodontax,Καθημερινή Φροντίδα,0.075 lt,l,53.2,,odontokrema-herbal-fresh-tp-parodontax-75ml
 4300007522,"Toothbrush,White Now Shiny,Soft , Aim (1pc)",Aim,Μέτριες,1 pcs,piece,4.97,,odontoboyrtsa-white-now-shiny-malakh-aim-1tem
 4300007528,Slightly Incontinence Sanitary Napkins Lights Long Tena (20pcs),Tena,Επιθέματα Ελαφράς Ακράτειας,20 pcs,piece,0.111,,serbietes-akrateias-lights-long-tena-20tem
-4300007532,"Purifying Gel for Deep Cleansing of Mixed & Oily Skin, Nivea (150ml)",Nivea,Scrub & Gel Καθαρισμού,0.15 lt,l,49.4,,gel-gia-bathy-katharismo-gia-mikth-kai-liparh-epidermida-nivea-150ml
+4300007532,"Purifying Gel for Deep Cleansing of Mixed & Oily Skin, Nivea (150ml)",Nivea,Scrub & Gel Καθαρισμού,0.15 lt,l,27.2,,gel-gia-bathy-katharismo-gia-mikth-kai-liparh-epidermida-nivea-150ml
 4300007533,"Biodegradable Kid's Cotton Buds, Hansaplast (56pcs)",Hansaplast,"Βαμβάκια, Μπατονέτες & Χαρτομάντηλα",56 pcs,piece,0.037,,biodiaspwmenes-paidikes-mpatonetes-hansaplast-56tem
-4300007534,After Shave Balsam Fresh Kick Nivea Men (100ml),Nivea,After shave,0.1 lt,l,49.9,,after-shave-balsam-fresh-kick-nivea-men-100ml
+4300007534,After Shave Balsam Fresh Kick Nivea Men (100ml),Nivea,After shave,0.1 lt,l,59.9,,after-shave-balsam-fresh-kick-nivea-men-100ml
 4300007574,"Liquid Detergent for dishes, Almond, Ecos ( 500ml)",Ecos,Μεσαία (μέχρι 1lt),0.5 lt,l,5.14,,ygro-aporrypantiko-piatwn-amygdalo-ecos-500-ml
 4300007575,"Liquid Detergent for dishes, Pear, Ecos ( 500ml)",Ecos,Μεσαία (μέχρι 1lt),0.5 lt,l,5.14,,ygro-aporrypantiko-piatwn-axladi-ecos-500-ml
 4300007603,Bady Lotion Organic Coconut Le Petit Marseillais (250ml),Le Petit Marseillais,Κρέμες σώματος,0.25 lt,l,15.44,,galaktwma-swmatos-biologikh-karyda-le-petit-marseillais-250ml
@@ -8444,7 +8449,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300007753,"Elastic Incontinence Underwear, XXL No5, Sensitive Pants Sani (14pcs)",Sani,Εσώρουχα Ακράτειας,14 pcs,piece,0.954,,elastiko-eswroyxo-akrateias-xxlno5-sensitive-pants-sani-14tem
 4300007768,Hair Mask for Colored Hair Orzene (350ml),Orzene,Μάσκες & Serum Μαλλιών,0.35 lt,l,13.514,,maska-malliwn-gia-bammena-mallia-orzene-350-ml
 4300007773,Organic Body Wash Argan and Karite Le Petit Marseillais (250ml),Le Petit Marseillais,Αφρόλουτρα & Αφροντούς,0.25 lt,l,5.68,,biologiko-afroloytro-argan-honey-le-petit-marseillais-250ml
-4300007775,Day Creme Cellular Filler SPF15 Nivea (50ml),Nivea,Κρέμες Προσώπου,0.05 lt,l,220,,krema-hmeras-cellular-filler-spf15-nivea-50ml
+4300007775,Day Creme Cellular Filler SPF15 Nivea (50ml),Nivea,Κρέμες Προσώπου,0.05 lt,l,241.8,,krema-hmeras-cellular-filler-spf15-nivea-50ml
 4300007776,Toothbrush Comfort Plus Μαλακή AIm (3pcs),Aim,Μαλακές Οδοντόβουρτσες,3 pcs,piece,0.997,,odontoboyrtsa-comfort-plus-malakh-aim-3tem
 4300007784,Jelly Cocoa Vaseline (100ml),Vaseline,Κρέμες σώματος,0.1 lt,l,37.9,,bazelinh-cocoa-vaseline-100ml
 4300007798,Hair Mask Repair & Protect Pantene Pro-V (500ml),Pantene Pro-V,Μάσκες & Serum Μαλλιών,0.5 lt,l,21.42,,maska-malliwn-anadomhsh-prostasia-pantene-pro-v-500ml
@@ -8555,7 +8560,7 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300008311,STR8 Eau de Toilette & Deodorant Spray Red Code & backpack (100+150ml),Str8,Σετ Δώρων: Αρώματα & Προϊόντα Περιποίησης,0.25 lt,l,88.68,,str8-edt-redcode100mldeospray150mlgift
 4300008313,STR8 Eau de Toilette 100ML & Deodorant Spray Freak 150ML & backpack,Str8,Σετ Δώρων: Αρώματα & Προϊόντα Περιποίησης,0.25 lt,l,88.68,,str8-edt-fr34k-100mldeospray150mlgift
 4300008314,"Shower Gel with Almond & Jasmine Scent, Soft & Nourish, Johnson’s (750ml)",Johnson's,Αφρόλουτρα & Αφροντούς,0.75 lt,l,3.653,,afroloytro-me-arwma-amygdalelaioy-giasemioy-soft-nourish-johnsons-750ml
-4300008315,"Deodorant, Spray Deo Dry Impact Nivea Men (150 ml)",Nivea,Spray,0.15 lt,l,39.867,,aposmhtiko-spray-deo-dry-impact-nivea-men-150-ml-1
+4300008315,"Deodorant, Spray Deo Dry Impact Nivea Men (150 ml)",Nivea,Spray,0.15 lt,l,21.933,,aposmhtiko-spray-deo-dry-impact-nivea-men-150-ml-1
 4300008325,"Elastic Incontinence Underwear, Large No3, Monthy Pack, Sensitive Pants Sani (56pcs)",Sani,Εσώρουχα Ακράτειας,56 pcs,piece,0.619,,elastiko-eswroyxo-akrateias-large-no3-monthy-pack-sensitive-pants-sani-56tem
 4300008326,"Incontinence Pads, Lady Extra , Tena (20 pcs)",Tena,Επιθέματα Ελαφράς Ακράτειας,20 pcs,piece,0.267,,serbietes-eidikwn-xrhsewn-extra-tena-lady-20tem-1
 4300008327,"Gift Set, Captain Gentleman, Old Spice (3pcs)",Old Spice,Roll on,3 pcs,piece,8.097,,set-dwroy-captain-gentleman-old-spice-3tem
@@ -8739,18 +8744,18 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300008754,"Body wash ,Sensual Touch, Vidal (750 ml)",Vidal,Αφρόλουτρα & Αφροντούς,0.75 lt,l,5.947,,afroloytro-sensual-touch-vidal-750-ml
 4300008755,"Body wash, Almond & Carite, Vidal (750 ml)",Vidal,Αφρόλουτρα & Αφροντούς,0.75 lt,l,5.947,,afroloytro-almond-carite-vidal-750-ml
 4300008757,"Body wash, Orchid, Vidal (750 ml)",Vidal,Αφρόλουτρα & Αφροντούς,0.75 lt,l,5.947,,afroloytro-orch-vidal-750-ml
-4300008758,Q10 Energy Nivea Anti-Aging Day Cream (50ml),Nivea,Κρέμες Προσώπου,0.05 lt,l,350,,antighrantikh-krema-hmeras-gia-anaplhrwsh-energeias-q10-energy-nivea-50ml
-4300008759,Day Cream SPF30 to restore elasticity Cellular Lift Expert Nivea (50ml),Nivea,Κρέμες Προσώπου,0.05 lt,l,467.8,,krema-hmeras-me-spf30-gia-epanafora-elastikothtas-cellular-lift-expert-nivea-50ml
-4300008760,Nivea Cellular Luminous630 Anti-Aging Anti-Spot Serum (30ml),Nivea,Serum & Οροί Προσώπου,0.03 lt,l,956.333,,antighrantikos-oros-kata-twn-khlidwn-cellular-luminous630-nivea-30ml
-4300008762,Nivea Derma Skin Clear Anti-Pore Night Exfoliator (40ml),Nivea,Scrub & Gel Καθαρισμού,0.04 lt,l,229.5,,apolepistiko-nyxterino-kata-twn-porwn-derma-skin-clear-nivea-40ml
-4300008764,Nivea Intensive Moisturizing Hand Cream (75ml),Nivea,Κρέμες χεριών,0.075 lt,l,44,,krema-xeriwn-gia-entatikh-enydatwsh-nivea-75ml
-4300008766,Women's Deodorant Spray Deo Fresh Sensation Nivea (150ml),Nivea,Spray,0.15 lt,l,38.2,,aposmhtiko-gynaikeio-spray-deo-fresh-sensation-nivea-150ml
-4300008767,Men's Deodorant Roll On Deo Fresh Sensation Nivea Men (50ml),Nivea,Roll on,0.05 lt,l,109.8,,aposmhtiko-andriko-roll-on-deo-fresh-sensation-nivea-50ml
-4300008768,Men's Deodorant Spray Deo Fresh Sensation Nivea Men (150ml),Nivea,Spray,0.15 lt,l,39.733,,aposmhtiko-andriko-spray-deo-fresh-sensation-nivea-men-150ml
+4300008758,Q10 Energy Nivea Anti-Aging Day Cream (50ml),Nivea,Κρέμες Προσώπου,0.05 lt,l,192.6,,antighrantikh-krema-hmeras-gia-anaplhrwsh-energeias-q10-energy-nivea-50ml
+4300008759,Day Cream SPF30 to restore elasticity Cellular Lift Expert Nivea (50ml),Nivea,Κρέμες Προσώπου,0.05 lt,l,257.2,,krema-hmeras-me-spf30-gia-epanafora-elastikothtas-cellular-lift-expert-nivea-50ml
+4300008760,Nivea Cellular Luminous630 Anti-Aging Anti-Spot Serum (30ml),Nivea,Serum & Οροί Προσώπου,0.03 lt,l,526,,antighrantikos-oros-kata-twn-khlidwn-cellular-luminous630-nivea-30ml
+4300008762,Nivea Derma Skin Clear Anti-Pore Night Exfoliator (40ml),Nivea,Scrub & Gel Καθαρισμού,0.04 lt,l,126.25,,apolepistiko-nyxterino-kata-twn-porwn-derma-skin-clear-nivea-40ml
+4300008764,Nivea Intensive Moisturizing Hand Cream (75ml),Nivea,Κρέμες χεριών,0.075 lt,l,26.4,,krema-xeriwn-gia-entatikh-enydatwsh-nivea-75ml
+4300008766,Women's Deodorant Spray Deo Fresh Sensation Nivea (150ml),Nivea,Spray,0.15 lt,l,21,,aposmhtiko-gynaikeio-spray-deo-fresh-sensation-nivea-150ml
+4300008767,Men's Deodorant Roll On Deo Fresh Sensation Nivea Men (50ml),Nivea,Roll on,0.05 lt,l,60.4,,aposmhtiko-andriko-roll-on-deo-fresh-sensation-nivea-50ml
+4300008768,Men's Deodorant Spray Deo Fresh Sensation Nivea Men (150ml),Nivea,Spray,0.15 lt,l,21.867,,aposmhtiko-andriko-spray-deo-fresh-sensation-nivea-men-150ml
 4300008770,"Shampoo, Classic Wash & Go (650 ml)",Wash & Go,Σαμπουάν,0.65 lt,l,4.554,,sampoyan-gia-kanonika-mallia-wash-go-650-ml
 4300008772,"Shampoo, 2in1 Classic Wash & Go (650 ml)",Wash & Go,Σαμπουάν,0.65 lt,l,4.554,,sampoyan-2-se-1-classic-wash-go-650-ml
-4300008773,Antiaging Power Serum Against Spots 2in1 Luminous Nivea Men (30ml),Nivea,Κρέμες ενυδάτωσης,0.03 lt,l,746.333,,antighrantiko-power-serum-kata-twn-khlidwn-2se1-luminous-nivea-men-30ml
-4300008776,After Shave Balm Anti-Aging Anti-Wrinkle Hyaluron Nivea Men (100ml),Nivea,Κρέμες ενυδάτωσης,0.1 lt,l,108.9,,after-shave-balm-antighrantiko-kata-twn-rytidwn-hyaluron-nivea-men-100ml
+4300008773,Antiaging Power Serum Against Spots 2in1 Luminous Nivea Men (30ml),Nivea,Κρέμες ενυδάτωσης,0.03 lt,l,447.667,,antighrantiko-power-serum-kata-twn-khlidwn-2se1-luminous-nivea-men-30ml
+4300008776,After Shave Balm Anti-Aging Anti-Wrinkle Hyaluron Nivea Men (100ml),Nivea,Κρέμες ενυδάτωσης,0.1 lt,l,65.3,,after-shave-balm-antighrantiko-kata-twn-rytidwn-hyaluron-nivea-men-100ml
 4300008781,Nivea Hyaluron Lip Moisture Lip Oil Liposan (4.8gr),Liposan,Μακιγιάζ,1 pcs,piece,3.34,,elaio-xeiliwn-hyaluron-lip-moisture-liposan-48gr
 4300008782,Condoms Natural Duo (18 pcs),Duo,Προφυλακτικά & Άλλα,18 pcs,piece,0.839,,profylaktika-natural-duo-18tem
 4300008784,Pads Sensitive XL 6x7cm Hansaplast (5 strips),Hansaplast,Επιθέματα & Επίδεσμοι,5 pcs,piece,0.654,,epithemata-sensitive-xl-6x7ek-hansaplast-5-lwrides
@@ -9121,14 +9126,14 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300009332,Conditioner for Dry & Damaged Hair WITH OLIVE OIL Orzene (250 ml),Orzene,Κρέμες Μαλλιών & Conditioner,0.25 lt,l,9.56,,conditioner-gia-xhra-talaipwrhmena-mallia-me-elaio-elias-orzene-250-ml
 4300009334,Incontinence Underwear Medium Black Silhouette Tena (9pcs),Tena,Εσώρουχα Ακράτειας,8 pcs,piece,0.86,,eswroyxo-akrateias-medium-mayro-silhouette-tena-9tem-1
 4300009335,Incontinence Underwear Large Plus Black Silhouette Tena (8pcs),Tena,Εσώρουχα Ακράτειας,8 pcs,piece,0.86,,eswroyxo-akrateias-large-plus-mayro-silhouette-tena-8tem-1
-4300009336,Nivea Cellular Epigenetics Rejuvenating Serum (30ml),Nivea,Serum & Οροί Προσώπου,0.03 lt,l,933,,oros-anazwogonhshs-cellular-epigenetics-nivea-30ml
-4300009337,Nivea Micellar Cleansing Water Skin Glow Infused Serum (400ml),Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.4 lt,l,19.975,,nero-katharismoy-skin-glow-infused-serum-nivea-micellar-400ml
-4300009338,NIVEA Micellar Infused Serum Revitalizing Cleansing Water (400ml),Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.4 lt,l,19.975,,nero-katharismoy-anazwogonhshs-infused-serum-nivea-micellar-400ml
-4300009341,Deodorant Roll On Women's Control Defend Nivea Deo (50ml),Nivea,Roll on,0.05 lt,l,109.8,,aposmhtiko-roll-on-gynaikeio-deo-defend-50ml
-4300009342,Women's Deodorant Spray Control Defend Nivea Deo (150ml,Nivea,Spray,0.15 lt,l,39.867,,aposmhtiko-gynaikeio-spray-control-defend-nivea-deo-150ml
-4300009343,Nivea Men Deodorant Roll-on Control Sensitive (50 ml),Nivea,Roll on,0.05 lt,l,109.8,,aposmhtiko-roll-on-control-sensitive-nivea-men-50-ml
-4300009344,Nivea Men Deodorant Spray Control Sensitive (150 ml),Nivea,Spray,0.15 lt,l,39.867,,aposmhtiko-spray-control-sensitive-nivea-men-150-ml
-4300009345,Nivea Men Cool For Men Shower Gel (500 ml),Nivea,Ανδρικά Αφρόλουτρα & Αφροντούς,0.5 lt,l,9.1,,ntoys-cool-for-men-nivea-men-500-ml
+4300009336,Nivea Cellular Epigenetics Rejuvenating Serum (30ml),Nivea,Serum & Οροί Προσώπου,0.03 lt,l,513,,oros-anazwogonhshs-cellular-epigenetics-nivea-30ml
+4300009337,Nivea Micellar Cleansing Water Skin Glow Infused Serum (400ml),Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.4 lt,l,10.975,,nero-katharismoy-skin-glow-infused-serum-nivea-micellar-400ml
+4300009338,NIVEA Micellar Infused Serum Revitalizing Cleansing Water (400ml),Nivea,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",0.4 lt,l,10.975,,nero-katharismoy-anazwogonhshs-infused-serum-nivea-micellar-400ml
+4300009341,Deodorant Roll On Women's Control Defend Nivea Deo (50ml),Nivea,Roll on,0.05 lt,l,60.4,,aposmhtiko-roll-on-gynaikeio-deo-defend-50ml
+4300009342,Women's Deodorant Spray Control Defend Nivea Deo (150ml,Nivea,Spray,0.15 lt,l,21.933,,aposmhtiko-gynaikeio-spray-control-defend-nivea-deo-150ml
+4300009343,Nivea Men Deodorant Roll-on Control Sensitive (50 ml),Nivea,Roll on,0.05 lt,l,60.4,,aposmhtiko-roll-on-control-sensitive-nivea-men-50-ml
+4300009344,Nivea Men Deodorant Spray Control Sensitive (150 ml),Nivea,Spray,0.15 lt,l,21.933,,aposmhtiko-spray-control-sensitive-nivea-men-150-ml
+4300009345,Nivea Men Cool For Men Shower Gel (500 ml),Nivea,Ανδρικά Αφρόλουτρα & Αφροντούς,0.5 lt,l,5.46,,ntoys-cool-for-men-nivea-men-500-ml
 4300009347,Liposan Mango Blister Lip Moisturizer (4.8 g),Liposan,Μακιγιάζ,1 pcs,piece,3.32,,enydatiko-xeiliwn-mangko-blister-liposan-48-g
 4300009349,Hansaplast Second Skin Regular plasters (6 strips),Hansaplast,Επιθέματα & Επίδεσμοι,5 pcs,piece,0.998,,epithemata-second-skin-xl-hansaplast-3-lwrides
 4300009350,Hansaplast Aqua Protect kids patches (20 strips),Hansaplast,Επιθέματα & Επίδεσμοι,10 pcs,piece,0.399,,epthemata-aqua-protect-kids-hansaplast-20-lwrides
@@ -9456,11 +9461,13 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300009742,Mouthwash Total Care Intense Listerine (500ml),Listerine,Στοματικά Διαλύματα,0.5 lt,l,8.42,,stomatiko-dialyma-total-care-intense-listerine-500ml
 4300009743,Carefree Flexi Pantyliners (40 pcs),Carefree,Σερβιετάκια,40 pcs,piece,0.056,,serbietakia-flexi-carefree-40tem
 4300009744,Hair Mask Extraordinary Oil Elvive L'Oreal (300 ml),Elvive,Μάσκες & Serum Μαλλιών,0.3 lt,l,23.0,,maska-malliwn-extraordinary-oil-elvive-loreal-300-ml
+4300009745,Garnier Botanic Therapy Honey Repair Serum for Damaged Hair (115 ml),Elvive,Μάσκες & Serum Μαλλιών,0.115 lt,l,50.087,,serum-epanorthwshs-gia-ftharmena-mallia-me-meli-botanic-therapy-garnier-115-ml
 4300009746,Hair Oil Revival Intensive Nourishing Botanic Therapy Garnier (120 ml),Botanic Therapy,Μάσκες & Serum Μαλλιών,0.12 lt,l,48,,elaio-malliwn-entatikhs-threpshs-revival-botanic-therapy-garnier-120-ml
 4300009747,Conditioner Method for Curls Step 2 Garnier Fructis (200 ml),Garnier,Κρέμες Μαλλιών & Conditioner,0.2 lt,l,23.4,,conditioner-gia-mpoykles-method-for-curls-bhma-2-garnier-fructis-200-ml
 4300009748,Mask With Kiwi Hair Food fructis Garnier (400 ml),Fructis,Μάσκες & Serum Μαλλιών,0.4 lt,l,16.25,,maska-me-aktinidio-hair-food-fructis-garnier-400-ml
 4300009749,Anti-Aging Face Serum With Tripeptide Revitalift Laser L'oreal Paris (30 ml),LOreal Paris,Serum & Οροί Προσώπου,0.03 lt,l,568,,antighrantikos-oros-proswpoy-me-tripeptidia-revitalif-laser-loreal-paris-30-ml
 4300009750,Anti-Sagging Serum Age Perfect Collagen Expert L'oreal Paris (30 ml),LOreal Paris,Serum & Οροί Προσώπου,0.03 lt,l,434,,oros-kata-ths-xalarwshs-age-perfect-collagen-loreal-paris-30-ml
+4300009751,Glow Mask Revitalift Filler Glass L'oreal Paris,LOreal Paris,"Λοσιόν, Γαλακτώματα & Μάσκες Προσώπου",1 pcs,piece,5.14,,maska-lampshs-revitalift-filler-glass-loreal-paris
 4300009752,Day Eye Cream Revitalift Eye Bag Laser L'oreal Paris (15ml),LOreal Paris,Ματιών,0.015 lt,l,1116,,krema-matiwn-hmeras-revitalift-eye-bag-laser-loreal-paris-15-ml
 4300009753,Hair Styling Cream for a Matte Finish L'oreal Paris (150 ml),LOreal Paris,Gel & κρέμες,0.15 lt,l,54.467,,gel-malliwn-gia-mat-apotelesma-loreal-paris-150-ml
 4300009754,Mad Matte Hair Paste Studio Line L'oreal Paris (75 ml),Studio Line,Gel & κρέμες,0.075 lt,l,99.867,,phlos-malliwn-gia-mat-apotelesma-studio-line-loreal-paris-75-ml
@@ -9473,6 +9480,11 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4300009776,Hair Mask Glowtox Shine Reviver Pantene Pro-V (300 ml),Pantene Pro-V,Μάσκες & Serum Μαλλιών,0.3 lt,l,25.833,,maska-malliwn-glowtox-shine-reviver-pantene-pro-v-300-ml
 4300009777,Leave In Spray Glowtox Pantene Pro-V (200 ml),Pantene Pro-V,Λακ & Σπρέι Μαλλιών,0.2 lt,l,42.75,,leave-in-spray-glowtox-pantene-pro-v-200-ml
 4300009778,Hair Oil Glowtox Pantene Pro-V (100 ml),Pantene Pro-V,Μάσκες & Serum Μαλλιών,0.1 lt,l,95.8,,ladi-malliwn-glowtox-pantene-pro-v-100-ml
+4300009783,Pure Carbon Total Clean Body Wash Men Expert L'Oreal Paris (1 L),L'Oreal Men Expert,Ανδρικά Αφρόλουτρα & Αφροντούς,1 lt,l,9.99,,afroloytro-swmatos-pure-carbon-total-clean-men-expert-loreal-paris-1-l
+4300009784,Mild Facial Cleanser Salicylic+ Pure Active Garnier (250 ml),Garnier,Scrub & Gel Καθαρισμού,0.25 lt,l,33.44,,gel-katharismoy-proswpoy-me-salikyliko-oxy-salicylic-pure-active-garnier-250-ml
+4300009786,Anti-Imperfection Smoothing Face Serum Garnier (30 ml),Garnier,Serum & Οροί Προσώπου,0.03 kg,kg,413.333,,oros-leianshs-proswpoy-me-salikyliko-oxy-kata-twn-ateleiwn-garnier-30-ml
+4300009787,Garnier Vitamin C Light-Shade Face Skin Tint SPF50+ (40 ml),Garnier,Κρέμες Προσώπου,0.04 lt,l,352.5,,skin-tint-proswpoy-me-xrwma-light-spf50-vitamin-c-garnier-40-ml
+4300009788,Garnier Vitamin C Medium -Shade Face Skin Tint SPF50+ (40 ml),Garnier,Κρέμες Προσώπου,0.04 lt,l,352.5,,skin-tint-proswpoy-me-xrwma-medium-spf50-vitamin-c-garnier-40-ml
 4400000006,"Giant Kitchen Scourer, Sanitas (1 pc)",Sanitas,Σφουγγαράκια,1 pcs,piece,0.65,,
 4400000008,"Anti-bacterial Kitchen Scourer, Sanitas (1 pc)",Sanitas,Σφουγγαράκια,1 pcs,piece,0.65,,sfoyggaraki-koyzinas-antibakthridiako-sanitas-1-tem
 4400000019,Dry wipe No. 2 Sanitas (1 pc),Sanitas,Σπογγοπετσέτες,1 pcs,piece,1.16,,spoggopetseta-no-2-sanitas-1-tem
@@ -11266,6 +11278,8 @@ code,name,brand,category,size,unit,unit_price,ean,slug
 4700005666,Toilet paper 4 sheets Velvet Sense Endless (8 rolls*103g),Endless,Χαρτιά Υγείας,0.84 kg,kg,4.381,,xarti-ygeias-4fylo-good-mood-endless-8-rola103g
 4700005667,Toilet paper 2 sheets Endless(8 rolls*62g),Endless,Χαρτιά Υγείας,0.64 kg,kg,4,,xarti-koyzinas-2fylo-double-trouble-8-rola180g
 4700005668,Kitchen Paper 2ply Good Mood Endless (385g),Endless,Χαρτιά Κουζίνας,0.35 kg,kg,5.514,,xarti-koyzinas-2fylo-good-mood-endless-385g
+4700005675,Christmas Tree Alaska 1.80m Eurolamp (1 pc),Eurolamp,"Χριστουγεννιάτικα Δέντρα, Μπάλες & Φωτάκια",1 pcs,piece,74.99,,xristoygenniatiko-dentro-alaska-180m-eurolamp-1-tem
+4700005676,Star Tree Top Gold (1 pc),Eurolamp,Στολισμός,1 pcs,piece,13.99,,koryfh-dentroy-asteri-xryso-1-tem
 4700005685,"Classic Aluminium Foil, Sanitas (20 meters)",Sanitas,Αλουμινόχαρτα & Μεμβράνες,10 m,m,0.336,,aloyminoxarto-klasiko-sanitas-20-metra
 4700005686,Waste Bags Medium 80 pcs Sanitas (50x55 cm),Sanitas,Σακούλες Απορριμμάτων Μεγάλες,80 pcs,piece,0.058,,
 4700005696,Hand Mixer Inox Eurolamp (1 pc),Eurolamp,Συσκευές Μαγειρικής,1 pcs,piece,35.99,,mixer-xeiros-inox-eurolamp-400w
